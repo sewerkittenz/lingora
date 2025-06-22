@@ -114,12 +114,14 @@ export default function ForgotPassword() {
                   name="email"
                   render={({ field }) => (
                     <FormItem>
-                      <FormLabel>Email Address</FormLabel>
+                      <FormLabel htmlFor="forgot-email">Email Address</FormLabel>
                       <FormControl>
                         <Input
+                          id="forgot-email"
                           type="email"
                           placeholder="Enter your email address"
                           className="h-11"
+                          autoComplete="email"
                           {...field}
                         />
                       </FormControl>

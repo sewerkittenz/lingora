@@ -127,13 +127,15 @@ export default function ResetPassword() {
                   name="password"
                   render={({ field }) => (
                     <FormItem>
-                      <FormLabel>New Password</FormLabel>
+                      <FormLabel htmlFor="reset-password">New Password</FormLabel>
                       <FormControl>
                         <div className="relative">
                           <Input
+                            id="reset-password"
                             type={showPassword ? "text" : "password"}
                             placeholder="Enter your new password"
                             className="h-11 pr-10"
+                            autoComplete="new-password"
                             {...field}
                           />
                           <Button
@@ -142,6 +144,7 @@ export default function ResetPassword() {
                             size="sm"
                             className="absolute right-0 top-0 h-full px-3 py-2 hover:bg-transparent"
                             onClick={() => setShowPassword(!showPassword)}
+                            aria-label={showPassword ? "Hide password" : "Show password"}
                           >
                             {showPassword ? (
                               <EyeOff className="h-4 w-4 text-gray-400" />
@@ -161,13 +164,15 @@ export default function ResetPassword() {
                   name="confirmPassword"
                   render={({ field }) => (
                     <FormItem>
-                      <FormLabel>Confirm New Password</FormLabel>
+                      <FormLabel htmlFor="reset-confirm-password">Confirm New Password</FormLabel>
                       <FormControl>
                         <div className="relative">
                           <Input
+                            id="reset-confirm-password"
                             type={showConfirmPassword ? "text" : "password"}
                             placeholder="Confirm your new password"
                             className="h-11 pr-10"
+                            autoComplete="new-password"
                             {...field}
                           />
                           <Button
@@ -176,6 +181,7 @@ export default function ResetPassword() {
                             size="sm"
                             className="absolute right-0 top-0 h-full px-3 py-2 hover:bg-transparent"
                             onClick={() => setShowConfirmPassword(!showConfirmPassword)}
+                            aria-label={showConfirmPassword ? "Hide confirm password" : "Show confirm password"}
                           >
                             {showConfirmPassword ? (
                               <EyeOff className="h-4 w-4 text-gray-400" />

@@ -95,11 +95,13 @@ export default function Login() {
                   name="emailOrUsername"
                   render={({ field }) => (
                     <FormItem>
-                      <FormLabel>Email or Username</FormLabel>
+                      <FormLabel htmlFor="login-email-username">Email or Username</FormLabel>
                       <FormControl>
                         <Input
+                          id="login-email-username"
                           placeholder="Enter your email or username"
                           className="h-11"
+                          autoComplete="username"
                           {...field}
                         />
                       </FormControl>
@@ -113,13 +115,15 @@ export default function Login() {
                   name="password"
                   render={({ field }) => (
                     <FormItem>
-                      <FormLabel>Password</FormLabel>
+                      <FormLabel htmlFor="login-password">Password</FormLabel>
                       <FormControl>
                         <div className="relative">
                           <Input
+                            id="login-password"
                             type={showPassword ? "text" : "password"}
                             placeholder="Enter your password"
                             className="h-11 pr-10"
+                            autoComplete="current-password"
                             {...field}
                           />
                           <Button
@@ -128,6 +132,7 @@ export default function Login() {
                             size="sm"
                             className="absolute right-0 top-0 h-full px-3 py-2 hover:bg-transparent"
                             onClick={() => setShowPassword(!showPassword)}
+                            aria-label={showPassword ? "Hide password" : "Show password"}
                           >
                             {showPassword ? (
                               <EyeOff className="h-4 w-4 text-gray-400" />

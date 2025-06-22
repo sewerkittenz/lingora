@@ -21,7 +21,14 @@ router.post('/register', async (req, res) => {
       .single();
 
     if (existingUser) {
-      return res.status(400).json({ error: 'User already exists' });
+      // Check if it's email or username conflict
+      if (existingUser.email === email) {
+        return res.status(409).json({ error: 'User already exists with this email' });
+      }
+      if (existingUser.username === username) {
+        return res.status(409).json({ error: 'Username is already taken' });
+      }
+      return res.status(409).json({ error: 'User already exists' });
     }
 
     // Hash password

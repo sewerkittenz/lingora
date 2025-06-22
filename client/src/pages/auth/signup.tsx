@@ -127,11 +127,13 @@ export default function Signup() {
                   name="username"
                   render={({ field }) => (
                     <FormItem>
-                      <FormLabel>Username</FormLabel>
+                      <FormLabel htmlFor="signup-username">Username</FormLabel>
                       <FormControl>
                         <Input
+                          id="signup-username"
                           placeholder="Choose a unique username"
                           className="h-11"
+                          autoComplete="username"
                           {...field}
                         />
                       </FormControl>
@@ -145,12 +147,14 @@ export default function Signup() {
                   name="email"
                   render={({ field }) => (
                     <FormItem>
-                      <FormLabel>Email</FormLabel>
+                      <FormLabel htmlFor="signup-email">Email</FormLabel>
                       <FormControl>
                         <Input
+                          id="signup-email"
                           type="email"
                           placeholder="Enter your email address"
                           className="h-11"
+                          autoComplete="email"
                           {...field}
                         />
                       </FormControl>
@@ -164,13 +168,15 @@ export default function Signup() {
                   name="password"
                   render={({ field }) => (
                     <FormItem>
-                      <FormLabel>Password</FormLabel>
+                      <FormLabel htmlFor="signup-password">Password</FormLabel>
                       <FormControl>
                         <div className="relative">
                           <Input
+                            id="signup-password"
                             type={showPassword ? "text" : "password"}
                             placeholder="Create a strong password"
                             className="h-11 pr-10"
+                            autoComplete="new-password"
                             {...field}
                           />
                           <Button
@@ -179,6 +185,7 @@ export default function Signup() {
                             size="sm"
                             className="absolute right-0 top-0 h-full px-3 py-2 hover:bg-transparent"
                             onClick={() => setShowPassword(!showPassword)}
+                            aria-label={showPassword ? "Hide password" : "Show password"}
                           >
                             {showPassword ? (
                               <EyeOff className="h-4 w-4 text-gray-400" />
@@ -198,13 +205,15 @@ export default function Signup() {
                   name="confirmPassword"
                   render={({ field }) => (
                     <FormItem>
-                      <FormLabel>Confirm Password</FormLabel>
+                      <FormLabel htmlFor="signup-confirm-password">Confirm Password</FormLabel>
                       <FormControl>
                         <div className="relative">
                           <Input
+                            id="signup-confirm-password"
                             type={showConfirmPassword ? "text" : "password"}
                             placeholder="Confirm your password"
                             className="h-11 pr-10"
+                            autoComplete="new-password"
                             {...field}
                           />
                           <Button
@@ -213,6 +222,7 @@ export default function Signup() {
                             size="sm"
                             className="absolute right-0 top-0 h-full px-3 py-2 hover:bg-transparent"
                             onClick={() => setShowConfirmPassword(!showConfirmPassword)}
+                            aria-label={showConfirmPassword ? "Hide confirm password" : "Show confirm password"}
                           >
                             {showConfirmPassword ? (
                               <EyeOff className="h-4 w-4 text-gray-400" />
