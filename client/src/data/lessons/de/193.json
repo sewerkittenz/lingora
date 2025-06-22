@@ -1,6 +1,6 @@
 {
   "id": 193,
-  "title": "German Philosophy 43",
+  "title": "German Philosophy",
   "level": "expert",
   "type": "expert",
   "language": "de",
@@ -100,33 +100,33 @@
   "philosophy": [
     {
       "id": 1,
-      "concept": "German Philosophy Concept 1",
-      "philosopher": "Philosopher 1",
-      "explanation": "Philosophical explanation 1"
+      "concept": "German Philosophy Concept",
+      "philosopher": "Philosopher",
+      "explanation": "Philosophical explanation"
     },
     {
       "id": 2,
-      "concept": "German Philosophy Concept 2",
-      "philosopher": "Philosopher 2",
-      "explanation": "Philosophical explanation 2"
+      "concept": "German Philosophy Concept",
+      "philosopher": "Philosopher",
+      "explanation": "Philosophical explanation"
     },
     {
       "id": 3,
-      "concept": "German Philosophy Concept 3",
-      "philosopher": "Philosopher 3",
-      "explanation": "Philosophical explanation 3"
+      "concept": "German Philosophy Concept",
+      "philosopher": "Philosopher",
+      "explanation": "Philosophical explanation"
     },
     {
       "id": 4,
-      "concept": "German Philosophy Concept 4",
-      "philosopher": "Philosopher 4",
-      "explanation": "Philosophical explanation 4"
+      "concept": "German Philosophy Concept",
+      "philosopher": "Philosopher",
+      "explanation": "Philosophical explanation"
     },
     {
       "id": 5,
-      "concept": "German Philosophy Concept 5",
-      "philosopher": "Philosopher 5",
-      "explanation": "Philosophical explanation 5"
+      "concept": "German Philosophy Concept",
+      "philosopher": "Philosopher",
+      "explanation": "Philosophical explanation"
     }
   ],
   "exercises": [
@@ -135,15 +135,15 @@
       "questions": [
         {
           "id": 1,
-          "text": "Expert text 1",
-          "task": "Analyze the text 1",
-          "criteria": "Analysis criteria 1"
+          "text": "Expert text",
+          "task": "Analyze the text",
+          "criteria": "Analysis criteria"
         },
         {
           "id": 2,
-          "text": "Expert text 2",
-          "task": "Analyze the text 2",
-          "criteria": "Analysis criteria 2"
+          "text": "Expert text",
+          "task": "Analyze the text",
+          "criteria": "Analysis criteria"
         }
       ]
     }

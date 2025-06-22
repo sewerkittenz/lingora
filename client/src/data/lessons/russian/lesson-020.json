@@ -1,12 +1,12 @@
 {
-  "id": 20,
-  "title": "Lesson 020",
+  "id":,
+  "title": "Lesson",
   "description": "Learn the first Russian Cyrillic letters and sounds",
   "language": "ru",
   "level": "beginner",
   "items": [
     {
-      "id": 20,
+      "id":,
       "character": "А",
       "romanization": "a",
       "english": "The sound 'ah' - like in 'father'",
@@ -14,7 +14,7 @@
       "audio": "/audio/ru/a.mp3"
     },
     {
-      "id": 2,
+      "id":,
       "character": "Б",
       "romanization": "b",
       "english": "The sound 'b' - like in 'book'",
@@ -22,7 +22,7 @@
       "audio": "/audio/ru/b.mp3"
     },
     {
-      "id": 3,
+      "id":,
       "character": "В",
       "romanization": "v",
       "english": "The sound 'v' - like in 'voice'",
@@ -30,7 +30,7 @@
       "audio": "/audio/ru/v.mp3"
     },
     {
-      "id": 4,
+      "id":,
       "character": "Г",
       "romanization": "g",
       "english": "The sound 'g' - like in 'go'",
@@ -38,7 +38,7 @@
       "audio": "/audio/ru/g.mp3"
     },
     {
-      "id": 5,
+      "id":,
       "character": "Д",
       "romanization": "d",
       "english": "The sound 'd' - like in 'dog'",
@@ -46,7 +46,7 @@
       "audio": "/audio/ru/d.mp3"
     },
     {
-      "id": 6,
+      "id":,
       "word": "да",
       "romanization": "da",
       "english": "yes",
@@ -54,7 +54,7 @@
       "audio": "/audio/ru/da.mp3"
     },
     {
-      "id": 7,
+      "id":,
       "word": "вода",
       "romanization": "voda",
       "english": "water",
@@ -62,7 +62,7 @@
       "audio": "/audio/ru/voda.mp3"
     },
     {
-      "id": 8,
+      "id":,
       "word": "дом",
       "romanization": "dom",
       "english": "house",
@@ -70,7 +70,7 @@
       "audio": "/audio/ru/dom.mp3"
     },
     {
-      "id": 9,
+      "id":,
       "word": "год",
       "romanization": "god",
       "english": "year",
@@ -78,7 +78,7 @@
       "audio": "/audio/ru/god.mp3"
     },
     {
-      "id": 200,
+      "id":,
       "word": "город",
       "romanization": "gorod",
       "english": "city",

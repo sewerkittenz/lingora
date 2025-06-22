@@ -1,12 +1,12 @@
 {
-  "id": 78,
-  "title": "Lesson 078",
+  "id":,
+  "title": "Lesson",
   "description": "Learn the fundamental Korean vowel sounds",
   "language": "ko",
   "level": "beginner",
   "items": [
     {
-      "id": 78,
+      "id":,
       "character": "ㅏ",
       "romanization": "a",
       "english": "The sound 'ah' - like in 'father'",
@@ -14,7 +14,7 @@
       "audio": "/audio/ko/a.mp3"
     },
     {
-      "id": 2,
+      "id":,
       "character": "ㅓ",
       "romanization": "eo",
       "english": "The sound 'uh' - like in 'cup'",
@@ -22,7 +22,7 @@
       "audio": "/audio/ko/eo.mp3"
     },
     {
-      "id": 3,
+      "id":,
       "character": "ㅗ",
       "romanization": "o",
       "english": "The sound 'oh' - like in 'more'",
@@ -30,7 +30,7 @@
       "audio": "/audio/ko/o.mp3"
     },
     {
-      "id": 4,
+      "id":,
       "character": "ㅜ",
       "romanization": "u",
       "english": "The sound 'oo' - like in 'moon'",
@@ -38,7 +38,7 @@
       "audio": "/audio/ko/u.mp3"
     },
     {
-      "id": 5,
+      "id":,
       "character": "ㅡ",
       "romanization": "eu",
       "english": "The sound 'uh' - a neutral vowel",
@@ -46,7 +46,7 @@
       "audio": "/audio/ko/eu.mp3"
     },
     {
-      "id": 6,
+      "id":,
       "character": "ㅣ",
       "romanization": "i",
       "english": "The sound 'ee' - like in 'see'",
@@ -54,7 +54,7 @@
       "audio": "/audio/ko/i.mp3"
     },
     {
-      "id": 7,
+      "id":,
       "word": "나",
       "romanization": "na",
       "english": "I/me",
@@ -62,7 +62,7 @@
       "audio": "/audio/ko/na.mp3"
     },
     {
-      "id": 8,
+      "id":,
       "word": "너",
       "romanization": "neo",
       "english": "you (informal)",
@@ -70,7 +70,7 @@
       "audio": "/audio/ko/neo.mp3"
     },
     {
-      "id": 9,
+      "id":,
       "word": "가",
       "romanization": "ga",
       "english": "go",
@@ -78,7 +78,7 @@
       "audio": "/audio/ko/ga.mp3"
     },
     {
-      "id": 780,
+      "id":,
       "word": "와",
       "romanization": "wa",
       "english": "come",

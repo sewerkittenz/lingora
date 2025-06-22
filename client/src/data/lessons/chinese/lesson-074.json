@@ -1,12 +1,12 @@
 {
-  "id": 74,
-  "title": "Lesson 074",
+  "id":,
+  "title": "Lesson",
   "description": "Learn essential Chinese greetings and introductions",
   "language": "zh",
   "level": "beginner",
   "items": [
     {
-      "id": 74,
+      "id":,
       "word": "你好",
       "pinyin": "nǐ hǎo",
       "english": "hello",
@@ -14,7 +14,7 @@
       "audio": "/audio/zh/nihao.mp3"
     },
     {
-      "id": 2,
+      "id":,
       "word": "再见",
       "pinyin": "zài jiàn",
       "english": "goodbye",
@@ -22,7 +22,7 @@
       "audio": "/audio/zh/zaijian.mp3"
     },
     {
-      "id": 3,
+      "id":,
       "word": "谢谢",
       "pinyin": "xìe xie",
       "english": "thank you",
@@ -30,7 +30,7 @@
       "audio": "/audio/zh/xiexie.mp3"
     },
     {
-      "id": 4,
+      "id":,
       "word": "不客气",
       "pinyin": "bù kè qi",
       "english": "you're welcome",
@@ -38,7 +38,7 @@
       "audio": "/audio/zh/bukeqi.mp3"
     },
     {
-      "id": 5,
+      "id":,
       "word": "对不起",
       "pinyin": "duì bu qǐ",
       "english": "sorry",
@@ -46,7 +46,7 @@
       "audio": "/audio/zh/duibuqi.mp3"
     },
     {
-      "id": 6,
+      "id":,
       "word": "我",
       "pinyin": "wǒ",
       "english": "I/me",
@@ -54,7 +54,7 @@
       "audio": "/audio/zh/wo.mp3"
     },
     {
-      "id": 7,
+      "id":,
       "word": "你",
       "pinyin": "nǐ",
       "english": "you",
@@ -62,7 +62,7 @@
       "audio": "/audio/zh/ni.mp3"
     },
     {
-      "id": 8,
+      "id":,
       "word": "他",
       "pinyin": "tā",
       "english": "he/him",
@@ -70,7 +70,7 @@
       "audio": "/audio/zh/ta-he.mp3"
     },
     {
-      "id": 9,
+      "id":,
       "word": "她",
       "pinyin": "tā",
       "english": "she/her",
@@ -78,7 +78,7 @@
       "audio": "/audio/zh/ta-she.mp3"
     },
     {
-      "id": 740,
+      "id":,
       "word": "好",
       "pinyin": "hǎo",
       "english": "good",

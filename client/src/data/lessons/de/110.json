@@ -1,6 +1,6 @@
 {
   "id": 110,
-  "title": "German Compound Words 10",
+  "title": "German Compound Words",
   "level": "advanced",
   "type": "advanced",
   "language": "de",
@@ -105,7 +105,7 @@
         "Teil1",
         "Teil2"
       ],
-      "meaning": "Compound meaning 1"
+      "meaning": "Compound meaning"
     },
     {
       "id": 2,
@@ -114,7 +114,7 @@
         "Teil1",
         "Teil2"
       ],
-      "meaning": "Compound meaning 2"
+      "meaning": "Compound meaning"
     },
     {
       "id": 3,
@@ -123,7 +123,7 @@
         "Teil1",
         "Teil2"
       ],
-      "meaning": "Compound meaning 3"
+      "meaning": "Compound meaning"
     },
     {
       "id": 4,
@@ -132,7 +132,7 @@
         "Teil1",
         "Teil2"
       ],
-      "meaning": "Compound meaning 4"
+      "meaning": "Compound meaning"
     },
     {
       "id": 5,
@@ -141,7 +141,7 @@
         "Teil1",
         "Teil2"
       ],
-      "meaning": "Compound meaning 5"
+      "meaning": "Compound meaning"
     },
     {
       "id": 6,
@@ -150,7 +150,7 @@
         "Teil1",
         "Teil2"
       ],
-      "meaning": "Compound meaning 6"
+      "meaning": "Compound meaning"
     },
     {
       "id": 7,
@@ -159,7 +159,7 @@
         "Teil1",
         "Teil2"
       ],
-      "meaning": "Compound meaning 7"
+      "meaning": "Compound meaning"
     },
     {
       "id": 8,
@@ -168,7 +168,7 @@
         "Teil1",
         "Teil2"
       ],
-      "meaning": "Compound meaning 8"
+      "meaning": "Compound meaning"
     }
   ],
   "exercises": [
@@ -177,38 +177,38 @@
       "questions": [
         {
           "id": 1,
-          "passage": "Advanced passage 1",
-          "question": "Comprehension question 1",
-          "answer": "Answer 1",
+          "passage": "Advanced passage",
+          "question": "Comprehension question",
+          "answer": "Answer",
           "options": [
-            "Option 1",
-            "Option 2",
-            "Option 3",
-            "Answer 1"
+            "Option",
+            "Option",
+            "Option",
+            "Answer"
           ]
         },
         {
           "id": 2,
-          "passage": "Advanced passage 2",
-          "question": "Comprehension question 2",
-          "answer": "Answer 2",
+          "passage": "Advanced passage",
+          "question": "Comprehension question",
+          "answer": "Answer",
           "options": [
-            "Option 1",
-            "Option 2",
-            "Option 3",
-            "Answer 2"
+            "Option",
+            "Option",
+            "Option",
+            "Answer"
           ]
         },
         {
           "id": 3,
-          "passage": "Advanced passage 3",
-          "question": "Comprehension question 3",
-          "answer": "Answer 3",
+          "passage": "Advanced passage",
+          "question": "Comprehension question",
+          "answer": "Answer",
           "options": [
-            "Option 1",
-            "Option 2",
-            "Option 3",
-            "Answer 3"
+            "Option",
+            "Option",
+            "Option",
+            "Answer"
           ]
         }
       ]

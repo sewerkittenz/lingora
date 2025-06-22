@@ -1,6 +1,6 @@
 {
   "id": 36,
-  "title": "Spanish Basics 36",
+  "title": "Spanish Basics",
   "level": "beginner",
   "type": "vocabulary",
   "language": "es",
@@ -93,32 +93,32 @@
       "questions": [
         {
           "id": 1,
-          "question": "Vocabulary word 1",
-          "answer": "Translation 1",
+          "question": "Vocabulary word",
+          "answer": "Translation",
           "options": []
         },
         {
           "id": 2,
-          "question": "Vocabulary word 2",
-          "answer": "Translation 2",
+          "question": "Vocabulary word",
+          "answer": "Translation",
           "options": []
         },
         {
           "id": 3,
-          "question": "Vocabulary word 3",
-          "answer": "Translation 3",
+          "question": "Vocabulary word",
+          "answer": "Translation",
           "options": []
         },
         {
           "id": 4,
-          "question": "Vocabulary word 4",
-          "answer": "Translation 4",
+          "question": "Vocabulary word",
+          "answer": "Translation",
           "options": []
         },
         {
           "id": 5,
-          "question": "Vocabulary word 5",
-          "answer": "Translation 5",
+          "question": "Vocabulary word",
+          "answer": "Translation",
           "options": []
         }
       ]
@@ -129,56 +129,56 @@
         {
           "id": 1,
           "question": "What does this word mean?",
-          "answer": "Correct translation 1",
+          "answer": "Correct translation",
           "options": [
-            "Option 1",
-            "Option 2",
-            "Option 3",
-            "Correct translation 1"
+            "Option",
+            "Option",
+            "Option",
+            "Correct translation"
           ]
         },
         {
           "id": 2,
           "question": "What does this word mean?",
-          "answer": "Correct translation 2",
+          "answer": "Correct translation",
           "options": [
-            "Option 1",
-            "Option 2",
-            "Option 3",
-            "Correct translation 2"
+            "Option",
+            "Option",
+            "Option",
+            "Correct translation"
           ]
         },
         {
           "id": 3,
           "question": "What does this word mean?",
-          "answer": "Correct translation 3",
+          "answer": "Correct translation",
           "options": [
-            "Option 1",
-            "Option 2",
-            "Option 3",
-            "Correct translation 3"
+            "Option",
+            "Option",
+            "Option",
+            "Correct translation"
           ]
         },
         {
           "id": 4,
           "question": "What does this word mean?",
-          "answer": "Correct translation 4",
+          "answer": "Correct translation",
           "options": [
-            "Option 1",
-            "Option 2",
-            "Option 3",
-            "Correct translation 4"
+            "Option",
+            "Option",
+            "Option",
+            "Correct translation"
           ]
         },
         {
           "id": 5,
           "question": "What does this word mean?",
-          "answer": "Correct translation 5",
+          "answer": "Correct translation",
           "options": [
-            "Option 1",
-            "Option 2",
-            "Option 3",
-            "Correct translation 5"
+            "Option",
+            "Option",
+            "Option",
+            "Correct translation"
           ]
         }
       ]

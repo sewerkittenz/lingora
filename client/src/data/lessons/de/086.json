@@ -1,6 +1,6 @@
 {
   "id": 86,
-  "title": "German Cases 36",
+  "title": "German Cases",
   "level": "intermediate",
   "type": "grammar",
   "language": "de",
@@ -100,33 +100,33 @@
   "grammar": [
     {
       "id": 1,
-      "pattern": "German pattern 1",
-      "meaning": "German meaning 1",
-      "example": "German example 1"
+      "pattern": "German pattern",
+      "meaning": "German meaning",
+      "example": "German example"
     },
     {
       "id": 2,
-      "pattern": "German pattern 2",
-      "meaning": "German meaning 2",
-      "example": "German example 2"
+      "pattern": "German pattern",
+      "meaning": "German meaning",
+      "example": "German example"
     },
     {
       "id": 3,
-      "pattern": "German pattern 3",
-      "meaning": "German meaning 3",
-      "example": "German example 3"
+      "pattern": "German pattern",
+      "meaning": "German meaning",
+      "example": "German example"
     },
     {
       "id": 4,
-      "pattern": "German pattern 4",
-      "meaning": "German meaning 4",
-      "example": "German example 4"
+      "pattern": "German pattern",
+      "meaning": "German meaning",
+      "example": "German example"
     },
     {
       "id": 5,
-      "pattern": "German pattern 5",
-      "meaning": "German meaning 5",
-      "example": "German example 5"
+      "pattern": "German pattern",
+      "meaning": "German meaning",
+      "example": "German example"
     }
   ],
   "exercises": [
@@ -136,31 +136,31 @@
         {
           "id": 1,
           "sentence": "Complete with correct grammar: I ___ to school",
-          "answer": "Grammar form 1",
+          "answer": "Grammar form",
           "blank": "___"
         },
         {
           "id": 2,
           "sentence": "Complete with correct grammar: I ___ to school",
-          "answer": "Grammar form 2",
+          "answer": "Grammar form",
           "blank": "___"
         },
         {
           "id": 3,
           "sentence": "Complete with correct grammar: I ___ to school",
-          "answer": "Grammar form 3",
+          "answer": "Grammar form",
           "blank": "___"
         },
         {
           "id": 4,
           "sentence": "Complete with correct grammar: I ___ to school",
-          "answer": "Grammar form 4",
+          "answer": "Grammar form",
           "blank": "___"
         },
         {
           "id": 5,
           "sentence": "Complete with correct grammar: I ___ to school",
-          "answer": "Grammar form 5",
+          "answer": "Grammar form",
           "blank": "___"
         }
       ]

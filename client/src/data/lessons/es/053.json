@@ -1,6 +1,6 @@
 {
   "id": 53,
-  "title": "Spanish Grammar 3",
+  "title": "Spanish Grammar",
   "level": "intermediate",
   "type": "grammar",
   "language": "es",
@@ -131,31 +131,31 @@
         {
           "id": 1,
           "sentence": "Complete with correct grammar: I ___ to school",
-          "answer": "Grammar form 1",
+          "answer": "Grammar form",
           "blank": "___"
         },
         {
           "id": 2,
           "sentence": "Complete with correct grammar: I ___ to school",
-          "answer": "Grammar form 2",
+          "answer": "Grammar form",
           "blank": "___"
         },
         {
           "id": 3,
           "sentence": "Complete with correct grammar: I ___ to school",
-          "answer": "Grammar form 3",
+          "answer": "Grammar form",
           "blank": "___"
         },
         {
           "id": 4,
           "sentence": "Complete with correct grammar: I ___ to school",
-          "answer": "Grammar form 4",
+          "answer": "Grammar form",
           "blank": "___"
         },
         {
           "id": 5,
           "sentence": "Complete with correct grammar: I ___ to school",
-          "answer": "Grammar form 5",
+          "answer": "Grammar form",
           "blank": "___"
         }
       ]
