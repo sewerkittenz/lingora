@@ -25,8 +25,9 @@ This is a full-stack language learning application built with React on the front
 ### Database Layer
 - **ORM**: Drizzle ORM with PostgreSQL dialect
 - **Migration**: Drizzle Kit for schema migrations
-- **Connection**: Neon Database serverless PostgreSQL
+- **Connection**: Replit PostgreSQL database
 - **Schema**: Comprehensive relational design supporting users, languages, lessons, progress tracking, and social features
+- **Data**: Real language data with 7 supported languages, shop items, and achievements
 
 ## Key Components
 

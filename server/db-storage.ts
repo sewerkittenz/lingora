@@ -33,21 +33,16 @@ export class DbStorage implements IStorage {
             nativeName: lang.nativeName,
             flag: lang.flag,
             levels: lang.levels,
-            writingSystem: lang.writingSystem || null,
-            totalWords: 1000
+            writingSystem: lang.writingSystem || '',
+            totalWords: 20000
           });
         }
 
-        // Insert shop items
-        for (const item of SHOP_ITEMS) {
-          await db.insert(shopItems).values({
-            name: item.name,
-            description: item.description,
-            price: item.price,
-            category: item.category,
-            icon: item.icon,
-            rarity: item.rarity
-          });
+        // Check if shop items exist
+        const existingItems = await db.select().from(shopItems).limit(1);
+        if (existingItems.length === 0) {
+          // Shop items will be populated via SQL
+          console.log('Shop items will be populated via direct SQL insertion');
         }
 
         // Insert achievements

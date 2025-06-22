@@ -51,7 +51,7 @@ export const lessons = pgTable("lessons", {
   level: varchar("level", { length: 50 }).notNull(),
   lessonNumber: integer("lesson_number").notNull(),
   title: varchar("title", { length: 255 }).notNull(),
-  description: text("description"),
+  description: text("description").default('').notNull(),
   content: jsonb("content").notNull(), // Questions, vocabulary, etc.
   xpReward: integer("xp_reward").default(25).notNull(),
 });
@@ -71,7 +71,7 @@ export const userLessonProgress = pgTable("user_lesson_progress", {
 export const shopItems = pgTable("shop_items", {
   id: serial("id").primaryKey(),
   name: varchar("name", { length: 255 }).notNull(),
-  description: text("description"),
+  description: text("description").default(''),
   price: integer("price").notNull(),
   category: varchar("category", { length: 50 }).notNull(), // cheap, medium, expensive
   icon: varchar("icon", { length: 10 }).notNull(),
@@ -100,7 +100,7 @@ export const tradeOffers = pgTable("trade_offers", {
   toUserId: integer("to_user_id").references(() => users.id).notNull(),
   offeredItems: jsonb("offered_items").notNull(), // Array of {itemId, quantity}
   requestedItems: jsonb("requested_items").notNull(), // Array of {itemId, quantity}
-  message: text("message"),
+  message: text("message").default(''),
   status: varchar("status", { length: 20 }).default("pending").notNull(), // pending, accepted, declined, cancelled
   createdAt: timestamp("created_at").defaultNow().notNull(),
   respondedAt: timestamp("responded_at"),

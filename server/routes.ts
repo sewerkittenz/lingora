@@ -17,14 +17,9 @@ export async function registerRoutes(app: Express): Promise<Server> {
   app.get("/api/users/:id", async (req, res) => {
     try {
       const userId = parseInt(req.params.id);
+      const user = await storage.getUser(userId);
       
-      const { data: user, error } = await supabase
-        .from('users')
-        .select('id, username, email, nickname, profile_picture, total_xp, current_streak, longest_streak, hearts, subscription_type, email_verified, created_at')
-        .eq('id', userId)
-        .single();
-      
-      if (error || !user) {
+      if (!user) {
         return res.status(404).json({ error: "User not found" });
       }
 
@@ -33,14 +28,14 @@ export async function registerRoutes(app: Express): Promise<Server> {
         username: user.username,
         email: user.email.replace(/(.{2}).*(@.*)/, '$1***$2'),
         nickname: user.nickname,
-        profilePicture: user.profile_picture,
-        totalXp: user.total_xp,
-        currentStreak: user.current_streak,
-        longestStreak: user.longest_streak,
+        profilePicture: user.profilePicture,
+        totalXp: user.totalXp,
+        currentStreak: user.currentStreak,
+        longestStreak: user.longestStreak,
         hearts: user.hearts,
-        subscriptionType: user.subscription_type,
-        emailVerified: user.email_verified,
-        createdAt: user.created_at,
+        subscriptionType: user.subscriptionType,
+        emailVerified: user.emailVerified,
+        createdAt: user.createdAt,
       });
     } catch (error) {
       console.error("Get user error:", error);
@@ -52,22 +47,14 @@ export async function registerRoutes(app: Express): Promise<Server> {
   app.get("/api/users/:id/progress", async (req, res) => {
     try {
       const userId = parseInt(req.params.id);
+      const userLanguages = await storage.getUserLanguages(userId);
       
-      const { data: progress, error } = await supabase
-        .from('user_language_progress')
-        .select('*')
-        .eq('user_id', userId);
-      
-      if (error) {
-        return res.status(500).json({ error: error.message });
-      }
-
       // Calculate overall progress
-      const overallProgress = progress.length > 0 
-        ? progress.reduce((sum, p) => sum + p.progress_percentage, 0) / progress.length
+      const overallProgress = userLanguages.length > 0 
+        ? userLanguages.reduce((sum, ul) => sum + ul.progressPercent, 0) / userLanguages.length
         : 0;
 
-      res.json({ overallProgress, languages: progress });
+      res.json({ overallProgress, languages: userLanguages });
     } catch (error) {
       console.error("Get user progress error:", error);
       res.status(500).json({ error: "Internal server error" });
@@ -77,17 +64,9 @@ export async function registerRoutes(app: Express): Promise<Server> {
   app.get("/api/users/:id/words-learned", async (req, res) => {
     try {
       const userId = parseInt(req.params.id);
+      const userLanguages = await storage.getUserLanguages(userId);
       
-      const { data: progress, error } = await supabase
-        .from('user_language_progress')
-        .select('words_learned')
-        .eq('user_id', userId);
-      
-      if (error) {
-        return res.status(500).json({ error: error.message });
-      }
-
-      const totalWords = progress.reduce((sum, p) => sum + (p.words_learned || 0), 0);
+      const totalWords = userLanguages.reduce((sum, ul) => sum + ul.wordsLearned, 0);
       res.json({ count: totalWords });
     } catch (error) {
       console.error("Get words learned error:", error);
@@ -98,17 +77,9 @@ export async function registerRoutes(app: Express): Promise<Server> {
   app.get("/api/users/:id/grammar-points", async (req, res) => {
     try {
       const userId = parseInt(req.params.id);
+      const userLanguages = await storage.getUserLanguages(userId);
       
-      const { data: progress, error } = await supabase
-        .from('user_language_progress')
-        .select('grammar_points_learned')
-        .eq('user_id', userId);
-      
-      if (error) {
-        return res.status(500).json({ error: error.message });
-      }
-
-      const totalGrammar = progress.reduce((sum, p) => sum + (p.grammar_points_learned || 0), 0);
+      const totalGrammar = userLanguages.reduce((sum, ul) => sum + ul.grammarPointsLearned, 0);
       res.json({ count: totalGrammar });
     } catch (error) {
       console.error("Get grammar points error:", error);
@@ -178,14 +149,9 @@ export async function registerRoutes(app: Express): Promise<Server> {
   app.get("/api/languages/:code", async (req, res) => {
     try {
       const code = req.params.code;
+      const language = await storage.getLanguageByCode(code);
       
-      const { data: language, error } = await supabase
-        .from('languages')
-        .select('*')
-        .eq('code', code)
-        .single();
-      
-      if (error || !language) {
+      if (!language) {
         return res.status(404).json({ error: "Language not found" });
       }
 
