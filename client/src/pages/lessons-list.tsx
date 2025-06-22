@@ -7,14 +7,16 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Progress } from "@/components/ui/progress";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import { Play, Lock, CheckCircle2, ArrowLeft } from "lucide-react";
+import { Play, Lock, CheckCircle2, ArrowLeft, Eye, BookOpen } from "lucide-react";
 import { useAuth } from "@/hooks/use-auth";
 import { getLanguageByCode } from "@/data/languages";
+import { EnhancedWritingSystemOverlay } from "@/components/overlays/enhanced-writing-system-overlay";
 
 export default function LessonsList() {
   const { languageCode } = useParams();
   const [sidebarOpen, setSidebarOpen] = useState(false);
   const [activeLevel, setActiveLevel] = useState<string>("");
+  const [showWritingSystem, setShowWritingSystem] = useState(false);
   const { user } = useAuth();
 
   const language = getLanguageByCode(languageCode || "");
@@ -24,6 +26,8 @@ export default function LessonsList() {
     queryKey: ["/api/languages", languageCode, "lessons"],
     enabled: !!languageCode,
   });
+
+  const lessonsList = lessons as any[];
 
   // Set default active level when language loads
   useEffect(() => {
@@ -73,9 +77,22 @@ export default function LessonsList() {
               </div>
               
               {language.writingSystem && (
-                <div className="bg-blue-50 border border-blue-200 rounded-lg p-4">
-                  <h3 className="font-semibold text-blue-900 mb-2">Writing System</h3>
-                  <p className="text-blue-800">{language.writingSystem}</p>
+                <div className="bg-gradient-to-r from-purple-50 to-blue-50 dark:from-purple-950 dark:to-blue-950 border border-purple-200 dark:border-purple-800 rounded-lg p-4">
+                  <div className="flex items-center justify-between">
+                    <div>
+                      <h3 className="font-semibold text-purple-900 dark:text-purple-100 mb-2">Writing System</h3>
+                      <p className="text-purple-800 dark:text-purple-200">{language.writingSystem}</p>
+                    </div>
+                    <Button 
+                      variant="outline" 
+                      size="sm"
+                      onClick={() => setShowWritingSystem(true)}
+                      className="border-purple-300 text-purple-700 hover:bg-purple-100 dark:border-purple-700 dark:text-purple-300 dark:hover:bg-purple-900"
+                    >
+                      <Eye className="w-4 h-4 mr-2" />
+                      View Details
+                    </Button>
+                  </div>
                 </div>
               )}
             </div>
@@ -93,7 +110,7 @@ export default function LessonsList() {
               {language.levels.map((level) => (
                 <TabsContent key={level} value={level}>
                   <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                    {lessons
+                    {lessonsList
                       .filter((lesson: any) => lesson.level === level)
                       .map((lesson: any, index: number) => (
                       <Card key={lesson.id} className="hover:shadow-lg transition-shadow">
@@ -137,14 +154,18 @@ export default function LessonsList() {
                     ))}
                     
                     {/* Show message if no lessons for this level */}
-                    {lessons.filter((lesson: any) => lesson.level === level).length === 0 && (
+                    {lessonsList.filter((lesson: any) => lesson.level === level).length === 0 && (
                       <div className="col-span-full text-center py-12">
+                        <BookOpen className="w-16 h-16 mx-auto mb-4 text-muted-foreground opacity-50" />
                         <h3 className="text-lg font-semibold text-muted-foreground mb-2">
-                          Coming Soon
+                          Lessons Loading
                         </h3>
-                        <p className="text-muted-foreground">
-                          Lessons for {level.replace('-', ' ')} level are being prepared.
+                        <p className="text-muted-foreground mb-4">
+                          {level.replace('-', ' ')} lessons are being loaded from our comprehensive curriculum.
                         </p>
+                        <Button onClick={() => window.location.reload()} variant="outline">
+                          Refresh Lessons
+                        </Button>
                       </div>
                     )}
                   </div>
@@ -154,6 +175,12 @@ export default function LessonsList() {
           </div>
         </main>
       </div>
+      
+      <EnhancedWritingSystemOverlay
+        isOpen={showWritingSystem}
+        onClose={() => setShowWritingSystem(false)}
+        languageCode={languageCode || ""}
+      />
     </div>
   );
 }

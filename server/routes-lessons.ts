@@ -47,74 +47,53 @@ export function registerLessonRoutes(app: Express) {
         'de': 'german',
         'hr': 'serbo-croatian'
       };
-      
-      const folderName = languageMap[languageCode] || languageCode;
-      const lessonsDir = path.join(process.cwd(), 'client/src/data/lessons', folderName);
+
+      const languageFolder = languageMap[languageCode];
+      if (!languageFolder) {
+        return res.status(400).json({ error: "Unsupported language" });
+      }
+
+      const lessonsDir = path.join(process.cwd(), 'client/src/data/lessons', languageFolder);
       
       try {
         const files = await fs.readdir(lessonsDir);
-        const lessonFiles = files.filter(f => f.startsWith('lesson-') && f.endsWith('.json'));
-        console.log(`Found ${lessonFiles.length} lesson files in ${lessonsDir}`);
+        const jsonFiles = files.filter(file => file.endsWith('.json') && file.startsWith('lesson-'));
         
         const lessons = [];
-        for (const file of lessonFiles) {
+        for (const file of jsonFiles) {
           try {
-            const lessonData = await fs.readFile(path.join(lessonsDir, file), 'utf-8');
-            const lesson = JSON.parse(lessonData);
+            const filePath = path.join(lessonsDir, file);
+            const content = await fs.readFile(filePath, 'utf-8');
+            const lessonData = JSON.parse(content);
             
-            // Extract lesson number from filename 
-            const fileMatch = file.match(/lesson-(\d+)\.json/);
-            const lessonId = fileMatch ? parseInt(fileMatch[1]) : (lesson.id || 0);
-            
-            // console.log(`Processing ${file}: lessonId=${lessonId}, lesson.level=${lesson.level}`);
-            
-            // Use lesson level from JSON file or calculate from lesson ID
-            let lessonLevel = lesson.level;
-            if (!lessonLevel) {
-              if (languageCode === 'ja') {
-                // Japanese has JLPT levels
-                if (lessonId <= 10) lessonLevel = 'kana';
-                else if (lessonId <= 20) lessonLevel = 'jlpt-n5';
-                else if (lessonId <= 30) lessonLevel = 'jlpt-n4';
-                else if (lessonId <= 40) lessonLevel = 'jlpt-n3';
-                else if (lessonId <= 50) lessonLevel = 'jlpt-n2';
-                else lessonLevel = 'jlpt-n1';
-              } else {
-                // Other languages use standard levels
-                if (lessonId <= 12) lessonLevel = 'beginner';
-                else if (lessonId <= 25) lessonLevel = 'intermediate';
-                else if (lessonId <= 38) lessonLevel = 'advanced';
-                else lessonLevel = 'expert';
-              }
-            }
-            
-            // Filter by level if specified
-            // console.log(`Level check: requested=${level}, calculated=${lessonLevel}, matches=${!level || lessonLevel === level}`);
-            
-            if (!level || lessonLevel === level) {
-              const lessonData = {
-                id: lessonId,
-                title: lesson.title || `Lesson ${lessonId + 1}`,
-                description: lesson.description || `Practice ${languageCode} fundamentals`,
-                level: lessonLevel,
-                itemCount: lesson.items?.length || 0
-              };
-              // console.log(`Adding lesson:`, lessonData);
-              lessons.push(lessonData);
-            }
+            // Add lesson metadata
+            const lessonNumber = parseInt(file.replace('lesson-', '').replace('.json', ''));
+            lessons.push({
+              id: lessonNumber,
+              title: lessonData.title || `Lesson ${lessonNumber}`,
+              description: lessonData.description || `Learn ${languageFolder} fundamentals`,
+              level: lessonData.level || 'beginner',
+              xpReward: lessonData.xpReward || 25,
+              itemCount: lessonData.vocabulary?.length || lessonData.exercises?.length || 10,
+              languageCode
+            });
           } catch (parseError) {
             console.error(`Error parsing lesson file ${file}:`, parseError);
           }
         }
         
+        // Filter by level if specified
+        const filteredLessons = level 
+          ? lessons.filter(lesson => lesson.level === level)
+          : lessons;
+          
         // Sort by lesson ID
-        lessons.sort((a, b) => a.id - b.id);
+        filteredLessons.sort((a, b) => a.id - b.id);
         
-        console.log(`Found ${lessons.length} lessons for ${languageCode} at level ${level || 'all'} from ${lessonFiles.length} files`);
-        res.json(lessons);
+        res.json(filteredLessons);
       } catch (dirError) {
-        console.error("Lessons directory not found:", lessonsDir, dirError);
-        return res.status(404).json({ error: "Language lessons not found" });
+        console.error("Error reading lessons directory:", dirError);
+        res.json([]); // Return empty array if directory doesn't exist
       }
     } catch (error) {
       console.error("Get lessons error:", error);

@@ -28,7 +28,7 @@ export async function registerRoutes(app: Express): Promise<Server> {
       res.json({
         id: user.id,
         username: user.username,
-        email: user.email.replace(/(.{2}).*(@.*)/, '$1***$2'),
+        email: user.email,
         nickname: user.nickname,
         profilePicture: user.profilePicture,
         totalXp: user.totalXp,
@@ -41,6 +41,40 @@ export async function registerRoutes(app: Express): Promise<Server> {
       });
     } catch (error) {
       console.error("Get user error:", error);
+      res.status(500).json({ error: "Internal server error" });
+    }
+  });
+
+  // Update user profile
+  app.patch("/api/users/:id", async (req, res) => {
+    try {
+      const userId = parseInt(req.params.id);
+      const { username, nickname } = req.body;
+      
+      const updatedUser = await storage.updateUser(userId, {
+        username,
+        nickname,
+      });
+      
+      if (!updatedUser) {
+        return res.status(404).json({ error: "User not found" });
+      }
+
+      res.json({
+        id: updatedUser.id,
+        username: updatedUser.username,
+        nickname: updatedUser.nickname,
+        email: updatedUser.email,
+        totalXp: updatedUser.totalXp,
+        currentStreak: updatedUser.currentStreak,
+        longestStreak: updatedUser.longestStreak,
+        hearts: updatedUser.hearts,
+        subscriptionType: updatedUser.subscriptionType,
+        emailVerified: updatedUser.emailVerified,
+        createdAt: updatedUser.createdAt,
+      });
+    } catch (error) {
+      console.error("Update user error:", error);
       res.status(500).json({ error: "Internal server error" });
     }
   });
@@ -59,7 +93,7 @@ export async function registerRoutes(app: Express): Promise<Server> {
       // Get user languages and calculate actual progress
       const userLanguages = await storage.getUserLanguages(userId);
       const overallProgress = userLanguages.length > 0 
-        ? userLanguages.reduce((sum, ul) => sum + (ul.progressPercentage || 0), 0) / userLanguages.length
+        ? userLanguages.reduce((sum, ul) => sum + (ul.progressPercent || 0), 0) / userLanguages.length
         : 0;
 
       const progress = {
@@ -449,8 +483,7 @@ export async function registerRoutes(app: Express): Promise<Server> {
       const { status } = req.body;
       
       const trade = await storage.updateTradeOffer(tradeId, { 
-        status,
-        respondedAt: new Date()
+        status
       });
       
       if (!trade) {

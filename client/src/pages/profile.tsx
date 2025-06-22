@@ -6,14 +6,17 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Progress } from "@/components/ui/progress";
-import { Flame, Trophy, Users, Package } from "lucide-react";
+import { Flame, Trophy, Users, Package, Bell, Settings } from "lucide-react";
 import { useAuth } from "@/hooks/use-auth";
 import { FriendsOverlay } from "@/components/overlays/friends-overlay";
+import { CustomizeProfileOverlay } from "@/components/overlays/customize-profile-overlay";
+import { NotificationOverlay } from "@/components/overlays/notification-overlay";
 
 export default function Profile() {
   const [sidebarOpen, setSidebarOpen] = useState(false);
   const [friendsOpen, setFriendsOpen] = useState(false);
   const [showCustomize, setShowCustomize] = useState(false);
+  const [showNotifications, setShowNotifications] = useState(false);
   const { user } = useAuth();
 
   const { data: achievements = [] } = useQuery({
@@ -43,35 +46,19 @@ export default function Profile() {
     friends: 12
   };
 
-  const mockAchievements = [
-    {
-      name: "Fire Starter",
-      description: "Start a 7-day streak",
-      icon: Flame,
-      progress: 100,
-      completed: true,
-      color: "text-accent",
-      bgColor: "bg-accent/20"
-    },
-    {
-      name: "Word Master",
-      description: "Learn 1000 words",
-      icon: Trophy,
-      progress: 100,
-      completed: true,
-      color: "text-secondary",
-      bgColor: "bg-secondary/20"
-    },
-    {
-      name: "Polyglot",
-      description: "Master 5 languages",
-      icon: Package,
-      progress: 60,
-      completed: false,
-      color: "text-primary",
-      bgColor: "bg-primary/20"
-    }
-  ];
+  // Use real achievements data from API
+  const userAchievementsList = (userAchievements as any[]) || [];
+  const achievementsList = (achievements as any[]) || [];
+  
+  const combinedAchievements = userAchievementsList.map((ua: any) => {
+    const achievement = achievementsList.find((a: any) => a.id === ua.achievementId);
+    return achievement ? {
+      ...achievement,
+      progress: ua.progress,
+      completed: ua.completed,
+      unlockedAt: ua.unlockedAt
+    } : null;
+  }).filter(Boolean);
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-neutral-50 to-neutral-100">
@@ -87,12 +74,12 @@ export default function Profile() {
               <CardContent className="p-8">
                 <div className="flex items-center justify-between mb-6">
                   <div className="flex items-center space-x-6">
-                    <div className="w-24 h-24 bg-primary text-primary-foreground rounded-full flex items-center justify-center text-3xl font-bold">
+                    <div className="w-24 h-24 bg-gradient-to-br from-primary to-primary/80 text-primary-foreground rounded-full flex items-center justify-center text-3xl font-bold shadow-lg">
                       {user ? getInitials(user.username) : "U"}
                     </div>
                     <div>
                       <h2 className="text-3xl font-bold text-foreground">{user?.username || "Username"}</h2>
-                      <p className="text-lg text-muted-foreground">{user?.nickname || "Nickname"}</p>
+                      <p className="text-lg text-muted-foreground">{user?.nickname || "Add a nickname"}</p>
                       <p className="text-sm text-muted-foreground mt-2">
                         Member since {user?.createdAt ? formatDate(user.createdAt) : "Recently"}
                       </p>
@@ -158,14 +145,19 @@ export default function Profile() {
                 </div>
 
                 <TabsContent value="achievements" className="p-6">
-                  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-                    {mockAchievements.map((achievement) => {
-                      const Icon = achievement.icon;
-                      return (
-                        <Card key={achievement.name} className="p-4 border border-border rounded-lg hover-lift">
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    {combinedAchievements.length === 0 ? (
+                      <div className="col-span-full text-center py-8 text-muted-foreground">
+                        <Trophy className="w-12 h-12 mx-auto mb-3 opacity-50" />
+                        <p>No achievements unlocked yet</p>
+                        <p className="text-sm">Complete lessons to earn your first achievement!</p>
+                      </div>
+                    ) : (
+                      combinedAchievements.map((achievement: any, index: number) => (
+                        <Card key={index} className="p-4">
                           <div className="flex items-center space-x-3 mb-3">
-                            <div className={`w-12 h-12 ${achievement.bgColor} rounded-full flex items-center justify-center`}>
-                              <Icon className={`${achievement.color} w-6 h-6`} />
+                            <div className="w-12 h-12 bg-primary/20 rounded-full flex items-center justify-center">
+                              <Trophy className="text-primary w-6 h-6" />
                             </div>
                             <div>
                               <h3 className="font-medium text-foreground">{achievement.name}</h3>
@@ -174,11 +166,11 @@ export default function Profile() {
                           </div>
                           <Progress 
                             value={achievement.progress} 
-                            className={`${achievement.completed ? '[&>div]:bg-secondary' : ''}`}
+                            className={achievement.completed ? '[&>div]:bg-secondary' : ''}
                           />
                         </Card>
-                      );
-                    })}
+                      ))
+                    )}
                   </div>
                 </TabsContent>
 
@@ -218,6 +210,8 @@ export default function Profile() {
       </div>
 
       <FriendsOverlay open={friendsOpen} onOpenChange={setFriendsOpen} />
+      <CustomizeProfileOverlay isOpen={showCustomize} onClose={() => setShowCustomize(false)} />
+      <NotificationOverlay isOpen={showNotifications} onClose={() => setShowNotifications(false)} />
     </div>
   );
 }

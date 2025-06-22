@@ -8,11 +8,15 @@ import { Label } from "@/components/ui/label";
 import { Switch } from "@/components/ui/switch";
 import { ChevronRight, Shield, AlertTriangle } from "lucide-react";
 import { useAuth } from "@/hooks/use-auth";
+import { ResetPasswordOverlay } from "@/components/overlays/reset-password-overlay";
+import { ChangeEmailOverlay } from "@/components/overlays/change-email-overlay";
 
 export default function Settings() {
   const [sidebarOpen, setSidebarOpen] = useState(false);
   const [dailyReminder, setDailyReminder] = useState(true);
   const [soundEffects, setSoundEffects] = useState(true);
+  const [showResetPassword, setShowResetPassword] = useState(false);
+  const [showChangeEmail, setShowChangeEmail] = useState(false);
   const { user } = useAuth();
 
   const maskEmail = (email: string) => {
@@ -70,6 +74,7 @@ export default function Settings() {
                   <Button 
                     variant="ghost" 
                     className="w-full justify-between p-4 h-auto bg-muted hover:bg-muted/80"
+                    onClick={() => setShowResetPassword(true)}
                   >
                     <div className="text-left">
                       <h3 className="font-medium text-foreground">Reset Password</h3>
@@ -81,6 +86,7 @@ export default function Settings() {
                   <Button 
                     variant="ghost" 
                     className="w-full justify-between p-4 h-auto bg-muted hover:bg-muted/80"
+                    onClick={() => setShowChangeEmail(true)}
                   >
                     <div className="text-left">
                       <h3 className="font-medium text-foreground">Change Email</h3>
@@ -143,6 +149,9 @@ export default function Settings() {
           </div>
         </main>
       </div>
+      
+      <ResetPasswordOverlay isOpen={showResetPassword} onClose={() => setShowResetPassword(false)} />
+      <ChangeEmailOverlay isOpen={showChangeEmail} onClose={() => setShowChangeEmail(false)} />
     </div>
   );
 }

@@ -9,9 +9,11 @@ import { Progress } from "@/components/ui/progress";
 import { Eye } from "lucide-react";
 import { useAuth } from "@/hooks/use-auth";
 import { LANGUAGES, getLanguageByCode } from "@/data/languages";
+import { EnhancedWritingSystemOverlay } from "@/components/overlays/enhanced-writing-system-overlay";
 
 export default function Lessons() {
   const [sidebarOpen, setSidebarOpen] = useState(false);
+  const [showWritingSystem, setShowWritingSystem] = useState<string | null>(null);
   const { user } = useAuth();
 
   const { data: userLanguages = [] } = useQuery({
@@ -20,7 +22,9 @@ export default function Lessons() {
   });
 
   const getLanguageProgress = (languageCode: string) => {
-    const userLang = userLanguages.find((ul: any) => ul.languageId === getLanguageByCode(languageCode)?.id);
+    const userLangsList = userLanguages as any[];
+    const language = getLanguageByCode(languageCode);
+    const userLang = userLangsList.find((ul: any) => ul.languageId === language?.code);
     return userLang?.progressPercent || 0;
   };
 
@@ -100,6 +104,10 @@ export default function Lessons() {
                                 variant="ghost" 
                                 size="sm" 
                                 className="text-primary hover:text-primary/80 p-0 h-auto"
+                                onClick={(e) => {
+                                  e.preventDefault();
+                                  setShowWritingSystem(language.code);
+                                }}
                               >
                                 <Eye className="w-4 h-4 mr-2" />
                                 View Writing System
@@ -116,6 +124,14 @@ export default function Lessons() {
           </div>
         </main>
       </div>
+      
+      {showWritingSystem && (
+        <EnhancedWritingSystemOverlay
+          isOpen={!!showWritingSystem}
+          onClose={() => setShowWritingSystem(null)}
+          languageCode={showWritingSystem}
+        />
+      )}
     </div>
   );
 }
