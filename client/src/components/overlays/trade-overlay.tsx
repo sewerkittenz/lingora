@@ -1,142 +1,101 @@
 import { useState } from "react";
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog";
 import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
+import { Card, CardContent } from "@/components/ui/card";
 import { Textarea } from "@/components/ui/textarea";
 import { Label } from "@/components/ui/label";
-import { Plus, Search } from "lucide-react";
+import { Repeat, Package, Send } from "lucide-react";
 
 interface TradeOverlayProps {
-  open: boolean;
-  onOpenChange: (open: boolean) => void;
+  isOpen: boolean;
+  onClose: () => void;
+  friend: any;
 }
 
-export function TradeOverlay({ open, onOpenChange }: TradeOverlayProps) {
-  const [searchQuery, setSearchQuery] = useState("");
-  const [tradeMessage, setTradeMessage] = useState("");
+export function TradeOverlay({ isOpen, onClose, friend }: TradeOverlayProps) {
+  const [message, setMessage] = useState("");
+  const [selectedItems, setSelectedItems] = useState<string[]>([]);
 
-  // Mock user collection
-  const userCollection = [
-    { id: 1, name: "Taco", icon: "🌮" },
-    { id: 2, name: "Baguette", icon: "🥖" },
-    { id: 3, name: "Plushie", icon: "🧸" },
+  const mockItems = [
+    { id: "streak_freeze", name: "Streak Freeze", description: "Protect your streak for one day", icon: "❄️" },
+    { id: "xp_boost", name: "XP Boost", description: "Double XP for next lesson", icon: "⚡" },
+    { id: "heart_refill", name: "Heart Refill", description: "Restore all hearts", icon: "❤️" },
+    { id: "gem_pack", name: "Gem Pack", description: "50 gems bundle", icon: "💎" },
   ];
 
-  // Mock available items
-  const availableItems = [
-    { id: 4, name: "German Cap", icon: "🎩" },
-    { id: 5, name: "Dragon", icon: "🐉" },
-    { id: 6, name: "Eiffel Tower", icon: "🗼" },
-  ];
+  const handleItemToggle = (itemId: string) => {
+    setSelectedItems(prev => 
+      prev.includes(itemId) 
+        ? prev.filter(id => id !== itemId)
+        : [...prev, itemId]
+    );
+  };
 
-  const filteredItems = availableItems.filter(item =>
-    item.name.toLowerCase().includes(searchQuery.toLowerCase())
-  );
+  const handleSendTrade = () => {
+    // TODO: Implement trade sending logic
+    console.log("Sending trade to", friend.username, "with items:", selectedItems, "message:", message);
+    onClose();
+  };
 
   return (
-    <Dialog open={open} onOpenChange={onOpenChange}>
-      <DialogContent className="max-w-4xl max-h-[80vh] overflow-hidden">
+    <Dialog open={isOpen} onOpenChange={onClose}>
+      <DialogContent className="max-w-lg">
         <DialogHeader>
-          <DialogTitle className="text-2xl font-bold">Trade Items</DialogTitle>
+          <DialogTitle className="flex items-center gap-2">
+            <Repeat className="w-5 h-5" />
+            Trade with {friend.nickname || friend.username}
+          </DialogTitle>
         </DialogHeader>
-
-        <div className="overflow-y-auto max-h-[60vh] space-y-6">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-            {/* Your Items */}
-            <div>
-              <h3 className="text-lg font-bold text-foreground mb-4">Your Items (4 slots)</h3>
-              <div className="grid grid-cols-2 gap-4 mb-6">
-                {[...Array(4)].map((_, index) => (
-                  <div 
-                    key={index}
-                    className="w-full h-24 border-2 border-dashed border-muted-foreground/30 rounded-lg flex items-center justify-center text-muted-foreground hover:border-primary/50 transition-colors cursor-pointer"
-                  >
-                    <Plus className="w-6 h-6" />
-                  </div>
-                ))}
-              </div>
-
-              <div>
-                <h4 className="font-medium text-foreground mb-3">Your Collection</h4>
-                <div className="grid grid-cols-4 gap-2">
-                  {userCollection.map((item) => (
-                    <div 
-                      key={item.id}
-                      className="bg-muted rounded-lg p-3 text-center cursor-pointer hover:bg-muted/80 transition-colors"
-                    >
-                      <div className="text-2xl mb-1">{item.icon}</div>
-                      <p className="text-xs text-muted-foreground">{item.name}</p>
+        
+        <div className="space-y-4">
+          <div>
+            <Label>Select items to trade</Label>
+            <div className="grid grid-cols-2 gap-3 mt-2">
+              {mockItems.map((item) => (
+                <Card 
+                  key={item.id}
+                  className={`cursor-pointer transition-all ${
+                    selectedItems.includes(item.id) 
+                      ? 'border-primary bg-primary/5' 
+                      : 'hover:border-primary/50'
+                  }`}
+                  onClick={() => handleItemToggle(item.id)}
+                >
+                  <CardContent className="p-3">
+                    <div className="flex items-center gap-2 mb-1">
+                      <span className="text-lg">{item.icon}</span>
+                      <span className="font-medium text-sm">{item.name}</span>
                     </div>
-                  ))}
-                </div>
-              </div>
-            </div>
-
-            {/* Desired Items */}
-            <div>
-              <h3 className="text-lg font-bold text-foreground mb-4">Desired Items (4 slots)</h3>
-              <div className="grid grid-cols-2 gap-4 mb-6">
-                {[...Array(4)].map((_, index) => (
-                  <div 
-                    key={index}
-                    className="w-full h-24 border-2 border-dashed border-primary/50 rounded-lg flex items-center justify-center text-primary hover:border-primary transition-colors cursor-pointer"
-                  >
-                    <Plus className="w-6 h-6" />
-                  </div>
-                ))}
-              </div>
-
-              <div className="mb-4">
-                <div className="relative">
-                  <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 text-muted-foreground w-4 h-4" />
-                  <Input
-                    placeholder="Search items..."
-                    value={searchQuery}
-                    onChange={(e) => setSearchQuery(e.target.value)}
-                    className="pl-10"
-                  />
-                </div>
-              </div>
-
-              <div>
-                <h4 className="font-medium text-foreground mb-3">Available Items</h4>
-                <div className="grid grid-cols-4 gap-2">
-                  {filteredItems.map((item) => (
-                    <div 
-                      key={item.id}
-                      className="bg-muted rounded-lg p-3 text-center cursor-pointer hover:bg-primary hover:text-primary-foreground transition-colors"
-                    >
-                      <div className="text-2xl mb-1">{item.icon}</div>
-                      <p className="text-xs">{item.name}</p>
-                    </div>
-                  ))}
-                </div>
-              </div>
+                    <p className="text-xs text-muted-foreground">{item.description}</p>
+                  </CardContent>
+                </Card>
+              ))}
             </div>
           </div>
 
-          {/* Trade Message */}
           <div>
-            <Label htmlFor="trade-message" className="text-sm font-medium text-foreground">
-              Trade Message (Optional)
-            </Label>
+            <Label htmlFor="trade-message">Message (optional)</Label>
             <Textarea
               id="trade-message"
+              value={message}
+              onChange={(e) => setMessage(e.target.value)}
               placeholder="Add a message to your trade offer..."
-              value={tradeMessage}
-              onChange={(e) => setTradeMessage(e.target.value)}
-              className="mt-2"
+              className="mt-1"
               rows={3}
             />
           </div>
 
-          {/* Trade Actions */}
-          <div className="flex justify-end space-x-4 pt-4 border-t border-border">
-            <Button variant="outline" onClick={() => onOpenChange(false)}>
+          <div className="flex justify-end space-x-2">
+            <Button variant="outline" onClick={onClose}>
               Cancel
             </Button>
-            <Button>
-              Send Trade Offer
+            <Button 
+              onClick={handleSendTrade}
+              disabled={selectedItems.length === 0}
+              className="bg-gradient-to-r from-primary to-secondary"
+            >
+              <Send className="w-4 h-4 mr-2" />
+              Send Trade
             </Button>
           </div>
         </div>

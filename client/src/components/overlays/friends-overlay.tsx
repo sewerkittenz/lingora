@@ -1,9 +1,14 @@
 import { useState } from "react";
+import { useQuery } from "@tanstack/react-query";
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Badge } from "@/components/ui/badge";
-import { Search, UserPlus, UserMinus, Ban, Repeat } from "lucide-react";
+import { Search, UserPlus, UserMinus, Ban, Repeat, Users } from "lucide-react";
+import { useAuth } from "@/hooks/use-auth";
+import { TradeOverlay } from "./trade-overlay";
+import { RemoveFriendOverlay } from "./remove-friend-overlay";
+import { BlockUserOverlay } from "./block-user-overlay";
 
 interface FriendsOverlayProps {
   open: boolean;
@@ -12,34 +17,20 @@ interface FriendsOverlayProps {
 
 export function FriendsOverlay({ open, onOpenChange }: FriendsOverlayProps) {
   const [searchQuery, setSearchQuery] = useState("");
+  const [showTradeOverlay, setShowTradeOverlay] = useState(false);
+  const [showRemoveOverlay, setShowRemoveOverlay] = useState(false);
+  const [showBlockOverlay, setShowBlockOverlay] = useState(false);
+  const [selectedFriend, setSelectedFriend] = useState<any>(null);
+  const { user } = useAuth();
 
-  // Mock friends data
-  const mockFriends = [
-    {
-      id: 1,
-      username: "AlexMaster",
-      xp: 2450,
-      status: "online",
-      initials: "AM"
-    },
-    {
-      id: 2,
-      username: "SarahMoon",
-      xp: 2180,
-      status: "Last seen 2h ago",
-      initials: "SM"
-    },
-    {
-      id: 3,
-      username: "LinguaKing",
-      xp: 1950,
-      status: "Last seen 1d ago",
-      initials: "LK"
-    }
-  ];
+  // Load friends from API
+  const { data: friends = [] } = useQuery({
+    queryKey: ["/api/users", user?.id, "friends"],
+    enabled: !!user?.id,
+  });
 
-  const filteredFriends = mockFriends.filter(friend =>
-    friend.username.toLowerCase().includes(searchQuery.toLowerCase())
+  const filteredFriends = (friends as any[]).filter(friend =>
+    friend.username?.toLowerCase().includes(searchQuery.toLowerCase())
   );
 
   return (

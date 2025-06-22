@@ -19,12 +19,12 @@ export function CustomizeProfileOverlay({ isOpen, onClose }: CustomizeProfileOve
   const queryClient = useQueryClient();
   
   const [formData, setFormData] = useState({
-    nickname: user?.nickname || "",
-    username: user?.username || "",
+    nickname: user?.nickname || user?.username || "",
+    profilePicture: user?.profilePicture || "🧑‍🎓",
   });
 
   const updateProfileMutation = useMutation({
-    mutationFn: async (data: { nickname: string; username: string }) => {
+    mutationFn: async (data: { nickname: string; profilePicture?: string }) => {
       return apiRequest(`/api/users/${user?.id}`, {
         method: "PATCH",
         body: JSON.stringify(data),
@@ -49,68 +49,66 @@ export function CustomizeProfileOverlay({ isOpen, onClose }: CustomizeProfileOve
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    if (!formData.nickname.trim() || !formData.username.trim()) {
-      toast({
-        title: "Validation Error",
-        description: "Both nickname and username are required.",
-        variant: "destructive",
-      });
-      return;
-    }
-    updateProfileMutation.mutate(formData);
+    updateProfileMutation.mutate({
+      nickname: formData.nickname,
+      profilePicture: formData.profilePicture
+    });
   };
+
+  const profilePictureOptions = [
+    "🧑‍🎓", "👨‍💼", "👩‍💼", "🧑‍🏫", "👨‍🎨", "👩‍🎨", 
+    "🧑‍💻", "👨‍🔬", "👩‍🔬", "🧑‍🚀", "👨‍⚕️", "👩‍⚕️",
+    "🧑‍🍳", "👨‍🎤", "👩‍🎤", "🧑‍✈️", "👨‍🌾", "👩‍🌾"
+  ];
 
   return (
     <Dialog open={isOpen} onOpenChange={onClose}>
       <DialogContent className="sm:max-w-md">
         <DialogHeader>
-          <DialogTitle className="text-xl font-bold">Customize Profile</DialogTitle>
+          <DialogTitle>Customize Profile</DialogTitle>
         </DialogHeader>
         
         <form onSubmit={handleSubmit} className="space-y-6">
           <div className="space-y-4">
             <div>
-              <Label htmlFor="username" className="text-sm font-medium">
-                Username
-              </Label>
-              <Input
-                id="username"
-                value={formData.username}
-                onChange={(e) => setFormData(prev => ({ ...prev, username: e.target.value }))}
-                placeholder="Enter your username"
-                className="mt-1"
-              />
-            </div>
-            
-            <div>
-              <Label htmlFor="nickname" className="text-sm font-medium">
-                Nickname
-              </Label>
+              <Label htmlFor="nickname">Display Name</Label>
               <Input
                 id="nickname"
                 value={formData.nickname}
-                onChange={(e) => setFormData(prev => ({ ...prev, nickname: e.target.value }))}
-                placeholder="Enter your nickname"
-                className="mt-1"
+                onChange={(e) => setFormData({ ...formData, nickname: e.target.value })}
+                placeholder="Enter your display name"
+                required
               />
+              <p className="text-xs text-muted-foreground mt-1">
+                This is how others will see you (can be changed anytime)
+              </p>
+            </div>
+            
+            <div>
+              <Label>Profile Picture</Label>
+              <div className="grid grid-cols-6 gap-2 mt-2">
+                {profilePictureOptions.map((pic) => (
+                  <button
+                    key={pic}
+                    type="button"
+                    onClick={() => setFormData({ ...formData, profilePicture: pic })}
+                    className={`w-10 h-10 text-xl rounded-full border-2 hover:bg-muted/50 transition-colors ${
+                      formData.profilePicture === pic ? 'border-primary bg-primary/10' : 'border-border'
+                    }`}
+                  >
+                    {pic}
+                  </button>
+                ))}
+              </div>
             </div>
           </div>
 
-          <div className="flex gap-3">
-            <Button
-              type="button"
-              variant="outline"
-              onClick={onClose}
-              className="flex-1"
-            >
+          <div className="flex justify-end space-x-2">
+            <Button type="button" variant="outline" onClick={onClose}>
               Cancel
             </Button>
-            <Button
-              type="submit"
-              disabled={updateProfileMutation.isPending}
-              className="flex-1"
-            >
-              {updateProfileMutation.isPending ? "Saving..." : "Save Changes"}
+            <Button type="submit" disabled={updateProfileMutation.isPending}>
+              {updateProfileMutation.isPending ? "Updating..." : "Update Profile"}
             </Button>
           </div>
         </form>
