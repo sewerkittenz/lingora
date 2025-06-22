@@ -11,7 +11,7 @@ interface RemoveFriendOverlayProps {
 export function RemoveFriendOverlay({ isOpen, onClose, friend }: RemoveFriendOverlayProps) {
   const handleRemoveFriend = () => {
     // TODO: Implement friend removal logic
-    console.log("Removing friend:", friend.username);
+    console.log("Removing friend:", friend?.username);
     onClose();
   };
 
@@ -30,7 +30,7 @@ export function RemoveFriendOverlay({ isOpen, onClose, friend }: RemoveFriendOve
             <AlertTriangle className="w-5 h-5 text-orange-500 mt-0.5 flex-shrink-0" />
             <div>
               <p className="text-sm">
-                Are you sure you want to remove <strong>{friend.nickname || friend.username}</strong> from your friends list?
+                Are you sure you want to remove <strong>{friend?.nickname || friend?.username || "this friend"}</strong> from your friends list?
               </p>
               <p className="text-xs text-muted-foreground mt-2">
                 They won't be notified, but you'll need to send a new friend request to connect again.

@@ -33,7 +33,7 @@ export function TradeOverlay({ isOpen, onClose, friend }: TradeOverlayProps) {
 
   const handleSendTrade = () => {
     // TODO: Implement trade sending logic
-    console.log("Sending trade to", friend.username, "with items:", selectedItems, "message:", message);
+    console.log("Sending trade to", friend?.username, "with items:", selectedItems, "message:", message);
     onClose();
   };
 
@@ -43,7 +43,7 @@ export function TradeOverlay({ isOpen, onClose, friend }: TradeOverlayProps) {
         <DialogHeader>
           <DialogTitle className="flex items-center gap-2">
             <Repeat className="w-5 h-5" />
-            Trade with {friend.nickname || friend.username}
+            Trade with {friend?.nickname || friend?.username || "Friend"}
           </DialogTitle>
         </DialogHeader>
         

@@ -11,7 +11,7 @@ interface BlockUserOverlayProps {
 export function BlockUserOverlay({ isOpen, onClose, friend }: BlockUserOverlayProps) {
   const handleBlockUser = () => {
     // TODO: Implement user blocking logic
-    console.log("Blocking user:", friend.username);
+    console.log("Blocking user:", friend?.username);
     onClose();
   };
 
@@ -30,7 +30,7 @@ export function BlockUserOverlay({ isOpen, onClose, friend }: BlockUserOverlayPr
             <Shield className="w-5 h-5 text-destructive mt-0.5 flex-shrink-0" />
             <div>
               <p className="text-sm">
-                Are you sure you want to block <strong>{friend.nickname || friend.username}</strong>?
+                Are you sure you want to block <strong>{friend?.nickname || friend?.username || "this user"}</strong>?
               </p>
               <p className="text-xs text-muted-foreground mt-2">
                 They won't be able to send you messages, friend requests, or trade offers. 
