@@ -1,112 +1,43 @@
 import type { Express } from "express";
 import { createServer, type Server } from "http";
-import { DbStorage } from "./db-storage";
-
-const storage = new DbStorage();
+import { supabase } from "./supabase";
+import authRoutes from "./auth-routes";
 import bcrypt from "bcrypt";
-import { insertUserSchema, insertUserLanguageSchema, insertUserLessonProgressSchema, insertTradeOfferSchema, insertFriendSchema, insertUserItemSchema } from "@shared/schema";
-import { z } from "zod";
 import { createPaypalOrder, capturePaypalOrder, loadPaypalDefault } from "./paypal";
 
 export async function registerRoutes(app: Express): Promise<Server> {
-  // Authentication routes
-  app.post("/api/auth/register", async (req, res) => {
-    try {
-      const { username, email, password, confirmPassword } = req.body;
-      
-      if (password !== confirmPassword) {
-        return res.status(400).json({ error: "Passwords do not match" });
-      }
-
-      const existingUser = await storage.getUserByEmail(email) || await storage.getUserByUsername(username);
-      if (existingUser) {
-        return res.status(400).json({ error: "User already exists" });
-      }
-
-      const hashedPassword = await bcrypt.hash(password, 10);
-      const user = await storage.createUser({
-        username,
-        email,
-        password: hashedPassword,
-        nickname: username,
-        profilePicture: null,
-      });
-
-      // Remove password from response
-      const { password: _, ...userResponse } = user;
-      res.json({ user: userResponse });
-    } catch (error) {
-      console.error("Registration error:", error);
-      res.status(500).json({ error: "Internal server error" });
-    }
-  });
-
-  app.post("/api/auth/login", async (req, res) => {
-    try {
-      const { username, password } = req.body;
-      
-      const user = await storage.getUserByUsername(username) || await storage.getUserByEmail(username);
-      if (!user) {
-        return res.status(401).json({ error: "Invalid credentials" });
-      }
-
-      const isValidPassword = await bcrypt.compare(password, user.password);
-      if (!isValidPassword) {
-        return res.status(401).json({ error: "Invalid credentials" });
-      }
-
-      // Remove password from response
-      const { password: _, ...userResponse } = user;
-      res.json({ user: userResponse });
-    } catch (error) {
-      console.error("Login error:", error);
-      res.status(500).json({ error: "Internal server error" });
-    }
-  });
-
-  app.post("/api/auth/forgot-password", async (req, res) => {
-    try {
-      const { email } = req.body;
-      
-      const user = await storage.getUserByEmail(email);
-      if (!user) {
-        // Don't reveal if email exists or not
-        return res.json({ message: "If email exists, password reset instructions have been sent" });
-      }
-
-      // In a real app, you'd send an email here
-      res.json({ message: "Password reset instructions sent to email" });
-    } catch (error) {
-      console.error("Forgot password error:", error);
-      res.status(500).json({ error: "Internal server error" });
-    }
-  });
-
-  app.post("/api/auth/reset-password", async (req, res) => {
-    try {
-      const { token, password } = req.body;
-      
-      // In a real app, you'd validate the token here
-      // For now, we'll just simulate success
-      res.json({ message: "Password reset successful" });
-    } catch (error) {
-      console.error("Reset password error:", error);
-      res.status(500).json({ error: "Internal server error" });
-    }
-  });
+  // Use the new Supabase auth routes
+  app.use("/api/auth", authRoutes);
 
   // User routes
   app.get("/api/users/:id", async (req, res) => {
     try {
       const userId = parseInt(req.params.id);
-      const user = await storage.getUser(userId);
       
-      if (!user) {
+      const { data: user, error } = await supabase
+        .from('users')
+        .select('id, username, email, nickname, profile_picture, total_xp, current_streak, longest_streak, hearts, subscription_type, email_verified, created_at')
+        .eq('id', userId)
+        .single();
+      
+      if (error || !user) {
         return res.status(404).json({ error: "User not found" });
       }
 
-      const { password: _, ...userResponse } = user;
-      res.json(userResponse);
+      res.json({
+        id: user.id,
+        username: user.username,
+        email: user.email.replace(/(.{2}).*(@.*)/, '$1***$2'),
+        nickname: user.nickname,
+        profilePicture: user.profile_picture,
+        totalXp: user.total_xp,
+        currentStreak: user.current_streak,
+        longestStreak: user.longest_streak,
+        hearts: user.hearts,
+        subscriptionType: user.subscription_type,
+        emailVerified: user.email_verified,
+        createdAt: user.created_at,
+      });
     } catch (error) {
       console.error("Get user error:", error);
       res.status(500).json({ error: "Internal server error" });
@@ -122,13 +53,30 @@ export async function registerRoutes(app: Express): Promise<Server> {
         updates.password = await bcrypt.hash(updates.password, 10);
       }
 
-      const user = await storage.updateUser(userId, updates);
-      if (!user) {
+      const { data: user, error } = await supabase
+        .from('users')
+        .update(updates)
+        .eq('id', userId)
+        .select('id, username, email, nickname, profile_picture, total_xp, current_streak, longest_streak, hearts, subscription_type, email_verified')
+        .single();
+
+      if (error || !user) {
         return res.status(404).json({ error: "User not found" });
       }
 
-      const { password: _, ...userResponse } = user;
-      res.json(userResponse);
+      res.json({
+        id: user.id,
+        username: user.username,
+        email: user.email.replace(/(.{2}).*(@.*)/, '$1***$2'),
+        nickname: user.nickname,
+        profilePicture: user.profile_picture,
+        totalXp: user.total_xp,
+        currentStreak: user.current_streak,
+        longestStreak: user.longest_streak,
+        hearts: user.hearts,
+        subscriptionType: user.subscription_type,
+        emailVerified: user.email_verified,
+      });
     } catch (error) {
       console.error("Update user error:", error);
       res.status(500).json({ error: "Internal server error" });
@@ -138,8 +86,17 @@ export async function registerRoutes(app: Express): Promise<Server> {
   // Language routes
   app.get("/api/languages", async (req, res) => {
     try {
-      const languages = await storage.getAllLanguages();
-      res.json(languages);
+      const { data: languages, error } = await supabase
+        .from('languages')
+        .select('*')
+        .order('name');
+
+      if (error) {
+        console.error("Supabase error:", error);
+        return res.status(500).json({ error: "Failed to fetch languages" });
+      }
+
+      res.json(languages || []);
     } catch (error) {
       console.error("Get languages error:", error);
       res.status(500).json({ error: "Internal server error" });
@@ -149,9 +106,14 @@ export async function registerRoutes(app: Express): Promise<Server> {
   app.get("/api/languages/:code", async (req, res) => {
     try {
       const code = req.params.code;
-      const language = await storage.getLanguageByCode(code);
       
-      if (!language) {
+      const { data: language, error } = await supabase
+        .from('languages')
+        .select('*')
+        .eq('code', code)
+        .single();
+      
+      if (error || !language) {
         return res.status(404).json({ error: "Language not found" });
       }
 
@@ -276,8 +238,17 @@ export async function registerRoutes(app: Express): Promise<Server> {
   // Shop routes
   app.get("/api/shop/items", async (req, res) => {
     try {
-      const items = await storage.getAllShopItems();
-      res.json(items);
+      const { data: items, error } = await supabase
+        .from('shop_items')
+        .select('*')
+        .order('price');
+
+      if (error) {
+        console.error("Supabase error:", error);
+        return res.status(500).json({ error: "Failed to fetch shop items" });
+      }
+
+      res.json(items || []);
     } catch (error) {
       console.error("Get shop items error:", error);
       res.status(500).json({ error: "Internal server error" });

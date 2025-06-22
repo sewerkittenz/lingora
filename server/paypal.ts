@@ -25,28 +25,34 @@ const isPayPalEnabled = PAYPAL_CLIENT_ID && PAYPAL_CLIENT_SECRET;
 if (!isPayPalEnabled) {
   console.warn("PayPal credentials not found. PayPal functionality will be disabled.");
 }
-const client = new Client({
-  clientCredentialsAuthCredentials: {
-    oAuthClientId: PAYPAL_CLIENT_ID,
-    oAuthClientSecret: PAYPAL_CLIENT_SECRET,
-  },
-  timeout: 0,
-  environment:
-                process.env.NODE_ENV === "production"
-                  ? Environment.Production
-                  : Environment.Sandbox,
-  logging: {
-    logLevel: LogLevel.Info,
-    logRequest: {
-      logBody: true,
+let client: Client | null = null;
+let ordersController: OrdersController | null = null;
+let oAuthAuthorizationController: OAuthAuthorizationController | null = null;
+
+if (isPayPalEnabled) {
+  client = new Client({
+    clientCredentialsAuthCredentials: {
+      oAuthClientId: PAYPAL_CLIENT_ID!,
+      oAuthClientSecret: PAYPAL_CLIENT_SECRET!,
     },
-    logResponse: {
-      logHeaders: true,
+    timeout: 0,
+    environment:
+                  process.env.NODE_ENV === "production"
+                    ? Environment.Production
+                    : Environment.Sandbox,
+    logging: {
+      logLevel: LogLevel.Info,
+      logRequest: {
+        logBody: true,
+      },
+      logResponse: {
+        logHeaders: true,
+      },
     },
-  },
-});
-const ordersController = new OrdersController(client);
-const oAuthAuthorizationController = new OAuthAuthorizationController(client);
+  });
+  ordersController = new OrdersController(client);
+  oAuthAuthorizationController = new OAuthAuthorizationController(client);
+}
 
 /* Token generation helpers */
 
