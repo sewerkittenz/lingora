@@ -55,6 +55,7 @@ export default function Home() {
       color: "text-primary",
       bgColor: "bg-primary/20",
       description: "Overall progress",
+      progressValue: userProgress ? userProgress.overallProgress : 0,
     },
     {
       title: "Words Learned",
@@ -142,7 +143,7 @@ export default function Home() {
                       <h3 className="font-medium text-foreground">{stat.title}</h3>
                       <p className="text-sm text-muted-foreground mt-1">{stat.description}</p>
                       {stat.title === "Progress" && (
-                        <Progress value={78} className="mt-2" />
+                        <Progress value={stat.progressValue || 0} className="mt-2" />
                       )}
                     </CardContent>
                   </Card>

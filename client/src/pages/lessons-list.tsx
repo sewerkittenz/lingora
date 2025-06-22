@@ -1,66 +1,44 @@
-import { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { useQuery } from "@tanstack/react-query";
-import { Link, useParams } from "wouter";
+import { useParams, Link } from "wouter";
 import { Sidebar } from "@/components/layout/sidebar";
 import { Header } from "@/components/layout/header";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Progress } from "@/components/ui/progress";
-import { ArrowLeft, CheckCircle, Play, Lock } from "lucide-react";
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import { Play, Lock, CheckCircle2, ArrowLeft } from "lucide-react";
 import { useAuth } from "@/hooks/use-auth";
 import { getLanguageByCode } from "@/data/languages";
 
 export default function LessonsList() {
-  const [sidebarOpen, setSidebarOpen] = useState(false);
-  const [activeLevel, setActiveLevel] = useState(0);
   const { languageCode } = useParams();
+  const [sidebarOpen, setSidebarOpen] = useState(false);
+  const [activeLevel, setActiveLevel] = useState<string>("");
   const { user } = useAuth();
 
-  const language = getLanguageByCode(languageCode!);
+  const language = getLanguageByCode(languageCode || "");
 
+  // Load lessons for this specific language
   const { data: lessons = [] } = useQuery({
-    queryKey: ["/api/languages", language?.id, "lessons"],
-    enabled: !!language?.id,
+    queryKey: ["/api/languages", languageCode, "lessons"],
+    enabled: !!languageCode,
   });
 
-  const { data: userProgress = [] } = useQuery({
-    queryKey: ["/api/users", user?.id, "progress", language?.id],
-    enabled: !!user?.id && !!language?.id,
-  });
-
-  const getLessonProgress = (lessonId: number) => {
-    const progress = userProgress.find((p: any) => p.lessonId === lessonId);
-    return progress?.progressPercent || 0;
-  };
-
-  const isLessonCompleted = (lessonId: number) => {
-    const progress = userProgress.find((p: any) => p.lessonId === lessonId);
-    return progress?.completed || false;
-  };
-
-  const isLessonUnlocked = (lessonIndex: number) => {
-    if (lessonIndex === 0) return true;
-    const previousLesson = mockLessons[lessonIndex - 1];
-    return isLessonCompleted(previousLesson.id);
-  };
-
-  // Mock lessons data - in real app this would come from the lessons query
-  const mockLessons = [
-    { id: 1, title: "Hiragana あ-お", description: "Learn the first 5 hiragana characters", progress: 100, completed: true },
-    { id: 2, title: "Hiragana か-こ", description: "K-sounds in hiragana", progress: 60, completed: false },
-    { id: 3, title: "Hiragana さ-そ", description: "S-sounds in hiragana", progress: 0, completed: false },
-    { id: 4, title: "Hiragana た-と", description: "T-sounds in hiragana", progress: 0, completed: false },
-    { id: 5, title: "Hiragana な-の", description: "N-sounds in hiragana", progress: 0, completed: false },
-    { id: 6, title: "Hiragana は-ほ", description: "H-sounds in hiragana", progress: 0, completed: false },
-  ];
+  // Set default active level when language loads
+  useEffect(() => {
+    if (language && language.levels.length > 0 && !activeLevel) {
+      setActiveLevel(language.levels[0]);
+    }
+  }, [language, activeLevel]);
 
   if (!language) {
     return (
-      <div className="min-h-screen flex items-center justify-center">
+      <div className="min-h-screen bg-gradient-to-br from-neutral-50 to-neutral-100 flex items-center justify-center">
         <div className="text-center">
-          <h1 className="text-2xl font-bold text-foreground mb-4">Language not found</h1>
+          <h2 className="text-2xl font-bold mb-4">Language not found</h2>
           <Link href="/lessons">
-            <Button>← Back to Languages</Button>
+            <Button>Back to Languages</Button>
           </Link>
         </div>
       </div>
@@ -75,102 +53,104 @@ export default function LessonsList() {
         <Header onMenuClick={() => setSidebarOpen(true)} />
         
         <main className="p-6">
-          <div className="max-w-4xl mx-auto">
-            {/* Header */}
-            <div className="flex items-center space-x-4 mb-8">
-              <Link href="/lessons">
-                <Button variant="ghost" size="icon">
-                  <ArrowLeft className="w-5 h-5" />
-                </Button>
-              </Link>
-              <div>
-                <h1 className="text-2xl font-bold text-foreground">{language.name} Lessons</h1>
-                <p className="text-sm text-muted-foreground">{language.nativeName} - Choose your level</p>
+          <div className="max-w-6xl mx-auto">
+            {/* Language Header */}
+            <div className="mb-8">
+              <div className="flex items-center gap-4 mb-6">
+                <Link href="/lessons">
+                  <Button variant="ghost" size="icon">
+                    <ArrowLeft className="h-5 w-5" />
+                  </Button>
+                </Link>
+                <div className={`text-6xl w-20 h-20 bg-gradient-to-br ${language.gradient} rounded-2xl flex items-center justify-center text-white font-bold shadow-lg`}>
+                  {language.flag}
+                </div>
+                <div>
+                  <h1 className="text-4xl font-bold">{language.name}</h1>
+                  <p className="text-xl text-muted-foreground">{language.nativeName}</p>
+                  <p className="text-sm text-muted-foreground mt-1">{language.description}</p>
+                </div>
               </div>
+              
+              {language.writingSystem && (
+                <div className="bg-blue-50 border border-blue-200 rounded-lg p-4">
+                  <h3 className="font-semibold text-blue-900 mb-2">Writing System</h3>
+                  <p className="text-blue-800">{language.writingSystem}</p>
+                </div>
+              )}
             </div>
 
             {/* Level Tabs */}
-            <div className="flex flex-wrap gap-2 mb-8 border-b border-border">
-              {language.levels.map((level, index) => (
-                <Button
-                  key={level}
-                  variant="ghost"
-                  className={`px-6 py-3 font-medium border-b-2 transition-colors ${
-                    activeLevel === index
-                      ? "text-primary border-primary bg-primary/10"
-                      : index > 0 ? "text-muted-foreground border-transparent cursor-not-allowed" : "text-muted-foreground border-transparent hover:text-primary"
-                  }`}
-                  onClick={() => index === 0 && setActiveLevel(index)}
-                  disabled={index > 0}
-                >
-                  {level.replace('-', ' ').replace(/\b\w/g, l => l.toUpperCase())}
-                </Button>
-              ))}
-            </div>
+            <Tabs value={activeLevel} onValueChange={setActiveLevel} className="mb-8">
+              <TabsList className="grid w-full grid-cols-2 lg:grid-cols-4 xl:grid-cols-6">
+                {language.levels.map((level) => (
+                  <TabsTrigger key={level} value={level} className="capitalize">
+                    {level.replace('-', ' ').replace(/\b\w/g, l => l.toUpperCase())}
+                  </TabsTrigger>
+                ))}
+              </TabsList>
 
-            {/* Lessons Grid */}
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-              {mockLessons.map((lesson, index) => {
-                const isCompleted = lesson.completed;
-                const isActive = lesson.progress > 0 && !lesson.completed;
-                const isLocked = !isLessonUnlocked(index);
-
-                return (
-                  <Card 
-                    key={lesson.id} 
-                    className={`hover-lift cursor-pointer border-2 transition-all duration-200 ${
-                      isCompleted ? 'border-secondary/50 bg-secondary/5' :
-                      isActive ? 'border-accent/50 bg-accent/5' :
-                      isLocked ? 'opacity-50 cursor-not-allowed' : 'border-transparent hover:border-primary'
-                    }`}
-                  >
-                    <CardContent className="p-4">
-                      <Link href={isLocked ? "#" : `/learn/${lesson.id}`}>
-                        <div>
-                          <div className="flex items-center justify-between mb-3">
-                            <div className="flex items-center">
-                              <div className="w-8 h-8 bg-primary text-primary-foreground rounded-full flex items-center justify-center text-sm font-bold mr-3">
-                                {index + 1}
+              {language.levels.map((level) => (
+                <TabsContent key={level} value={level}>
+                  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                    {lessons
+                      .filter((lesson: any) => lesson.level === level)
+                      .map((lesson: any, index: number) => (
+                      <Card key={lesson.id} className="hover:shadow-lg transition-shadow">
+                        <CardContent className="p-6">
+                          <div className="flex items-center justify-between mb-4">
+                            <div className="flex items-center gap-3">
+                              <div className={`w-12 h-12 rounded-full bg-gradient-to-br ${language.gradient} flex items-center justify-center text-white font-bold`}>
+                                {lesson.id}
                               </div>
-                              <h3 className="font-medium text-foreground">{lesson.title}</h3>
+                              <div>
+                                <h3 className="font-semibold">{lesson.title}</h3>
+                                <p className="text-sm text-muted-foreground">{lesson.description}</p>
+                              </div>
                             </div>
-                            <div className={`w-6 h-6 rounded-full flex items-center justify-center ${
-                              isCompleted ? 'bg-secondary' :
-                              isActive ? 'bg-accent animate-pulse' :
-                              isLocked ? 'bg-muted' : 'bg-muted'
-                            }`}>
-                              {isCompleted ? (
-                                <CheckCircle className="w-4 h-4 text-white" />
-                              ) : isActive ? (
-                                <Play className="w-3 h-3 text-white" />
-                              ) : isLocked ? (
-                                <Lock className="w-3 h-3 text-muted-foreground" />
-                              ) : (
-                                <Play className="w-3 h-3 text-muted-foreground" />
-                              )}
-                            </div>
+                            <Play className="h-6 w-6 text-primary" />
                           </div>
                           
-                          <p className="text-sm text-muted-foreground mb-3">{lesson.description}</p>
-                          
-                          <div className="flex justify-between text-xs text-muted-foreground mb-2">
-                            <span>Progress</span>
-                            <span>{lesson.progress}%</span>
+                          <div className="space-y-3">
+                            <div className="flex justify-between text-sm">
+                              <span>Items</span>
+                              <span>{lesson.itemCount || 10}</span>
+                            </div>
+                            <Progress value={0} className="h-2" />
+                            
+                            <div className="flex justify-between text-sm text-muted-foreground">
+                              <span>Level: {lesson.level}</span>
+                              <span>25 XP</span>
+                            </div>
                           </div>
-                          <Progress 
-                            value={lesson.progress} 
-                            className={`h-1.5 ${
-                              isCompleted ? '[&>div]:bg-secondary' :
-                              isActive ? '[&>div]:bg-accent' : ''
-                            }`}
-                          />
-                        </div>
-                      </Link>
-                    </CardContent>
-                  </Card>
-                );
-              })}
-            </div>
+
+                          <div className="mt-4">
+                            <Link href={`/learn/${languageCode}-${lesson.id}`} className="block">
+                              <Button className="w-full">
+                                <Play className="h-4 w-4 mr-2" />
+                                Start Lesson
+                              </Button>
+                            </Link>
+                          </div>
+                        </CardContent>
+                      </Card>
+                    ))}
+                    
+                    {/* Show message if no lessons for this level */}
+                    {lessons.filter((lesson: any) => lesson.level === level).length === 0 && (
+                      <div className="col-span-full text-center py-12">
+                        <h3 className="text-lg font-semibold text-muted-foreground mb-2">
+                          Coming Soon
+                        </h3>
+                        <p className="text-muted-foreground">
+                          Lessons for {level.replace('-', ' ')} level are being prepared.
+                        </p>
+                      </div>
+                    )}
+                  </div>
+                </TabsContent>
+              ))}
+            </Tabs>
           </div>
         </main>
       </div>

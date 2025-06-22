@@ -66,22 +66,46 @@ export class DbStorage implements IStorage {
   // Users
   async getUser(id: number): Promise<User | undefined> {
     const result = await db.select().from(users).where(eq(users.id, id));
-    return result[0];
+    const user = result[0];
+    return user ? {
+      ...user,
+      nickname: user.nickname || null,
+      profilePicture: user.profilePicture || null
+    } : undefined;
   }
 
   async getUserByUsername(username: string): Promise<User | undefined> {
     const result = await db.select().from(users).where(eq(users.username, username));
-    return result[0];
+    const user = result[0];
+    return user ? {
+      ...user,
+      nickname: user.nickname || null,
+      profilePicture: user.profilePicture || null
+    } : undefined;
   }
 
   async getUserByEmail(email: string): Promise<User | undefined> {
     const result = await db.select().from(users).where(eq(users.email, email));
-    return result[0];
+    const user = result[0];
+    return user ? {
+      ...user,
+      nickname: user.nickname || null,
+      profilePicture: user.profilePicture || null
+    } : undefined;
   }
 
   async createUser(user: InsertUser): Promise<User> {
-    const result = await db.insert(users).values(user).returning();
-    return result[0];
+    const userData = {
+      ...user,
+      nickname: user.nickname || null,
+      profilePicture: user.profilePicture || null
+    };
+    const result = await db.insert(users).values(userData).returning();
+    return {
+      ...result[0],
+      nickname: result[0].nickname || null,
+      profilePicture: result[0].profilePicture || null
+    };
   }
 
   async updateUser(id: number, updates: Partial<InsertUser>): Promise<User | undefined> {
@@ -94,17 +118,32 @@ export class DbStorage implements IStorage {
 
   // Languages
   async getAllLanguages(): Promise<Language[]> {
-    return await db.select().from(languages);
+    const result = await db.select().from(languages);
+    return result.map(lang => ({
+      ...lang,
+      writingSystem: lang.writingSystem || null,
+      totalWords: lang.totalWords || 20000
+    }));
   }
 
   async getLanguage(id: number): Promise<Language | undefined> {
     const result = await db.select().from(languages).where(eq(languages.id, id));
-    return result[0];
+    const lang = result[0];
+    return lang ? {
+      ...lang,
+      writingSystem: lang.writingSystem || null,
+      totalWords: lang.totalWords || 20000
+    } : undefined;
   }
 
   async getLanguageByCode(code: string): Promise<Language | undefined> {
     const result = await db.select().from(languages).where(eq(languages.code, code));
-    return result[0];
+    const lang = result[0];
+    return lang ? {
+      ...lang,
+      writingSystem: lang.writingSystem || null,
+      totalWords: lang.totalWords || 20000
+    } : undefined;
   }
 
   async createLanguage(language: InsertLanguage): Promise<Language> {
@@ -151,8 +190,17 @@ export class DbStorage implements IStorage {
   }
 
   async createLesson(lesson: InsertLesson): Promise<Lesson> {
-    const result = await db.insert(lessons).values(lesson).returning();
-    return result[0];
+    const lessonData = {
+      ...lesson,
+      description: lesson.description || '',
+      xpReward: lesson.xpReward || 25
+    };
+    const result = await db.insert(lessons).values(lessonData).returning();
+    return {
+      ...result[0],
+      description: result[0].description || '',
+      xpReward: result[0].xpReward || 25
+    };
   }
 
   // User Lesson Progress
@@ -194,8 +242,17 @@ export class DbStorage implements IStorage {
   }
 
   async createShopItem(item: InsertShopItem): Promise<ShopItem> {
-    const result = await db.insert(shopItems).values(item).returning();
-    return result[0];
+    const itemData = {
+      ...item,
+      description: item.description || null,
+      rarity: item.rarity || 'common'
+    };
+    const result = await db.insert(shopItems).values(itemData).returning();
+    return {
+      ...result[0],
+      description: result[0].description || null,
+      rarity: result[0].rarity || 'common'
+    };
   }
 
   // User Items

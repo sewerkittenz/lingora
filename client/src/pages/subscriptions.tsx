@@ -1,4 +1,4 @@
-import { useState } from "react";
+import React, { useState } from "react";
 import { Sidebar } from "@/components/layout/sidebar";
 import { Header } from "@/components/layout/header";
 import { Card, CardContent } from "@/components/ui/card";
@@ -6,7 +6,6 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Check, X, Crown, Smartphone, Wallet, Coffee } from "lucide-react";
 import { useAuth } from "@/hooks/use-auth";
-import PayPalButton from "@/components/PayPalButton";
 
 export default function Subscriptions() {
   const [sidebarOpen, setSidebarOpen] = useState(false);

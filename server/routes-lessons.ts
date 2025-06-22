@@ -49,13 +49,31 @@ export function registerLessonRoutes(app: Express) {
             const lessonData = await fs.readFile(path.join(lessonsDir, file), 'utf-8');
             const lesson = JSON.parse(lessonData);
             
+            // Set the correct level based on language
+            let lessonLevel = lesson.level;
+            if (languageCode === 'ja') {
+              // Japanese has special levels
+              if (lesson.id <= 30) lessonLevel = 'kana';
+              else if (lesson.id <= 60) lessonLevel = 'jlpt-n5';
+              else if (lesson.id <= 90) lessonLevel = 'jlpt-n4';
+              else if (lesson.id <= 120) lessonLevel = 'jlpt-n3';
+              else if (lesson.id <= 150) lessonLevel = 'jlpt-n2';
+              else lessonLevel = 'jlpt-n1';
+            } else {
+              // Other languages use standard levels
+              if (lesson.id <= 50) lessonLevel = 'beginner';
+              else if (lesson.id <= 100) lessonLevel = 'intermediate';
+              else if (lesson.id <= 150) lessonLevel = 'advanced';
+              else lessonLevel = 'expert';
+            }
+            
             // Filter by level if specified
-            if (!level || lesson.level === level) {
+            if (!level || lessonLevel === level) {
               lessons.push({
                 id: lesson.id,
                 title: lesson.title,
                 description: lesson.description,
-                level: lesson.level,
+                level: lessonLevel,
                 itemCount: lesson.items?.length || 0
               });
             }
