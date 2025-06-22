@@ -162,14 +162,17 @@ export default function Lesson() {
     const words = vocabPatterns[languageCode] || vocabPatterns['es'];
     const meanings = englishMeanings[languageCode] || englishMeanings['es'];
     const wordIndex = index % words.length;
+    const word = words[wordIndex];
+    const meaning = meanings[wordIndex];
 
     return {
       id: `additional-${index}`,
       type: 'vocab',
-      question: `What does "${words[wordIndex]}" mean?`,
-      answer: meanings[wordIndex],
-      options: generateOptions(meanings[wordIndex], languageCode),
-      translation: meanings[wordIndex],
+      question: `What does "${word}" mean?`,
+      answer: meaning,
+      options: generateOptions(meaning, languageCode),
+      translation: meaning,
+      pronunciation: word,
       difficulty: 1
     };
   };
@@ -258,15 +261,20 @@ export default function Lesson() {
         
         try {
           const items = await loadLessonContent(languageCode, lessonNumber);
+          if (!items || items.length === 0) {
+            throw new Error("No lesson content available");
+          }
+          
           const expandedItems = expandToHundredItems(items as QuizItem[], languageCode, lessonNumber);
           setOriginalItems(expandedItems);
           setQuizItems(expandedItems);
           
           // Initialize matching items for matching mode
-          const matching = items.slice(0, 6).map((item, index) => ({
+          const validItems = items.filter(item => item && item.answer);
+          const matching = validItems.slice(0, 6).map((item, index) => ({
             id: `match-${index}`,
-            english: item.translation || item.answer,
-            foreign: item.question.includes('"') ? item.question.split('"')[1] : item.answer,
+            english: item.translation || item.answer || "Unknown",
+            foreign: item.question?.includes('"') ? item.question.split('"')[1] : item.answer || "Unknown",
             matched: false
           }));
           setMatchingItems(matching);
@@ -276,6 +284,15 @@ export default function Lesson() {
           const fallbackItems = generateFallbackQuiz(languageCode, lessonNumber);
           setOriginalItems(fallbackItems);
           setQuizItems(fallbackItems);
+          
+          // Set matching items for fallback too
+          const fallbackMatching = fallbackItems.slice(0, 6).map((item, index) => ({
+            id: `match-${index}`,
+            english: item.translation || item.answer || "Unknown",
+            foreign: item.answer || "Unknown",
+            matched: false
+          }));
+          setMatchingItems(fallbackMatching);
         }
       } catch (error) {
         console.error("Error loading lesson:", error);
@@ -291,7 +308,7 @@ export default function Lesson() {
   }, [lessonId]);
 
   const currentItem = quizItems[currentQuestion];
-  const progress = ((currentQuestion + 1) / quizItems.length) * 100;
+  const progress = quizItems.length > 0 ? ((currentQuestion + 1) / quizItems.length) * 100 : 0;
 
   const shuffleQuiz = () => {
     setQuizItems(shuffleArray([...originalItems]));
@@ -307,6 +324,8 @@ export default function Lesson() {
   };
 
   const handleAnswer = (answer: string) => {
+    if (!currentItem) return;
+    
     setUserAnswer(answer);
     setIsAnswered(true);
     
@@ -390,13 +409,13 @@ export default function Lesson() {
             </div>
             
             <div className="space-y-3">
-              {(currentItem.options || []).map((option, index) => (
+              {(currentItem?.options || []).map((option, index) => (
                 <Button
                   key={index}
-                  variant={isAnswered ? (option === currentItem.answer ? "default" : "outline") : "outline"}
+                  variant={isAnswered ? (option === currentItem?.answer ? "default" : "outline") : "outline"}
                   className={`w-full text-left p-4 h-auto ${
                     isAnswered 
-                      ? option === currentItem.answer 
+                      ? option === currentItem?.answer 
                         ? "bg-green-100 border-green-500 text-green-700" 
                         : option === userAnswer 
                           ? "bg-red-100 border-red-500 text-red-700"
@@ -558,13 +577,16 @@ export default function Lesson() {
     }
   };
 
-  if (isLoading) {
+  if (isLoading || !currentItem || quizItems.length === 0) {
     return (
       <div className="min-h-screen bg-gradient-to-br from-primary/5 to-secondary/5 flex items-center justify-center">
-        <div className="text-center">
-          <RefreshCw className="w-8 h-8 animate-spin mx-auto mb-4" />
-          <p>Loading lesson...</p>
-        </div>
+        <Card className="w-full max-w-md">
+          <CardContent className="p-8 text-center">
+            <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-primary mx-auto mb-4"></div>
+            <h3 className="text-lg font-semibold mb-2">Loading Lesson...</h3>
+            <p className="text-muted-foreground">Preparing your learning content</p>
+          </CardContent>
+        </Card>
       </div>
     );
   }
