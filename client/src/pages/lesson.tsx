@@ -51,6 +51,13 @@ export default function Lesson() {
   const [showFeedback, setShowFeedback] = useState(false);
   const [quizMode, setQuizMode] = useState<QuizMode>('multiple-choice');
   const [showSettings, setShowSettings] = useState(false);
+  const [flashcardAnswered, setFlashcardAnswered] = useState(false);
+  const [completedItems, setCompletedItems] = useState(0);
+  const [correctAnswers, setCorrectAnswers] = useState(0);
+  const [incorrectAnswers, setIncorrectAnswers] = useState(0);
+  const [skippedItems, setSkippedItems] = useState(0);
+  const [showSummary, setShowSummary] = useState(false);
+  const [currentBatch, setCurrentBatch] = useState(1);
 
   const [quizItems, setQuizItems] = useState<QuizItem[]>([]);
   const [isLoading, setIsLoading] = useState(true);
@@ -121,39 +128,131 @@ export default function Lesson() {
   const currentItem = quizItems[currentQuestion];
   const progress = ((currentQuestion) / quizItems.length) * 100;
 
+  const playSound = (type: 'correct' | 'incorrect' | 'click' | 'finish') => {
+    const audio = new Audio(`/sounds/${type}.mp3`);
+    audio.volume = 0.5;
+    audio.play().catch(e => console.log('Audio play failed:', e));
+  };
+
   const handleAnswer = (answer: string) => {
     setUserAnswer(answer);
     setIsAnswered(true);
-    const correct = answer.toLowerCase().trim() === currentItem.answer.toLowerCase().trim();
+    
+    // More flexible answer validation
+    const normalizeAnswer = (str: string) => str.toLowerCase().trim().replace(/[^\w\s]/g, '');
+    const userNormalized = normalizeAnswer(answer);
+    const correctNormalized = normalizeAnswer(currentItem.answer);
+    
+    // Check for exact match or acceptable variations
+    const correct = userNormalized === correctNormalized || 
+                   currentItem.answer.toLowerCase().includes(userNormalized) ||
+                   userNormalized.includes(correctNormalized);
+    
     setIsCorrect(correct);
     
     if (correct) {
       setScore(score + 10);
       setStreak(streak + 1);
+      setCorrectAnswers(correctAnswers + 1);
+      playSound('correct');
     } else {
       setHearts(Math.max(0, hearts - 1));
       setStreak(0);
+      setIncorrectAnswers(incorrectAnswers + 1);
+      playSound('incorrect');
     }
     
     setShowFeedback(true);
+    
+    // Auto advance after feedback for non-flashcard modes
+    if (quizMode !== 'flashcard') {
+      setTimeout(() => {
+        handleNext();
+      }, 2000);
+    }
+  };
+
+  const handleFlashcardAnswer = (difficulty: 'easy' | 'ok' | 'hard') => {
+    if (flashcardAnswered) return;
+    
+    setFlashcardAnswered(true);
+    
+    // Logic: Easy = correct, OK = somewhat correct, Hard = incorrect
+    if (difficulty === 'easy') {
+      setIsCorrect(true);
+      setScore(score + 10);
+      setStreak(streak + 1);
+      setCorrectAnswers(correctAnswers + 1);
+    } else if (difficulty === 'ok') {
+      setIsCorrect(true);
+      setScore(score + 5);
+      setStreak(streak + 1);
+      setCorrectAnswers(correctAnswers + 1);
+    } else {
+      setIsCorrect(false);
+      setHearts(Math.max(0, hearts - 1));
+      setStreak(0);
+      setIncorrectAnswers(incorrectAnswers + 1);
+    }
+    
+    setShowFeedback(true);
+    setTimeout(() => {
+      handleNext();
+    }, 1500);
   };
 
   const handleNext = () => {
-    if (currentQuestion < quizItems.length - 1) {
-      setCurrentQuestion(currentQuestion + 1);
+    const nextQuestion = currentQuestion + 1;
+    setCompletedItems(completedItems + 1);
+    
+    // Check if we've completed 25 items (one batch)
+    if (nextQuestion % 25 === 0 && nextQuestion < quizItems.length) {
+      playSound('finish');
+      setShowSummary(true);
+      return;
+    }
+    
+    if (nextQuestion < quizItems.length) {
+      setCurrentQuestion(nextQuestion);
       setUserAnswer("");
       setIsAnswered(false);
       setIsCorrect(false);
       setShowFeedback(false);
+      setFlashcardAnswered(false);
     } else {
       // Lesson complete
-      setLocation("/lessons");
+      playSound('finish');
+      setShowSummary(true);
     }
   };
 
   const handleSkip = () => {
     setStreak(0);
+    setSkippedItems(skippedItems + 1);
     handleNext();
+  };
+
+  const continueLearning = () => {
+    playSound('click');
+    setShowSummary(false);
+    setCurrentBatch(currentBatch + 1);
+  };
+
+  const restartBatch = () => {
+    playSound('click');
+    const batchStart = (currentBatch - 1) * 25;
+    setCurrentQuestion(batchStart);
+    setShowSummary(false);
+    setUserAnswer("");
+    setIsAnswered(false);
+    setIsCorrect(false);
+    setShowFeedback(false);
+    setFlashcardAnswered(false);
+    // Reset statistics for the batch
+    setCorrectAnswers(0);
+    setIncorrectAnswers(0);
+    setSkippedItems(0);
+    setCompletedItems(0);
   };
 
   const renderQuizContent = () => {
@@ -183,7 +282,12 @@ export default function Lesson() {
                           : "outline"
                       : "outline"
                   }
-                  onClick={() => !isAnswered && handleAnswer(option)}
+                  onClick={() => {
+                    if (!isAnswered) {
+                      playSound('click');
+                      handleAnswer(option);
+                    }
+                  }}
                   disabled={isAnswered}
                   className="p-4 h-auto text-left justify-start"
                 >
@@ -245,13 +349,22 @@ export default function Lesson() {
             
             {isAnswered && (
               <div className="flex gap-2 justify-center">
-                <Button variant="destructive" onClick={() => handleAnswer("wrong")}>
+                <Button variant="destructive" onClick={() => {
+                  playSound('click');
+                  handleFlashcardAnswer("hard");
+                }} disabled={flashcardAnswered}>
                   Hard
                 </Button>
-                <Button variant="outline" onClick={() => handleAnswer("ok")}>
-                  Good
+                <Button variant="outline" onClick={() => {
+                  playSound('click');
+                  handleFlashcardAnswer("ok");
+                }} disabled={flashcardAnswered}>
+                  OK
                 </Button>
-                <Button variant="default" onClick={() => handleAnswer(currentItem.answer)}>
+                <Button variant="default" onClick={() => {
+                  playSound('click');
+                  handleFlashcardAnswer("easy");
+                }} disabled={flashcardAnswered}>
                   Easy
                 </Button>
               </div>
@@ -259,10 +372,114 @@ export default function Lesson() {
           </div>
         );
 
+      case 'fill-blank':
+        return (
+          <div className="space-y-4">
+            <div className="text-center mb-6">
+              <h2 className="text-2xl font-bold mb-2">Fill in the blank</h2>
+              <p className="text-lg">{currentItem.question}</p>
+            </div>
+            
+            <Input
+              value={userAnswer}
+              onChange={(e) => setUserAnswer(e.target.value)}
+              placeholder="Fill in the blank..."
+              className="text-lg p-4"
+              disabled={isAnswered}
+              onKeyPress={(e) => e.key === 'Enter' && !isAnswered && userAnswer && handleAnswer(userAnswer)}
+            />
+            
+            {!isAnswered && (
+              <Button 
+                onClick={() => handleAnswer(userAnswer)}
+                disabled={!userAnswer.trim()}
+                className="w-full"
+              >
+                Submit Answer
+              </Button>
+            )}
+          </div>
+        );
+
+      case 'drag-drop':
+        return (
+          <div className="space-y-4">
+            <div className="text-center mb-6">
+              <h2 className="text-2xl font-bold mb-2">Match the pairs</h2>
+              <p className="text-lg">{currentItem.question}</p>
+            </div>
+            
+            <div className="grid grid-cols-2 gap-4">
+              <div className="space-y-2">
+                <h3 className="font-semibold">Words</h3>
+                {currentItem.options?.slice(0, 3).map((option, index) => (
+                  <Button
+                    key={index}
+                    variant="outline"
+                    className="w-full p-3"
+                    onClick={() => {
+                    if (!isAnswered) {
+                      playSound('click');
+                      handleAnswer(option);
+                    }
+                  }}
+                    disabled={isAnswered}
+                  >
+                    {option}
+                  </Button>
+                ))}
+              </div>
+              <div className="space-y-2">
+                <h3 className="font-semibold">Meanings</h3>
+                {currentItem.options?.slice(3, 6).map((option, index) => (
+                  <div key={index} className="p-3 border rounded-md bg-muted/50">
+                    {option}
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+        );
+
       default:
-        return renderQuizContent();
+        return (
+          <div className="text-center">
+            <p className="text-muted-foreground">Quiz mode not supported</p>
+          </div>
+        );
     }
   };
+
+  // Summary Modal Component
+  const SummaryModal = () => (
+    <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-50">
+      <Card className="p-8 max-w-md mx-4">
+        <div className="text-center space-y-4">
+          <div className="text-4xl mb-4">🎉</div>
+          <h2 className="text-2xl font-bold">Batch Complete!</h2>
+          <div className="space-y-2 text-left">
+            <p>Words learned: <span className="font-semibold">{completedItems}</span></p>
+            <p>Correct answers: <span className="font-semibold text-green-600">{correctAnswers}</span></p>
+            <p>Incorrect answers: <span className="font-semibold text-red-600">{incorrectAnswers}</span></p>
+            <p>Skipped items: <span className="font-semibold text-yellow-600">{skippedItems}</span></p>
+          </div>
+          <div className="flex gap-2 pt-4">
+            {currentQuestion < quizItems.length - 1 && (
+              <Button onClick={continueLearning} className="flex-1">
+                Continue
+              </Button>
+            )}
+            <Button onClick={restartBatch} variant="outline" className="flex-1">
+              Restart
+            </Button>
+            <Button onClick={() => setLocation("/lessons")} variant="secondary" className="flex-1">
+              Finish
+            </Button>
+          </div>
+        </div>
+      </Card>
+    </div>
+  );
 
   if (isLoading) {
     return (
@@ -432,6 +649,9 @@ export default function Lesson() {
           </div>
         </div>
       </div>
+      
+      {/* Summary Modal */}
+      {showSummary && <SummaryModal />}
     </div>
   );
 }

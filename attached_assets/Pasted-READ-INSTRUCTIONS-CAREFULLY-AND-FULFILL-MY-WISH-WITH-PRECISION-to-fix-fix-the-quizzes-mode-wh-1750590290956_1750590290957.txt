@@ -1,0 +1,97 @@
+READ INSTRUCTIONS CAREFULLY AND FULFILL MY WISH WITH PRECISION
+
+to fix:
+fix the quizzes mode:
+when i do flashcards i click "Good" and it says incorrect when i do easy it says corrects, also after picking 1, it should be i cant able to change it to something else because i can literally change from easy, good and hard, also good should be "ok" to avoid confusion, also i got these in console Console.js:61 Error loading lesson 1 for ja: Error: Unknown variable dynamic import: ./lessons/japanese/lesson-1.json
+    at dynamic-import-helper.js:10:9
+    at new Promise (<anonymous>)
+    at default (dynamic-import-helper.js:6:10)
+    at loadLessonContent (lesson-content.ts:38:30)
+    at loadLesson (lesson.tsx:67:31)
+    at lesson.tsx:81:5
+    at commitHookEffectListMount (chunk-WERSD76P.js?v=1a6d0b59:16915:34)
+    at commitPassiveMountOnFiber (chunk-WERSD76P.js?v=1a6d0b59:18156:19)
+    at commitPassiveMountEffects_complete (chunk-WERSD76P.js?v=1a6d0b59:18129:17)
+    at commitPassiveMountEffects_begin (chunk-WERSD76P.js?v=1a6d0b59:18119:15)
+Mt.forEach.n.<computed> @ Console.js:61Understand this error
+2lesson.tsx:159 Uncaught RangeError: Maximum call stack size exceeded
+    at renderQuizContent (lesson.tsx:159:29)
+    at renderQuizContent (lesson.tsx:263:16)
+    at renderQuizContent (lesson.tsx:263:16)
+    at renderQuizContent (lesson.tsx:263:16)
+    at renderQuizContent (lesson.tsx:263:16)
+    at renderQuizContent (lesson.tsx:263:16)
+    at renderQuizContent (lesson.tsx:263:16)
+    at renderQuizContent (lesson.tsx:263:16)
+    at renderQuizContent (lesson.tsx:263:16)
+    at renderQuizContent (lesson.tsx:263:16)Understand this error
+Console.js:61 The above error occurred in the <Lesson> component:
+
+    at Lesson (https://dcf7a83d-e622-4c7b-954d-1a885244f9fd-00-1bu2ul0vurspc.janeway.replit.dev/src/pages/lesson.tsx:40:24)
+    at Route (https://dcf7a83d-e622-4c7b-954d-1a885244f9fd-00-1bu2ul0vurspc.janeway.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/wouter.js?v=1a6d0b59:323:16)
+    at Switch (https://dcf7a83d-e622-4c7b-954d-1a885244f9fd-00-1bu2ul0vurspc.janeway.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/wouter.js?v=1a6d0b59:379:17)
+    at Router
+    at Provider (https://dcf7a83d-e622-4c7b-954d-1a885244f9fd-00-1bu2ul0vurspc.janeway.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-PLT6GTVM.js?v=1a6d0b59:38:15)
+    at TooltipProvider (https://dcf7a83d-e622-4c7b-954d-1a885244f9fd-00-1bu2ul0vurspc.janeway.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/@radix-ui_react-tooltip.js?v=1a6d0b59:2218:5)
+    at AuthProvider (https://dcf7a83d-e622-4c7b-954d-1a885244f9fd-00-1bu2ul0vurspc.janeway.replit.dev/src/hooks/use-auth.tsx:20:32)
+    at QueryClientProvider (https://dcf7a83d-e622-4c7b-954d-1a885244f9fd-00-1bu2ul0vurspc.janeway.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/@tanstack_react-query.js?v=1a6d0b59:2805:3)
+    at App
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries.
+Mt.forEach.n.<computed> @ Console.js:61Understand this error
+chunk-WERSD76P.js?v=1a6d0b59:9129 Uncaught RangeError: Maximum call stack size exceeded
+    at renderQuizContent (lesson.tsx:159:29)
+    at renderQuizContent (lesson.tsx:263:16)
+    at renderQuizContent (lesson.tsx:263:16)
+    at renderQuizContent (lesson.tsx:263:16)
+    at renderQuizContent (lesson.tsx:263:16)
+    at renderQuizContent (lesson.tsx:263:16)
+    at renderQuizContent (lesson.tsx:263:16)
+    at renderQuizContent (lesson.tsx:263:16)
+    at renderQuizContent (lesson.tsx:263:16)
+    at renderQuizContent (lesson.tsx:263:16) when i click fill the blank its returns [plugin:runtime-error-plugin] Maximum call stack size exceeded
+/home/runner/workspace/client/src/pages/lesson.tsx:160:5
+158|  
+159|    const renderQuizContent = () => {
+160|      if (!currentItem) return null;
+   |      ^
+161|  
+162|      switch (quizMode) {
+    at renderQuizContent /home/runner/workspace/client/src/pages/lesson.tsx:160:5
+    at renderQuizContent /home/runner/workspace/client/src/pages/lesson.tsx:263:16
+    at renderQuizContent /home/runner/workspace/client/src/pages/lesson.tsx:263:16
+    at renderQuizContent /home/runner/workspace/client/src/pages/lesson.tsx:263:16
+    at renderQuizContent /home/runner/workspace/client/src/pages/lesson.tsx:263:16
+    at renderQuizContent /home/runner/workspace/client/src/pages/lesson.tsx:263:16
+    at renderQuizContent /home/runner/workspace/client/src/pages/lesson.tsx:263:16
+    at renderQuizContent /home/runner/workspace/client/src/pages/lesson.tsx:263:16
+    at renderQuizContent /home/runner/workspace/client/src/pages/lesson.tsx:263:16
+    at renderQuizContent /home/runner/workspace/client/sr          
+
+and  when i click drag and drop it returns [plugin:runtime-error-plugin] Maximum call stack size exceeded
+/home/runner/workspace/client/src/pages/lesson.tsx:160:5
+158|  
+159|    const renderQuizContent = () => {
+160|      if (!currentItem) return null;
+   |      ^
+161|  
+162|      switch (quizMode) {
+    at renderQuizContent /home/runner/workspace/client/src/pages/lesson.tsx:160:5
+    at renderQuizContent /home/runner/workspace/client/src/pages/lesson.tsx:263:16
+    at renderQuizContent /home/runner/workspace/client/src/pages/lesson.tsx:263:16
+    at renderQuizContent /home/runner/workspace/client/src/pages/lesson.tsx:263:16
+    at renderQuizContent /home/runner/workspace/client/src/pages/lesson.tsx:263:16
+    at renderQuizContent /home/runner/workspace/client/src/pages/lesson.tsx:263:16
+    at renderQuizContent /home/runner/workspace/client/src/pages/lesson.tsx:263:16
+    at renderQuizContent /home/runner/workspace/client/src/pages/lesson.tsx:263:16
+    at renderQuizContent /home/runner/workspace/client/src/pages/lesson.tsx:263:16
+    at renderQuizContent /home/runner/workspace/client/s  
+
+
+also all questions are the same 学習 1, 学習 2 etc and ascending which is weird so fix it because its the same for all languages its weird fix it, i already have like 1400 json apparently check if somethings wrong cause i didn't make it AI did. each 1400 json must have 100 items each. do not mix the languages together, dont name all of them the same way use indicator, kana1.json for lesson 1 kana category, n5lesson1.json for lesson 1 n5 in jp. n4lesson1.json. heres a guide serbocroatian use "sr" equivalent to Serbian but sr is short, for Korean use kr, Russian use rs, german us gr, Chinese use ch, and sp for Spanish.  ADD A SHUFFLE LOGIC, and they can do all modes mixed by clicking all of it, they can unclick them but atleast one is required. also add a view skip list feature button it opens an overlay it shows a list of items they skipped they can unskip those, when you skip an item it doesn't appear anymore in next quizzes unless you unskip them because it assumes you already mastered them. theres also a starred feature button, it opens an overlay and it shows a list of all 100 items they can star any and how many, then theres a starred only toggle at the top and when they toggle on that they only get items they starred in the quizzes unstarred items aren't included.
+
+also about the logic, each lesson/json has 100 items right, the user gets taught 25 items before break, once they finished 25, it stops and tells them a summary "how many words they learned, how many items they got correct, how many they skipped, got incorrect. then theres a button "continue" "restart"(to restart previous 25 items, skipped cards not added unless they unskip it) or "review" to review the stuff they got incorrect. INCORRECT AND OK ITEMS GET SHOWN MORE TO HELP THE USER MORE
+
+
+REMEMBER: LESSON NUMBER MUST MATCH ITS JSON. DO NOT MIX LANGUAGES JAPANESE LESSONS SHOULDNT GO TO OTHER LANGUAGES, KOREAN LESSONS SHOULDNT GO TO OTHER LANGUAGE, CHINESE LESSONS SHOULDNT GO TO OTHER LANGUAGES ETC APPLY THAT LOGIC TO OTHER LANGUAGES NEVER MIX THEM UP. NOW WORK WITH ALL THE JSON.

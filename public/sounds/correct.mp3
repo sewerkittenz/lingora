@@ -1,0 +1,3 @@
+# Sound effect placeholders
+# These files will be replaced with actual audio files in production
+# For now, the JavaScript will handle the missing files gracefully

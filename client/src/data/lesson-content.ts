@@ -34,40 +34,95 @@ export const loadLessonContent = async (languageCode: string, lessonId: number):
 
     const folderName = folderMap[languageCode] || languageCode;
     
-    // Import lesson data dynamically
-    const lessonData = await import(`./lessons/${folderName}/lesson-${lessonId}.json`);
+    // Import lesson data dynamically with proper path formatting
+    const formattedLessonId = lessonId.toString().padStart(3, '0');
+    let lessonData;
+    
+    try {
+      // Try the main lesson file format first
+      lessonData = await import(`./lessons/${folderName}/lesson-${formattedLessonId}.json`);
+    } catch (error) {
+      try {
+        // Try alternative format for some languages  
+        lessonData = await import(`./lessons/${folderName}/${formattedLessonId}.json`);
+      } catch (secondError) {
+        try {
+          // Try without zero padding
+          lessonData = await import(`./lessons/${folderName}/lesson-${lessonId}.json`);
+        } catch (thirdError) {
+          console.error(`Failed to load lesson ${lessonId} for ${languageCode}:`, thirdError);
+          throw new Error(`Lesson ${lessonId} not found for language ${languageCode}`);
+        }
+      }
+    }
     
     // Convert lesson data to quiz items
     const items: QuizItem[] = [];
     
     if (lessonData.items) {
       lessonData.items.forEach((item: any, index: number) => {
-        // Vocabulary items
-        if (item.word && item.translation) {
+        // Handle different item formats based on language
+        let question = '';
+        let answer = '';
+        let translation = '';
+        let pronunciation = '';
+        
+        // Japanese format
+        if (item.character && item.romanji) {
+          question = `What is the reading of "${item.character}"?`;
+          answer = item.romanji;
+          translation = item.meaning || '';
+          pronunciation = item.romanji;
+        }
+        // Chinese format  
+        else if (item.word && item.pinyin && item.english) {
+          question = `What does "${item.word}" mean?`;
+          answer = item.english;
+          translation = item.english;
+          pronunciation = item.pinyin;
+        }
+        // Korean format
+        else if (item.word && item.romanization && item.english) {
+          question = `What does "${item.word}" mean?`;
+          answer = item.english;
+          translation = item.english;
+          pronunciation = item.romanization;
+        }
+        // General format
+        else if (item.word && (item.translation || item.english)) {
+          question = `What does "${item.word}" mean?`;
+          answer = item.translation || item.english;
+          translation = item.translation || item.english;
+          pronunciation = item.pronunciation || item.reading || item.romanization || item.pinyin || '';
+        }
+        
+        if (question && answer) {
           items.push({
             id: `${lessonId}-vocab-${index}`,
             type: 'vocab',
-            question: `What does "${item.word}" mean?`,
-            answer: item.translation,
-            options: generateMultipleChoiceOptions(item.translation, 'vocab', languageCode),
-            translation: item.translation,
-            pronunciation: item.pronunciation || item.reading,
+            question,
+            answer,
+            options: generateMultipleChoiceOptions(answer, 'vocab', languageCode),
+            translation,
+            pronunciation,
             example: item.example,
             difficulty: item.difficulty || 1
           });
 
-          // Reverse translation
-          items.push({
-            id: `${lessonId}-vocab-reverse-${index}`,
-            type: 'vocab',
-            question: `How do you say "${item.translation}" in ${getLanguageName(languageCode)}?`,
-            answer: item.word,
-            options: generateMultipleChoiceOptions(item.word, 'word', languageCode),
-            translation: item.translation,
-            pronunciation: item.pronunciation || item.reading,
-            example: item.example,
-            difficulty: item.difficulty || 1
-          });
+          // Reverse translation (except for character recognition)
+          if (!item.character) {
+            items.push({
+              id: `${lessonId}-vocab-reverse-${index}`,
+              type: 'vocab',
+              question: `How do you say "${answer}" in ${getLanguageName(languageCode)}?`,
+              answer: item.word,
+              options: generateMultipleChoiceOptions(item.word, 'word', languageCode),
+              translation,
+              pronunciation,
+              example: item.example,
+              difficulty: item.difficulty || 1
+            });
+          }
         }
 
         // Grammar items
