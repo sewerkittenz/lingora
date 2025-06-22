@@ -11,799 +11,1699 @@
       "pronunciation": "privet",
       "english": "hello",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"привет\" mean?",
+      "answer": "hello",
+      "translation": "hello",
+      "options": [
+        "hello",
+        "thank you (variant 2)",
+        "excuse me (variant 3)",
+        "goodbye (variant 4)"
+      ]
     },
     {
       "id": "ru-125-002",
-      "word": "спасибо 2",
+      "word": "спасибо",
       "pronunciation": "spasibo",
-      "english": "thank you (variant 2)",
+      "english": "thank you",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"спасибо\" mean?",
+      "answer": "thank you",
+      "translation": "thank you",
+      "options": [
+        "thank you",
+        "hello",
+        "excuse me (variant 3)",
+        "goodbye (variant 4)"
+      ]
     },
     {
       "id": "ru-125-003",
-      "word": "извините 3",
+      "word": "извините",
       "pronunciation": "izvinite",
-      "english": "excuse me (variant 3)",
+      "english": "excuse me",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"извините\" mean?",
+      "answer": "excuse me",
+      "translation": "excuse me",
+      "options": [
+        "hello",
+        "thank you",
+        "goodbye (variant 4)",
+        "excuse me"
+      ]
     },
     {
       "id": "ru-125-004",
-      "word": "до свидания 4",
+      "word": "до свидания",
       "pronunciation": "do svidaniya",
-      "english": "goodbye (variant 4)",
+      "english": "goodbye",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"до свидания\" mean?",
+      "answer": "goodbye",
+      "translation": "goodbye",
+      "options": [
+        "excuse me",
+        "thank you",
+        "hello",
+        "goodbye"
+      ]
     },
     {
       "id": "ru-125-005",
-      "word": "изучать 5",
+      "word": "изучать",
       "pronunciation": "izuchat",
-      "english": "to study (variant 5)",
+      "english": "to study",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"изучать\" mean?",
+      "answer": "to study",
+      "translation": "to study",
+      "options": [
+        "hello",
+        "excuse me",
+        "thank you",
+        "to study"
+      ]
     },
     {
       "id": "ru-125-006",
-      "word": "привет 6",
+      "word": "привет",
       "pronunciation": "privet",
-      "english": "hello (variant 6)",
+      "english": "hello",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"привет\" mean?",
+      "answer": "hello",
+      "translation": "hello",
+      "options": [
+        "hello",
+        "goodbye",
+        "thank you",
+        "excuse me"
+      ]
     },
     {
       "id": "ru-125-007",
-      "word": "спасибо 7",
+      "word": "спасибо",
       "pronunciation": "spasibo",
-      "english": "thank you (variant 7)",
+      "english": "thank you",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"спасибо\" mean?",
+      "answer": "thank you",
+      "translation": "thank you",
+      "options": [
+        "thank you",
+        "hello",
+        "goodbye",
+        "excuse me"
+      ]
     },
     {
       "id": "ru-125-008",
-      "word": "извините 8",
+      "word": "извините",
       "pronunciation": "izvinite",
-      "english": "excuse me (variant 8)",
+      "english": "excuse me",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"извините\" mean?",
+      "answer": "excuse me",
+      "translation": "excuse me",
+      "options": [
+        "thank you",
+        "excuse me",
+        "goodbye",
+        "hello"
+      ]
     },
     {
       "id": "ru-125-009",
-      "word": "до свидания 9",
+      "word": "до свидания",
       "pronunciation": "do svidaniya",
-      "english": "goodbye (variant 9)",
+      "english": "goodbye",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"до свидания\" mean?",
+      "answer": "goodbye",
+      "translation": "goodbye",
+      "options": [
+        "excuse me",
+        "thank you",
+        "hello",
+        "goodbye"
+      ]
     },
     {
       "id": "ru-125-010",
-      "word": "изучать 10",
+      "word": "изучать",
       "pronunciation": "izuchat",
-      "english": "to study (variant 10)",
+      "english": "to study",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"изучать\" mean?",
+      "answer": "to study",
+      "translation": "to study",
+      "options": [
+        "to study",
+        "hello",
+        "excuse me",
+        "thank you"
+      ]
     },
     {
       "id": "ru-125-011",
-      "word": "привет 11",
+      "word": "привет",
       "pronunciation": "privet",
-      "english": "hello (variant 11)",
+      "english": "hello",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"привет\" mean?",
+      "answer": "hello",
+      "translation": "hello",
+      "options": [
+        "goodbye",
+        "excuse me",
+        "thank you",
+        "hello"
+      ]
     },
     {
       "id": "ru-125-012",
-      "word": "спасибо 12",
+      "word": "спасибо",
       "pronunciation": "spasibo",
-      "english": "thank you (variant 12)",
+      "english": "thank you",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"спасибо\" mean?",
+      "answer": "thank you",
+      "translation": "thank you",
+      "options": [
+        "goodbye",
+        "excuse me",
+        "hello",
+        "thank you"
+      ]
     },
     {
       "id": "ru-125-013",
-      "word": "извините 13",
+      "word": "извините",
       "pronunciation": "izvinite",
-      "english": "excuse me (variant 13)",
+      "english": "excuse me",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"извините\" mean?",
+      "answer": "excuse me",
+      "translation": "excuse me",
+      "options": [
+        "hello",
+        "thank you",
+        "goodbye",
+        "excuse me"
+      ]
     },
     {
       "id": "ru-125-014",
-      "word": "до свидания 14",
+      "word": "до свидания",
       "pronunciation": "do svidaniya",
-      "english": "goodbye (variant 14)",
+      "english": "goodbye",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"до свидания\" mean?",
+      "answer": "goodbye",
+      "translation": "goodbye",
+      "options": [
+        "thank you",
+        "hello",
+        "goodbye",
+        "excuse me"
+      ]
     },
     {
       "id": "ru-125-015",
-      "word": "изучать 15",
+      "word": "изучать",
       "pronunciation": "izuchat",
-      "english": "to study (variant 15)",
+      "english": "to study",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"изучать\" mean?",
+      "answer": "to study",
+      "translation": "to study",
+      "options": [
+        "to study",
+        "hello",
+        "excuse me",
+        "thank you"
+      ]
     },
     {
       "id": "ru-125-016",
-      "word": "привет 16",
+      "word": "привет",
       "pronunciation": "privet",
-      "english": "hello (variant 16)",
+      "english": "hello",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"привет\" mean?",
+      "answer": "hello",
+      "translation": "hello",
+      "options": [
+        "hello",
+        "thank you",
+        "goodbye",
+        "excuse me"
+      ]
     },
     {
       "id": "ru-125-017",
-      "word": "спасибо 17",
+      "word": "спасибо",
       "pronunciation": "spasibo",
-      "english": "thank you (variant 17)",
+      "english": "thank you",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"спасибо\" mean?",
+      "answer": "thank you",
+      "translation": "thank you",
+      "options": [
+        "goodbye",
+        "excuse me",
+        "hello",
+        "thank you"
+      ]
     },
     {
       "id": "ru-125-018",
-      "word": "извините 18",
+      "word": "извините",
       "pronunciation": "izvinite",
-      "english": "excuse me (variant 18)",
+      "english": "excuse me",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"извините\" mean?",
+      "answer": "excuse me",
+      "translation": "excuse me",
+      "options": [
+        "thank you",
+        "hello",
+        "excuse me",
+        "goodbye"
+      ]
     },
     {
       "id": "ru-125-019",
-      "word": "до свидания 19",
+      "word": "до свидания",
       "pronunciation": "do svidaniya",
-      "english": "goodbye (variant 19)",
+      "english": "goodbye",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"до свидания\" mean?",
+      "answer": "goodbye",
+      "translation": "goodbye",
+      "options": [
+        "goodbye",
+        "hello",
+        "thank you",
+        "excuse me"
+      ]
     },
     {
       "id": "ru-125-020",
-      "word": "изучать 20",
+      "word": "изучать",
       "pronunciation": "izuchat",
-      "english": "to study (variant 20)",
+      "english": "to study",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"изучать\" mean?",
+      "answer": "to study",
+      "translation": "to study",
+      "options": [
+        "to study",
+        "hello",
+        "thank you",
+        "excuse me"
+      ]
     },
     {
       "id": "ru-125-021",
-      "word": "привет 21",
+      "word": "привет",
       "pronunciation": "privet",
-      "english": "hello (variant 21)",
+      "english": "hello",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"привет\" mean?",
+      "answer": "hello",
+      "translation": "hello",
+      "options": [
+        "excuse me",
+        "goodbye",
+        "hello",
+        "thank you"
+      ]
     },
     {
       "id": "ru-125-022",
-      "word": "спасибо 22",
+      "word": "спасибо",
       "pronunciation": "spasibo",
-      "english": "thank you (variant 22)",
+      "english": "thank you",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"спасибо\" mean?",
+      "answer": "thank you",
+      "translation": "thank you",
+      "options": [
+        "hello",
+        "goodbye",
+        "thank you",
+        "excuse me"
+      ]
     },
     {
       "id": "ru-125-023",
-      "word": "извините 23",
+      "word": "извините",
       "pronunciation": "izvinite",
-      "english": "excuse me (variant 23)",
+      "english": "excuse me",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"извините\" mean?",
+      "answer": "excuse me",
+      "translation": "excuse me",
+      "options": [
+        "excuse me",
+        "thank you",
+        "hello",
+        "goodbye"
+      ]
     },
     {
       "id": "ru-125-024",
-      "word": "до свидания 24",
+      "word": "до свидания",
       "pronunciation": "do svidaniya",
-      "english": "goodbye (variant 24)",
+      "english": "goodbye",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"до свидания\" mean?",
+      "answer": "goodbye",
+      "translation": "goodbye",
+      "options": [
+        "goodbye",
+        "excuse me",
+        "hello",
+        "thank you"
+      ]
     },
     {
       "id": "ru-125-025",
-      "word": "изучать 25",
+      "word": "изучать",
       "pronunciation": "izuchat",
-      "english": "to study (variant 25)",
+      "english": "to study",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"изучать\" mean?",
+      "answer": "to study",
+      "translation": "to study",
+      "options": [
+        "to study",
+        "hello",
+        "thank you",
+        "excuse me"
+      ]
     },
     {
       "id": "ru-125-026",
-      "word": "привет 26",
+      "word": "привет",
       "pronunciation": "privet",
-      "english": "hello (variant 26)",
+      "english": "hello",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"привет\" mean?",
+      "answer": "hello",
+      "translation": "hello",
+      "options": [
+        "goodbye",
+        "excuse me",
+        "thank you",
+        "hello"
+      ]
     },
     {
       "id": "ru-125-027",
-      "word": "спасибо 27",
+      "word": "спасибо",
       "pronunciation": "spasibo",
-      "english": "thank you (variant 27)",
+      "english": "thank you",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"спасибо\" mean?",
+      "answer": "thank you",
+      "translation": "thank you",
+      "options": [
+        "thank you",
+        "goodbye",
+        "hello",
+        "excuse me"
+      ]
     },
     {
       "id": "ru-125-028",
-      "word": "извините 28",
+      "word": "извините",
       "pronunciation": "izvinite",
-      "english": "excuse me (variant 28)",
+      "english": "excuse me",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"извините\" mean?",
+      "answer": "excuse me",
+      "translation": "excuse me",
+      "options": [
+        "excuse me",
+        "goodbye",
+        "hello",
+        "thank you"
+      ]
     },
     {
       "id": "ru-125-029",
-      "word": "до свидания 29",
+      "word": "до свидания",
       "pronunciation": "do svidaniya",
-      "english": "goodbye (variant 29)",
+      "english": "goodbye",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"до свидания\" mean?",
+      "answer": "goodbye",
+      "translation": "goodbye",
+      "options": [
+        "goodbye",
+        "hello",
+        "excuse me",
+        "thank you"
+      ]
     },
     {
       "id": "ru-125-030",
-      "word": "изучать 30",
+      "word": "изучать",
       "pronunciation": "izuchat",
-      "english": "to study (variant 30)",
+      "english": "to study",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"изучать\" mean?",
+      "answer": "to study",
+      "translation": "to study",
+      "options": [
+        "to study",
+        "excuse me",
+        "hello",
+        "thank you"
+      ]
     },
     {
       "id": "ru-125-031",
-      "word": "привет 31",
+      "word": "привет",
       "pronunciation": "privet",
-      "english": "hello (variant 31)",
+      "english": "hello",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"привет\" mean?",
+      "answer": "hello",
+      "translation": "hello",
+      "options": [
+        "thank you",
+        "goodbye",
+        "hello",
+        "excuse me"
+      ]
     },
     {
       "id": "ru-125-032",
-      "word": "спасибо 32",
+      "word": "спасибо",
       "pronunciation": "spasibo",
-      "english": "thank you (variant 32)",
+      "english": "thank you",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"спасибо\" mean?",
+      "answer": "thank you",
+      "translation": "thank you",
+      "options": [
+        "hello",
+        "excuse me",
+        "thank you",
+        "goodbye"
+      ]
     },
     {
       "id": "ru-125-033",
-      "word": "извините 33",
+      "word": "извините",
       "pronunciation": "izvinite",
-      "english": "excuse me (variant 33)",
+      "english": "excuse me",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"извините\" mean?",
+      "answer": "excuse me",
+      "translation": "excuse me",
+      "options": [
+        "excuse me",
+        "hello",
+        "thank you",
+        "goodbye"
+      ]
     },
     {
       "id": "ru-125-034",
-      "word": "до свидания 34",
+      "word": "до свидания",
       "pronunciation": "do svidaniya",
-      "english": "goodbye (variant 34)",
+      "english": "goodbye",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"до свидания\" mean?",
+      "answer": "goodbye",
+      "translation": "goodbye",
+      "options": [
+        "excuse me",
+        "thank you",
+        "hello",
+        "goodbye"
+      ]
     },
     {
       "id": "ru-125-035",
-      "word": "изучать 35",
+      "word": "изучать",
       "pronunciation": "izuchat",
-      "english": "to study (variant 35)",
+      "english": "to study",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"изучать\" mean?",
+      "answer": "to study",
+      "translation": "to study",
+      "options": [
+        "thank you",
+        "hello",
+        "to study",
+        "excuse me"
+      ]
     },
     {
       "id": "ru-125-036",
-      "word": "привет 36",
+      "word": "привет",
       "pronunciation": "privet",
-      "english": "hello (variant 36)",
+      "english": "hello",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"привет\" mean?",
+      "answer": "hello",
+      "translation": "hello",
+      "options": [
+        "excuse me",
+        "hello",
+        "thank you",
+        "goodbye"
+      ]
     },
     {
       "id": "ru-125-037",
-      "word": "спасибо 37",
+      "word": "спасибо",
       "pronunciation": "spasibo",
-      "english": "thank you (variant 37)",
+      "english": "thank you",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"спасибо\" mean?",
+      "answer": "thank you",
+      "translation": "thank you",
+      "options": [
+        "thank you",
+        "hello",
+        "excuse me",
+        "goodbye"
+      ]
     },
     {
       "id": "ru-125-038",
-      "word": "извините 38",
+      "word": "извините",
       "pronunciation": "izvinite",
-      "english": "excuse me (variant 38)",
+      "english": "excuse me",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"извините\" mean?",
+      "answer": "excuse me",
+      "translation": "excuse me",
+      "options": [
+        "goodbye",
+        "thank you",
+        "hello",
+        "excuse me"
+      ]
     },
     {
       "id": "ru-125-039",
-      "word": "до свидания 39",
+      "word": "до свидания",
       "pronunciation": "do svidaniya",
-      "english": "goodbye (variant 39)",
+      "english": "goodbye",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"до свидания\" mean?",
+      "answer": "goodbye",
+      "translation": "goodbye",
+      "options": [
+        "goodbye",
+        "hello",
+        "thank you",
+        "excuse me"
+      ]
     },
     {
       "id": "ru-125-040",
-      "word": "изучать 40",
+      "word": "изучать",
       "pronunciation": "izuchat",
-      "english": "to study (variant 40)",
+      "english": "to study",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"изучать\" mean?",
+      "answer": "to study",
+      "translation": "to study",
+      "options": [
+        "to study",
+        "hello",
+        "thank you",
+        "excuse me"
+      ]
     },
     {
       "id": "ru-125-041",
-      "word": "привет 41",
+      "word": "привет",
       "pronunciation": "privet",
-      "english": "hello (variant 41)",
+      "english": "hello",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"привет\" mean?",
+      "answer": "hello",
+      "translation": "hello",
+      "options": [
+        "hello",
+        "thank you",
+        "goodbye",
+        "excuse me"
+      ]
     },
     {
       "id": "ru-125-042",
-      "word": "спасибо 42",
+      "word": "спасибо",
       "pronunciation": "spasibo",
-      "english": "thank you (variant 42)",
+      "english": "thank you",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"спасибо\" mean?",
+      "answer": "thank you",
+      "translation": "thank you",
+      "options": [
+        "excuse me",
+        "hello",
+        "thank you",
+        "goodbye"
+      ]
     },
     {
       "id": "ru-125-043",
-      "word": "извините 43",
+      "word": "извините",
       "pronunciation": "izvinite",
-      "english": "excuse me (variant 43)",
+      "english": "excuse me",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"извините\" mean?",
+      "answer": "excuse me",
+      "translation": "excuse me",
+      "options": [
+        "thank you",
+        "hello",
+        "goodbye",
+        "excuse me"
+      ]
     },
     {
       "id": "ru-125-044",
-      "word": "до свидания 44",
+      "word": "до свидания",
       "pronunciation": "do svidaniya",
-      "english": "goodbye (variant 44)",
+      "english": "goodbye",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"до свидания\" mean?",
+      "answer": "goodbye",
+      "translation": "goodbye",
+      "options": [
+        "excuse me",
+        "goodbye",
+        "hello",
+        "thank you"
+      ]
     },
     {
       "id": "ru-125-045",
-      "word": "изучать 45",
+      "word": "изучать",
       "pronunciation": "izuchat",
-      "english": "to study (variant 45)",
+      "english": "to study",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"изучать\" mean?",
+      "answer": "to study",
+      "translation": "to study",
+      "options": [
+        "excuse me",
+        "thank you",
+        "hello",
+        "to study"
+      ]
     },
     {
       "id": "ru-125-046",
-      "word": "привет 46",
+      "word": "привет",
       "pronunciation": "privet",
-      "english": "hello (variant 46)",
+      "english": "hello",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"привет\" mean?",
+      "answer": "hello",
+      "translation": "hello",
+      "options": [
+        "hello",
+        "thank you",
+        "excuse me",
+        "goodbye"
+      ]
     },
     {
       "id": "ru-125-047",
-      "word": "спасибо 47",
+      "word": "спасибо",
       "pronunciation": "spasibo",
-      "english": "thank you (variant 47)",
+      "english": "thank you",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"спасибо\" mean?",
+      "answer": "thank you",
+      "translation": "thank you",
+      "options": [
+        "thank you",
+        "hello",
+        "excuse me",
+        "goodbye"
+      ]
     },
     {
       "id": "ru-125-048",
-      "word": "извините 48",
+      "word": "извините",
       "pronunciation": "izvinite",
-      "english": "excuse me (variant 48)",
+      "english": "excuse me",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"извините\" mean?",
+      "answer": "excuse me",
+      "translation": "excuse me",
+      "options": [
+        "goodbye",
+        "thank you",
+        "hello",
+        "excuse me"
+      ]
     },
     {
       "id": "ru-125-049",
-      "word": "до свидания 49",
+      "word": "до свидания",
       "pronunciation": "do svidaniya",
-      "english": "goodbye (variant 49)",
+      "english": "goodbye",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"до свидания\" mean?",
+      "answer": "goodbye",
+      "translation": "goodbye",
+      "options": [
+        "excuse me",
+        "thank you",
+        "hello",
+        "goodbye"
+      ]
     },
     {
       "id": "ru-125-050",
-      "word": "изучать 50",
+      "word": "изучать",
       "pronunciation": "izuchat",
-      "english": "to study (variant 50)",
+      "english": "to study",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"изучать\" mean?",
+      "answer": "to study",
+      "translation": "to study",
+      "options": [
+        "to study",
+        "hello",
+        "thank you",
+        "excuse me"
+      ]
     },
     {
       "id": "ru-125-051",
-      "word": "привет 51",
+      "word": "привет",
       "pronunciation": "privet",
-      "english": "hello (variant 51)",
+      "english": "hello",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"привет\" mean?",
+      "answer": "hello",
+      "translation": "hello",
+      "options": [
+        "thank you",
+        "goodbye",
+        "hello",
+        "excuse me"
+      ]
     },
     {
       "id": "ru-125-052",
-      "word": "спасибо 52",
+      "word": "спасибо",
       "pronunciation": "spasibo",
-      "english": "thank you (variant 52)",
+      "english": "thank you",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"спасибо\" mean?",
+      "answer": "thank you",
+      "translation": "thank you",
+      "options": [
+        "excuse me",
+        "goodbye",
+        "hello",
+        "thank you"
+      ]
     },
     {
       "id": "ru-125-053",
-      "word": "извините 53",
+      "word": "извините",
       "pronunciation": "izvinite",
-      "english": "excuse me (variant 53)",
+      "english": "excuse me",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"извините\" mean?",
+      "answer": "excuse me",
+      "translation": "excuse me",
+      "options": [
+        "excuse me",
+        "hello",
+        "thank you",
+        "goodbye"
+      ]
     },
     {
       "id": "ru-125-054",
-      "word": "до свидания 54",
+      "word": "до свидания",
       "pronunciation": "do svidaniya",
-      "english": "goodbye (variant 54)",
+      "english": "goodbye",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"до свидания\" mean?",
+      "answer": "goodbye",
+      "translation": "goodbye",
+      "options": [
+        "thank you",
+        "hello",
+        "excuse me",
+        "goodbye"
+      ]
     },
     {
       "id": "ru-125-055",
-      "word": "изучать 55",
+      "word": "изучать",
       "pronunciation": "izuchat",
-      "english": "to study (variant 55)",
+      "english": "to study",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"изучать\" mean?",
+      "answer": "to study",
+      "translation": "to study",
+      "options": [
+        "hello",
+        "excuse me",
+        "to study",
+        "thank you"
+      ]
     },
     {
       "id": "ru-125-056",
-      "word": "привет 56",
+      "word": "привет",
       "pronunciation": "privet",
-      "english": "hello (variant 56)",
+      "english": "hello",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"привет\" mean?",
+      "answer": "hello",
+      "translation": "hello",
+      "options": [
+        "goodbye",
+        "excuse me",
+        "thank you",
+        "hello"
+      ]
     },
     {
       "id": "ru-125-057",
-      "word": "спасибо 57",
+      "word": "спасибо",
       "pronunciation": "spasibo",
-      "english": "thank you (variant 57)",
+      "english": "thank you",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"спасибо\" mean?",
+      "answer": "thank you",
+      "translation": "thank you",
+      "options": [
+        "thank you",
+        "hello",
+        "excuse me",
+        "goodbye"
+      ]
     },
     {
       "id": "ru-125-058",
-      "word": "извините 58",
+      "word": "извините",
       "pronunciation": "izvinite",
-      "english": "excuse me (variant 58)",
+      "english": "excuse me",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"извините\" mean?",
+      "answer": "excuse me",
+      "translation": "excuse me",
+      "options": [
+        "hello",
+        "goodbye",
+        "thank you",
+        "excuse me"
+      ]
     },
     {
       "id": "ru-125-059",
-      "word": "до свидания 59",
+      "word": "до свидания",
       "pronunciation": "do svidaniya",
-      "english": "goodbye (variant 59)",
+      "english": "goodbye",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"до свидания\" mean?",
+      "answer": "goodbye",
+      "translation": "goodbye",
+      "options": [
+        "excuse me",
+        "thank you",
+        "hello",
+        "goodbye"
+      ]
     },
     {
       "id": "ru-125-060",
-      "word": "изучать 60",
+      "word": "изучать",
       "pronunciation": "izuchat",
-      "english": "to study (variant 60)",
+      "english": "to study",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"изучать\" mean?",
+      "answer": "to study",
+      "translation": "to study",
+      "options": [
+        "excuse me",
+        "thank you",
+        "hello",
+        "to study"
+      ]
     },
     {
       "id": "ru-125-061",
-      "word": "привет 61",
+      "word": "привет",
       "pronunciation": "privet",
-      "english": "hello (variant 61)",
+      "english": "hello",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"привет\" mean?",
+      "answer": "hello",
+      "translation": "hello",
+      "options": [
+        "hello",
+        "excuse me",
+        "thank you",
+        "goodbye"
+      ]
     },
     {
       "id": "ru-125-062",
-      "word": "спасибо 62",
+      "word": "спасибо",
       "pronunciation": "spasibo",
-      "english": "thank you (variant 62)",
+      "english": "thank you",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"спасибо\" mean?",
+      "answer": "thank you",
+      "translation": "thank you",
+      "options": [
+        "thank you",
+        "excuse me",
+        "hello",
+        "goodbye"
+      ]
     },
     {
       "id": "ru-125-063",
-      "word": "извините 63",
+      "word": "извините",
       "pronunciation": "izvinite",
-      "english": "excuse me (variant 63)",
+      "english": "excuse me",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"извините\" mean?",
+      "answer": "excuse me",
+      "translation": "excuse me",
+      "options": [
+        "excuse me",
+        "hello",
+        "thank you",
+        "goodbye"
+      ]
     },
     {
       "id": "ru-125-064",
-      "word": "до свидания 64",
+      "word": "до свидания",
       "pronunciation": "do svidaniya",
-      "english": "goodbye (variant 64)",
+      "english": "goodbye",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"до свидания\" mean?",
+      "answer": "goodbye",
+      "translation": "goodbye",
+      "options": [
+        "goodbye",
+        "hello",
+        "excuse me",
+        "thank you"
+      ]
     },
     {
       "id": "ru-125-065",
-      "word": "изучать 65",
+      "word": "изучать",
       "pronunciation": "izuchat",
-      "english": "to study (variant 65)",
+      "english": "to study",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"изучать\" mean?",
+      "answer": "to study",
+      "translation": "to study",
+      "options": [
+        "excuse me",
+        "thank you",
+        "hello",
+        "to study"
+      ]
     },
     {
       "id": "ru-125-066",
-      "word": "привет 66",
+      "word": "привет",
       "pronunciation": "privet",
-      "english": "hello (variant 66)",
+      "english": "hello",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"привет\" mean?",
+      "answer": "hello",
+      "translation": "hello",
+      "options": [
+        "thank you",
+        "hello",
+        "goodbye",
+        "excuse me"
+      ]
     },
     {
       "id": "ru-125-067",
-      "word": "спасибо 67",
+      "word": "спасибо",
       "pronunciation": "spasibo",
-      "english": "thank you (variant 67)",
+      "english": "thank you",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"спасибо\" mean?",
+      "answer": "thank you",
+      "translation": "thank you",
+      "options": [
+        "thank you",
+        "hello",
+        "goodbye",
+        "excuse me"
+      ]
     },
     {
       "id": "ru-125-068",
-      "word": "извините 68",
+      "word": "извините",
       "pronunciation": "izvinite",
-      "english": "excuse me (variant 68)",
+      "english": "excuse me",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"извините\" mean?",
+      "answer": "excuse me",
+      "translation": "excuse me",
+      "options": [
+        "thank you",
+        "goodbye",
+        "hello",
+        "excuse me"
+      ]
     },
     {
       "id": "ru-125-069",
-      "word": "до свидания 69",
+      "word": "до свидания",
       "pronunciation": "do svidaniya",
-      "english": "goodbye (variant 69)",
+      "english": "goodbye",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"до свидания\" mean?",
+      "answer": "goodbye",
+      "translation": "goodbye",
+      "options": [
+        "thank you",
+        "hello",
+        "goodbye",
+        "excuse me"
+      ]
     },
     {
       "id": "ru-125-070",
-      "word": "изучать 70",
+      "word": "изучать",
       "pronunciation": "izuchat",
-      "english": "to study (variant 70)",
+      "english": "to study",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"изучать\" mean?",
+      "answer": "to study",
+      "translation": "to study",
+      "options": [
+        "thank you",
+        "hello",
+        "to study",
+        "excuse me"
+      ]
     },
     {
       "id": "ru-125-071",
-      "word": "привет 71",
+      "word": "привет",
       "pronunciation": "privet",
-      "english": "hello (variant 71)",
+      "english": "hello",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"привет\" mean?",
+      "answer": "hello",
+      "translation": "hello",
+      "options": [
+        "goodbye",
+        "excuse me",
+        "thank you",
+        "hello"
+      ]
     },
     {
       "id": "ru-125-072",
-      "word": "спасибо 72",
+      "word": "спасибо",
       "pronunciation": "spasibo",
-      "english": "thank you (variant 72)",
+      "english": "thank you",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"спасибо\" mean?",
+      "answer": "thank you",
+      "translation": "thank you",
+      "options": [
+        "thank you",
+        "hello",
+        "excuse me",
+        "goodbye"
+      ]
     },
     {
       "id": "ru-125-073",
-      "word": "извините 73",
+      "word": "извините",
       "pronunciation": "izvinite",
-      "english": "excuse me (variant 73)",
+      "english": "excuse me",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"извините\" mean?",
+      "answer": "excuse me",
+      "translation": "excuse me",
+      "options": [
+        "thank you",
+        "goodbye",
+        "hello",
+        "excuse me"
+      ]
     },
     {
       "id": "ru-125-074",
-      "word": "до свидания 74",
+      "word": "до свидания",
       "pronunciation": "do svidaniya",
-      "english": "goodbye (variant 74)",
+      "english": "goodbye",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"до свидания\" mean?",
+      "answer": "goodbye",
+      "translation": "goodbye",
+      "options": [
+        "thank you",
+        "hello",
+        "excuse me",
+        "goodbye"
+      ]
     },
     {
       "id": "ru-125-075",
-      "word": "изучать 75",
+      "word": "изучать",
       "pronunciation": "izuchat",
-      "english": "to study (variant 75)",
+      "english": "to study",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"изучать\" mean?",
+      "answer": "to study",
+      "translation": "to study",
+      "options": [
+        "to study",
+        "excuse me",
+        "hello",
+        "thank you"
+      ]
     },
     {
       "id": "ru-125-076",
-      "word": "привет 76",
+      "word": "привет",
       "pronunciation": "privet",
-      "english": "hello (variant 76)",
+      "english": "hello",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"привет\" mean?",
+      "answer": "hello",
+      "translation": "hello",
+      "options": [
+        "hello",
+        "thank you",
+        "excuse me",
+        "goodbye"
+      ]
     },
     {
       "id": "ru-125-077",
-      "word": "спасибо 77",
+      "word": "спасибо",
       "pronunciation": "spasibo",
-      "english": "thank you (variant 77)",
+      "english": "thank you",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"спасибо\" mean?",
+      "answer": "thank you",
+      "translation": "thank you",
+      "options": [
+        "goodbye",
+        "excuse me",
+        "hello",
+        "thank you"
+      ]
     },
     {
       "id": "ru-125-078",
-      "word": "извините 78",
+      "word": "извините",
       "pronunciation": "izvinite",
-      "english": "excuse me (variant 78)",
+      "english": "excuse me",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"извините\" mean?",
+      "answer": "excuse me",
+      "translation": "excuse me",
+      "options": [
+        "goodbye",
+        "thank you",
+        "hello",
+        "excuse me"
+      ]
     },
     {
       "id": "ru-125-079",
-      "word": "до свидания 79",
+      "word": "до свидания",
       "pronunciation": "do svidaniya",
-      "english": "goodbye (variant 79)",
+      "english": "goodbye",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"до свидания\" mean?",
+      "answer": "goodbye",
+      "translation": "goodbye",
+      "options": [
+        "excuse me",
+        "goodbye",
+        "hello",
+        "thank you"
+      ]
     },
     {
       "id": "ru-125-080",
-      "word": "изучать 80",
+      "word": "изучать",
       "pronunciation": "izuchat",
-      "english": "to study (variant 80)",
+      "english": "to study",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"изучать\" mean?",
+      "answer": "to study",
+      "translation": "to study",
+      "options": [
+        "excuse me",
+        "thank you",
+        "hello",
+        "to study"
+      ]
     },
     {
       "id": "ru-125-081",
-      "word": "привет 81",
+      "word": "привет",
       "pronunciation": "privet",
-      "english": "hello (variant 81)",
+      "english": "hello",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"привет\" mean?",
+      "answer": "hello",
+      "translation": "hello",
+      "options": [
+        "thank you",
+        "goodbye",
+        "hello",
+        "excuse me"
+      ]
     },
     {
       "id": "ru-125-082",
-      "word": "спасибо 82",
+      "word": "спасибо",
       "pronunciation": "spasibo",
-      "english": "thank you (variant 82)",
+      "english": "thank you",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"спасибо\" mean?",
+      "answer": "thank you",
+      "translation": "thank you",
+      "options": [
+        "excuse me",
+        "hello",
+        "thank you",
+        "goodbye"
+      ]
     },
     {
       "id": "ru-125-083",
-      "word": "извините 83",
+      "word": "извините",
       "pronunciation": "izvinite",
-      "english": "excuse me (variant 83)",
+      "english": "excuse me",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"извините\" mean?",
+      "answer": "excuse me",
+      "translation": "excuse me",
+      "options": [
+        "excuse me",
+        "hello",
+        "thank you",
+        "goodbye"
+      ]
     },
     {
       "id": "ru-125-084",
-      "word": "до свидания 84",
+      "word": "до свидания",
       "pronunciation": "do svidaniya",
-      "english": "goodbye (variant 84)",
+      "english": "goodbye",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"до свидания\" mean?",
+      "answer": "goodbye",
+      "translation": "goodbye",
+      "options": [
+        "goodbye",
+        "excuse me",
+        "hello",
+        "thank you"
+      ]
     },
     {
       "id": "ru-125-085",
-      "word": "изучать 85",
+      "word": "изучать",
       "pronunciation": "izuchat",
-      "english": "to study (variant 85)",
+      "english": "to study",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"изучать\" mean?",
+      "answer": "to study",
+      "translation": "to study",
+      "options": [
+        "to study",
+        "hello",
+        "thank you",
+        "excuse me"
+      ]
     },
     {
       "id": "ru-125-086",
-      "word": "привет 86",
+      "word": "привет",
       "pronunciation": "privet",
-      "english": "hello (variant 86)",
+      "english": "hello",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"привет\" mean?",
+      "answer": "hello",
+      "translation": "hello",
+      "options": [
+        "thank you",
+        "goodbye",
+        "excuse me",
+        "hello"
+      ]
     },
     {
       "id": "ru-125-087",
-      "word": "спасибо 87",
+      "word": "спасибо",
       "pronunciation": "spasibo",
-      "english": "thank you (variant 87)",
+      "english": "thank you",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"спасибо\" mean?",
+      "answer": "thank you",
+      "translation": "thank you",
+      "options": [
+        "goodbye",
+        "thank you",
+        "hello",
+        "excuse me"
+      ]
     },
     {
       "id": "ru-125-088",
-      "word": "извините 88",
+      "word": "извините",
       "pronunciation": "izvinite",
-      "english": "excuse me (variant 88)",
+      "english": "excuse me",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"извините\" mean?",
+      "answer": "excuse me",
+      "translation": "excuse me",
+      "options": [
+        "goodbye",
+        "thank you",
+        "hello",
+        "excuse me"
+      ]
     },
     {
       "id": "ru-125-089",
-      "word": "до свидания 89",
+      "word": "до свидания",
       "pronunciation": "do svidaniya",
-      "english": "goodbye (variant 89)",
+      "english": "goodbye",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"до свидания\" mean?",
+      "answer": "goodbye",
+      "translation": "goodbye",
+      "options": [
+        "goodbye",
+        "hello",
+        "thank you",
+        "excuse me"
+      ]
     },
     {
       "id": "ru-125-090",
-      "word": "изучать 90",
+      "word": "изучать",
       "pronunciation": "izuchat",
-      "english": "to study (variant 90)",
+      "english": "to study",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"изучать\" mean?",
+      "answer": "to study",
+      "translation": "to study",
+      "options": [
+        "excuse me",
+        "thank you",
+        "hello",
+        "to study"
+      ]
     },
     {
       "id": "ru-125-091",
-      "word": "привет 91",
+      "word": "привет",
       "pronunciation": "privet",
-      "english": "hello (variant 91)",
+      "english": "hello",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"привет\" mean?",
+      "answer": "hello",
+      "translation": "hello",
+      "options": [
+        "goodbye",
+        "excuse me",
+        "thank you",
+        "hello"
+      ]
     },
     {
       "id": "ru-125-092",
-      "word": "спасибо 92",
+      "word": "спасибо",
       "pronunciation": "spasibo",
-      "english": "thank you (variant 92)",
+      "english": "thank you",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"спасибо\" mean?",
+      "answer": "thank you",
+      "translation": "thank you",
+      "options": [
+        "thank you",
+        "goodbye",
+        "hello",
+        "excuse me"
+      ]
     },
     {
       "id": "ru-125-093",
-      "word": "извините 93",
+      "word": "извините",
       "pronunciation": "izvinite",
-      "english": "excuse me (variant 93)",
+      "english": "excuse me",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"извините\" mean?",
+      "answer": "excuse me",
+      "translation": "excuse me",
+      "options": [
+        "excuse me",
+        "hello",
+        "thank you",
+        "goodbye"
+      ]
     },
     {
       "id": "ru-125-094",
-      "word": "до свидания 94",
+      "word": "до свидания",
       "pronunciation": "do svidaniya",
-      "english": "goodbye (variant 94)",
+      "english": "goodbye",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"до свидания\" mean?",
+      "answer": "goodbye",
+      "translation": "goodbye",
+      "options": [
+        "excuse me",
+        "thank you",
+        "hello",
+        "goodbye"
+      ]
     },
     {
       "id": "ru-125-095",
-      "word": "изучать 95",
+      "word": "изучать",
       "pronunciation": "izuchat",
-      "english": "to study (variant 95)",
+      "english": "to study",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"изучать\" mean?",
+      "answer": "to study",
+      "translation": "to study",
+      "options": [
+        "hello",
+        "thank you",
+        "to study",
+        "excuse me"
+      ]
     },
     {
       "id": "ru-125-096",
-      "word": "привет 96",
+      "word": "привет",
       "pronunciation": "privet",
-      "english": "hello (variant 96)",
+      "english": "hello",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"привет\" mean?",
+      "answer": "hello",
+      "translation": "hello",
+      "options": [
+        "hello",
+        "thank you",
+        "excuse me",
+        "goodbye"
+      ]
     },
     {
       "id": "ru-125-097",
-      "word": "спасибо 97",
+      "word": "спасибо",
       "pronunciation": "spasibo",
-      "english": "thank you (variant 97)",
+      "english": "thank you",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"спасибо\" mean?",
+      "answer": "thank you",
+      "translation": "thank you",
+      "options": [
+        "excuse me",
+        "goodbye",
+        "hello",
+        "thank you"
+      ]
     },
     {
       "id": "ru-125-098",
-      "word": "извините 98",
+      "word": "извините",
       "pronunciation": "izvinite",
-      "english": "excuse me (variant 98)",
+      "english": "excuse me",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"извините\" mean?",
+      "answer": "excuse me",
+      "translation": "excuse me",
+      "options": [
+        "thank you",
+        "hello",
+        "goodbye",
+        "excuse me"
+      ]
     },
     {
       "id": "ru-125-099",
-      "word": "до свидания 99",
+      "word": "до свидания",
       "pronunciation": "do svidaniya",
-      "english": "goodbye (variant 99)",
+      "english": "goodbye",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"до свидания\" mean?",
+      "answer": "goodbye",
+      "translation": "goodbye",
+      "options": [
+        "thank you",
+        "excuse me",
+        "goodbye",
+        "hello"
+      ]
     },
     {
       "id": "ru-125-100",
-      "word": "изучать 100",
+      "word": "изучать",
       "pronunciation": "izuchat",
-      "english": "to study (variant 100)",
+      "english": "to study",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"изучать\" mean?",
+      "answer": "to study",
+      "translation": "to study",
+      "options": [
+        "excuse me",
+        "thank you",
+        "hello",
+        "to study"
+      ]
     }
   ]
 }

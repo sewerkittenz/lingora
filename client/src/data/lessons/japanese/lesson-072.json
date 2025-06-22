@@ -11,799 +11,1699 @@
       "romanji": "konnichiwa",
       "english": "hello",
       "type": "vocabulary",
-      "difficulty": 2
+      "difficulty": 2,
+      "question": "What does \"こんにちは\" mean?",
+      "answer": "hello",
+      "translation": "hello",
+      "options": [
+        "thank you (variant 2)",
+        "hello",
+        "excuse me (variant 3)",
+        "yes (variant 4)"
+      ]
     },
     {
       "id": "ja-072-002",
-      "word": "ありがとう 2",
+      "word": "ありがとう",
       "romanji": "arigatou2",
-      "english": "thank you (variant 2)",
+      "english": "thank you",
       "type": "vocabulary",
-      "difficulty": 2
+      "difficulty": 2,
+      "question": "What does \"ありがとう\" mean?",
+      "answer": "thank you",
+      "translation": "thank you",
+      "options": [
+        "thank you",
+        "excuse me (variant 3)",
+        "yes (variant 4)",
+        "hello"
+      ]
     },
     {
       "id": "ja-072-003",
-      "word": "すみません 3",
+      "word": "すみません",
       "romanji": "sumimasen3",
-      "english": "excuse me (variant 3)",
+      "english": "excuse me",
       "type": "vocabulary",
-      "difficulty": 2
+      "difficulty": 2,
+      "question": "What does \"すみません\" mean?",
+      "answer": "excuse me",
+      "translation": "excuse me",
+      "options": [
+        "thank you",
+        "hello",
+        "excuse me",
+        "yes (variant 4)"
+      ]
     },
     {
       "id": "ja-072-004",
-      "word": "はい 4",
+      "word": "はい",
       "romanji": "hai4",
-      "english": "yes (variant 4)",
+      "english": "yes",
       "type": "vocabulary",
-      "difficulty": 2
+      "difficulty": 2,
+      "question": "What does \"はい\" mean?",
+      "answer": "yes",
+      "translation": "yes",
+      "options": [
+        "thank you",
+        "yes",
+        "hello",
+        "excuse me"
+      ]
     },
     {
       "id": "ja-072-005",
-      "word": "いいえ 5",
+      "word": "いいえ",
       "romanji": "iie5",
-      "english": "no (variant 5)",
+      "english": "no",
       "type": "vocabulary",
-      "difficulty": 2
+      "difficulty": 2,
+      "question": "What does \"いいえ\" mean?",
+      "answer": "no",
+      "translation": "no",
+      "options": [
+        "no",
+        "hello",
+        "excuse me",
+        "thank you"
+      ]
     },
     {
       "id": "ja-072-006",
-      "word": "こんにちは 6",
+      "word": "こんにちは",
       "romanji": "konnichiwa6",
-      "english": "hello (variant 6)",
+      "english": "hello",
       "type": "vocabulary",
-      "difficulty": 2
+      "difficulty": 2,
+      "question": "What does \"こんにちは\" mean?",
+      "answer": "hello",
+      "translation": "hello",
+      "options": [
+        "yes",
+        "thank you",
+        "excuse me",
+        "hello"
+      ]
     },
     {
       "id": "ja-072-007",
-      "word": "ありがとう 7",
+      "word": "ありがとう",
       "romanji": "arigatou7",
-      "english": "thank you (variant 7)",
+      "english": "thank you",
       "type": "vocabulary",
-      "difficulty": 2
+      "difficulty": 2,
+      "question": "What does \"ありがとう\" mean?",
+      "answer": "thank you",
+      "translation": "thank you",
+      "options": [
+        "yes",
+        "excuse me",
+        "hello",
+        "thank you"
+      ]
     },
     {
       "id": "ja-072-008",
-      "word": "すみません 8",
+      "word": "すみません",
       "romanji": "sumimasen8",
-      "english": "excuse me (variant 8)",
+      "english": "excuse me",
       "type": "vocabulary",
-      "difficulty": 2
+      "difficulty": 2,
+      "question": "What does \"すみません\" mean?",
+      "answer": "excuse me",
+      "translation": "excuse me",
+      "options": [
+        "hello",
+        "yes",
+        "excuse me",
+        "thank you"
+      ]
     },
     {
       "id": "ja-072-009",
-      "word": "はい 9",
+      "word": "はい",
       "romanji": "hai9",
-      "english": "yes (variant 9)",
+      "english": "yes",
       "type": "vocabulary",
-      "difficulty": 2
+      "difficulty": 2,
+      "question": "What does \"はい\" mean?",
+      "answer": "yes",
+      "translation": "yes",
+      "options": [
+        "yes",
+        "hello",
+        "thank you",
+        "excuse me"
+      ]
     },
     {
       "id": "ja-072-010",
-      "word": "いいえ 10",
+      "word": "いいえ",
       "romanji": "iie10",
-      "english": "no (variant 10)",
+      "english": "no",
       "type": "vocabulary",
-      "difficulty": 2
+      "difficulty": 2,
+      "question": "What does \"いいえ\" mean?",
+      "answer": "no",
+      "translation": "no",
+      "options": [
+        "no",
+        "hello",
+        "thank you",
+        "excuse me"
+      ]
     },
     {
       "id": "ja-072-011",
-      "word": "こんにちは 11",
+      "word": "こんにちは",
       "romanji": "konnichiwa11",
-      "english": "hello (variant 11)",
+      "english": "hello",
       "type": "vocabulary",
-      "difficulty": 2
+      "difficulty": 2,
+      "question": "What does \"こんにちは\" mean?",
+      "answer": "hello",
+      "translation": "hello",
+      "options": [
+        "excuse me",
+        "yes",
+        "thank you",
+        "hello"
+      ]
     },
     {
       "id": "ja-072-012",
-      "word": "ありがとう 12",
+      "word": "ありがとう",
       "romanji": "arigatou12",
-      "english": "thank you (variant 12)",
+      "english": "thank you",
       "type": "vocabulary",
-      "difficulty": 2
+      "difficulty": 2,
+      "question": "What does \"ありがとう\" mean?",
+      "answer": "thank you",
+      "translation": "thank you",
+      "options": [
+        "yes",
+        "excuse me",
+        "hello",
+        "thank you"
+      ]
     },
     {
       "id": "ja-072-013",
-      "word": "すみません 13",
+      "word": "すみません",
       "romanji": "sumimasen13",
-      "english": "excuse me (variant 13)",
+      "english": "excuse me",
       "type": "vocabulary",
-      "difficulty": 2
+      "difficulty": 2,
+      "question": "What does \"すみません\" mean?",
+      "answer": "excuse me",
+      "translation": "excuse me",
+      "options": [
+        "excuse me",
+        "hello",
+        "thank you",
+        "yes"
+      ]
     },
     {
       "id": "ja-072-014",
-      "word": "はい 14",
+      "word": "はい",
       "romanji": "hai14",
-      "english": "yes (variant 14)",
+      "english": "yes",
       "type": "vocabulary",
-      "difficulty": 2
+      "difficulty": 2,
+      "question": "What does \"はい\" mean?",
+      "answer": "yes",
+      "translation": "yes",
+      "options": [
+        "thank you",
+        "excuse me",
+        "hello",
+        "yes"
+      ]
     },
     {
       "id": "ja-072-015",
-      "word": "いいえ 15",
+      "word": "いいえ",
       "romanji": "iie15",
-      "english": "no (variant 15)",
+      "english": "no",
       "type": "vocabulary",
-      "difficulty": 2
+      "difficulty": 2,
+      "question": "What does \"いいえ\" mean?",
+      "answer": "no",
+      "translation": "no",
+      "options": [
+        "excuse me",
+        "no",
+        "hello",
+        "thank you"
+      ]
     },
     {
       "id": "ja-072-016",
-      "word": "こんにちは 16",
+      "word": "こんにちは",
       "romanji": "konnichiwa16",
-      "english": "hello (variant 16)",
+      "english": "hello",
       "type": "vocabulary",
-      "difficulty": 2
+      "difficulty": 2,
+      "question": "What does \"こんにちは\" mean?",
+      "answer": "hello",
+      "translation": "hello",
+      "options": [
+        "hello",
+        "yes",
+        "thank you",
+        "excuse me"
+      ]
     },
     {
       "id": "ja-072-017",
-      "word": "ありがとう 17",
+      "word": "ありがとう",
       "romanji": "arigatou17",
-      "english": "thank you (variant 17)",
+      "english": "thank you",
       "type": "vocabulary",
-      "difficulty": 2
+      "difficulty": 2,
+      "question": "What does \"ありがとう\" mean?",
+      "answer": "thank you",
+      "translation": "thank you",
+      "options": [
+        "thank you",
+        "hello",
+        "yes",
+        "excuse me"
+      ]
     },
     {
       "id": "ja-072-018",
-      "word": "すみません 18",
+      "word": "すみません",
       "romanji": "sumimasen18",
-      "english": "excuse me (variant 18)",
+      "english": "excuse me",
       "type": "vocabulary",
-      "difficulty": 2
+      "difficulty": 2,
+      "question": "What does \"すみません\" mean?",
+      "answer": "excuse me",
+      "translation": "excuse me",
+      "options": [
+        "thank you",
+        "hello",
+        "excuse me",
+        "yes"
+      ]
     },
     {
       "id": "ja-072-019",
-      "word": "はい 19",
+      "word": "はい",
       "romanji": "hai19",
-      "english": "yes (variant 19)",
+      "english": "yes",
       "type": "vocabulary",
-      "difficulty": 2
+      "difficulty": 2,
+      "question": "What does \"はい\" mean?",
+      "answer": "yes",
+      "translation": "yes",
+      "options": [
+        "excuse me",
+        "hello",
+        "yes",
+        "thank you"
+      ]
     },
     {
       "id": "ja-072-020",
-      "word": "いいえ 20",
+      "word": "いいえ",
       "romanji": "iie20",
-      "english": "no (variant 20)",
+      "english": "no",
       "type": "vocabulary",
-      "difficulty": 2
+      "difficulty": 2,
+      "question": "What does \"いいえ\" mean?",
+      "answer": "no",
+      "translation": "no",
+      "options": [
+        "no",
+        "excuse me",
+        "thank you",
+        "hello"
+      ]
     },
     {
       "id": "ja-072-021",
-      "word": "こんにちは 21",
+      "word": "こんにちは",
       "romanji": "konnichiwa21",
-      "english": "hello (variant 21)",
+      "english": "hello",
       "type": "vocabulary",
-      "difficulty": 2
+      "difficulty": 2,
+      "question": "What does \"こんにちは\" mean?",
+      "answer": "hello",
+      "translation": "hello",
+      "options": [
+        "hello",
+        "thank you",
+        "yes",
+        "excuse me"
+      ]
     },
     {
       "id": "ja-072-022",
-      "word": "ありがとう 22",
+      "word": "ありがとう",
       "romanji": "arigatou22",
-      "english": "thank you (variant 22)",
+      "english": "thank you",
       "type": "vocabulary",
-      "difficulty": 2
+      "difficulty": 2,
+      "question": "What does \"ありがとう\" mean?",
+      "answer": "thank you",
+      "translation": "thank you",
+      "options": [
+        "yes",
+        "excuse me",
+        "hello",
+        "thank you"
+      ]
     },
     {
       "id": "ja-072-023",
-      "word": "すみません 23",
+      "word": "すみません",
       "romanji": "sumimasen23",
-      "english": "excuse me (variant 23)",
+      "english": "excuse me",
       "type": "vocabulary",
-      "difficulty": 2
+      "difficulty": 2,
+      "question": "What does \"すみません\" mean?",
+      "answer": "excuse me",
+      "translation": "excuse me",
+      "options": [
+        "excuse me",
+        "thank you",
+        "hello",
+        "yes"
+      ]
     },
     {
       "id": "ja-072-024",
-      "word": "はい 24",
+      "word": "はい",
       "romanji": "hai24",
-      "english": "yes (variant 24)",
+      "english": "yes",
       "type": "vocabulary",
-      "difficulty": 2
+      "difficulty": 2,
+      "question": "What does \"はい\" mean?",
+      "answer": "yes",
+      "translation": "yes",
+      "options": [
+        "yes",
+        "excuse me",
+        "hello",
+        "thank you"
+      ]
     },
     {
       "id": "ja-072-025",
-      "word": "いいえ 25",
+      "word": "いいえ",
       "romanji": "iie25",
-      "english": "no (variant 25)",
+      "english": "no",
       "type": "vocabulary",
-      "difficulty": 2
+      "difficulty": 2,
+      "question": "What does \"いいえ\" mean?",
+      "answer": "no",
+      "translation": "no",
+      "options": [
+        "hello",
+        "excuse me",
+        "no",
+        "thank you"
+      ]
     },
     {
       "id": "ja-072-026",
-      "word": "こんにちは 26",
+      "word": "こんにちは",
       "romanji": "konnichiwa26",
-      "english": "hello (variant 26)",
+      "english": "hello",
       "type": "vocabulary",
-      "difficulty": 2
+      "difficulty": 2,
+      "question": "What does \"こんにちは\" mean?",
+      "answer": "hello",
+      "translation": "hello",
+      "options": [
+        "thank you",
+        "yes",
+        "hello",
+        "excuse me"
+      ]
     },
     {
       "id": "ja-072-027",
-      "word": "ありがとう 27",
+      "word": "ありがとう",
       "romanji": "arigatou27",
-      "english": "thank you (variant 27)",
+      "english": "thank you",
       "type": "vocabulary",
-      "difficulty": 2
+      "difficulty": 2,
+      "question": "What does \"ありがとう\" mean?",
+      "answer": "thank you",
+      "translation": "thank you",
+      "options": [
+        "hello",
+        "excuse me",
+        "yes",
+        "thank you"
+      ]
     },
     {
       "id": "ja-072-028",
-      "word": "すみません 28",
+      "word": "すみません",
       "romanji": "sumimasen28",
-      "english": "excuse me (variant 28)",
+      "english": "excuse me",
       "type": "vocabulary",
-      "difficulty": 2
+      "difficulty": 2,
+      "question": "What does \"すみません\" mean?",
+      "answer": "excuse me",
+      "translation": "excuse me",
+      "options": [
+        "excuse me",
+        "thank you",
+        "hello",
+        "yes"
+      ]
     },
     {
       "id": "ja-072-029",
-      "word": "はい 29",
+      "word": "はい",
       "romanji": "hai29",
-      "english": "yes (variant 29)",
+      "english": "yes",
       "type": "vocabulary",
-      "difficulty": 2
+      "difficulty": 2,
+      "question": "What does \"はい\" mean?",
+      "answer": "yes",
+      "translation": "yes",
+      "options": [
+        "thank you",
+        "excuse me",
+        "yes",
+        "hello"
+      ]
     },
     {
       "id": "ja-072-030",
-      "word": "いいえ 30",
+      "word": "いいえ",
       "romanji": "iie30",
-      "english": "no (variant 30)",
+      "english": "no",
       "type": "vocabulary",
-      "difficulty": 2
+      "difficulty": 2,
+      "question": "What does \"いいえ\" mean?",
+      "answer": "no",
+      "translation": "no",
+      "options": [
+        "thank you",
+        "no",
+        "hello",
+        "excuse me"
+      ]
     },
     {
       "id": "ja-072-031",
-      "word": "こんにちは 31",
+      "word": "こんにちは",
       "romanji": "konnichiwa31",
-      "english": "hello (variant 31)",
+      "english": "hello",
       "type": "vocabulary",
-      "difficulty": 2
+      "difficulty": 2,
+      "question": "What does \"こんにちは\" mean?",
+      "answer": "hello",
+      "translation": "hello",
+      "options": [
+        "hello",
+        "thank you",
+        "excuse me",
+        "yes"
+      ]
     },
     {
       "id": "ja-072-032",
-      "word": "ありがとう 32",
+      "word": "ありがとう",
       "romanji": "arigatou32",
-      "english": "thank you (variant 32)",
+      "english": "thank you",
       "type": "vocabulary",
-      "difficulty": 2
+      "difficulty": 2,
+      "question": "What does \"ありがとう\" mean?",
+      "answer": "thank you",
+      "translation": "thank you",
+      "options": [
+        "thank you",
+        "yes",
+        "hello",
+        "excuse me"
+      ]
     },
     {
       "id": "ja-072-033",
-      "word": "すみません 33",
+      "word": "すみません",
       "romanji": "sumimasen33",
-      "english": "excuse me (variant 33)",
+      "english": "excuse me",
       "type": "vocabulary",
-      "difficulty": 2
+      "difficulty": 2,
+      "question": "What does \"すみません\" mean?",
+      "answer": "excuse me",
+      "translation": "excuse me",
+      "options": [
+        "thank you",
+        "hello",
+        "yes",
+        "excuse me"
+      ]
     },
     {
       "id": "ja-072-034",
-      "word": "はい 34",
+      "word": "はい",
       "romanji": "hai34",
-      "english": "yes (variant 34)",
+      "english": "yes",
       "type": "vocabulary",
-      "difficulty": 2
+      "difficulty": 2,
+      "question": "What does \"はい\" mean?",
+      "answer": "yes",
+      "translation": "yes",
+      "options": [
+        "yes",
+        "hello",
+        "excuse me",
+        "thank you"
+      ]
     },
     {
       "id": "ja-072-035",
-      "word": "いいえ 35",
+      "word": "いいえ",
       "romanji": "iie35",
-      "english": "no (variant 35)",
+      "english": "no",
       "type": "vocabulary",
-      "difficulty": 2
+      "difficulty": 2,
+      "question": "What does \"いいえ\" mean?",
+      "answer": "no",
+      "translation": "no",
+      "options": [
+        "no",
+        "excuse me",
+        "thank you",
+        "hello"
+      ]
     },
     {
       "id": "ja-072-036",
-      "word": "こんにちは 36",
+      "word": "こんにちは",
       "romanji": "konnichiwa36",
-      "english": "hello (variant 36)",
+      "english": "hello",
       "type": "vocabulary",
-      "difficulty": 2
+      "difficulty": 2,
+      "question": "What does \"こんにちは\" mean?",
+      "answer": "hello",
+      "translation": "hello",
+      "options": [
+        "yes",
+        "thank you",
+        "hello",
+        "excuse me"
+      ]
     },
     {
       "id": "ja-072-037",
-      "word": "ありがとう 37",
+      "word": "ありがとう",
       "romanji": "arigatou37",
-      "english": "thank you (variant 37)",
+      "english": "thank you",
       "type": "vocabulary",
-      "difficulty": 2
+      "difficulty": 2,
+      "question": "What does \"ありがとう\" mean?",
+      "answer": "thank you",
+      "translation": "thank you",
+      "options": [
+        "thank you",
+        "hello",
+        "excuse me",
+        "yes"
+      ]
     },
     {
       "id": "ja-072-038",
-      "word": "すみません 38",
+      "word": "すみません",
       "romanji": "sumimasen38",
-      "english": "excuse me (variant 38)",
+      "english": "excuse me",
       "type": "vocabulary",
-      "difficulty": 2
+      "difficulty": 2,
+      "question": "What does \"すみません\" mean?",
+      "answer": "excuse me",
+      "translation": "excuse me",
+      "options": [
+        "excuse me",
+        "yes",
+        "hello",
+        "thank you"
+      ]
     },
     {
       "id": "ja-072-039",
-      "word": "はい 39",
+      "word": "はい",
       "romanji": "hai39",
-      "english": "yes (variant 39)",
+      "english": "yes",
       "type": "vocabulary",
-      "difficulty": 2
+      "difficulty": 2,
+      "question": "What does \"はい\" mean?",
+      "answer": "yes",
+      "translation": "yes",
+      "options": [
+        "thank you",
+        "hello",
+        "yes",
+        "excuse me"
+      ]
     },
     {
       "id": "ja-072-040",
-      "word": "いいえ 40",
+      "word": "いいえ",
       "romanji": "iie40",
-      "english": "no (variant 40)",
+      "english": "no",
       "type": "vocabulary",
-      "difficulty": 2
+      "difficulty": 2,
+      "question": "What does \"いいえ\" mean?",
+      "answer": "no",
+      "translation": "no",
+      "options": [
+        "no",
+        "hello",
+        "thank you",
+        "excuse me"
+      ]
     },
     {
       "id": "ja-072-041",
-      "word": "こんにちは 41",
+      "word": "こんにちは",
       "romanji": "konnichiwa41",
-      "english": "hello (variant 41)",
+      "english": "hello",
       "type": "vocabulary",
-      "difficulty": 2
+      "difficulty": 2,
+      "question": "What does \"こんにちは\" mean?",
+      "answer": "hello",
+      "translation": "hello",
+      "options": [
+        "hello",
+        "yes",
+        "thank you",
+        "excuse me"
+      ]
     },
     {
       "id": "ja-072-042",
-      "word": "ありがとう 42",
+      "word": "ありがとう",
       "romanji": "arigatou42",
-      "english": "thank you (variant 42)",
+      "english": "thank you",
       "type": "vocabulary",
-      "difficulty": 2
+      "difficulty": 2,
+      "question": "What does \"ありがとう\" mean?",
+      "answer": "thank you",
+      "translation": "thank you",
+      "options": [
+        "yes",
+        "hello",
+        "thank you",
+        "excuse me"
+      ]
     },
     {
       "id": "ja-072-043",
-      "word": "すみません 43",
+      "word": "すみません",
       "romanji": "sumimasen43",
-      "english": "excuse me (variant 43)",
+      "english": "excuse me",
       "type": "vocabulary",
-      "difficulty": 2
+      "difficulty": 2,
+      "question": "What does \"すみません\" mean?",
+      "answer": "excuse me",
+      "translation": "excuse me",
+      "options": [
+        "excuse me",
+        "yes",
+        "hello",
+        "thank you"
+      ]
     },
     {
       "id": "ja-072-044",
-      "word": "はい 44",
+      "word": "はい",
       "romanji": "hai44",
-      "english": "yes (variant 44)",
+      "english": "yes",
       "type": "vocabulary",
-      "difficulty": 2
+      "difficulty": 2,
+      "question": "What does \"はい\" mean?",
+      "answer": "yes",
+      "translation": "yes",
+      "options": [
+        "thank you",
+        "yes",
+        "hello",
+        "excuse me"
+      ]
     },
     {
       "id": "ja-072-045",
-      "word": "いいえ 45",
+      "word": "いいえ",
       "romanji": "iie45",
-      "english": "no (variant 45)",
+      "english": "no",
       "type": "vocabulary",
-      "difficulty": 2
+      "difficulty": 2,
+      "question": "What does \"いいえ\" mean?",
+      "answer": "no",
+      "translation": "no",
+      "options": [
+        "excuse me",
+        "hello",
+        "no",
+        "thank you"
+      ]
     },
     {
       "id": "ja-072-046",
-      "word": "こんにちは 46",
+      "word": "こんにちは",
       "romanji": "konnichiwa46",
-      "english": "hello (variant 46)",
+      "english": "hello",
       "type": "vocabulary",
-      "difficulty": 2
+      "difficulty": 2,
+      "question": "What does \"こんにちは\" mean?",
+      "answer": "hello",
+      "translation": "hello",
+      "options": [
+        "hello",
+        "thank you",
+        "excuse me",
+        "yes"
+      ]
     },
     {
       "id": "ja-072-047",
-      "word": "ありがとう 47",
+      "word": "ありがとう",
       "romanji": "arigatou47",
-      "english": "thank you (variant 47)",
+      "english": "thank you",
       "type": "vocabulary",
-      "difficulty": 2
+      "difficulty": 2,
+      "question": "What does \"ありがとう\" mean?",
+      "answer": "thank you",
+      "translation": "thank you",
+      "options": [
+        "excuse me",
+        "hello",
+        "yes",
+        "thank you"
+      ]
     },
     {
       "id": "ja-072-048",
-      "word": "すみません 48",
+      "word": "すみません",
       "romanji": "sumimasen48",
-      "english": "excuse me (variant 48)",
+      "english": "excuse me",
       "type": "vocabulary",
-      "difficulty": 2
+      "difficulty": 2,
+      "question": "What does \"すみません\" mean?",
+      "answer": "excuse me",
+      "translation": "excuse me",
+      "options": [
+        "yes",
+        "thank you",
+        "hello",
+        "excuse me"
+      ]
     },
     {
       "id": "ja-072-049",
-      "word": "はい 49",
+      "word": "はい",
       "romanji": "hai49",
-      "english": "yes (variant 49)",
+      "english": "yes",
       "type": "vocabulary",
-      "difficulty": 2
+      "difficulty": 2,
+      "question": "What does \"はい\" mean?",
+      "answer": "yes",
+      "translation": "yes",
+      "options": [
+        "excuse me",
+        "thank you",
+        "hello",
+        "yes"
+      ]
     },
     {
       "id": "ja-072-050",
-      "word": "いいえ 50",
+      "word": "いいえ",
       "romanji": "iie50",
-      "english": "no (variant 50)",
+      "english": "no",
       "type": "vocabulary",
-      "difficulty": 2
+      "difficulty": 2,
+      "question": "What does \"いいえ\" mean?",
+      "answer": "no",
+      "translation": "no",
+      "options": [
+        "no",
+        "hello",
+        "thank you",
+        "excuse me"
+      ]
     },
     {
       "id": "ja-072-051",
-      "word": "こんにちは 51",
+      "word": "こんにちは",
       "romanji": "konnichiwa51",
-      "english": "hello (variant 51)",
+      "english": "hello",
       "type": "vocabulary",
-      "difficulty": 2
+      "difficulty": 2,
+      "question": "What does \"こんにちは\" mean?",
+      "answer": "hello",
+      "translation": "hello",
+      "options": [
+        "yes",
+        "thank you",
+        "excuse me",
+        "hello"
+      ]
     },
     {
       "id": "ja-072-052",
-      "word": "ありがとう 52",
+      "word": "ありがとう",
       "romanji": "arigatou52",
-      "english": "thank you (variant 52)",
+      "english": "thank you",
       "type": "vocabulary",
-      "difficulty": 2
+      "difficulty": 2,
+      "question": "What does \"ありがとう\" mean?",
+      "answer": "thank you",
+      "translation": "thank you",
+      "options": [
+        "excuse me",
+        "yes",
+        "hello",
+        "thank you"
+      ]
     },
     {
       "id": "ja-072-053",
-      "word": "すみません 53",
+      "word": "すみません",
       "romanji": "sumimasen53",
-      "english": "excuse me (variant 53)",
+      "english": "excuse me",
       "type": "vocabulary",
-      "difficulty": 2
+      "difficulty": 2,
+      "question": "What does \"すみません\" mean?",
+      "answer": "excuse me",
+      "translation": "excuse me",
+      "options": [
+        "thank you",
+        "hello",
+        "yes",
+        "excuse me"
+      ]
     },
     {
       "id": "ja-072-054",
-      "word": "はい 54",
+      "word": "はい",
       "romanji": "hai54",
-      "english": "yes (variant 54)",
+      "english": "yes",
       "type": "vocabulary",
-      "difficulty": 2
+      "difficulty": 2,
+      "question": "What does \"はい\" mean?",
+      "answer": "yes",
+      "translation": "yes",
+      "options": [
+        "yes",
+        "hello",
+        "excuse me",
+        "thank you"
+      ]
     },
     {
       "id": "ja-072-055",
-      "word": "いいえ 55",
+      "word": "いいえ",
       "romanji": "iie55",
-      "english": "no (variant 55)",
+      "english": "no",
       "type": "vocabulary",
-      "difficulty": 2
+      "difficulty": 2,
+      "question": "What does \"いいえ\" mean?",
+      "answer": "no",
+      "translation": "no",
+      "options": [
+        "excuse me",
+        "thank you",
+        "hello",
+        "no"
+      ]
     },
     {
       "id": "ja-072-056",
-      "word": "こんにちは 56",
+      "word": "こんにちは",
       "romanji": "konnichiwa56",
-      "english": "hello (variant 56)",
+      "english": "hello",
       "type": "vocabulary",
-      "difficulty": 2
+      "difficulty": 2,
+      "question": "What does \"こんにちは\" mean?",
+      "answer": "hello",
+      "translation": "hello",
+      "options": [
+        "thank you",
+        "excuse me",
+        "yes",
+        "hello"
+      ]
     },
     {
       "id": "ja-072-057",
-      "word": "ありがとう 57",
+      "word": "ありがとう",
       "romanji": "arigatou57",
-      "english": "thank you (variant 57)",
+      "english": "thank you",
       "type": "vocabulary",
-      "difficulty": 2
+      "difficulty": 2,
+      "question": "What does \"ありがとう\" mean?",
+      "answer": "thank you",
+      "translation": "thank you",
+      "options": [
+        "thank you",
+        "hello",
+        "yes",
+        "excuse me"
+      ]
     },
     {
       "id": "ja-072-058",
-      "word": "すみません 58",
+      "word": "すみません",
       "romanji": "sumimasen58",
-      "english": "excuse me (variant 58)",
+      "english": "excuse me",
       "type": "vocabulary",
-      "difficulty": 2
+      "difficulty": 2,
+      "question": "What does \"すみません\" mean?",
+      "answer": "excuse me",
+      "translation": "excuse me",
+      "options": [
+        "yes",
+        "excuse me",
+        "hello",
+        "thank you"
+      ]
     },
     {
       "id": "ja-072-059",
-      "word": "はい 59",
+      "word": "はい",
       "romanji": "hai59",
-      "english": "yes (variant 59)",
+      "english": "yes",
       "type": "vocabulary",
-      "difficulty": 2
+      "difficulty": 2,
+      "question": "What does \"はい\" mean?",
+      "answer": "yes",
+      "translation": "yes",
+      "options": [
+        "yes",
+        "excuse me",
+        "thank you",
+        "hello"
+      ]
     },
     {
       "id": "ja-072-060",
-      "word": "いいえ 60",
+      "word": "いいえ",
       "romanji": "iie60",
-      "english": "no (variant 60)",
+      "english": "no",
       "type": "vocabulary",
-      "difficulty": 2
+      "difficulty": 2,
+      "question": "What does \"いいえ\" mean?",
+      "answer": "no",
+      "translation": "no",
+      "options": [
+        "no",
+        "hello",
+        "excuse me",
+        "thank you"
+      ]
     },
     {
       "id": "ja-072-061",
-      "word": "こんにちは 61",
+      "word": "こんにちは",
       "romanji": "konnichiwa61",
-      "english": "hello (variant 61)",
+      "english": "hello",
       "type": "vocabulary",
-      "difficulty": 2
+      "difficulty": 2,
+      "question": "What does \"こんにちは\" mean?",
+      "answer": "hello",
+      "translation": "hello",
+      "options": [
+        "excuse me",
+        "yes",
+        "hello",
+        "thank you"
+      ]
     },
     {
       "id": "ja-072-062",
-      "word": "ありがとう 62",
+      "word": "ありがとう",
       "romanji": "arigatou62",
-      "english": "thank you (variant 62)",
+      "english": "thank you",
       "type": "vocabulary",
-      "difficulty": 2
+      "difficulty": 2,
+      "question": "What does \"ありがとう\" mean?",
+      "answer": "thank you",
+      "translation": "thank you",
+      "options": [
+        "thank you",
+        "yes",
+        "excuse me",
+        "hello"
+      ]
     },
     {
       "id": "ja-072-063",
-      "word": "すみません 63",
+      "word": "すみません",
       "romanji": "sumimasen63",
-      "english": "excuse me (variant 63)",
+      "english": "excuse me",
       "type": "vocabulary",
-      "difficulty": 2
+      "difficulty": 2,
+      "question": "What does \"すみません\" mean?",
+      "answer": "excuse me",
+      "translation": "excuse me",
+      "options": [
+        "yes",
+        "thank you",
+        "hello",
+        "excuse me"
+      ]
     },
     {
       "id": "ja-072-064",
-      "word": "はい 64",
+      "word": "はい",
       "romanji": "hai64",
-      "english": "yes (variant 64)",
+      "english": "yes",
       "type": "vocabulary",
-      "difficulty": 2
+      "difficulty": 2,
+      "question": "What does \"はい\" mean?",
+      "answer": "yes",
+      "translation": "yes",
+      "options": [
+        "hello",
+        "thank you",
+        "yes",
+        "excuse me"
+      ]
     },
     {
       "id": "ja-072-065",
-      "word": "いいえ 65",
+      "word": "いいえ",
       "romanji": "iie65",
-      "english": "no (variant 65)",
+      "english": "no",
       "type": "vocabulary",
-      "difficulty": 2
+      "difficulty": 2,
+      "question": "What does \"いいえ\" mean?",
+      "answer": "no",
+      "translation": "no",
+      "options": [
+        "no",
+        "hello",
+        "excuse me",
+        "thank you"
+      ]
     },
     {
       "id": "ja-072-066",
-      "word": "こんにちは 66",
+      "word": "こんにちは",
       "romanji": "konnichiwa66",
-      "english": "hello (variant 66)",
+      "english": "hello",
       "type": "vocabulary",
-      "difficulty": 2
+      "difficulty": 2,
+      "question": "What does \"こんにちは\" mean?",
+      "answer": "hello",
+      "translation": "hello",
+      "options": [
+        "thank you",
+        "hello",
+        "yes",
+        "excuse me"
+      ]
     },
     {
       "id": "ja-072-067",
-      "word": "ありがとう 67",
+      "word": "ありがとう",
       "romanji": "arigatou67",
-      "english": "thank you (variant 67)",
+      "english": "thank you",
       "type": "vocabulary",
-      "difficulty": 2
+      "difficulty": 2,
+      "question": "What does \"ありがとう\" mean?",
+      "answer": "thank you",
+      "translation": "thank you",
+      "options": [
+        "thank you",
+        "hello",
+        "excuse me",
+        "yes"
+      ]
     },
     {
       "id": "ja-072-068",
-      "word": "すみません 68",
+      "word": "すみません",
       "romanji": "sumimasen68",
-      "english": "excuse me (variant 68)",
+      "english": "excuse me",
       "type": "vocabulary",
-      "difficulty": 2
+      "difficulty": 2,
+      "question": "What does \"すみません\" mean?",
+      "answer": "excuse me",
+      "translation": "excuse me",
+      "options": [
+        "excuse me",
+        "hello",
+        "yes",
+        "thank you"
+      ]
     },
     {
       "id": "ja-072-069",
-      "word": "はい 69",
+      "word": "はい",
       "romanji": "hai69",
-      "english": "yes (variant 69)",
+      "english": "yes",
       "type": "vocabulary",
-      "difficulty": 2
+      "difficulty": 2,
+      "question": "What does \"はい\" mean?",
+      "answer": "yes",
+      "translation": "yes",
+      "options": [
+        "yes",
+        "thank you",
+        "hello",
+        "excuse me"
+      ]
     },
     {
       "id": "ja-072-070",
-      "word": "いいえ 70",
+      "word": "いいえ",
       "romanji": "iie70",
-      "english": "no (variant 70)",
+      "english": "no",
       "type": "vocabulary",
-      "difficulty": 2
+      "difficulty": 2,
+      "question": "What does \"いいえ\" mean?",
+      "answer": "no",
+      "translation": "no",
+      "options": [
+        "excuse me",
+        "thank you",
+        "hello",
+        "no"
+      ]
     },
     {
       "id": "ja-072-071",
-      "word": "こんにちは 71",
+      "word": "こんにちは",
       "romanji": "konnichiwa71",
-      "english": "hello (variant 71)",
+      "english": "hello",
       "type": "vocabulary",
-      "difficulty": 2
+      "difficulty": 2,
+      "question": "What does \"こんにちは\" mean?",
+      "answer": "hello",
+      "translation": "hello",
+      "options": [
+        "hello",
+        "thank you",
+        "excuse me",
+        "yes"
+      ]
     },
     {
       "id": "ja-072-072",
-      "word": "ありがとう 72",
+      "word": "ありがとう",
       "romanji": "arigatou72",
-      "english": "thank you (variant 72)",
+      "english": "thank you",
       "type": "vocabulary",
-      "difficulty": 2
+      "difficulty": 2,
+      "question": "What does \"ありがとう\" mean?",
+      "answer": "thank you",
+      "translation": "thank you",
+      "options": [
+        "hello",
+        "excuse me",
+        "yes",
+        "thank you"
+      ]
     },
     {
       "id": "ja-072-073",
-      "word": "すみません 73",
+      "word": "すみません",
       "romanji": "sumimasen73",
-      "english": "excuse me (variant 73)",
+      "english": "excuse me",
       "type": "vocabulary",
-      "difficulty": 2
+      "difficulty": 2,
+      "question": "What does \"すみません\" mean?",
+      "answer": "excuse me",
+      "translation": "excuse me",
+      "options": [
+        "excuse me",
+        "hello",
+        "yes",
+        "thank you"
+      ]
     },
     {
       "id": "ja-072-074",
-      "word": "はい 74",
+      "word": "はい",
       "romanji": "hai74",
-      "english": "yes (variant 74)",
+      "english": "yes",
       "type": "vocabulary",
-      "difficulty": 2
+      "difficulty": 2,
+      "question": "What does \"はい\" mean?",
+      "answer": "yes",
+      "translation": "yes",
+      "options": [
+        "yes",
+        "hello",
+        "excuse me",
+        "thank you"
+      ]
     },
     {
       "id": "ja-072-075",
-      "word": "いいえ 75",
+      "word": "いいえ",
       "romanji": "iie75",
-      "english": "no (variant 75)",
+      "english": "no",
       "type": "vocabulary",
-      "difficulty": 2
+      "difficulty": 2,
+      "question": "What does \"いいえ\" mean?",
+      "answer": "no",
+      "translation": "no",
+      "options": [
+        "hello",
+        "excuse me",
+        "thank you",
+        "no"
+      ]
     },
     {
       "id": "ja-072-076",
-      "word": "こんにちは 76",
+      "word": "こんにちは",
       "romanji": "konnichiwa76",
-      "english": "hello (variant 76)",
+      "english": "hello",
       "type": "vocabulary",
-      "difficulty": 2
+      "difficulty": 2,
+      "question": "What does \"こんにちは\" mean?",
+      "answer": "hello",
+      "translation": "hello",
+      "options": [
+        "yes",
+        "excuse me",
+        "thank you",
+        "hello"
+      ]
     },
     {
       "id": "ja-072-077",
-      "word": "ありがとう 77",
+      "word": "ありがとう",
       "romanji": "arigatou77",
-      "english": "thank you (variant 77)",
+      "english": "thank you",
       "type": "vocabulary",
-      "difficulty": 2
+      "difficulty": 2,
+      "question": "What does \"ありがとう\" mean?",
+      "answer": "thank you",
+      "translation": "thank you",
+      "options": [
+        "yes",
+        "excuse me",
+        "hello",
+        "thank you"
+      ]
     },
     {
       "id": "ja-072-078",
-      "word": "すみません 78",
+      "word": "すみません",
       "romanji": "sumimasen78",
-      "english": "excuse me (variant 78)",
+      "english": "excuse me",
       "type": "vocabulary",
-      "difficulty": 2
+      "difficulty": 2,
+      "question": "What does \"すみません\" mean?",
+      "answer": "excuse me",
+      "translation": "excuse me",
+      "options": [
+        "excuse me",
+        "yes",
+        "thank you",
+        "hello"
+      ]
     },
     {
       "id": "ja-072-079",
-      "word": "はい 79",
+      "word": "はい",
       "romanji": "hai79",
-      "english": "yes (variant 79)",
+      "english": "yes",
       "type": "vocabulary",
-      "difficulty": 2
+      "difficulty": 2,
+      "question": "What does \"はい\" mean?",
+      "answer": "yes",
+      "translation": "yes",
+      "options": [
+        "thank you",
+        "hello",
+        "excuse me",
+        "yes"
+      ]
     },
     {
       "id": "ja-072-080",
-      "word": "いいえ 80",
+      "word": "いいえ",
       "romanji": "iie80",
-      "english": "no (variant 80)",
+      "english": "no",
       "type": "vocabulary",
-      "difficulty": 2
+      "difficulty": 2,
+      "question": "What does \"いいえ\" mean?",
+      "answer": "no",
+      "translation": "no",
+      "options": [
+        "hello",
+        "excuse me",
+        "thank you",
+        "no"
+      ]
     },
     {
       "id": "ja-072-081",
-      "word": "こんにちは 81",
+      "word": "こんにちは",
       "romanji": "konnichiwa81",
-      "english": "hello (variant 81)",
+      "english": "hello",
       "type": "vocabulary",
-      "difficulty": 2
+      "difficulty": 2,
+      "question": "What does \"こんにちは\" mean?",
+      "answer": "hello",
+      "translation": "hello",
+      "options": [
+        "thank you",
+        "yes",
+        "hello",
+        "excuse me"
+      ]
     },
     {
       "id": "ja-072-082",
-      "word": "ありがとう 82",
+      "word": "ありがとう",
       "romanji": "arigatou82",
-      "english": "thank you (variant 82)",
+      "english": "thank you",
       "type": "vocabulary",
-      "difficulty": 2
+      "difficulty": 2,
+      "question": "What does \"ありがとう\" mean?",
+      "answer": "thank you",
+      "translation": "thank you",
+      "options": [
+        "hello",
+        "excuse me",
+        "thank you",
+        "yes"
+      ]
     },
     {
       "id": "ja-072-083",
-      "word": "すみません 83",
+      "word": "すみません",
       "romanji": "sumimasen83",
-      "english": "excuse me (variant 83)",
+      "english": "excuse me",
       "type": "vocabulary",
-      "difficulty": 2
+      "difficulty": 2,
+      "question": "What does \"すみません\" mean?",
+      "answer": "excuse me",
+      "translation": "excuse me",
+      "options": [
+        "yes",
+        "thank you",
+        "hello",
+        "excuse me"
+      ]
     },
     {
       "id": "ja-072-084",
-      "word": "はい 84",
+      "word": "はい",
       "romanji": "hai84",
-      "english": "yes (variant 84)",
+      "english": "yes",
       "type": "vocabulary",
-      "difficulty": 2
+      "difficulty": 2,
+      "question": "What does \"はい\" mean?",
+      "answer": "yes",
+      "translation": "yes",
+      "options": [
+        "yes",
+        "hello",
+        "thank you",
+        "excuse me"
+      ]
     },
     {
       "id": "ja-072-085",
-      "word": "いいえ 85",
+      "word": "いいえ",
       "romanji": "iie85",
-      "english": "no (variant 85)",
+      "english": "no",
       "type": "vocabulary",
-      "difficulty": 2
+      "difficulty": 2,
+      "question": "What does \"いいえ\" mean?",
+      "answer": "no",
+      "translation": "no",
+      "options": [
+        "no",
+        "excuse me",
+        "hello",
+        "thank you"
+      ]
     },
     {
       "id": "ja-072-086",
-      "word": "こんにちは 86",
+      "word": "こんにちは",
       "romanji": "konnichiwa86",
-      "english": "hello (variant 86)",
+      "english": "hello",
       "type": "vocabulary",
-      "difficulty": 2
+      "difficulty": 2,
+      "question": "What does \"こんにちは\" mean?",
+      "answer": "hello",
+      "translation": "hello",
+      "options": [
+        "thank you",
+        "yes",
+        "hello",
+        "excuse me"
+      ]
     },
     {
       "id": "ja-072-087",
-      "word": "ありがとう 87",
+      "word": "ありがとう",
       "romanji": "arigatou87",
-      "english": "thank you (variant 87)",
+      "english": "thank you",
       "type": "vocabulary",
-      "difficulty": 2
+      "difficulty": 2,
+      "question": "What does \"ありがとう\" mean?",
+      "answer": "thank you",
+      "translation": "thank you",
+      "options": [
+        "thank you",
+        "yes",
+        "hello",
+        "excuse me"
+      ]
     },
     {
       "id": "ja-072-088",
-      "word": "すみません 88",
+      "word": "すみません",
       "romanji": "sumimasen88",
-      "english": "excuse me (variant 88)",
+      "english": "excuse me",
       "type": "vocabulary",
-      "difficulty": 2
+      "difficulty": 2,
+      "question": "What does \"すみません\" mean?",
+      "answer": "excuse me",
+      "translation": "excuse me",
+      "options": [
+        "hello",
+        "excuse me",
+        "yes",
+        "thank you"
+      ]
     },
     {
       "id": "ja-072-089",
-      "word": "はい 89",
+      "word": "はい",
       "romanji": "hai89",
-      "english": "yes (variant 89)",
+      "english": "yes",
       "type": "vocabulary",
-      "difficulty": 2
+      "difficulty": 2,
+      "question": "What does \"はい\" mean?",
+      "answer": "yes",
+      "translation": "yes",
+      "options": [
+        "yes",
+        "hello",
+        "excuse me",
+        "thank you"
+      ]
     },
     {
       "id": "ja-072-090",
-      "word": "いいえ 90",
+      "word": "いいえ",
       "romanji": "iie90",
-      "english": "no (variant 90)",
+      "english": "no",
       "type": "vocabulary",
-      "difficulty": 2
+      "difficulty": 2,
+      "question": "What does \"いいえ\" mean?",
+      "answer": "no",
+      "translation": "no",
+      "options": [
+        "no",
+        "hello",
+        "thank you",
+        "excuse me"
+      ]
     },
     {
       "id": "ja-072-091",
-      "word": "こんにちは 91",
+      "word": "こんにちは",
       "romanji": "konnichiwa91",
-      "english": "hello (variant 91)",
+      "english": "hello",
       "type": "vocabulary",
-      "difficulty": 2
+      "difficulty": 2,
+      "question": "What does \"こんにちは\" mean?",
+      "answer": "hello",
+      "translation": "hello",
+      "options": [
+        "hello",
+        "yes",
+        "excuse me",
+        "thank you"
+      ]
     },
     {
       "id": "ja-072-092",
-      "word": "ありがとう 92",
+      "word": "ありがとう",
       "romanji": "arigatou92",
-      "english": "thank you (variant 92)",
+      "english": "thank you",
       "type": "vocabulary",
-      "difficulty": 2
+      "difficulty": 2,
+      "question": "What does \"ありがとう\" mean?",
+      "answer": "thank you",
+      "translation": "thank you",
+      "options": [
+        "excuse me",
+        "hello",
+        "yes",
+        "thank you"
+      ]
     },
     {
       "id": "ja-072-093",
-      "word": "すみません 93",
+      "word": "すみません",
       "romanji": "sumimasen93",
-      "english": "excuse me (variant 93)",
+      "english": "excuse me",
       "type": "vocabulary",
-      "difficulty": 2
+      "difficulty": 2,
+      "question": "What does \"すみません\" mean?",
+      "answer": "excuse me",
+      "translation": "excuse me",
+      "options": [
+        "yes",
+        "hello",
+        "thank you",
+        "excuse me"
+      ]
     },
     {
       "id": "ja-072-094",
-      "word": "はい 94",
+      "word": "はい",
       "romanji": "hai94",
-      "english": "yes (variant 94)",
+      "english": "yes",
       "type": "vocabulary",
-      "difficulty": 2
+      "difficulty": 2,
+      "question": "What does \"はい\" mean?",
+      "answer": "yes",
+      "translation": "yes",
+      "options": [
+        "thank you",
+        "excuse me",
+        "hello",
+        "yes"
+      ]
     },
     {
       "id": "ja-072-095",
-      "word": "いいえ 95",
+      "word": "いいえ",
       "romanji": "iie95",
-      "english": "no (variant 95)",
+      "english": "no",
       "type": "vocabulary",
-      "difficulty": 2
+      "difficulty": 2,
+      "question": "What does \"いいえ\" mean?",
+      "answer": "no",
+      "translation": "no",
+      "options": [
+        "thank you",
+        "hello",
+        "no",
+        "excuse me"
+      ]
     },
     {
       "id": "ja-072-096",
-      "word": "こんにちは 96",
+      "word": "こんにちは",
       "romanji": "konnichiwa96",
-      "english": "hello (variant 96)",
+      "english": "hello",
       "type": "vocabulary",
-      "difficulty": 2
+      "difficulty": 2,
+      "question": "What does \"こんにちは\" mean?",
+      "answer": "hello",
+      "translation": "hello",
+      "options": [
+        "thank you",
+        "excuse me",
+        "yes",
+        "hello"
+      ]
     },
     {
       "id": "ja-072-097",
-      "word": "ありがとう 97",
+      "word": "ありがとう",
       "romanji": "arigatou97",
-      "english": "thank you (variant 97)",
+      "english": "thank you",
       "type": "vocabulary",
-      "difficulty": 2
+      "difficulty": 2,
+      "question": "What does \"ありがとう\" mean?",
+      "answer": "thank you",
+      "translation": "thank you",
+      "options": [
+        "thank you",
+        "hello",
+        "yes",
+        "excuse me"
+      ]
     },
     {
       "id": "ja-072-098",
-      "word": "すみません 98",
+      "word": "すみません",
       "romanji": "sumimasen98",
-      "english": "excuse me (variant 98)",
+      "english": "excuse me",
       "type": "vocabulary",
-      "difficulty": 2
+      "difficulty": 2,
+      "question": "What does \"すみません\" mean?",
+      "answer": "excuse me",
+      "translation": "excuse me",
+      "options": [
+        "yes",
+        "thank you",
+        "excuse me",
+        "hello"
+      ]
     },
     {
       "id": "ja-072-099",
-      "word": "はい 99",
+      "word": "はい",
       "romanji": "hai99",
-      "english": "yes (variant 99)",
+      "english": "yes",
       "type": "vocabulary",
-      "difficulty": 2
+      "difficulty": 2,
+      "question": "What does \"はい\" mean?",
+      "answer": "yes",
+      "translation": "yes",
+      "options": [
+        "excuse me",
+        "yes",
+        "hello",
+        "thank you"
+      ]
     },
     {
       "id": "ja-072-100",
-      "word": "いいえ 100",
+      "word": "いいえ",
       "romanji": "iie100",
-      "english": "no (variant 100)",
+      "english": "no",
       "type": "vocabulary",
-      "difficulty": 2
+      "difficulty": 2,
+      "question": "What does \"いいえ\" mean?",
+      "answer": "no",
+      "translation": "no",
+      "options": [
+        "excuse me",
+        "no",
+        "hello",
+        "thank you"
+      ]
     }
   ]
 }

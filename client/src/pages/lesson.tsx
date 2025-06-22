@@ -90,6 +90,7 @@ export default function Lesson() {
   });
   const [incorrectItems, setIncorrectItems] = useState<QuizItem[]>([]);
   const [showBatchSummary, setShowBatchSummary] = useState(false);
+  const [currentLanguageCode, setCurrentLanguageCode] = useState('ja');
 
   // Matching mode state
   const [matchingItems, setMatchingItems] = useState<MatchingItem[]>([]);
@@ -276,6 +277,7 @@ export default function Lesson() {
         // Parse lesson ID format: languageCode-lessonNumber (e.g., "ja-1" or "zh-5")
         const [languageCode, lessonNumberStr] = (lessonId || "ja-1").split('-');
         const lessonNumber = parseInt(lessonNumberStr || "1");
+        setCurrentLanguageCode(languageCode);
         
         try {
           const items = await loadLessonContent(languageCode, lessonNumber);
@@ -291,18 +293,22 @@ export default function Lesson() {
           setQuizItems(firstBatch);
           setCurrentBatchItems(firstBatch);
           
-          // Initialize coherent matching items for matching mode from current batch
-          const validItems = firstBatch.filter(item => item && item.answer);
-          const matching = validItems.slice(0, 6).map((item, index) => {
-            // Extract foreign language word from different possible sources
-            let foreignWord = "Unknown";
-            let englishWord = item.translation || item.answer || "Unknown";
+          // Initialize coherent matching items for matching mode - exactly 12 pairs
+          const validItems = firstBatch.filter(item => item && item.answer && item.translation);
+          const matching = validItems.slice(0, 12).map((item, index) => {
+            // Clean foreign word (remove numbers and variants)
+            let foreignWord = item.answer;
+            if (foreignWord.includes('(')) {
+              foreignWord = foreignWord.split('(')[0].trim();
+            }
+            if (foreignWord.match(/\d+$/)) {
+              foreignWord = foreignWord.replace(/\d+$/, '').trim();
+            }
             
-            // Try to extract the foreign word from the question
-            if (item.question?.includes('"')) {
-              foreignWord = item.question.split('"')[1] || item.answer;
-            } else {
-              foreignWord = item.answer;
+            // Clean English meaning
+            let englishWord = item.translation || "Unknown";
+            if (englishWord.includes('(')) {
+              englishWord = englishWord.split('(')[0].trim();
             }
             
             return {
@@ -312,7 +318,13 @@ export default function Lesson() {
               matched: false
             };
           });
-          setMatchingItems(matching);
+          
+          // Ensure we have exactly 12 unique pairs
+          const uniqueMatching = matching.filter((item, index, self) => 
+            index === self.findIndex((t) => t.english === item.english && t.foreign === item.foreign)
+          ).slice(0, 12);
+          
+          setMatchingItems(uniqueMatching);
           
         } catch (contentError) {
           console.warn("Using fallback content for lesson", lessonId);
@@ -523,23 +535,8 @@ export default function Lesson() {
             
             <div className="grid grid-cols-2 gap-8">
               <div className="space-y-3">
-                <h4 className="font-medium text-center">English</h4>
+                <h4 className="font-medium text-center">{getLanguageName(currentLanguageCode)}</h4>
                 {matchingItems.map((item) => (
-                  <Button
-                    key={`english-${item.id}`}
-                    variant={selectedEnglish === item.english ? "default" : "outline"}
-                    className={`w-full ${item.matched ? "opacity-50" : ""}`}
-                    onClick={() => !item.matched && handleMatchingSelection(item, 'english')}
-                    disabled={item.matched}
-                  >
-                    {item.english}
-                  </Button>
-                ))}
-              </div>
-              
-              <div className="space-y-3">
-                <h4 className="font-medium text-center">Foreign Language</h4>
-                {shuffleArray(matchingItems).map((item) => (
                   <Button
                     key={`foreign-${item.id}`}
                     variant={selectedForeign === item.foreign ? "default" : "outline"}
@@ -548,6 +545,21 @@ export default function Lesson() {
                     disabled={item.matched}
                   >
                     {item.foreign}
+                  </Button>
+                ))}
+              </div>
+              
+              <div className="space-y-3">
+                <h4 className="font-medium text-center">Meaning</h4>
+                {shuffleArray(matchingItems).map((item) => (
+                  <Button
+                    key={`english-${item.id}`}
+                    variant={selectedEnglish === item.english ? "default" : "outline"}
+                    className={`w-full ${item.matched ? "opacity-50" : ""}`}
+                    onClick={() => !item.matched && handleMatchingSelection(item, 'english')}
+                    disabled={item.matched}
+                  >
+                    {item.english}
                   </Button>
                 ))}
               </div>
@@ -564,6 +576,8 @@ export default function Lesson() {
             showWritingMode={showWritingMode}
             showRomaji={showRomaji}
             pronunciation={currentItem.pronunciation}
+            languageCode={currentLanguageCode}
+            allItems={currentBatchItems}
           />
         );
 

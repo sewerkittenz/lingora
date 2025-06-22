@@ -11,799 +11,1799 @@
       "pinyin": "nǐ hǎo",
       "english": "hello",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"你好\" mean?",
+      "answer": "hello",
+      "translation": "hello",
+      "options": [
+        "hello",
+        "thank you (variant 2)",
+        "goodbye (variant 4)",
+        "sorry (variant 3)"
+      ],
+      "pronunciation": "nǐ hǎo"
     },
     {
       "id": "zh-119-002",
-      "word": "谢谢2",
+      "word": "谢谢",
       "pinyin": "xiè xie",
-      "english": "thank you (variant 2)",
+      "english": "thank you",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"谢谢\" mean?",
+      "answer": "thank you",
+      "translation": "thank you",
+      "options": [
+        "hello",
+        "sorry (variant 3)",
+        "goodbye (variant 4)",
+        "thank you"
+      ],
+      "pronunciation": "xiè xie"
     },
     {
       "id": "zh-119-003",
-      "word": "对不起3",
+      "word": "对不起",
       "pinyin": "duì bù qǐ",
-      "english": "sorry (variant 3)",
+      "english": "sorry",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"对不起\" mean?",
+      "answer": "sorry",
+      "translation": "sorry",
+      "options": [
+        "goodbye (variant 4)",
+        "thank you",
+        "hello",
+        "sorry"
+      ],
+      "pronunciation": "duì bù qǐ"
     },
     {
       "id": "zh-119-004",
-      "word": "再见4",
+      "word": "再见",
       "pinyin": "zài jiàn",
-      "english": "goodbye (variant 4)",
+      "english": "goodbye",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"再见\" mean?",
+      "answer": "goodbye",
+      "translation": "goodbye",
+      "options": [
+        "sorry",
+        "thank you",
+        "hello",
+        "goodbye"
+      ],
+      "pronunciation": "zài jiàn"
     },
     {
       "id": "zh-119-005",
-      "word": "学习5",
+      "word": "学习",
       "pinyin": "xué xí",
-      "english": "to study (variant 5)",
+      "english": "to study",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"学习\" mean?",
+      "answer": "to study",
+      "translation": "to study",
+      "options": [
+        "to study",
+        "sorry",
+        "thank you",
+        "hello"
+      ],
+      "pronunciation": "xué xí"
     },
     {
       "id": "zh-119-006",
-      "word": "你好6",
+      "word": "你好",
       "pinyin": "nǐ hǎo",
-      "english": "hello (variant 6)",
+      "english": "hello",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"你好\" mean?",
+      "answer": "hello",
+      "translation": "hello",
+      "options": [
+        "thank you",
+        "goodbye",
+        "sorry",
+        "hello"
+      ],
+      "pronunciation": "nǐ hǎo"
     },
     {
       "id": "zh-119-007",
-      "word": "谢谢7",
+      "word": "谢谢",
       "pinyin": "xiè xie",
-      "english": "thank you (variant 7)",
+      "english": "thank you",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"谢谢\" mean?",
+      "answer": "thank you",
+      "translation": "thank you",
+      "options": [
+        "goodbye",
+        "hello",
+        "sorry",
+        "thank you"
+      ],
+      "pronunciation": "xiè xie"
     },
     {
       "id": "zh-119-008",
-      "word": "对不起8",
+      "word": "对不起",
       "pinyin": "duì bù qǐ",
-      "english": "sorry (variant 8)",
+      "english": "sorry",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"对不起\" mean?",
+      "answer": "sorry",
+      "translation": "sorry",
+      "options": [
+        "sorry",
+        "hello",
+        "thank you",
+        "goodbye"
+      ],
+      "pronunciation": "duì bù qǐ"
     },
     {
       "id": "zh-119-009",
-      "word": "再见9",
+      "word": "再见",
       "pinyin": "zài jiàn",
-      "english": "goodbye (variant 9)",
+      "english": "goodbye",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"再见\" mean?",
+      "answer": "goodbye",
+      "translation": "goodbye",
+      "options": [
+        "thank you",
+        "goodbye",
+        "hello",
+        "sorry"
+      ],
+      "pronunciation": "zài jiàn"
     },
     {
       "id": "zh-119-010",
-      "word": "学习10",
+      "word": "学习",
       "pinyin": "xué xí",
-      "english": "to study (variant 10)",
+      "english": "to study",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"学习\" mean?",
+      "answer": "to study",
+      "translation": "to study",
+      "options": [
+        "sorry",
+        "to study",
+        "thank you",
+        "hello"
+      ],
+      "pronunciation": "xué xí"
     },
     {
       "id": "zh-119-011",
-      "word": "你好11",
+      "word": "你好",
       "pinyin": "nǐ hǎo",
-      "english": "hello (variant 11)",
+      "english": "hello",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"你好\" mean?",
+      "answer": "hello",
+      "translation": "hello",
+      "options": [
+        "thank you",
+        "hello",
+        "goodbye",
+        "sorry"
+      ],
+      "pronunciation": "nǐ hǎo"
     },
     {
       "id": "zh-119-012",
-      "word": "谢谢12",
+      "word": "谢谢",
       "pinyin": "xiè xie",
-      "english": "thank you (variant 12)",
+      "english": "thank you",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"谢谢\" mean?",
+      "answer": "thank you",
+      "translation": "thank you",
+      "options": [
+        "thank you",
+        "hello",
+        "sorry",
+        "goodbye"
+      ],
+      "pronunciation": "xiè xie"
     },
     {
       "id": "zh-119-013",
-      "word": "对不起13",
+      "word": "对不起",
       "pinyin": "duì bù qǐ",
-      "english": "sorry (variant 13)",
+      "english": "sorry",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"对不起\" mean?",
+      "answer": "sorry",
+      "translation": "sorry",
+      "options": [
+        "goodbye",
+        "sorry",
+        "hello",
+        "thank you"
+      ],
+      "pronunciation": "duì bù qǐ"
     },
     {
       "id": "zh-119-014",
-      "word": "再见14",
+      "word": "再见",
       "pinyin": "zài jiàn",
-      "english": "goodbye (variant 14)",
+      "english": "goodbye",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"再见\" mean?",
+      "answer": "goodbye",
+      "translation": "goodbye",
+      "options": [
+        "goodbye",
+        "sorry",
+        "thank you",
+        "hello"
+      ],
+      "pronunciation": "zài jiàn"
     },
     {
       "id": "zh-119-015",
-      "word": "学习15",
+      "word": "学习",
       "pinyin": "xué xí",
-      "english": "to study (variant 15)",
+      "english": "to study",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"学习\" mean?",
+      "answer": "to study",
+      "translation": "to study",
+      "options": [
+        "sorry",
+        "thank you",
+        "hello",
+        "to study"
+      ],
+      "pronunciation": "xué xí"
     },
     {
       "id": "zh-119-016",
-      "word": "你好16",
+      "word": "你好",
       "pinyin": "nǐ hǎo",
-      "english": "hello (variant 16)",
+      "english": "hello",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"你好\" mean?",
+      "answer": "hello",
+      "translation": "hello",
+      "options": [
+        "hello",
+        "goodbye",
+        "thank you",
+        "sorry"
+      ],
+      "pronunciation": "nǐ hǎo"
     },
     {
       "id": "zh-119-017",
-      "word": "谢谢17",
+      "word": "谢谢",
       "pinyin": "xiè xie",
-      "english": "thank you (variant 17)",
+      "english": "thank you",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"谢谢\" mean?",
+      "answer": "thank you",
+      "translation": "thank you",
+      "options": [
+        "thank you",
+        "hello",
+        "sorry",
+        "goodbye"
+      ],
+      "pronunciation": "xiè xie"
     },
     {
       "id": "zh-119-018",
-      "word": "对不起18",
+      "word": "对不起",
       "pinyin": "duì bù qǐ",
-      "english": "sorry (variant 18)",
+      "english": "sorry",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"对不起\" mean?",
+      "answer": "sorry",
+      "translation": "sorry",
+      "options": [
+        "goodbye",
+        "thank you",
+        "hello",
+        "sorry"
+      ],
+      "pronunciation": "duì bù qǐ"
     },
     {
       "id": "zh-119-019",
-      "word": "再见19",
+      "word": "再见",
       "pinyin": "zài jiàn",
-      "english": "goodbye (variant 19)",
+      "english": "goodbye",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"再见\" mean?",
+      "answer": "goodbye",
+      "translation": "goodbye",
+      "options": [
+        "thank you",
+        "hello",
+        "goodbye",
+        "sorry"
+      ],
+      "pronunciation": "zài jiàn"
     },
     {
       "id": "zh-119-020",
-      "word": "学习20",
+      "word": "学习",
       "pinyin": "xué xí",
-      "english": "to study (variant 20)",
+      "english": "to study",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"学习\" mean?",
+      "answer": "to study",
+      "translation": "to study",
+      "options": [
+        "hello",
+        "thank you",
+        "to study",
+        "sorry"
+      ],
+      "pronunciation": "xué xí"
     },
     {
       "id": "zh-119-021",
-      "word": "你好21",
+      "word": "你好",
       "pinyin": "nǐ hǎo",
-      "english": "hello (variant 21)",
+      "english": "hello",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"你好\" mean?",
+      "answer": "hello",
+      "translation": "hello",
+      "options": [
+        "goodbye",
+        "thank you",
+        "hello",
+        "sorry"
+      ],
+      "pronunciation": "nǐ hǎo"
     },
     {
       "id": "zh-119-022",
-      "word": "谢谢22",
+      "word": "谢谢",
       "pinyin": "xiè xie",
-      "english": "thank you (variant 22)",
+      "english": "thank you",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"谢谢\" mean?",
+      "answer": "thank you",
+      "translation": "thank you",
+      "options": [
+        "goodbye",
+        "sorry",
+        "hello",
+        "thank you"
+      ],
+      "pronunciation": "xiè xie"
     },
     {
       "id": "zh-119-023",
-      "word": "对不起23",
+      "word": "对不起",
       "pinyin": "duì bù qǐ",
-      "english": "sorry (variant 23)",
+      "english": "sorry",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"对不起\" mean?",
+      "answer": "sorry",
+      "translation": "sorry",
+      "options": [
+        "sorry",
+        "hello",
+        "thank you",
+        "goodbye"
+      ],
+      "pronunciation": "duì bù qǐ"
     },
     {
       "id": "zh-119-024",
-      "word": "再见24",
+      "word": "再见",
       "pinyin": "zài jiàn",
-      "english": "goodbye (variant 24)",
+      "english": "goodbye",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"再见\" mean?",
+      "answer": "goodbye",
+      "translation": "goodbye",
+      "options": [
+        "hello",
+        "thank you",
+        "goodbye",
+        "sorry"
+      ],
+      "pronunciation": "zài jiàn"
     },
     {
       "id": "zh-119-025",
-      "word": "学习25",
+      "word": "学习",
       "pinyin": "xué xí",
-      "english": "to study (variant 25)",
+      "english": "to study",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"学习\" mean?",
+      "answer": "to study",
+      "translation": "to study",
+      "options": [
+        "sorry",
+        "thank you",
+        "to study",
+        "hello"
+      ],
+      "pronunciation": "xué xí"
     },
     {
       "id": "zh-119-026",
-      "word": "你好26",
+      "word": "你好",
       "pinyin": "nǐ hǎo",
-      "english": "hello (variant 26)",
+      "english": "hello",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"你好\" mean?",
+      "answer": "hello",
+      "translation": "hello",
+      "options": [
+        "thank you",
+        "goodbye",
+        "hello",
+        "sorry"
+      ],
+      "pronunciation": "nǐ hǎo"
     },
     {
       "id": "zh-119-027",
-      "word": "谢谢27",
+      "word": "谢谢",
       "pinyin": "xiè xie",
-      "english": "thank you (variant 27)",
+      "english": "thank you",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"谢谢\" mean?",
+      "answer": "thank you",
+      "translation": "thank you",
+      "options": [
+        "hello",
+        "thank you",
+        "sorry",
+        "goodbye"
+      ],
+      "pronunciation": "xiè xie"
     },
     {
       "id": "zh-119-028",
-      "word": "对不起28",
+      "word": "对不起",
       "pinyin": "duì bù qǐ",
-      "english": "sorry (variant 28)",
+      "english": "sorry",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"对不起\" mean?",
+      "answer": "sorry",
+      "translation": "sorry",
+      "options": [
+        "thank you",
+        "hello",
+        "sorry",
+        "goodbye"
+      ],
+      "pronunciation": "duì bù qǐ"
     },
     {
       "id": "zh-119-029",
-      "word": "再见29",
+      "word": "再见",
       "pinyin": "zài jiàn",
-      "english": "goodbye (variant 29)",
+      "english": "goodbye",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"再见\" mean?",
+      "answer": "goodbye",
+      "translation": "goodbye",
+      "options": [
+        "goodbye",
+        "hello",
+        "thank you",
+        "sorry"
+      ],
+      "pronunciation": "zài jiàn"
     },
     {
       "id": "zh-119-030",
-      "word": "学习30",
+      "word": "学习",
       "pinyin": "xué xí",
-      "english": "to study (variant 30)",
+      "english": "to study",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"学习\" mean?",
+      "answer": "to study",
+      "translation": "to study",
+      "options": [
+        "to study",
+        "hello",
+        "thank you",
+        "sorry"
+      ],
+      "pronunciation": "xué xí"
     },
     {
       "id": "zh-119-031",
-      "word": "你好31",
+      "word": "你好",
       "pinyin": "nǐ hǎo",
-      "english": "hello (variant 31)",
+      "english": "hello",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"你好\" mean?",
+      "answer": "hello",
+      "translation": "hello",
+      "options": [
+        "goodbye",
+        "hello",
+        "thank you",
+        "sorry"
+      ],
+      "pronunciation": "nǐ hǎo"
     },
     {
       "id": "zh-119-032",
-      "word": "谢谢32",
+      "word": "谢谢",
       "pinyin": "xiè xie",
-      "english": "thank you (variant 32)",
+      "english": "thank you",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"谢谢\" mean?",
+      "answer": "thank you",
+      "translation": "thank you",
+      "options": [
+        "thank you",
+        "goodbye",
+        "hello",
+        "sorry"
+      ],
+      "pronunciation": "xiè xie"
     },
     {
       "id": "zh-119-033",
-      "word": "对不起33",
+      "word": "对不起",
       "pinyin": "duì bù qǐ",
-      "english": "sorry (variant 33)",
+      "english": "sorry",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"对不起\" mean?",
+      "answer": "sorry",
+      "translation": "sorry",
+      "options": [
+        "hello",
+        "thank you",
+        "sorry",
+        "goodbye"
+      ],
+      "pronunciation": "duì bù qǐ"
     },
     {
       "id": "zh-119-034",
-      "word": "再见34",
+      "word": "再见",
       "pinyin": "zài jiàn",
-      "english": "goodbye (variant 34)",
+      "english": "goodbye",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"再见\" mean?",
+      "answer": "goodbye",
+      "translation": "goodbye",
+      "options": [
+        "hello",
+        "goodbye",
+        "sorry",
+        "thank you"
+      ],
+      "pronunciation": "zài jiàn"
     },
     {
       "id": "zh-119-035",
-      "word": "学习35",
+      "word": "学习",
       "pinyin": "xué xí",
-      "english": "to study (variant 35)",
+      "english": "to study",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"学习\" mean?",
+      "answer": "to study",
+      "translation": "to study",
+      "options": [
+        "sorry",
+        "thank you",
+        "hello",
+        "to study"
+      ],
+      "pronunciation": "xué xí"
     },
     {
       "id": "zh-119-036",
-      "word": "你好36",
+      "word": "你好",
       "pinyin": "nǐ hǎo",
-      "english": "hello (variant 36)",
+      "english": "hello",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"你好\" mean?",
+      "answer": "hello",
+      "translation": "hello",
+      "options": [
+        "goodbye",
+        "sorry",
+        "thank you",
+        "hello"
+      ],
+      "pronunciation": "nǐ hǎo"
     },
     {
       "id": "zh-119-037",
-      "word": "谢谢37",
+      "word": "谢谢",
       "pinyin": "xiè xie",
-      "english": "thank you (variant 37)",
+      "english": "thank you",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"谢谢\" mean?",
+      "answer": "thank you",
+      "translation": "thank you",
+      "options": [
+        "thank you",
+        "hello",
+        "sorry",
+        "goodbye"
+      ],
+      "pronunciation": "xiè xie"
     },
     {
       "id": "zh-119-038",
-      "word": "对不起38",
+      "word": "对不起",
       "pinyin": "duì bù qǐ",
-      "english": "sorry (variant 38)",
+      "english": "sorry",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"对不起\" mean?",
+      "answer": "sorry",
+      "translation": "sorry",
+      "options": [
+        "hello",
+        "sorry",
+        "goodbye",
+        "thank you"
+      ],
+      "pronunciation": "duì bù qǐ"
     },
     {
       "id": "zh-119-039",
-      "word": "再见39",
+      "word": "再见",
       "pinyin": "zài jiàn",
-      "english": "goodbye (variant 39)",
+      "english": "goodbye",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"再见\" mean?",
+      "answer": "goodbye",
+      "translation": "goodbye",
+      "options": [
+        "goodbye",
+        "hello",
+        "thank you",
+        "sorry"
+      ],
+      "pronunciation": "zài jiàn"
     },
     {
       "id": "zh-119-040",
-      "word": "学习40",
+      "word": "学习",
       "pinyin": "xué xí",
-      "english": "to study (variant 40)",
+      "english": "to study",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"学习\" mean?",
+      "answer": "to study",
+      "translation": "to study",
+      "options": [
+        "sorry",
+        "thank you",
+        "hello",
+        "to study"
+      ],
+      "pronunciation": "xué xí"
     },
     {
       "id": "zh-119-041",
-      "word": "你好41",
+      "word": "你好",
       "pinyin": "nǐ hǎo",
-      "english": "hello (variant 41)",
+      "english": "hello",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"你好\" mean?",
+      "answer": "hello",
+      "translation": "hello",
+      "options": [
+        "hello",
+        "thank you",
+        "sorry",
+        "goodbye"
+      ],
+      "pronunciation": "nǐ hǎo"
     },
     {
       "id": "zh-119-042",
-      "word": "谢谢42",
+      "word": "谢谢",
       "pinyin": "xiè xie",
-      "english": "thank you (variant 42)",
+      "english": "thank you",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"谢谢\" mean?",
+      "answer": "thank you",
+      "translation": "thank you",
+      "options": [
+        "sorry",
+        "hello",
+        "goodbye",
+        "thank you"
+      ],
+      "pronunciation": "xiè xie"
     },
     {
       "id": "zh-119-043",
-      "word": "对不起43",
+      "word": "对不起",
       "pinyin": "duì bù qǐ",
-      "english": "sorry (variant 43)",
+      "english": "sorry",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"对不起\" mean?",
+      "answer": "sorry",
+      "translation": "sorry",
+      "options": [
+        "thank you",
+        "hello",
+        "goodbye",
+        "sorry"
+      ],
+      "pronunciation": "duì bù qǐ"
     },
     {
       "id": "zh-119-044",
-      "word": "再见44",
+      "word": "再见",
       "pinyin": "zài jiàn",
-      "english": "goodbye (variant 44)",
+      "english": "goodbye",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"再见\" mean?",
+      "answer": "goodbye",
+      "translation": "goodbye",
+      "options": [
+        "sorry",
+        "thank you",
+        "hello",
+        "goodbye"
+      ],
+      "pronunciation": "zài jiàn"
     },
     {
       "id": "zh-119-045",
-      "word": "学习45",
+      "word": "学习",
       "pinyin": "xué xí",
-      "english": "to study (variant 45)",
+      "english": "to study",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"学习\" mean?",
+      "answer": "to study",
+      "translation": "to study",
+      "options": [
+        "thank you",
+        "hello",
+        "sorry",
+        "to study"
+      ],
+      "pronunciation": "xué xí"
     },
     {
       "id": "zh-119-046",
-      "word": "你好46",
+      "word": "你好",
       "pinyin": "nǐ hǎo",
-      "english": "hello (variant 46)",
+      "english": "hello",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"你好\" mean?",
+      "answer": "hello",
+      "translation": "hello",
+      "options": [
+        "hello",
+        "thank you",
+        "goodbye",
+        "sorry"
+      ],
+      "pronunciation": "nǐ hǎo"
     },
     {
       "id": "zh-119-047",
-      "word": "谢谢47",
+      "word": "谢谢",
       "pinyin": "xiè xie",
-      "english": "thank you (variant 47)",
+      "english": "thank you",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"谢谢\" mean?",
+      "answer": "thank you",
+      "translation": "thank you",
+      "options": [
+        "goodbye",
+        "hello",
+        "sorry",
+        "thank you"
+      ],
+      "pronunciation": "xiè xie"
     },
     {
       "id": "zh-119-048",
-      "word": "对不起48",
+      "word": "对不起",
       "pinyin": "duì bù qǐ",
-      "english": "sorry (variant 48)",
+      "english": "sorry",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"对不起\" mean?",
+      "answer": "sorry",
+      "translation": "sorry",
+      "options": [
+        "thank you",
+        "hello",
+        "sorry",
+        "goodbye"
+      ],
+      "pronunciation": "duì bù qǐ"
     },
     {
       "id": "zh-119-049",
-      "word": "再见49",
+      "word": "再见",
       "pinyin": "zài jiàn",
-      "english": "goodbye (variant 49)",
+      "english": "goodbye",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"再见\" mean?",
+      "answer": "goodbye",
+      "translation": "goodbye",
+      "options": [
+        "goodbye",
+        "hello",
+        "sorry",
+        "thank you"
+      ],
+      "pronunciation": "zài jiàn"
     },
     {
       "id": "zh-119-050",
-      "word": "学习50",
+      "word": "学习",
       "pinyin": "xué xí",
-      "english": "to study (variant 50)",
+      "english": "to study",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"学习\" mean?",
+      "answer": "to study",
+      "translation": "to study",
+      "options": [
+        "to study",
+        "hello",
+        "sorry",
+        "thank you"
+      ],
+      "pronunciation": "xué xí"
     },
     {
       "id": "zh-119-051",
-      "word": "你好51",
+      "word": "你好",
       "pinyin": "nǐ hǎo",
-      "english": "hello (variant 51)",
+      "english": "hello",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"你好\" mean?",
+      "answer": "hello",
+      "translation": "hello",
+      "options": [
+        "sorry",
+        "goodbye",
+        "hello",
+        "thank you"
+      ],
+      "pronunciation": "nǐ hǎo"
     },
     {
       "id": "zh-119-052",
-      "word": "谢谢52",
+      "word": "谢谢",
       "pinyin": "xiè xie",
-      "english": "thank you (variant 52)",
+      "english": "thank you",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"谢谢\" mean?",
+      "answer": "thank you",
+      "translation": "thank you",
+      "options": [
+        "goodbye",
+        "thank you",
+        "hello",
+        "sorry"
+      ],
+      "pronunciation": "xiè xie"
     },
     {
       "id": "zh-119-053",
-      "word": "对不起53",
+      "word": "对不起",
       "pinyin": "duì bù qǐ",
-      "english": "sorry (variant 53)",
+      "english": "sorry",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"对不起\" mean?",
+      "answer": "sorry",
+      "translation": "sorry",
+      "options": [
+        "sorry",
+        "hello",
+        "thank you",
+        "goodbye"
+      ],
+      "pronunciation": "duì bù qǐ"
     },
     {
       "id": "zh-119-054",
-      "word": "再见54",
+      "word": "再见",
       "pinyin": "zài jiàn",
-      "english": "goodbye (variant 54)",
+      "english": "goodbye",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"再见\" mean?",
+      "answer": "goodbye",
+      "translation": "goodbye",
+      "options": [
+        "goodbye",
+        "hello",
+        "sorry",
+        "thank you"
+      ],
+      "pronunciation": "zài jiàn"
     },
     {
       "id": "zh-119-055",
-      "word": "学习55",
+      "word": "学习",
       "pinyin": "xué xí",
-      "english": "to study (variant 55)",
+      "english": "to study",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"学习\" mean?",
+      "answer": "to study",
+      "translation": "to study",
+      "options": [
+        "to study",
+        "hello",
+        "thank you",
+        "sorry"
+      ],
+      "pronunciation": "xué xí"
     },
     {
       "id": "zh-119-056",
-      "word": "你好56",
+      "word": "你好",
       "pinyin": "nǐ hǎo",
-      "english": "hello (variant 56)",
+      "english": "hello",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"你好\" mean?",
+      "answer": "hello",
+      "translation": "hello",
+      "options": [
+        "hello",
+        "sorry",
+        "goodbye",
+        "thank you"
+      ],
+      "pronunciation": "nǐ hǎo"
     },
     {
       "id": "zh-119-057",
-      "word": "谢谢57",
+      "word": "谢谢",
       "pinyin": "xiè xie",
-      "english": "thank you (variant 57)",
+      "english": "thank you",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"谢谢\" mean?",
+      "answer": "thank you",
+      "translation": "thank you",
+      "options": [
+        "thank you",
+        "hello",
+        "goodbye",
+        "sorry"
+      ],
+      "pronunciation": "xiè xie"
     },
     {
       "id": "zh-119-058",
-      "word": "对不起58",
+      "word": "对不起",
       "pinyin": "duì bù qǐ",
-      "english": "sorry (variant 58)",
+      "english": "sorry",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"对不起\" mean?",
+      "answer": "sorry",
+      "translation": "sorry",
+      "options": [
+        "goodbye",
+        "thank you",
+        "sorry",
+        "hello"
+      ],
+      "pronunciation": "duì bù qǐ"
     },
     {
       "id": "zh-119-059",
-      "word": "再见59",
+      "word": "再见",
       "pinyin": "zài jiàn",
-      "english": "goodbye (variant 59)",
+      "english": "goodbye",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"再见\" mean?",
+      "answer": "goodbye",
+      "translation": "goodbye",
+      "options": [
+        "sorry",
+        "goodbye",
+        "hello",
+        "thank you"
+      ],
+      "pronunciation": "zài jiàn"
     },
     {
       "id": "zh-119-060",
-      "word": "学习60",
+      "word": "学习",
       "pinyin": "xué xí",
-      "english": "to study (variant 60)",
+      "english": "to study",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"学习\" mean?",
+      "answer": "to study",
+      "translation": "to study",
+      "options": [
+        "to study",
+        "sorry",
+        "hello",
+        "thank you"
+      ],
+      "pronunciation": "xué xí"
     },
     {
       "id": "zh-119-061",
-      "word": "你好61",
+      "word": "你好",
       "pinyin": "nǐ hǎo",
-      "english": "hello (variant 61)",
+      "english": "hello",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"你好\" mean?",
+      "answer": "hello",
+      "translation": "hello",
+      "options": [
+        "sorry",
+        "thank you",
+        "goodbye",
+        "hello"
+      ],
+      "pronunciation": "nǐ hǎo"
     },
     {
       "id": "zh-119-062",
-      "word": "谢谢62",
+      "word": "谢谢",
       "pinyin": "xiè xie",
-      "english": "thank you (variant 62)",
+      "english": "thank you",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"谢谢\" mean?",
+      "answer": "thank you",
+      "translation": "thank you",
+      "options": [
+        "goodbye",
+        "thank you",
+        "hello",
+        "sorry"
+      ],
+      "pronunciation": "xiè xie"
     },
     {
       "id": "zh-119-063",
-      "word": "对不起63",
+      "word": "对不起",
       "pinyin": "duì bù qǐ",
-      "english": "sorry (variant 63)",
+      "english": "sorry",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"对不起\" mean?",
+      "answer": "sorry",
+      "translation": "sorry",
+      "options": [
+        "goodbye",
+        "hello",
+        "thank you",
+        "sorry"
+      ],
+      "pronunciation": "duì bù qǐ"
     },
     {
       "id": "zh-119-064",
-      "word": "再见64",
+      "word": "再见",
       "pinyin": "zài jiàn",
-      "english": "goodbye (variant 64)",
+      "english": "goodbye",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"再见\" mean?",
+      "answer": "goodbye",
+      "translation": "goodbye",
+      "options": [
+        "thank you",
+        "hello",
+        "sorry",
+        "goodbye"
+      ],
+      "pronunciation": "zài jiàn"
     },
     {
       "id": "zh-119-065",
-      "word": "学习65",
+      "word": "学习",
       "pinyin": "xué xí",
-      "english": "to study (variant 65)",
+      "english": "to study",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"学习\" mean?",
+      "answer": "to study",
+      "translation": "to study",
+      "options": [
+        "sorry",
+        "thank you",
+        "hello",
+        "to study"
+      ],
+      "pronunciation": "xué xí"
     },
     {
       "id": "zh-119-066",
-      "word": "你好66",
+      "word": "你好",
       "pinyin": "nǐ hǎo",
-      "english": "hello (variant 66)",
+      "english": "hello",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"你好\" mean?",
+      "answer": "hello",
+      "translation": "hello",
+      "options": [
+        "sorry",
+        "thank you",
+        "hello",
+        "goodbye"
+      ],
+      "pronunciation": "nǐ hǎo"
     },
     {
       "id": "zh-119-067",
-      "word": "谢谢67",
+      "word": "谢谢",
       "pinyin": "xiè xie",
-      "english": "thank you (variant 67)",
+      "english": "thank you",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"谢谢\" mean?",
+      "answer": "thank you",
+      "translation": "thank you",
+      "options": [
+        "sorry",
+        "hello",
+        "goodbye",
+        "thank you"
+      ],
+      "pronunciation": "xiè xie"
     },
     {
       "id": "zh-119-068",
-      "word": "对不起68",
+      "word": "对不起",
       "pinyin": "duì bù qǐ",
-      "english": "sorry (variant 68)",
+      "english": "sorry",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"对不起\" mean?",
+      "answer": "sorry",
+      "translation": "sorry",
+      "options": [
+        "hello",
+        "thank you",
+        "goodbye",
+        "sorry"
+      ],
+      "pronunciation": "duì bù qǐ"
     },
     {
       "id": "zh-119-069",
-      "word": "再见69",
+      "word": "再见",
       "pinyin": "zài jiàn",
-      "english": "goodbye (variant 69)",
+      "english": "goodbye",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"再见\" mean?",
+      "answer": "goodbye",
+      "translation": "goodbye",
+      "options": [
+        "sorry",
+        "thank you",
+        "hello",
+        "goodbye"
+      ],
+      "pronunciation": "zài jiàn"
     },
     {
       "id": "zh-119-070",
-      "word": "学习70",
+      "word": "学习",
       "pinyin": "xué xí",
-      "english": "to study (variant 70)",
+      "english": "to study",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"学习\" mean?",
+      "answer": "to study",
+      "translation": "to study",
+      "options": [
+        "to study",
+        "hello",
+        "thank you",
+        "sorry"
+      ],
+      "pronunciation": "xué xí"
     },
     {
       "id": "zh-119-071",
-      "word": "你好71",
+      "word": "你好",
       "pinyin": "nǐ hǎo",
-      "english": "hello (variant 71)",
+      "english": "hello",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"你好\" mean?",
+      "answer": "hello",
+      "translation": "hello",
+      "options": [
+        "sorry",
+        "goodbye",
+        "hello",
+        "thank you"
+      ],
+      "pronunciation": "nǐ hǎo"
     },
     {
       "id": "zh-119-072",
-      "word": "谢谢72",
+      "word": "谢谢",
       "pinyin": "xiè xie",
-      "english": "thank you (variant 72)",
+      "english": "thank you",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"谢谢\" mean?",
+      "answer": "thank you",
+      "translation": "thank you",
+      "options": [
+        "sorry",
+        "hello",
+        "goodbye",
+        "thank you"
+      ],
+      "pronunciation": "xiè xie"
     },
     {
       "id": "zh-119-073",
-      "word": "对不起73",
+      "word": "对不起",
       "pinyin": "duì bù qǐ",
-      "english": "sorry (variant 73)",
+      "english": "sorry",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"对不起\" mean?",
+      "answer": "sorry",
+      "translation": "sorry",
+      "options": [
+        "thank you",
+        "sorry",
+        "hello",
+        "goodbye"
+      ],
+      "pronunciation": "duì bù qǐ"
     },
     {
       "id": "zh-119-074",
-      "word": "再见74",
+      "word": "再见",
       "pinyin": "zài jiàn",
-      "english": "goodbye (variant 74)",
+      "english": "goodbye",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"再见\" mean?",
+      "answer": "goodbye",
+      "translation": "goodbye",
+      "options": [
+        "goodbye",
+        "hello",
+        "thank you",
+        "sorry"
+      ],
+      "pronunciation": "zài jiàn"
     },
     {
       "id": "zh-119-075",
-      "word": "学习75",
+      "word": "学习",
       "pinyin": "xué xí",
-      "english": "to study (variant 75)",
+      "english": "to study",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"学习\" mean?",
+      "answer": "to study",
+      "translation": "to study",
+      "options": [
+        "sorry",
+        "thank you",
+        "hello",
+        "to study"
+      ],
+      "pronunciation": "xué xí"
     },
     {
       "id": "zh-119-076",
-      "word": "你好76",
+      "word": "你好",
       "pinyin": "nǐ hǎo",
-      "english": "hello (variant 76)",
+      "english": "hello",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"你好\" mean?",
+      "answer": "hello",
+      "translation": "hello",
+      "options": [
+        "goodbye",
+        "sorry",
+        "thank you",
+        "hello"
+      ],
+      "pronunciation": "nǐ hǎo"
     },
     {
       "id": "zh-119-077",
-      "word": "谢谢77",
+      "word": "谢谢",
       "pinyin": "xiè xie",
-      "english": "thank you (variant 77)",
+      "english": "thank you",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"谢谢\" mean?",
+      "answer": "thank you",
+      "translation": "thank you",
+      "options": [
+        "goodbye",
+        "thank you",
+        "sorry",
+        "hello"
+      ],
+      "pronunciation": "xiè xie"
     },
     {
       "id": "zh-119-078",
-      "word": "对不起78",
+      "word": "对不起",
       "pinyin": "duì bù qǐ",
-      "english": "sorry (variant 78)",
+      "english": "sorry",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"对不起\" mean?",
+      "answer": "sorry",
+      "translation": "sorry",
+      "options": [
+        "sorry",
+        "hello",
+        "thank you",
+        "goodbye"
+      ],
+      "pronunciation": "duì bù qǐ"
     },
     {
       "id": "zh-119-079",
-      "word": "再见79",
+      "word": "再见",
       "pinyin": "zài jiàn",
-      "english": "goodbye (variant 79)",
+      "english": "goodbye",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"再见\" mean?",
+      "answer": "goodbye",
+      "translation": "goodbye",
+      "options": [
+        "sorry",
+        "hello",
+        "thank you",
+        "goodbye"
+      ],
+      "pronunciation": "zài jiàn"
     },
     {
       "id": "zh-119-080",
-      "word": "学习80",
+      "word": "学习",
       "pinyin": "xué xí",
-      "english": "to study (variant 80)",
+      "english": "to study",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"学习\" mean?",
+      "answer": "to study",
+      "translation": "to study",
+      "options": [
+        "thank you",
+        "to study",
+        "sorry",
+        "hello"
+      ],
+      "pronunciation": "xué xí"
     },
     {
       "id": "zh-119-081",
-      "word": "你好81",
+      "word": "你好",
       "pinyin": "nǐ hǎo",
-      "english": "hello (variant 81)",
+      "english": "hello",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"你好\" mean?",
+      "answer": "hello",
+      "translation": "hello",
+      "options": [
+        "thank you",
+        "hello",
+        "sorry",
+        "goodbye"
+      ],
+      "pronunciation": "nǐ hǎo"
     },
     {
       "id": "zh-119-082",
-      "word": "谢谢82",
+      "word": "谢谢",
       "pinyin": "xiè xie",
-      "english": "thank you (variant 82)",
+      "english": "thank you",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"谢谢\" mean?",
+      "answer": "thank you",
+      "translation": "thank you",
+      "options": [
+        "goodbye",
+        "thank you",
+        "hello",
+        "sorry"
+      ],
+      "pronunciation": "xiè xie"
     },
     {
       "id": "zh-119-083",
-      "word": "对不起83",
+      "word": "对不起",
       "pinyin": "duì bù qǐ",
-      "english": "sorry (variant 83)",
+      "english": "sorry",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"对不起\" mean?",
+      "answer": "sorry",
+      "translation": "sorry",
+      "options": [
+        "hello",
+        "thank you",
+        "goodbye",
+        "sorry"
+      ],
+      "pronunciation": "duì bù qǐ"
     },
     {
       "id": "zh-119-084",
-      "word": "再见84",
+      "word": "再见",
       "pinyin": "zài jiàn",
-      "english": "goodbye (variant 84)",
+      "english": "goodbye",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"再见\" mean?",
+      "answer": "goodbye",
+      "translation": "goodbye",
+      "options": [
+        "goodbye",
+        "sorry",
+        "hello",
+        "thank you"
+      ],
+      "pronunciation": "zài jiàn"
     },
     {
       "id": "zh-119-085",
-      "word": "学习85",
+      "word": "学习",
       "pinyin": "xué xí",
-      "english": "to study (variant 85)",
+      "english": "to study",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"学习\" mean?",
+      "answer": "to study",
+      "translation": "to study",
+      "options": [
+        "hello",
+        "to study",
+        "sorry",
+        "thank you"
+      ],
+      "pronunciation": "xué xí"
     },
     {
       "id": "zh-119-086",
-      "word": "你好86",
+      "word": "你好",
       "pinyin": "nǐ hǎo",
-      "english": "hello (variant 86)",
+      "english": "hello",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"你好\" mean?",
+      "answer": "hello",
+      "translation": "hello",
+      "options": [
+        "hello",
+        "thank you",
+        "sorry",
+        "goodbye"
+      ],
+      "pronunciation": "nǐ hǎo"
     },
     {
       "id": "zh-119-087",
-      "word": "谢谢87",
+      "word": "谢谢",
       "pinyin": "xiè xie",
-      "english": "thank you (variant 87)",
+      "english": "thank you",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"谢谢\" mean?",
+      "answer": "thank you",
+      "translation": "thank you",
+      "options": [
+        "thank you",
+        "hello",
+        "goodbye",
+        "sorry"
+      ],
+      "pronunciation": "xiè xie"
     },
     {
       "id": "zh-119-088",
-      "word": "对不起88",
+      "word": "对不起",
       "pinyin": "duì bù qǐ",
-      "english": "sorry (variant 88)",
+      "english": "sorry",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"对不起\" mean?",
+      "answer": "sorry",
+      "translation": "sorry",
+      "options": [
+        "sorry",
+        "hello",
+        "thank you",
+        "goodbye"
+      ],
+      "pronunciation": "duì bù qǐ"
     },
     {
       "id": "zh-119-089",
-      "word": "再见89",
+      "word": "再见",
       "pinyin": "zài jiàn",
-      "english": "goodbye (variant 89)",
+      "english": "goodbye",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"再见\" mean?",
+      "answer": "goodbye",
+      "translation": "goodbye",
+      "options": [
+        "hello",
+        "goodbye",
+        "sorry",
+        "thank you"
+      ],
+      "pronunciation": "zài jiàn"
     },
     {
       "id": "zh-119-090",
-      "word": "学习90",
+      "word": "学习",
       "pinyin": "xué xí",
-      "english": "to study (variant 90)",
+      "english": "to study",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"学习\" mean?",
+      "answer": "to study",
+      "translation": "to study",
+      "options": [
+        "to study",
+        "hello",
+        "sorry",
+        "thank you"
+      ],
+      "pronunciation": "xué xí"
     },
     {
       "id": "zh-119-091",
-      "word": "你好91",
+      "word": "你好",
       "pinyin": "nǐ hǎo",
-      "english": "hello (variant 91)",
+      "english": "hello",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"你好\" mean?",
+      "answer": "hello",
+      "translation": "hello",
+      "options": [
+        "goodbye",
+        "hello",
+        "thank you",
+        "sorry"
+      ],
+      "pronunciation": "nǐ hǎo"
     },
     {
       "id": "zh-119-092",
-      "word": "谢谢92",
+      "word": "谢谢",
       "pinyin": "xiè xie",
-      "english": "thank you (variant 92)",
+      "english": "thank you",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"谢谢\" mean?",
+      "answer": "thank you",
+      "translation": "thank you",
+      "options": [
+        "thank you",
+        "hello",
+        "sorry",
+        "goodbye"
+      ],
+      "pronunciation": "xiè xie"
     },
     {
       "id": "zh-119-093",
-      "word": "对不起93",
+      "word": "对不起",
       "pinyin": "duì bù qǐ",
-      "english": "sorry (variant 93)",
+      "english": "sorry",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"对不起\" mean?",
+      "answer": "sorry",
+      "translation": "sorry",
+      "options": [
+        "goodbye",
+        "thank you",
+        "hello",
+        "sorry"
+      ],
+      "pronunciation": "duì bù qǐ"
     },
     {
       "id": "zh-119-094",
-      "word": "再见94",
+      "word": "再见",
       "pinyin": "zài jiàn",
-      "english": "goodbye (variant 94)",
+      "english": "goodbye",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"再见\" mean?",
+      "answer": "goodbye",
+      "translation": "goodbye",
+      "options": [
+        "sorry",
+        "goodbye",
+        "hello",
+        "thank you"
+      ],
+      "pronunciation": "zài jiàn"
     },
     {
       "id": "zh-119-095",
-      "word": "学习95",
+      "word": "学习",
       "pinyin": "xué xí",
-      "english": "to study (variant 95)",
+      "english": "to study",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"学习\" mean?",
+      "answer": "to study",
+      "translation": "to study",
+      "options": [
+        "to study",
+        "hello",
+        "thank you",
+        "sorry"
+      ],
+      "pronunciation": "xué xí"
     },
     {
       "id": "zh-119-096",
-      "word": "你好96",
+      "word": "你好",
       "pinyin": "nǐ hǎo",
-      "english": "hello (variant 96)",
+      "english": "hello",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"你好\" mean?",
+      "answer": "hello",
+      "translation": "hello",
+      "options": [
+        "hello",
+        "thank you",
+        "sorry",
+        "goodbye"
+      ],
+      "pronunciation": "nǐ hǎo"
     },
     {
       "id": "zh-119-097",
-      "word": "谢谢97",
+      "word": "谢谢",
       "pinyin": "xiè xie",
-      "english": "thank you (variant 97)",
+      "english": "thank you",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"谢谢\" mean?",
+      "answer": "thank you",
+      "translation": "thank you",
+      "options": [
+        "thank you",
+        "sorry",
+        "goodbye",
+        "hello"
+      ],
+      "pronunciation": "xiè xie"
     },
     {
       "id": "zh-119-098",
-      "word": "对不起98",
+      "word": "对不起",
       "pinyin": "duì bù qǐ",
-      "english": "sorry (variant 98)",
+      "english": "sorry",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"对不起\" mean?",
+      "answer": "sorry",
+      "translation": "sorry",
+      "options": [
+        "goodbye",
+        "thank you",
+        "hello",
+        "sorry"
+      ],
+      "pronunciation": "duì bù qǐ"
     },
     {
       "id": "zh-119-099",
-      "word": "再见99",
+      "word": "再见",
       "pinyin": "zài jiàn",
-      "english": "goodbye (variant 99)",
+      "english": "goodbye",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"再见\" mean?",
+      "answer": "goodbye",
+      "translation": "goodbye",
+      "options": [
+        "sorry",
+        "thank you",
+        "hello",
+        "goodbye"
+      ],
+      "pronunciation": "zài jiàn"
     },
     {
       "id": "zh-119-100",
-      "word": "学习100",
+      "word": "学习",
       "pinyin": "xué xí",
-      "english": "to study (variant 100)",
+      "english": "to study",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"学习\" mean?",
+      "answer": "to study",
+      "translation": "to study",
+      "options": [
+        "hello",
+        "thank you",
+        "to study",
+        "sorry"
+      ],
+      "pronunciation": "xué xí"
     }
   ]
 }

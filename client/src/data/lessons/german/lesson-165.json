@@ -11,799 +11,1699 @@
       "pronunciation": "hallo",
       "english": "hello",
       "type": "vocabulary",
-      "difficulty": 5
+      "difficulty": 5,
+      "question": "What does \"hallo\" mean?",
+      "answer": "hello",
+      "translation": "hello",
+      "options": [
+        "goodbye (variant 4)",
+        "excuse me (variant 3)",
+        "thank you (variant 2)",
+        "hello"
+      ]
     },
     {
       "id": "de-165-002",
-      "word": "danke 2",
+      "word": "danke",
       "pronunciation": "danke",
-      "english": "thank you (variant 2)",
+      "english": "thank you",
       "type": "vocabulary",
-      "difficulty": 5
+      "difficulty": 5,
+      "question": "What does \"danke\" mean?",
+      "answer": "thank you",
+      "translation": "thank you",
+      "options": [
+        "goodbye (variant 4)",
+        "hello",
+        "thank you",
+        "excuse me (variant 3)"
+      ]
     },
     {
       "id": "de-165-003",
-      "word": "entschuldigung 3",
+      "word": "entschuldigung",
       "pronunciation": "entschuldigung",
-      "english": "excuse me (variant 3)",
+      "english": "excuse me",
       "type": "vocabulary",
-      "difficulty": 5
+      "difficulty": 5,
+      "question": "What does \"entschuldigung\" mean?",
+      "answer": "excuse me",
+      "translation": "excuse me",
+      "options": [
+        "goodbye (variant 4)",
+        "thank you",
+        "hello",
+        "excuse me"
+      ]
     },
     {
       "id": "de-165-004",
-      "word": "auf wiedersehen 4",
+      "word": "auf wiedersehen",
       "pronunciation": "auf wiedersehen",
-      "english": "goodbye (variant 4)",
+      "english": "goodbye",
       "type": "vocabulary",
-      "difficulty": 5
+      "difficulty": 5,
+      "question": "What does \"auf wiedersehen\" mean?",
+      "answer": "goodbye",
+      "translation": "goodbye",
+      "options": [
+        "thank you",
+        "hello",
+        "goodbye",
+        "excuse me"
+      ]
     },
     {
       "id": "de-165-005",
-      "word": "lernen 5",
+      "word": "lernen",
       "pronunciation": "lernen",
-      "english": "to learn (variant 5)",
+      "english": "to learn",
       "type": "vocabulary",
-      "difficulty": 5
+      "difficulty": 5,
+      "question": "What does \"lernen\" mean?",
+      "answer": "to learn",
+      "translation": "to learn",
+      "options": [
+        "thank you",
+        "hello",
+        "to learn",
+        "excuse me"
+      ]
     },
     {
       "id": "de-165-006",
-      "word": "hallo 6",
+      "word": "hallo",
       "pronunciation": "hallo",
-      "english": "hello (variant 6)",
+      "english": "hello",
       "type": "vocabulary",
-      "difficulty": 5
+      "difficulty": 5,
+      "question": "What does \"hallo\" mean?",
+      "answer": "hello",
+      "translation": "hello",
+      "options": [
+        "thank you",
+        "excuse me",
+        "goodbye",
+        "hello"
+      ]
     },
     {
       "id": "de-165-007",
-      "word": "danke 7",
+      "word": "danke",
       "pronunciation": "danke",
-      "english": "thank you (variant 7)",
+      "english": "thank you",
       "type": "vocabulary",
-      "difficulty": 5
+      "difficulty": 5,
+      "question": "What does \"danke\" mean?",
+      "answer": "thank you",
+      "translation": "thank you",
+      "options": [
+        "excuse me",
+        "hello",
+        "goodbye",
+        "thank you"
+      ]
     },
     {
       "id": "de-165-008",
-      "word": "entschuldigung 8",
+      "word": "entschuldigung",
       "pronunciation": "entschuldigung",
-      "english": "excuse me (variant 8)",
+      "english": "excuse me",
       "type": "vocabulary",
-      "difficulty": 5
+      "difficulty": 5,
+      "question": "What does \"entschuldigung\" mean?",
+      "answer": "excuse me",
+      "translation": "excuse me",
+      "options": [
+        "goodbye",
+        "thank you",
+        "hello",
+        "excuse me"
+      ]
     },
     {
       "id": "de-165-009",
-      "word": "auf wiedersehen 9",
+      "word": "auf wiedersehen",
       "pronunciation": "auf wiedersehen",
-      "english": "goodbye (variant 9)",
+      "english": "goodbye",
       "type": "vocabulary",
-      "difficulty": 5
+      "difficulty": 5,
+      "question": "What does \"auf wiedersehen\" mean?",
+      "answer": "goodbye",
+      "translation": "goodbye",
+      "options": [
+        "thank you",
+        "hello",
+        "excuse me",
+        "goodbye"
+      ]
     },
     {
       "id": "de-165-010",
-      "word": "lernen 10",
+      "word": "lernen",
       "pronunciation": "lernen",
-      "english": "to learn (variant 10)",
+      "english": "to learn",
       "type": "vocabulary",
-      "difficulty": 5
+      "difficulty": 5,
+      "question": "What does \"lernen\" mean?",
+      "answer": "to learn",
+      "translation": "to learn",
+      "options": [
+        "excuse me",
+        "to learn",
+        "hello",
+        "thank you"
+      ]
     },
     {
       "id": "de-165-011",
-      "word": "hallo 11",
+      "word": "hallo",
       "pronunciation": "hallo",
-      "english": "hello (variant 11)",
+      "english": "hello",
       "type": "vocabulary",
-      "difficulty": 5
+      "difficulty": 5,
+      "question": "What does \"hallo\" mean?",
+      "answer": "hello",
+      "translation": "hello",
+      "options": [
+        "hello",
+        "thank you",
+        "excuse me",
+        "goodbye"
+      ]
     },
     {
       "id": "de-165-012",
-      "word": "danke 12",
+      "word": "danke",
       "pronunciation": "danke",
-      "english": "thank you (variant 12)",
+      "english": "thank you",
       "type": "vocabulary",
-      "difficulty": 5
+      "difficulty": 5,
+      "question": "What does \"danke\" mean?",
+      "answer": "thank you",
+      "translation": "thank you",
+      "options": [
+        "thank you",
+        "hello",
+        "excuse me",
+        "goodbye"
+      ]
     },
     {
       "id": "de-165-013",
-      "word": "entschuldigung 13",
+      "word": "entschuldigung",
       "pronunciation": "entschuldigung",
-      "english": "excuse me (variant 13)",
+      "english": "excuse me",
       "type": "vocabulary",
-      "difficulty": 5
+      "difficulty": 5,
+      "question": "What does \"entschuldigung\" mean?",
+      "answer": "excuse me",
+      "translation": "excuse me",
+      "options": [
+        "hello",
+        "goodbye",
+        "excuse me",
+        "thank you"
+      ]
     },
     {
       "id": "de-165-014",
-      "word": "auf wiedersehen 14",
+      "word": "auf wiedersehen",
       "pronunciation": "auf wiedersehen",
-      "english": "goodbye (variant 14)",
+      "english": "goodbye",
       "type": "vocabulary",
-      "difficulty": 5
+      "difficulty": 5,
+      "question": "What does \"auf wiedersehen\" mean?",
+      "answer": "goodbye",
+      "translation": "goodbye",
+      "options": [
+        "excuse me",
+        "thank you",
+        "hello",
+        "goodbye"
+      ]
     },
     {
       "id": "de-165-015",
-      "word": "lernen 15",
+      "word": "lernen",
       "pronunciation": "lernen",
-      "english": "to learn (variant 15)",
+      "english": "to learn",
       "type": "vocabulary",
-      "difficulty": 5
+      "difficulty": 5,
+      "question": "What does \"lernen\" mean?",
+      "answer": "to learn",
+      "translation": "to learn",
+      "options": [
+        "to learn",
+        "hello",
+        "thank you",
+        "excuse me"
+      ]
     },
     {
       "id": "de-165-016",
-      "word": "hallo 16",
+      "word": "hallo",
       "pronunciation": "hallo",
-      "english": "hello (variant 16)",
+      "english": "hello",
       "type": "vocabulary",
-      "difficulty": 5
+      "difficulty": 5,
+      "question": "What does \"hallo\" mean?",
+      "answer": "hello",
+      "translation": "hello",
+      "options": [
+        "thank you",
+        "hello",
+        "excuse me",
+        "goodbye"
+      ]
     },
     {
       "id": "de-165-017",
-      "word": "danke 17",
+      "word": "danke",
       "pronunciation": "danke",
-      "english": "thank you (variant 17)",
+      "english": "thank you",
       "type": "vocabulary",
-      "difficulty": 5
+      "difficulty": 5,
+      "question": "What does \"danke\" mean?",
+      "answer": "thank you",
+      "translation": "thank you",
+      "options": [
+        "thank you",
+        "hello",
+        "goodbye",
+        "excuse me"
+      ]
     },
     {
       "id": "de-165-018",
-      "word": "entschuldigung 18",
+      "word": "entschuldigung",
       "pronunciation": "entschuldigung",
-      "english": "excuse me (variant 18)",
+      "english": "excuse me",
       "type": "vocabulary",
-      "difficulty": 5
+      "difficulty": 5,
+      "question": "What does \"entschuldigung\" mean?",
+      "answer": "excuse me",
+      "translation": "excuse me",
+      "options": [
+        "thank you",
+        "goodbye",
+        "excuse me",
+        "hello"
+      ]
     },
     {
       "id": "de-165-019",
-      "word": "auf wiedersehen 19",
+      "word": "auf wiedersehen",
       "pronunciation": "auf wiedersehen",
-      "english": "goodbye (variant 19)",
+      "english": "goodbye",
       "type": "vocabulary",
-      "difficulty": 5
+      "difficulty": 5,
+      "question": "What does \"auf wiedersehen\" mean?",
+      "answer": "goodbye",
+      "translation": "goodbye",
+      "options": [
+        "goodbye",
+        "hello",
+        "excuse me",
+        "thank you"
+      ]
     },
     {
       "id": "de-165-020",
-      "word": "lernen 20",
+      "word": "lernen",
       "pronunciation": "lernen",
-      "english": "to learn (variant 20)",
+      "english": "to learn",
       "type": "vocabulary",
-      "difficulty": 5
+      "difficulty": 5,
+      "question": "What does \"lernen\" mean?",
+      "answer": "to learn",
+      "translation": "to learn",
+      "options": [
+        "excuse me",
+        "hello",
+        "thank you",
+        "to learn"
+      ]
     },
     {
       "id": "de-165-021",
-      "word": "hallo 21",
+      "word": "hallo",
       "pronunciation": "hallo",
-      "english": "hello (variant 21)",
+      "english": "hello",
       "type": "vocabulary",
-      "difficulty": 5
+      "difficulty": 5,
+      "question": "What does \"hallo\" mean?",
+      "answer": "hello",
+      "translation": "hello",
+      "options": [
+        "goodbye",
+        "excuse me",
+        "thank you",
+        "hello"
+      ]
     },
     {
       "id": "de-165-022",
-      "word": "danke 22",
+      "word": "danke",
       "pronunciation": "danke",
-      "english": "thank you (variant 22)",
+      "english": "thank you",
       "type": "vocabulary",
-      "difficulty": 5
+      "difficulty": 5,
+      "question": "What does \"danke\" mean?",
+      "answer": "thank you",
+      "translation": "thank you",
+      "options": [
+        "thank you",
+        "hello",
+        "excuse me",
+        "goodbye"
+      ]
     },
     {
       "id": "de-165-023",
-      "word": "entschuldigung 23",
+      "word": "entschuldigung",
       "pronunciation": "entschuldigung",
-      "english": "excuse me (variant 23)",
+      "english": "excuse me",
       "type": "vocabulary",
-      "difficulty": 5
+      "difficulty": 5,
+      "question": "What does \"entschuldigung\" mean?",
+      "answer": "excuse me",
+      "translation": "excuse me",
+      "options": [
+        "thank you",
+        "goodbye",
+        "hello",
+        "excuse me"
+      ]
     },
     {
       "id": "de-165-024",
-      "word": "auf wiedersehen 24",
+      "word": "auf wiedersehen",
       "pronunciation": "auf wiedersehen",
-      "english": "goodbye (variant 24)",
+      "english": "goodbye",
       "type": "vocabulary",
-      "difficulty": 5
+      "difficulty": 5,
+      "question": "What does \"auf wiedersehen\" mean?",
+      "answer": "goodbye",
+      "translation": "goodbye",
+      "options": [
+        "goodbye",
+        "hello",
+        "thank you",
+        "excuse me"
+      ]
     },
     {
       "id": "de-165-025",
-      "word": "lernen 25",
+      "word": "lernen",
       "pronunciation": "lernen",
-      "english": "to learn (variant 25)",
+      "english": "to learn",
       "type": "vocabulary",
-      "difficulty": 5
+      "difficulty": 5,
+      "question": "What does \"lernen\" mean?",
+      "answer": "to learn",
+      "translation": "to learn",
+      "options": [
+        "excuse me",
+        "hello",
+        "thank you",
+        "to learn"
+      ]
     },
     {
       "id": "de-165-026",
-      "word": "hallo 26",
+      "word": "hallo",
       "pronunciation": "hallo",
-      "english": "hello (variant 26)",
+      "english": "hello",
       "type": "vocabulary",
-      "difficulty": 5
+      "difficulty": 5,
+      "question": "What does \"hallo\" mean?",
+      "answer": "hello",
+      "translation": "hello",
+      "options": [
+        "goodbye",
+        "excuse me",
+        "thank you",
+        "hello"
+      ]
     },
     {
       "id": "de-165-027",
-      "word": "danke 27",
+      "word": "danke",
       "pronunciation": "danke",
-      "english": "thank you (variant 27)",
+      "english": "thank you",
       "type": "vocabulary",
-      "difficulty": 5
+      "difficulty": 5,
+      "question": "What does \"danke\" mean?",
+      "answer": "thank you",
+      "translation": "thank you",
+      "options": [
+        "goodbye",
+        "excuse me",
+        "hello",
+        "thank you"
+      ]
     },
     {
       "id": "de-165-028",
-      "word": "entschuldigung 28",
+      "word": "entschuldigung",
       "pronunciation": "entschuldigung",
-      "english": "excuse me (variant 28)",
+      "english": "excuse me",
       "type": "vocabulary",
-      "difficulty": 5
+      "difficulty": 5,
+      "question": "What does \"entschuldigung\" mean?",
+      "answer": "excuse me",
+      "translation": "excuse me",
+      "options": [
+        "hello",
+        "thank you",
+        "goodbye",
+        "excuse me"
+      ]
     },
     {
       "id": "de-165-029",
-      "word": "auf wiedersehen 29",
+      "word": "auf wiedersehen",
       "pronunciation": "auf wiedersehen",
-      "english": "goodbye (variant 29)",
+      "english": "goodbye",
       "type": "vocabulary",
-      "difficulty": 5
+      "difficulty": 5,
+      "question": "What does \"auf wiedersehen\" mean?",
+      "answer": "goodbye",
+      "translation": "goodbye",
+      "options": [
+        "goodbye",
+        "hello",
+        "thank you",
+        "excuse me"
+      ]
     },
     {
       "id": "de-165-030",
-      "word": "lernen 30",
+      "word": "lernen",
       "pronunciation": "lernen",
-      "english": "to learn (variant 30)",
+      "english": "to learn",
       "type": "vocabulary",
-      "difficulty": 5
+      "difficulty": 5,
+      "question": "What does \"lernen\" mean?",
+      "answer": "to learn",
+      "translation": "to learn",
+      "options": [
+        "thank you",
+        "to learn",
+        "excuse me",
+        "hello"
+      ]
     },
     {
       "id": "de-165-031",
-      "word": "hallo 31",
+      "word": "hallo",
       "pronunciation": "hallo",
-      "english": "hello (variant 31)",
+      "english": "hello",
       "type": "vocabulary",
-      "difficulty": 5
+      "difficulty": 5,
+      "question": "What does \"hallo\" mean?",
+      "answer": "hello",
+      "translation": "hello",
+      "options": [
+        "hello",
+        "thank you",
+        "goodbye",
+        "excuse me"
+      ]
     },
     {
       "id": "de-165-032",
-      "word": "danke 32",
+      "word": "danke",
       "pronunciation": "danke",
-      "english": "thank you (variant 32)",
+      "english": "thank you",
       "type": "vocabulary",
-      "difficulty": 5
+      "difficulty": 5,
+      "question": "What does \"danke\" mean?",
+      "answer": "thank you",
+      "translation": "thank you",
+      "options": [
+        "hello",
+        "excuse me",
+        "thank you",
+        "goodbye"
+      ]
     },
     {
       "id": "de-165-033",
-      "word": "entschuldigung 33",
+      "word": "entschuldigung",
       "pronunciation": "entschuldigung",
-      "english": "excuse me (variant 33)",
+      "english": "excuse me",
       "type": "vocabulary",
-      "difficulty": 5
+      "difficulty": 5,
+      "question": "What does \"entschuldigung\" mean?",
+      "answer": "excuse me",
+      "translation": "excuse me",
+      "options": [
+        "excuse me",
+        "thank you",
+        "hello",
+        "goodbye"
+      ]
     },
     {
       "id": "de-165-034",
-      "word": "auf wiedersehen 34",
+      "word": "auf wiedersehen",
       "pronunciation": "auf wiedersehen",
-      "english": "goodbye (variant 34)",
+      "english": "goodbye",
       "type": "vocabulary",
-      "difficulty": 5
+      "difficulty": 5,
+      "question": "What does \"auf wiedersehen\" mean?",
+      "answer": "goodbye",
+      "translation": "goodbye",
+      "options": [
+        "excuse me",
+        "goodbye",
+        "hello",
+        "thank you"
+      ]
     },
     {
       "id": "de-165-035",
-      "word": "lernen 35",
+      "word": "lernen",
       "pronunciation": "lernen",
-      "english": "to learn (variant 35)",
+      "english": "to learn",
       "type": "vocabulary",
-      "difficulty": 5
+      "difficulty": 5,
+      "question": "What does \"lernen\" mean?",
+      "answer": "to learn",
+      "translation": "to learn",
+      "options": [
+        "excuse me",
+        "thank you",
+        "hello",
+        "to learn"
+      ]
     },
     {
       "id": "de-165-036",
-      "word": "hallo 36",
+      "word": "hallo",
       "pronunciation": "hallo",
-      "english": "hello (variant 36)",
+      "english": "hello",
       "type": "vocabulary",
-      "difficulty": 5
+      "difficulty": 5,
+      "question": "What does \"hallo\" mean?",
+      "answer": "hello",
+      "translation": "hello",
+      "options": [
+        "thank you",
+        "hello",
+        "excuse me",
+        "goodbye"
+      ]
     },
     {
       "id": "de-165-037",
-      "word": "danke 37",
+      "word": "danke",
       "pronunciation": "danke",
-      "english": "thank you (variant 37)",
+      "english": "thank you",
       "type": "vocabulary",
-      "difficulty": 5
+      "difficulty": 5,
+      "question": "What does \"danke\" mean?",
+      "answer": "thank you",
+      "translation": "thank you",
+      "options": [
+        "thank you",
+        "goodbye",
+        "hello",
+        "excuse me"
+      ]
     },
     {
       "id": "de-165-038",
-      "word": "entschuldigung 38",
+      "word": "entschuldigung",
       "pronunciation": "entschuldigung",
-      "english": "excuse me (variant 38)",
+      "english": "excuse me",
       "type": "vocabulary",
-      "difficulty": 5
+      "difficulty": 5,
+      "question": "What does \"entschuldigung\" mean?",
+      "answer": "excuse me",
+      "translation": "excuse me",
+      "options": [
+        "thank you",
+        "hello",
+        "goodbye",
+        "excuse me"
+      ]
     },
     {
       "id": "de-165-039",
-      "word": "auf wiedersehen 39",
+      "word": "auf wiedersehen",
       "pronunciation": "auf wiedersehen",
-      "english": "goodbye (variant 39)",
+      "english": "goodbye",
       "type": "vocabulary",
-      "difficulty": 5
+      "difficulty": 5,
+      "question": "What does \"auf wiedersehen\" mean?",
+      "answer": "goodbye",
+      "translation": "goodbye",
+      "options": [
+        "goodbye",
+        "hello",
+        "thank you",
+        "excuse me"
+      ]
     },
     {
       "id": "de-165-040",
-      "word": "lernen 40",
+      "word": "lernen",
       "pronunciation": "lernen",
-      "english": "to learn (variant 40)",
+      "english": "to learn",
       "type": "vocabulary",
-      "difficulty": 5
+      "difficulty": 5,
+      "question": "What does \"lernen\" mean?",
+      "answer": "to learn",
+      "translation": "to learn",
+      "options": [
+        "to learn",
+        "hello",
+        "thank you",
+        "excuse me"
+      ]
     },
     {
       "id": "de-165-041",
-      "word": "hallo 41",
+      "word": "hallo",
       "pronunciation": "hallo",
-      "english": "hello (variant 41)",
+      "english": "hello",
       "type": "vocabulary",
-      "difficulty": 5
+      "difficulty": 5,
+      "question": "What does \"hallo\" mean?",
+      "answer": "hello",
+      "translation": "hello",
+      "options": [
+        "goodbye",
+        "hello",
+        "thank you",
+        "excuse me"
+      ]
     },
     {
       "id": "de-165-042",
-      "word": "danke 42",
+      "word": "danke",
       "pronunciation": "danke",
-      "english": "thank you (variant 42)",
+      "english": "thank you",
       "type": "vocabulary",
-      "difficulty": 5
+      "difficulty": 5,
+      "question": "What does \"danke\" mean?",
+      "answer": "thank you",
+      "translation": "thank you",
+      "options": [
+        "goodbye",
+        "excuse me",
+        "hello",
+        "thank you"
+      ]
     },
     {
       "id": "de-165-043",
-      "word": "entschuldigung 43",
+      "word": "entschuldigung",
       "pronunciation": "entschuldigung",
-      "english": "excuse me (variant 43)",
+      "english": "excuse me",
       "type": "vocabulary",
-      "difficulty": 5
+      "difficulty": 5,
+      "question": "What does \"entschuldigung\" mean?",
+      "answer": "excuse me",
+      "translation": "excuse me",
+      "options": [
+        "goodbye",
+        "excuse me",
+        "thank you",
+        "hello"
+      ]
     },
     {
       "id": "de-165-044",
-      "word": "auf wiedersehen 44",
+      "word": "auf wiedersehen",
       "pronunciation": "auf wiedersehen",
-      "english": "goodbye (variant 44)",
+      "english": "goodbye",
       "type": "vocabulary",
-      "difficulty": 5
+      "difficulty": 5,
+      "question": "What does \"auf wiedersehen\" mean?",
+      "answer": "goodbye",
+      "translation": "goodbye",
+      "options": [
+        "goodbye",
+        "excuse me",
+        "hello",
+        "thank you"
+      ]
     },
     {
       "id": "de-165-045",
-      "word": "lernen 45",
+      "word": "lernen",
       "pronunciation": "lernen",
-      "english": "to learn (variant 45)",
+      "english": "to learn",
       "type": "vocabulary",
-      "difficulty": 5
+      "difficulty": 5,
+      "question": "What does \"lernen\" mean?",
+      "answer": "to learn",
+      "translation": "to learn",
+      "options": [
+        "to learn",
+        "hello",
+        "thank you",
+        "excuse me"
+      ]
     },
     {
       "id": "de-165-046",
-      "word": "hallo 46",
+      "word": "hallo",
       "pronunciation": "hallo",
-      "english": "hello (variant 46)",
+      "english": "hello",
       "type": "vocabulary",
-      "difficulty": 5
+      "difficulty": 5,
+      "question": "What does \"hallo\" mean?",
+      "answer": "hello",
+      "translation": "hello",
+      "options": [
+        "thank you",
+        "excuse me",
+        "hello",
+        "goodbye"
+      ]
     },
     {
       "id": "de-165-047",
-      "word": "danke 47",
+      "word": "danke",
       "pronunciation": "danke",
-      "english": "thank you (variant 47)",
+      "english": "thank you",
       "type": "vocabulary",
-      "difficulty": 5
+      "difficulty": 5,
+      "question": "What does \"danke\" mean?",
+      "answer": "thank you",
+      "translation": "thank you",
+      "options": [
+        "excuse me",
+        "hello",
+        "goodbye",
+        "thank you"
+      ]
     },
     {
       "id": "de-165-048",
-      "word": "entschuldigung 48",
+      "word": "entschuldigung",
       "pronunciation": "entschuldigung",
-      "english": "excuse me (variant 48)",
+      "english": "excuse me",
       "type": "vocabulary",
-      "difficulty": 5
+      "difficulty": 5,
+      "question": "What does \"entschuldigung\" mean?",
+      "answer": "excuse me",
+      "translation": "excuse me",
+      "options": [
+        "excuse me",
+        "goodbye",
+        "hello",
+        "thank you"
+      ]
     },
     {
       "id": "de-165-049",
-      "word": "auf wiedersehen 49",
+      "word": "auf wiedersehen",
       "pronunciation": "auf wiedersehen",
-      "english": "goodbye (variant 49)",
+      "english": "goodbye",
       "type": "vocabulary",
-      "difficulty": 5
+      "difficulty": 5,
+      "question": "What does \"auf wiedersehen\" mean?",
+      "answer": "goodbye",
+      "translation": "goodbye",
+      "options": [
+        "goodbye",
+        "hello",
+        "excuse me",
+        "thank you"
+      ]
     },
     {
       "id": "de-165-050",
-      "word": "lernen 50",
+      "word": "lernen",
       "pronunciation": "lernen",
-      "english": "to learn (variant 50)",
+      "english": "to learn",
       "type": "vocabulary",
-      "difficulty": 5
+      "difficulty": 5,
+      "question": "What does \"lernen\" mean?",
+      "answer": "to learn",
+      "translation": "to learn",
+      "options": [
+        "thank you",
+        "excuse me",
+        "hello",
+        "to learn"
+      ]
     },
     {
       "id": "de-165-051",
-      "word": "hallo 51",
+      "word": "hallo",
       "pronunciation": "hallo",
-      "english": "hello (variant 51)",
+      "english": "hello",
       "type": "vocabulary",
-      "difficulty": 5
+      "difficulty": 5,
+      "question": "What does \"hallo\" mean?",
+      "answer": "hello",
+      "translation": "hello",
+      "options": [
+        "excuse me",
+        "goodbye",
+        "hello",
+        "thank you"
+      ]
     },
     {
       "id": "de-165-052",
-      "word": "danke 52",
+      "word": "danke",
       "pronunciation": "danke",
-      "english": "thank you (variant 52)",
+      "english": "thank you",
       "type": "vocabulary",
-      "difficulty": 5
+      "difficulty": 5,
+      "question": "What does \"danke\" mean?",
+      "answer": "thank you",
+      "translation": "thank you",
+      "options": [
+        "hello",
+        "thank you",
+        "goodbye",
+        "excuse me"
+      ]
     },
     {
       "id": "de-165-053",
-      "word": "entschuldigung 53",
+      "word": "entschuldigung",
       "pronunciation": "entschuldigung",
-      "english": "excuse me (variant 53)",
+      "english": "excuse me",
       "type": "vocabulary",
-      "difficulty": 5
+      "difficulty": 5,
+      "question": "What does \"entschuldigung\" mean?",
+      "answer": "excuse me",
+      "translation": "excuse me",
+      "options": [
+        "excuse me",
+        "hello",
+        "goodbye",
+        "thank you"
+      ]
     },
     {
       "id": "de-165-054",
-      "word": "auf wiedersehen 54",
+      "word": "auf wiedersehen",
       "pronunciation": "auf wiedersehen",
-      "english": "goodbye (variant 54)",
+      "english": "goodbye",
       "type": "vocabulary",
-      "difficulty": 5
+      "difficulty": 5,
+      "question": "What does \"auf wiedersehen\" mean?",
+      "answer": "goodbye",
+      "translation": "goodbye",
+      "options": [
+        "goodbye",
+        "hello",
+        "thank you",
+        "excuse me"
+      ]
     },
     {
       "id": "de-165-055",
-      "word": "lernen 55",
+      "word": "lernen",
       "pronunciation": "lernen",
-      "english": "to learn (variant 55)",
+      "english": "to learn",
       "type": "vocabulary",
-      "difficulty": 5
+      "difficulty": 5,
+      "question": "What does \"lernen\" mean?",
+      "answer": "to learn",
+      "translation": "to learn",
+      "options": [
+        "excuse me",
+        "to learn",
+        "hello",
+        "thank you"
+      ]
     },
     {
       "id": "de-165-056",
-      "word": "hallo 56",
+      "word": "hallo",
       "pronunciation": "hallo",
-      "english": "hello (variant 56)",
+      "english": "hello",
       "type": "vocabulary",
-      "difficulty": 5
+      "difficulty": 5,
+      "question": "What does \"hallo\" mean?",
+      "answer": "hello",
+      "translation": "hello",
+      "options": [
+        "excuse me",
+        "goodbye",
+        "thank you",
+        "hello"
+      ]
     },
     {
       "id": "de-165-057",
-      "word": "danke 57",
+      "word": "danke",
       "pronunciation": "danke",
-      "english": "thank you (variant 57)",
+      "english": "thank you",
       "type": "vocabulary",
-      "difficulty": 5
+      "difficulty": 5,
+      "question": "What does \"danke\" mean?",
+      "answer": "thank you",
+      "translation": "thank you",
+      "options": [
+        "goodbye",
+        "excuse me",
+        "hello",
+        "thank you"
+      ]
     },
     {
       "id": "de-165-058",
-      "word": "entschuldigung 58",
+      "word": "entschuldigung",
       "pronunciation": "entschuldigung",
-      "english": "excuse me (variant 58)",
+      "english": "excuse me",
       "type": "vocabulary",
-      "difficulty": 5
+      "difficulty": 5,
+      "question": "What does \"entschuldigung\" mean?",
+      "answer": "excuse me",
+      "translation": "excuse me",
+      "options": [
+        "excuse me",
+        "hello",
+        "goodbye",
+        "thank you"
+      ]
     },
     {
       "id": "de-165-059",
-      "word": "auf wiedersehen 59",
+      "word": "auf wiedersehen",
       "pronunciation": "auf wiedersehen",
-      "english": "goodbye (variant 59)",
+      "english": "goodbye",
       "type": "vocabulary",
-      "difficulty": 5
+      "difficulty": 5,
+      "question": "What does \"auf wiedersehen\" mean?",
+      "answer": "goodbye",
+      "translation": "goodbye",
+      "options": [
+        "excuse me",
+        "goodbye",
+        "hello",
+        "thank you"
+      ]
     },
     {
       "id": "de-165-060",
-      "word": "lernen 60",
+      "word": "lernen",
       "pronunciation": "lernen",
-      "english": "to learn (variant 60)",
+      "english": "to learn",
       "type": "vocabulary",
-      "difficulty": 5
+      "difficulty": 5,
+      "question": "What does \"lernen\" mean?",
+      "answer": "to learn",
+      "translation": "to learn",
+      "options": [
+        "excuse me",
+        "thank you",
+        "hello",
+        "to learn"
+      ]
     },
     {
       "id": "de-165-061",
-      "word": "hallo 61",
+      "word": "hallo",
       "pronunciation": "hallo",
-      "english": "hello (variant 61)",
+      "english": "hello",
       "type": "vocabulary",
-      "difficulty": 5
+      "difficulty": 5,
+      "question": "What does \"hallo\" mean?",
+      "answer": "hello",
+      "translation": "hello",
+      "options": [
+        "goodbye",
+        "excuse me",
+        "thank you",
+        "hello"
+      ]
     },
     {
       "id": "de-165-062",
-      "word": "danke 62",
+      "word": "danke",
       "pronunciation": "danke",
-      "english": "thank you (variant 62)",
+      "english": "thank you",
       "type": "vocabulary",
-      "difficulty": 5
+      "difficulty": 5,
+      "question": "What does \"danke\" mean?",
+      "answer": "thank you",
+      "translation": "thank you",
+      "options": [
+        "goodbye",
+        "excuse me",
+        "hello",
+        "thank you"
+      ]
     },
     {
       "id": "de-165-063",
-      "word": "entschuldigung 63",
+      "word": "entschuldigung",
       "pronunciation": "entschuldigung",
-      "english": "excuse me (variant 63)",
+      "english": "excuse me",
       "type": "vocabulary",
-      "difficulty": 5
+      "difficulty": 5,
+      "question": "What does \"entschuldigung\" mean?",
+      "answer": "excuse me",
+      "translation": "excuse me",
+      "options": [
+        "hello",
+        "thank you",
+        "excuse me",
+        "goodbye"
+      ]
     },
     {
       "id": "de-165-064",
-      "word": "auf wiedersehen 64",
+      "word": "auf wiedersehen",
       "pronunciation": "auf wiedersehen",
-      "english": "goodbye (variant 64)",
+      "english": "goodbye",
       "type": "vocabulary",
-      "difficulty": 5
+      "difficulty": 5,
+      "question": "What does \"auf wiedersehen\" mean?",
+      "answer": "goodbye",
+      "translation": "goodbye",
+      "options": [
+        "excuse me",
+        "thank you",
+        "hello",
+        "goodbye"
+      ]
     },
     {
       "id": "de-165-065",
-      "word": "lernen 65",
+      "word": "lernen",
       "pronunciation": "lernen",
-      "english": "to learn (variant 65)",
+      "english": "to learn",
       "type": "vocabulary",
-      "difficulty": 5
+      "difficulty": 5,
+      "question": "What does \"lernen\" mean?",
+      "answer": "to learn",
+      "translation": "to learn",
+      "options": [
+        "excuse me",
+        "thank you",
+        "hello",
+        "to learn"
+      ]
     },
     {
       "id": "de-165-066",
-      "word": "hallo 66",
+      "word": "hallo",
       "pronunciation": "hallo",
-      "english": "hello (variant 66)",
+      "english": "hello",
       "type": "vocabulary",
-      "difficulty": 5
+      "difficulty": 5,
+      "question": "What does \"hallo\" mean?",
+      "answer": "hello",
+      "translation": "hello",
+      "options": [
+        "excuse me",
+        "thank you",
+        "hello",
+        "goodbye"
+      ]
     },
     {
       "id": "de-165-067",
-      "word": "danke 67",
+      "word": "danke",
       "pronunciation": "danke",
-      "english": "thank you (variant 67)",
+      "english": "thank you",
       "type": "vocabulary",
-      "difficulty": 5
+      "difficulty": 5,
+      "question": "What does \"danke\" mean?",
+      "answer": "thank you",
+      "translation": "thank you",
+      "options": [
+        "hello",
+        "thank you",
+        "goodbye",
+        "excuse me"
+      ]
     },
     {
       "id": "de-165-068",
-      "word": "entschuldigung 68",
+      "word": "entschuldigung",
       "pronunciation": "entschuldigung",
-      "english": "excuse me (variant 68)",
+      "english": "excuse me",
       "type": "vocabulary",
-      "difficulty": 5
+      "difficulty": 5,
+      "question": "What does \"entschuldigung\" mean?",
+      "answer": "excuse me",
+      "translation": "excuse me",
+      "options": [
+        "excuse me",
+        "hello",
+        "thank you",
+        "goodbye"
+      ]
     },
     {
       "id": "de-165-069",
-      "word": "auf wiedersehen 69",
+      "word": "auf wiedersehen",
       "pronunciation": "auf wiedersehen",
-      "english": "goodbye (variant 69)",
+      "english": "goodbye",
       "type": "vocabulary",
-      "difficulty": 5
+      "difficulty": 5,
+      "question": "What does \"auf wiedersehen\" mean?",
+      "answer": "goodbye",
+      "translation": "goodbye",
+      "options": [
+        "goodbye",
+        "excuse me",
+        "hello",
+        "thank you"
+      ]
     },
     {
       "id": "de-165-070",
-      "word": "lernen 70",
+      "word": "lernen",
       "pronunciation": "lernen",
-      "english": "to learn (variant 70)",
+      "english": "to learn",
       "type": "vocabulary",
-      "difficulty": 5
+      "difficulty": 5,
+      "question": "What does \"lernen\" mean?",
+      "answer": "to learn",
+      "translation": "to learn",
+      "options": [
+        "thank you",
+        "to learn",
+        "excuse me",
+        "hello"
+      ]
     },
     {
       "id": "de-165-071",
-      "word": "hallo 71",
+      "word": "hallo",
       "pronunciation": "hallo",
-      "english": "hello (variant 71)",
+      "english": "hello",
       "type": "vocabulary",
-      "difficulty": 5
+      "difficulty": 5,
+      "question": "What does \"hallo\" mean?",
+      "answer": "hello",
+      "translation": "hello",
+      "options": [
+        "thank you",
+        "excuse me",
+        "hello",
+        "goodbye"
+      ]
     },
     {
       "id": "de-165-072",
-      "word": "danke 72",
+      "word": "danke",
       "pronunciation": "danke",
-      "english": "thank you (variant 72)",
+      "english": "thank you",
       "type": "vocabulary",
-      "difficulty": 5
+      "difficulty": 5,
+      "question": "What does \"danke\" mean?",
+      "answer": "thank you",
+      "translation": "thank you",
+      "options": [
+        "thank you",
+        "hello",
+        "excuse me",
+        "goodbye"
+      ]
     },
     {
       "id": "de-165-073",
-      "word": "entschuldigung 73",
+      "word": "entschuldigung",
       "pronunciation": "entschuldigung",
-      "english": "excuse me (variant 73)",
+      "english": "excuse me",
       "type": "vocabulary",
-      "difficulty": 5
+      "difficulty": 5,
+      "question": "What does \"entschuldigung\" mean?",
+      "answer": "excuse me",
+      "translation": "excuse me",
+      "options": [
+        "excuse me",
+        "hello",
+        "goodbye",
+        "thank you"
+      ]
     },
     {
       "id": "de-165-074",
-      "word": "auf wiedersehen 74",
+      "word": "auf wiedersehen",
       "pronunciation": "auf wiedersehen",
-      "english": "goodbye (variant 74)",
+      "english": "goodbye",
       "type": "vocabulary",
-      "difficulty": 5
+      "difficulty": 5,
+      "question": "What does \"auf wiedersehen\" mean?",
+      "answer": "goodbye",
+      "translation": "goodbye",
+      "options": [
+        "excuse me",
+        "thank you",
+        "hello",
+        "goodbye"
+      ]
     },
     {
       "id": "de-165-075",
-      "word": "lernen 75",
+      "word": "lernen",
       "pronunciation": "lernen",
-      "english": "to learn (variant 75)",
+      "english": "to learn",
       "type": "vocabulary",
-      "difficulty": 5
+      "difficulty": 5,
+      "question": "What does \"lernen\" mean?",
+      "answer": "to learn",
+      "translation": "to learn",
+      "options": [
+        "excuse me",
+        "thank you",
+        "hello",
+        "to learn"
+      ]
     },
     {
       "id": "de-165-076",
-      "word": "hallo 76",
+      "word": "hallo",
       "pronunciation": "hallo",
-      "english": "hello (variant 76)",
+      "english": "hello",
       "type": "vocabulary",
-      "difficulty": 5
+      "difficulty": 5,
+      "question": "What does \"hallo\" mean?",
+      "answer": "hello",
+      "translation": "hello",
+      "options": [
+        "goodbye",
+        "excuse me",
+        "thank you",
+        "hello"
+      ]
     },
     {
       "id": "de-165-077",
-      "word": "danke 77",
+      "word": "danke",
       "pronunciation": "danke",
-      "english": "thank you (variant 77)",
+      "english": "thank you",
       "type": "vocabulary",
-      "difficulty": 5
+      "difficulty": 5,
+      "question": "What does \"danke\" mean?",
+      "answer": "thank you",
+      "translation": "thank you",
+      "options": [
+        "thank you",
+        "hello",
+        "excuse me",
+        "goodbye"
+      ]
     },
     {
       "id": "de-165-078",
-      "word": "entschuldigung 78",
+      "word": "entschuldigung",
       "pronunciation": "entschuldigung",
-      "english": "excuse me (variant 78)",
+      "english": "excuse me",
       "type": "vocabulary",
-      "difficulty": 5
+      "difficulty": 5,
+      "question": "What does \"entschuldigung\" mean?",
+      "answer": "excuse me",
+      "translation": "excuse me",
+      "options": [
+        "goodbye",
+        "excuse me",
+        "hello",
+        "thank you"
+      ]
     },
     {
       "id": "de-165-079",
-      "word": "auf wiedersehen 79",
+      "word": "auf wiedersehen",
       "pronunciation": "auf wiedersehen",
-      "english": "goodbye (variant 79)",
+      "english": "goodbye",
       "type": "vocabulary",
-      "difficulty": 5
+      "difficulty": 5,
+      "question": "What does \"auf wiedersehen\" mean?",
+      "answer": "goodbye",
+      "translation": "goodbye",
+      "options": [
+        "excuse me",
+        "thank you",
+        "goodbye",
+        "hello"
+      ]
     },
     {
       "id": "de-165-080",
-      "word": "lernen 80",
+      "word": "lernen",
       "pronunciation": "lernen",
-      "english": "to learn (variant 80)",
+      "english": "to learn",
       "type": "vocabulary",
-      "difficulty": 5
+      "difficulty": 5,
+      "question": "What does \"lernen\" mean?",
+      "answer": "to learn",
+      "translation": "to learn",
+      "options": [
+        "to learn",
+        "hello",
+        "excuse me",
+        "thank you"
+      ]
     },
     {
       "id": "de-165-081",
-      "word": "hallo 81",
+      "word": "hallo",
       "pronunciation": "hallo",
-      "english": "hello (variant 81)",
+      "english": "hello",
       "type": "vocabulary",
-      "difficulty": 5
+      "difficulty": 5,
+      "question": "What does \"hallo\" mean?",
+      "answer": "hello",
+      "translation": "hello",
+      "options": [
+        "goodbye",
+        "thank you",
+        "hello",
+        "excuse me"
+      ]
     },
     {
       "id": "de-165-082",
-      "word": "danke 82",
+      "word": "danke",
       "pronunciation": "danke",
-      "english": "thank you (variant 82)",
+      "english": "thank you",
       "type": "vocabulary",
-      "difficulty": 5
+      "difficulty": 5,
+      "question": "What does \"danke\" mean?",
+      "answer": "thank you",
+      "translation": "thank you",
+      "options": [
+        "hello",
+        "thank you",
+        "goodbye",
+        "excuse me"
+      ]
     },
     {
       "id": "de-165-083",
-      "word": "entschuldigung 83",
+      "word": "entschuldigung",
       "pronunciation": "entschuldigung",
-      "english": "excuse me (variant 83)",
+      "english": "excuse me",
       "type": "vocabulary",
-      "difficulty": 5
+      "difficulty": 5,
+      "question": "What does \"entschuldigung\" mean?",
+      "answer": "excuse me",
+      "translation": "excuse me",
+      "options": [
+        "thank you",
+        "hello",
+        "excuse me",
+        "goodbye"
+      ]
     },
     {
       "id": "de-165-084",
-      "word": "auf wiedersehen 84",
+      "word": "auf wiedersehen",
       "pronunciation": "auf wiedersehen",
-      "english": "goodbye (variant 84)",
+      "english": "goodbye",
       "type": "vocabulary",
-      "difficulty": 5
+      "difficulty": 5,
+      "question": "What does \"auf wiedersehen\" mean?",
+      "answer": "goodbye",
+      "translation": "goodbye",
+      "options": [
+        "goodbye",
+        "hello",
+        "thank you",
+        "excuse me"
+      ]
     },
     {
       "id": "de-165-085",
-      "word": "lernen 85",
+      "word": "lernen",
       "pronunciation": "lernen",
-      "english": "to learn (variant 85)",
+      "english": "to learn",
       "type": "vocabulary",
-      "difficulty": 5
+      "difficulty": 5,
+      "question": "What does \"lernen\" mean?",
+      "answer": "to learn",
+      "translation": "to learn",
+      "options": [
+        "to learn",
+        "hello",
+        "thank you",
+        "excuse me"
+      ]
     },
     {
       "id": "de-165-086",
-      "word": "hallo 86",
+      "word": "hallo",
       "pronunciation": "hallo",
-      "english": "hello (variant 86)",
+      "english": "hello",
       "type": "vocabulary",
-      "difficulty": 5
+      "difficulty": 5,
+      "question": "What does \"hallo\" mean?",
+      "answer": "hello",
+      "translation": "hello",
+      "options": [
+        "hello",
+        "goodbye",
+        "thank you",
+        "excuse me"
+      ]
     },
     {
       "id": "de-165-087",
-      "word": "danke 87",
+      "word": "danke",
       "pronunciation": "danke",
-      "english": "thank you (variant 87)",
+      "english": "thank you",
       "type": "vocabulary",
-      "difficulty": 5
+      "difficulty": 5,
+      "question": "What does \"danke\" mean?",
+      "answer": "thank you",
+      "translation": "thank you",
+      "options": [
+        "goodbye",
+        "thank you",
+        "excuse me",
+        "hello"
+      ]
     },
     {
       "id": "de-165-088",
-      "word": "entschuldigung 88",
+      "word": "entschuldigung",
       "pronunciation": "entschuldigung",
-      "english": "excuse me (variant 88)",
+      "english": "excuse me",
       "type": "vocabulary",
-      "difficulty": 5
+      "difficulty": 5,
+      "question": "What does \"entschuldigung\" mean?",
+      "answer": "excuse me",
+      "translation": "excuse me",
+      "options": [
+        "goodbye",
+        "thank you",
+        "hello",
+        "excuse me"
+      ]
     },
     {
       "id": "de-165-089",
-      "word": "auf wiedersehen 89",
+      "word": "auf wiedersehen",
       "pronunciation": "auf wiedersehen",
-      "english": "goodbye (variant 89)",
+      "english": "goodbye",
       "type": "vocabulary",
-      "difficulty": 5
+      "difficulty": 5,
+      "question": "What does \"auf wiedersehen\" mean?",
+      "answer": "goodbye",
+      "translation": "goodbye",
+      "options": [
+        "thank you",
+        "hello",
+        "goodbye",
+        "excuse me"
+      ]
     },
     {
       "id": "de-165-090",
-      "word": "lernen 90",
+      "word": "lernen",
       "pronunciation": "lernen",
-      "english": "to learn (variant 90)",
+      "english": "to learn",
       "type": "vocabulary",
-      "difficulty": 5
+      "difficulty": 5,
+      "question": "What does \"lernen\" mean?",
+      "answer": "to learn",
+      "translation": "to learn",
+      "options": [
+        "thank you",
+        "hello",
+        "to learn",
+        "excuse me"
+      ]
     },
     {
       "id": "de-165-091",
-      "word": "hallo 91",
+      "word": "hallo",
       "pronunciation": "hallo",
-      "english": "hello (variant 91)",
+      "english": "hello",
       "type": "vocabulary",
-      "difficulty": 5
+      "difficulty": 5,
+      "question": "What does \"hallo\" mean?",
+      "answer": "hello",
+      "translation": "hello",
+      "options": [
+        "thank you",
+        "goodbye",
+        "hello",
+        "excuse me"
+      ]
     },
     {
       "id": "de-165-092",
-      "word": "danke 92",
+      "word": "danke",
       "pronunciation": "danke",
-      "english": "thank you (variant 92)",
+      "english": "thank you",
       "type": "vocabulary",
-      "difficulty": 5
+      "difficulty": 5,
+      "question": "What does \"danke\" mean?",
+      "answer": "thank you",
+      "translation": "thank you",
+      "options": [
+        "hello",
+        "goodbye",
+        "thank you",
+        "excuse me"
+      ]
     },
     {
       "id": "de-165-093",
-      "word": "entschuldigung 93",
+      "word": "entschuldigung",
       "pronunciation": "entschuldigung",
-      "english": "excuse me (variant 93)",
+      "english": "excuse me",
       "type": "vocabulary",
-      "difficulty": 5
+      "difficulty": 5,
+      "question": "What does \"entschuldigung\" mean?",
+      "answer": "excuse me",
+      "translation": "excuse me",
+      "options": [
+        "excuse me",
+        "hello",
+        "thank you",
+        "goodbye"
+      ]
     },
     {
       "id": "de-165-094",
-      "word": "auf wiedersehen 94",
+      "word": "auf wiedersehen",
       "pronunciation": "auf wiedersehen",
-      "english": "goodbye (variant 94)",
+      "english": "goodbye",
       "type": "vocabulary",
-      "difficulty": 5
+      "difficulty": 5,
+      "question": "What does \"auf wiedersehen\" mean?",
+      "answer": "goodbye",
+      "translation": "goodbye",
+      "options": [
+        "goodbye",
+        "hello",
+        "thank you",
+        "excuse me"
+      ]
     },
     {
       "id": "de-165-095",
-      "word": "lernen 95",
+      "word": "lernen",
       "pronunciation": "lernen",
-      "english": "to learn (variant 95)",
+      "english": "to learn",
       "type": "vocabulary",
-      "difficulty": 5
+      "difficulty": 5,
+      "question": "What does \"lernen\" mean?",
+      "answer": "to learn",
+      "translation": "to learn",
+      "options": [
+        "excuse me",
+        "thank you",
+        "to learn",
+        "hello"
+      ]
     },
     {
       "id": "de-165-096",
-      "word": "hallo 96",
+      "word": "hallo",
       "pronunciation": "hallo",
-      "english": "hello (variant 96)",
+      "english": "hello",
       "type": "vocabulary",
-      "difficulty": 5
+      "difficulty": 5,
+      "question": "What does \"hallo\" mean?",
+      "answer": "hello",
+      "translation": "hello",
+      "options": [
+        "hello",
+        "thank you",
+        "excuse me",
+        "goodbye"
+      ]
     },
     {
       "id": "de-165-097",
-      "word": "danke 97",
+      "word": "danke",
       "pronunciation": "danke",
-      "english": "thank you (variant 97)",
+      "english": "thank you",
       "type": "vocabulary",
-      "difficulty": 5
+      "difficulty": 5,
+      "question": "What does \"danke\" mean?",
+      "answer": "thank you",
+      "translation": "thank you",
+      "options": [
+        "thank you",
+        "hello",
+        "excuse me",
+        "goodbye"
+      ]
     },
     {
       "id": "de-165-098",
-      "word": "entschuldigung 98",
+      "word": "entschuldigung",
       "pronunciation": "entschuldigung",
-      "english": "excuse me (variant 98)",
+      "english": "excuse me",
       "type": "vocabulary",
-      "difficulty": 5
+      "difficulty": 5,
+      "question": "What does \"entschuldigung\" mean?",
+      "answer": "excuse me",
+      "translation": "excuse me",
+      "options": [
+        "goodbye",
+        "hello",
+        "excuse me",
+        "thank you"
+      ]
     },
     {
       "id": "de-165-099",
-      "word": "auf wiedersehen 99",
+      "word": "auf wiedersehen",
       "pronunciation": "auf wiedersehen",
-      "english": "goodbye (variant 99)",
+      "english": "goodbye",
       "type": "vocabulary",
-      "difficulty": 5
+      "difficulty": 5,
+      "question": "What does \"auf wiedersehen\" mean?",
+      "answer": "goodbye",
+      "translation": "goodbye",
+      "options": [
+        "excuse me",
+        "thank you",
+        "goodbye",
+        "hello"
+      ]
     },
     {
       "id": "de-165-100",
-      "word": "lernen 100",
+      "word": "lernen",
       "pronunciation": "lernen",
-      "english": "to learn (variant 100)",
+      "english": "to learn",
       "type": "vocabulary",
-      "difficulty": 5
+      "difficulty": 5,
+      "question": "What does \"lernen\" mean?",
+      "answer": "to learn",
+      "translation": "to learn",
+      "options": [
+        "thank you",
+        "excuse me",
+        "hello",
+        "to learn"
+      ]
     }
   ]
 }

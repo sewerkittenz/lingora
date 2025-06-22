@@ -11,799 +11,1799 @@
       "romanization": "annyeonghaseyo",
       "english": "hello",
       "type": "vocabulary",
-      "difficulty": 6
+      "difficulty": 6,
+      "question": "What does \"안녕하세요\" mean?",
+      "answer": "hello",
+      "translation": "hello",
+      "options": [
+        "sorry (variant 3)",
+        "goodbye (variant 4)",
+        "thank you (variant 2)",
+        "hello"
+      ],
+      "pronunciation": "annyeonghaseyo"
     },
     {
       "id": "ko-185-002",
-      "word": "감사합니다 2",
+      "word": "감사합니다",
       "romanization": "gamsahamnida",
-      "english": "thank you (variant 2)",
+      "english": "thank you",
       "type": "vocabulary",
-      "difficulty": 6
+      "difficulty": 6,
+      "question": "What does \"감사합니다\" mean?",
+      "answer": "thank you",
+      "translation": "thank you",
+      "options": [
+        "goodbye (variant 4)",
+        "thank you",
+        "hello",
+        "sorry (variant 3)"
+      ],
+      "pronunciation": "gamsahamnida"
     },
     {
       "id": "ko-185-003",
-      "word": "죄송합니다 3",
+      "word": "죄송합니다",
       "romanization": "joesonghamnida",
-      "english": "sorry (variant 3)",
+      "english": "sorry",
       "type": "vocabulary",
-      "difficulty": 6
+      "difficulty": 6,
+      "question": "What does \"죄송합니다\" mean?",
+      "answer": "sorry",
+      "translation": "sorry",
+      "options": [
+        "goodbye (variant 4)",
+        "thank you",
+        "hello",
+        "sorry"
+      ],
+      "pronunciation": "joesonghamnida"
     },
     {
       "id": "ko-185-004",
-      "word": "안녕히 가세요 4",
+      "word": "안녕히 가세요",
       "romanization": "annyeonghi gaseyo",
-      "english": "goodbye (variant 4)",
+      "english": "goodbye",
       "type": "vocabulary",
-      "difficulty": 6
+      "difficulty": 6,
+      "question": "What does \"안녕히 가세요\" mean?",
+      "answer": "goodbye",
+      "translation": "goodbye",
+      "options": [
+        "hello",
+        "sorry",
+        "goodbye",
+        "thank you"
+      ],
+      "pronunciation": "annyeonghi gaseyo"
     },
     {
       "id": "ko-185-005",
-      "word": "공부하다 5",
+      "word": "공부하다",
       "romanization": "gongbuhada",
-      "english": "to study (variant 5)",
+      "english": "to study",
       "type": "vocabulary",
-      "difficulty": 6
+      "difficulty": 6,
+      "question": "What does \"공부하다\" mean?",
+      "answer": "to study",
+      "translation": "to study",
+      "options": [
+        "sorry",
+        "to study",
+        "hello",
+        "thank you"
+      ],
+      "pronunciation": "gongbuhada"
     },
     {
       "id": "ko-185-006",
-      "word": "안녕하세요 6",
+      "word": "안녕하세요",
       "romanization": "annyeonghaseyo",
-      "english": "hello (variant 6)",
+      "english": "hello",
       "type": "vocabulary",
-      "difficulty": 6
+      "difficulty": 6,
+      "question": "What does \"안녕하세요\" mean?",
+      "answer": "hello",
+      "translation": "hello",
+      "options": [
+        "hello",
+        "thank you",
+        "sorry",
+        "goodbye"
+      ],
+      "pronunciation": "annyeonghaseyo"
     },
     {
       "id": "ko-185-007",
-      "word": "감사합니다 7",
+      "word": "감사합니다",
       "romanization": "gamsahamnida",
-      "english": "thank you (variant 7)",
+      "english": "thank you",
       "type": "vocabulary",
-      "difficulty": 6
+      "difficulty": 6,
+      "question": "What does \"감사합니다\" mean?",
+      "answer": "thank you",
+      "translation": "thank you",
+      "options": [
+        "sorry",
+        "hello",
+        "goodbye",
+        "thank you"
+      ],
+      "pronunciation": "gamsahamnida"
     },
     {
       "id": "ko-185-008",
-      "word": "죄송합니다 8",
+      "word": "죄송합니다",
       "romanization": "joesonghamnida",
-      "english": "sorry (variant 8)",
+      "english": "sorry",
       "type": "vocabulary",
-      "difficulty": 6
+      "difficulty": 6,
+      "question": "What does \"죄송합니다\" mean?",
+      "answer": "sorry",
+      "translation": "sorry",
+      "options": [
+        "hello",
+        "goodbye",
+        "sorry",
+        "thank you"
+      ],
+      "pronunciation": "joesonghamnida"
     },
     {
       "id": "ko-185-009",
-      "word": "안녕히 가세요 9",
+      "word": "안녕히 가세요",
       "romanization": "annyeonghi gaseyo",
-      "english": "goodbye (variant 9)",
+      "english": "goodbye",
       "type": "vocabulary",
-      "difficulty": 6
+      "difficulty": 6,
+      "question": "What does \"안녕히 가세요\" mean?",
+      "answer": "goodbye",
+      "translation": "goodbye",
+      "options": [
+        "sorry",
+        "thank you",
+        "hello",
+        "goodbye"
+      ],
+      "pronunciation": "annyeonghi gaseyo"
     },
     {
       "id": "ko-185-010",
-      "word": "공부하다 10",
+      "word": "공부하다",
       "romanization": "gongbuhada",
-      "english": "to study (variant 10)",
+      "english": "to study",
       "type": "vocabulary",
-      "difficulty": 6
+      "difficulty": 6,
+      "question": "What does \"공부하다\" mean?",
+      "answer": "to study",
+      "translation": "to study",
+      "options": [
+        "sorry",
+        "thank you",
+        "hello",
+        "to study"
+      ],
+      "pronunciation": "gongbuhada"
     },
     {
       "id": "ko-185-011",
-      "word": "안녕하세요 11",
+      "word": "안녕하세요",
       "romanization": "annyeonghaseyo",
-      "english": "hello (variant 11)",
+      "english": "hello",
       "type": "vocabulary",
-      "difficulty": 6
+      "difficulty": 6,
+      "question": "What does \"안녕하세요\" mean?",
+      "answer": "hello",
+      "translation": "hello",
+      "options": [
+        "hello",
+        "thank you",
+        "sorry",
+        "goodbye"
+      ],
+      "pronunciation": "annyeonghaseyo"
     },
     {
       "id": "ko-185-012",
-      "word": "감사합니다 12",
+      "word": "감사합니다",
       "romanization": "gamsahamnida",
-      "english": "thank you (variant 12)",
+      "english": "thank you",
       "type": "vocabulary",
-      "difficulty": 6
+      "difficulty": 6,
+      "question": "What does \"감사합니다\" mean?",
+      "answer": "thank you",
+      "translation": "thank you",
+      "options": [
+        "sorry",
+        "goodbye",
+        "thank you",
+        "hello"
+      ],
+      "pronunciation": "gamsahamnida"
     },
     {
       "id": "ko-185-013",
-      "word": "죄송합니다 13",
+      "word": "죄송합니다",
       "romanization": "joesonghamnida",
-      "english": "sorry (variant 13)",
+      "english": "sorry",
       "type": "vocabulary",
-      "difficulty": 6
+      "difficulty": 6,
+      "question": "What does \"죄송합니다\" mean?",
+      "answer": "sorry",
+      "translation": "sorry",
+      "options": [
+        "thank you",
+        "hello",
+        "sorry",
+        "goodbye"
+      ],
+      "pronunciation": "joesonghamnida"
     },
     {
       "id": "ko-185-014",
-      "word": "안녕히 가세요 14",
+      "word": "안녕히 가세요",
       "romanization": "annyeonghi gaseyo",
-      "english": "goodbye (variant 14)",
+      "english": "goodbye",
       "type": "vocabulary",
-      "difficulty": 6
+      "difficulty": 6,
+      "question": "What does \"안녕히 가세요\" mean?",
+      "answer": "goodbye",
+      "translation": "goodbye",
+      "options": [
+        "goodbye",
+        "hello",
+        "thank you",
+        "sorry"
+      ],
+      "pronunciation": "annyeonghi gaseyo"
     },
     {
       "id": "ko-185-015",
-      "word": "공부하다 15",
+      "word": "공부하다",
       "romanization": "gongbuhada",
-      "english": "to study (variant 15)",
+      "english": "to study",
       "type": "vocabulary",
-      "difficulty": 6
+      "difficulty": 6,
+      "question": "What does \"공부하다\" mean?",
+      "answer": "to study",
+      "translation": "to study",
+      "options": [
+        "sorry",
+        "thank you",
+        "hello",
+        "to study"
+      ],
+      "pronunciation": "gongbuhada"
     },
     {
       "id": "ko-185-016",
-      "word": "안녕하세요 16",
+      "word": "안녕하세요",
       "romanization": "annyeonghaseyo",
-      "english": "hello (variant 16)",
+      "english": "hello",
       "type": "vocabulary",
-      "difficulty": 6
+      "difficulty": 6,
+      "question": "What does \"안녕하세요\" mean?",
+      "answer": "hello",
+      "translation": "hello",
+      "options": [
+        "goodbye",
+        "sorry",
+        "thank you",
+        "hello"
+      ],
+      "pronunciation": "annyeonghaseyo"
     },
     {
       "id": "ko-185-017",
-      "word": "감사합니다 17",
+      "word": "감사합니다",
       "romanization": "gamsahamnida",
-      "english": "thank you (variant 17)",
+      "english": "thank you",
       "type": "vocabulary",
-      "difficulty": 6
+      "difficulty": 6,
+      "question": "What does \"감사합니다\" mean?",
+      "answer": "thank you",
+      "translation": "thank you",
+      "options": [
+        "sorry",
+        "goodbye",
+        "hello",
+        "thank you"
+      ],
+      "pronunciation": "gamsahamnida"
     },
     {
       "id": "ko-185-018",
-      "word": "죄송합니다 18",
+      "word": "죄송합니다",
       "romanization": "joesonghamnida",
-      "english": "sorry (variant 18)",
+      "english": "sorry",
       "type": "vocabulary",
-      "difficulty": 6
+      "difficulty": 6,
+      "question": "What does \"죄송합니다\" mean?",
+      "answer": "sorry",
+      "translation": "sorry",
+      "options": [
+        "sorry",
+        "hello",
+        "goodbye",
+        "thank you"
+      ],
+      "pronunciation": "joesonghamnida"
     },
     {
       "id": "ko-185-019",
-      "word": "안녕히 가세요 19",
+      "word": "안녕히 가세요",
       "romanization": "annyeonghi gaseyo",
-      "english": "goodbye (variant 19)",
+      "english": "goodbye",
       "type": "vocabulary",
-      "difficulty": 6
+      "difficulty": 6,
+      "question": "What does \"안녕히 가세요\" mean?",
+      "answer": "goodbye",
+      "translation": "goodbye",
+      "options": [
+        "thank you",
+        "hello",
+        "goodbye",
+        "sorry"
+      ],
+      "pronunciation": "annyeonghi gaseyo"
     },
     {
       "id": "ko-185-020",
-      "word": "공부하다 20",
+      "word": "공부하다",
       "romanization": "gongbuhada",
-      "english": "to study (variant 20)",
+      "english": "to study",
       "type": "vocabulary",
-      "difficulty": 6
+      "difficulty": 6,
+      "question": "What does \"공부하다\" mean?",
+      "answer": "to study",
+      "translation": "to study",
+      "options": [
+        "to study",
+        "hello",
+        "sorry",
+        "thank you"
+      ],
+      "pronunciation": "gongbuhada"
     },
     {
       "id": "ko-185-021",
-      "word": "안녕하세요 21",
+      "word": "안녕하세요",
       "romanization": "annyeonghaseyo",
-      "english": "hello (variant 21)",
+      "english": "hello",
       "type": "vocabulary",
-      "difficulty": 6
+      "difficulty": 6,
+      "question": "What does \"안녕하세요\" mean?",
+      "answer": "hello",
+      "translation": "hello",
+      "options": [
+        "hello",
+        "thank you",
+        "sorry",
+        "goodbye"
+      ],
+      "pronunciation": "annyeonghaseyo"
     },
     {
       "id": "ko-185-022",
-      "word": "감사합니다 22",
+      "word": "감사합니다",
       "romanization": "gamsahamnida",
-      "english": "thank you (variant 22)",
+      "english": "thank you",
       "type": "vocabulary",
-      "difficulty": 6
+      "difficulty": 6,
+      "question": "What does \"감사합니다\" mean?",
+      "answer": "thank you",
+      "translation": "thank you",
+      "options": [
+        "sorry",
+        "hello",
+        "thank you",
+        "goodbye"
+      ],
+      "pronunciation": "gamsahamnida"
     },
     {
       "id": "ko-185-023",
-      "word": "죄송합니다 23",
+      "word": "죄송합니다",
       "romanization": "joesonghamnida",
-      "english": "sorry (variant 23)",
+      "english": "sorry",
       "type": "vocabulary",
-      "difficulty": 6
+      "difficulty": 6,
+      "question": "What does \"죄송합니다\" mean?",
+      "answer": "sorry",
+      "translation": "sorry",
+      "options": [
+        "goodbye",
+        "hello",
+        "thank you",
+        "sorry"
+      ],
+      "pronunciation": "joesonghamnida"
     },
     {
       "id": "ko-185-024",
-      "word": "안녕히 가세요 24",
+      "word": "안녕히 가세요",
       "romanization": "annyeonghi gaseyo",
-      "english": "goodbye (variant 24)",
+      "english": "goodbye",
       "type": "vocabulary",
-      "difficulty": 6
+      "difficulty": 6,
+      "question": "What does \"안녕히 가세요\" mean?",
+      "answer": "goodbye",
+      "translation": "goodbye",
+      "options": [
+        "sorry",
+        "thank you",
+        "hello",
+        "goodbye"
+      ],
+      "pronunciation": "annyeonghi gaseyo"
     },
     {
       "id": "ko-185-025",
-      "word": "공부하다 25",
+      "word": "공부하다",
       "romanization": "gongbuhada",
-      "english": "to study (variant 25)",
+      "english": "to study",
       "type": "vocabulary",
-      "difficulty": 6
+      "difficulty": 6,
+      "question": "What does \"공부하다\" mean?",
+      "answer": "to study",
+      "translation": "to study",
+      "options": [
+        "to study",
+        "hello",
+        "thank you",
+        "sorry"
+      ],
+      "pronunciation": "gongbuhada"
     },
     {
       "id": "ko-185-026",
-      "word": "안녕하세요 26",
+      "word": "안녕하세요",
       "romanization": "annyeonghaseyo",
-      "english": "hello (variant 26)",
+      "english": "hello",
       "type": "vocabulary",
-      "difficulty": 6
+      "difficulty": 6,
+      "question": "What does \"안녕하세요\" mean?",
+      "answer": "hello",
+      "translation": "hello",
+      "options": [
+        "sorry",
+        "goodbye",
+        "thank you",
+        "hello"
+      ],
+      "pronunciation": "annyeonghaseyo"
     },
     {
       "id": "ko-185-027",
-      "word": "감사합니다 27",
+      "word": "감사합니다",
       "romanization": "gamsahamnida",
-      "english": "thank you (variant 27)",
+      "english": "thank you",
       "type": "vocabulary",
-      "difficulty": 6
+      "difficulty": 6,
+      "question": "What does \"감사합니다\" mean?",
+      "answer": "thank you",
+      "translation": "thank you",
+      "options": [
+        "goodbye",
+        "sorry",
+        "thank you",
+        "hello"
+      ],
+      "pronunciation": "gamsahamnida"
     },
     {
       "id": "ko-185-028",
-      "word": "죄송합니다 28",
+      "word": "죄송합니다",
       "romanization": "joesonghamnida",
-      "english": "sorry (variant 28)",
+      "english": "sorry",
       "type": "vocabulary",
-      "difficulty": 6
+      "difficulty": 6,
+      "question": "What does \"죄송합니다\" mean?",
+      "answer": "sorry",
+      "translation": "sorry",
+      "options": [
+        "sorry",
+        "goodbye",
+        "hello",
+        "thank you"
+      ],
+      "pronunciation": "joesonghamnida"
     },
     {
       "id": "ko-185-029",
-      "word": "안녕히 가세요 29",
+      "word": "안녕히 가세요",
       "romanization": "annyeonghi gaseyo",
-      "english": "goodbye (variant 29)",
+      "english": "goodbye",
       "type": "vocabulary",
-      "difficulty": 6
+      "difficulty": 6,
+      "question": "What does \"안녕히 가세요\" mean?",
+      "answer": "goodbye",
+      "translation": "goodbye",
+      "options": [
+        "sorry",
+        "hello",
+        "thank you",
+        "goodbye"
+      ],
+      "pronunciation": "annyeonghi gaseyo"
     },
     {
       "id": "ko-185-030",
-      "word": "공부하다 30",
+      "word": "공부하다",
       "romanization": "gongbuhada",
-      "english": "to study (variant 30)",
+      "english": "to study",
       "type": "vocabulary",
-      "difficulty": 6
+      "difficulty": 6,
+      "question": "What does \"공부하다\" mean?",
+      "answer": "to study",
+      "translation": "to study",
+      "options": [
+        "hello",
+        "to study",
+        "sorry",
+        "thank you"
+      ],
+      "pronunciation": "gongbuhada"
     },
     {
       "id": "ko-185-031",
-      "word": "안녕하세요 31",
+      "word": "안녕하세요",
       "romanization": "annyeonghaseyo",
-      "english": "hello (variant 31)",
+      "english": "hello",
       "type": "vocabulary",
-      "difficulty": 6
+      "difficulty": 6,
+      "question": "What does \"안녕하세요\" mean?",
+      "answer": "hello",
+      "translation": "hello",
+      "options": [
+        "sorry",
+        "thank you",
+        "hello",
+        "goodbye"
+      ],
+      "pronunciation": "annyeonghaseyo"
     },
     {
       "id": "ko-185-032",
-      "word": "감사합니다 32",
+      "word": "감사합니다",
       "romanization": "gamsahamnida",
-      "english": "thank you (variant 32)",
+      "english": "thank you",
       "type": "vocabulary",
-      "difficulty": 6
+      "difficulty": 6,
+      "question": "What does \"감사합니다\" mean?",
+      "answer": "thank you",
+      "translation": "thank you",
+      "options": [
+        "goodbye",
+        "sorry",
+        "hello",
+        "thank you"
+      ],
+      "pronunciation": "gamsahamnida"
     },
     {
       "id": "ko-185-033",
-      "word": "죄송합니다 33",
+      "word": "죄송합니다",
       "romanization": "joesonghamnida",
-      "english": "sorry (variant 33)",
+      "english": "sorry",
       "type": "vocabulary",
-      "difficulty": 6
+      "difficulty": 6,
+      "question": "What does \"죄송합니다\" mean?",
+      "answer": "sorry",
+      "translation": "sorry",
+      "options": [
+        "sorry",
+        "hello",
+        "thank you",
+        "goodbye"
+      ],
+      "pronunciation": "joesonghamnida"
     },
     {
       "id": "ko-185-034",
-      "word": "안녕히 가세요 34",
+      "word": "안녕히 가세요",
       "romanization": "annyeonghi gaseyo",
-      "english": "goodbye (variant 34)",
+      "english": "goodbye",
       "type": "vocabulary",
-      "difficulty": 6
+      "difficulty": 6,
+      "question": "What does \"안녕히 가세요\" mean?",
+      "answer": "goodbye",
+      "translation": "goodbye",
+      "options": [
+        "thank you",
+        "hello",
+        "goodbye",
+        "sorry"
+      ],
+      "pronunciation": "annyeonghi gaseyo"
     },
     {
       "id": "ko-185-035",
-      "word": "공부하다 35",
+      "word": "공부하다",
       "romanization": "gongbuhada",
-      "english": "to study (variant 35)",
+      "english": "to study",
       "type": "vocabulary",
-      "difficulty": 6
+      "difficulty": 6,
+      "question": "What does \"공부하다\" mean?",
+      "answer": "to study",
+      "translation": "to study",
+      "options": [
+        "thank you",
+        "hello",
+        "to study",
+        "sorry"
+      ],
+      "pronunciation": "gongbuhada"
     },
     {
       "id": "ko-185-036",
-      "word": "안녕하세요 36",
+      "word": "안녕하세요",
       "romanization": "annyeonghaseyo",
-      "english": "hello (variant 36)",
+      "english": "hello",
       "type": "vocabulary",
-      "difficulty": 6
+      "difficulty": 6,
+      "question": "What does \"안녕하세요\" mean?",
+      "answer": "hello",
+      "translation": "hello",
+      "options": [
+        "hello",
+        "goodbye",
+        "sorry",
+        "thank you"
+      ],
+      "pronunciation": "annyeonghaseyo"
     },
     {
       "id": "ko-185-037",
-      "word": "감사합니다 37",
+      "word": "감사합니다",
       "romanization": "gamsahamnida",
-      "english": "thank you (variant 37)",
+      "english": "thank you",
       "type": "vocabulary",
-      "difficulty": 6
+      "difficulty": 6,
+      "question": "What does \"감사합니다\" mean?",
+      "answer": "thank you",
+      "translation": "thank you",
+      "options": [
+        "sorry",
+        "hello",
+        "goodbye",
+        "thank you"
+      ],
+      "pronunciation": "gamsahamnida"
     },
     {
       "id": "ko-185-038",
-      "word": "죄송합니다 38",
+      "word": "죄송합니다",
       "romanization": "joesonghamnida",
-      "english": "sorry (variant 38)",
+      "english": "sorry",
       "type": "vocabulary",
-      "difficulty": 6
+      "difficulty": 6,
+      "question": "What does \"죄송합니다\" mean?",
+      "answer": "sorry",
+      "translation": "sorry",
+      "options": [
+        "thank you",
+        "hello",
+        "sorry",
+        "goodbye"
+      ],
+      "pronunciation": "joesonghamnida"
     },
     {
       "id": "ko-185-039",
-      "word": "안녕히 가세요 39",
+      "word": "안녕히 가세요",
       "romanization": "annyeonghi gaseyo",
-      "english": "goodbye (variant 39)",
+      "english": "goodbye",
       "type": "vocabulary",
-      "difficulty": 6
+      "difficulty": 6,
+      "question": "What does \"안녕히 가세요\" mean?",
+      "answer": "goodbye",
+      "translation": "goodbye",
+      "options": [
+        "goodbye",
+        "hello",
+        "sorry",
+        "thank you"
+      ],
+      "pronunciation": "annyeonghi gaseyo"
     },
     {
       "id": "ko-185-040",
-      "word": "공부하다 40",
+      "word": "공부하다",
       "romanization": "gongbuhada",
-      "english": "to study (variant 40)",
+      "english": "to study",
       "type": "vocabulary",
-      "difficulty": 6
+      "difficulty": 6,
+      "question": "What does \"공부하다\" mean?",
+      "answer": "to study",
+      "translation": "to study",
+      "options": [
+        "sorry",
+        "thank you",
+        "hello",
+        "to study"
+      ],
+      "pronunciation": "gongbuhada"
     },
     {
       "id": "ko-185-041",
-      "word": "안녕하세요 41",
+      "word": "안녕하세요",
       "romanization": "annyeonghaseyo",
-      "english": "hello (variant 41)",
+      "english": "hello",
       "type": "vocabulary",
-      "difficulty": 6
+      "difficulty": 6,
+      "question": "What does \"안녕하세요\" mean?",
+      "answer": "hello",
+      "translation": "hello",
+      "options": [
+        "goodbye",
+        "sorry",
+        "hello",
+        "thank you"
+      ],
+      "pronunciation": "annyeonghaseyo"
     },
     {
       "id": "ko-185-042",
-      "word": "감사합니다 42",
+      "word": "감사합니다",
       "romanization": "gamsahamnida",
-      "english": "thank you (variant 42)",
+      "english": "thank you",
       "type": "vocabulary",
-      "difficulty": 6
+      "difficulty": 6,
+      "question": "What does \"감사합니다\" mean?",
+      "answer": "thank you",
+      "translation": "thank you",
+      "options": [
+        "goodbye",
+        "sorry",
+        "hello",
+        "thank you"
+      ],
+      "pronunciation": "gamsahamnida"
     },
     {
       "id": "ko-185-043",
-      "word": "죄송합니다 43",
+      "word": "죄송합니다",
       "romanization": "joesonghamnida",
-      "english": "sorry (variant 43)",
+      "english": "sorry",
       "type": "vocabulary",
-      "difficulty": 6
+      "difficulty": 6,
+      "question": "What does \"죄송합니다\" mean?",
+      "answer": "sorry",
+      "translation": "sorry",
+      "options": [
+        "thank you",
+        "hello",
+        "sorry",
+        "goodbye"
+      ],
+      "pronunciation": "joesonghamnida"
     },
     {
       "id": "ko-185-044",
-      "word": "안녕히 가세요 44",
+      "word": "안녕히 가세요",
       "romanization": "annyeonghi gaseyo",
-      "english": "goodbye (variant 44)",
+      "english": "goodbye",
       "type": "vocabulary",
-      "difficulty": 6
+      "difficulty": 6,
+      "question": "What does \"안녕히 가세요\" mean?",
+      "answer": "goodbye",
+      "translation": "goodbye",
+      "options": [
+        "goodbye",
+        "sorry",
+        "thank you",
+        "hello"
+      ],
+      "pronunciation": "annyeonghi gaseyo"
     },
     {
       "id": "ko-185-045",
-      "word": "공부하다 45",
+      "word": "공부하다",
       "romanization": "gongbuhada",
-      "english": "to study (variant 45)",
+      "english": "to study",
       "type": "vocabulary",
-      "difficulty": 6
+      "difficulty": 6,
+      "question": "What does \"공부하다\" mean?",
+      "answer": "to study",
+      "translation": "to study",
+      "options": [
+        "to study",
+        "hello",
+        "thank you",
+        "sorry"
+      ],
+      "pronunciation": "gongbuhada"
     },
     {
       "id": "ko-185-046",
-      "word": "안녕하세요 46",
+      "word": "안녕하세요",
       "romanization": "annyeonghaseyo",
-      "english": "hello (variant 46)",
+      "english": "hello",
       "type": "vocabulary",
-      "difficulty": 6
+      "difficulty": 6,
+      "question": "What does \"안녕하세요\" mean?",
+      "answer": "hello",
+      "translation": "hello",
+      "options": [
+        "goodbye",
+        "hello",
+        "thank you",
+        "sorry"
+      ],
+      "pronunciation": "annyeonghaseyo"
     },
     {
       "id": "ko-185-047",
-      "word": "감사합니다 47",
+      "word": "감사합니다",
       "romanization": "gamsahamnida",
-      "english": "thank you (variant 47)",
+      "english": "thank you",
       "type": "vocabulary",
-      "difficulty": 6
+      "difficulty": 6,
+      "question": "What does \"감사합니다\" mean?",
+      "answer": "thank you",
+      "translation": "thank you",
+      "options": [
+        "goodbye",
+        "sorry",
+        "hello",
+        "thank you"
+      ],
+      "pronunciation": "gamsahamnida"
     },
     {
       "id": "ko-185-048",
-      "word": "죄송합니다 48",
+      "word": "죄송합니다",
       "romanization": "joesonghamnida",
-      "english": "sorry (variant 48)",
+      "english": "sorry",
       "type": "vocabulary",
-      "difficulty": 6
+      "difficulty": 6,
+      "question": "What does \"죄송합니다\" mean?",
+      "answer": "sorry",
+      "translation": "sorry",
+      "options": [
+        "thank you",
+        "hello",
+        "goodbye",
+        "sorry"
+      ],
+      "pronunciation": "joesonghamnida"
     },
     {
       "id": "ko-185-049",
-      "word": "안녕히 가세요 49",
+      "word": "안녕히 가세요",
       "romanization": "annyeonghi gaseyo",
-      "english": "goodbye (variant 49)",
+      "english": "goodbye",
       "type": "vocabulary",
-      "difficulty": 6
+      "difficulty": 6,
+      "question": "What does \"안녕히 가세요\" mean?",
+      "answer": "goodbye",
+      "translation": "goodbye",
+      "options": [
+        "goodbye",
+        "hello",
+        "thank you",
+        "sorry"
+      ],
+      "pronunciation": "annyeonghi gaseyo"
     },
     {
       "id": "ko-185-050",
-      "word": "공부하다 50",
+      "word": "공부하다",
       "romanization": "gongbuhada",
-      "english": "to study (variant 50)",
+      "english": "to study",
       "type": "vocabulary",
-      "difficulty": 6
+      "difficulty": 6,
+      "question": "What does \"공부하다\" mean?",
+      "answer": "to study",
+      "translation": "to study",
+      "options": [
+        "to study",
+        "hello",
+        "sorry",
+        "thank you"
+      ],
+      "pronunciation": "gongbuhada"
     },
     {
       "id": "ko-185-051",
-      "word": "안녕하세요 51",
+      "word": "안녕하세요",
       "romanization": "annyeonghaseyo",
-      "english": "hello (variant 51)",
+      "english": "hello",
       "type": "vocabulary",
-      "difficulty": 6
+      "difficulty": 6,
+      "question": "What does \"안녕하세요\" mean?",
+      "answer": "hello",
+      "translation": "hello",
+      "options": [
+        "thank you",
+        "hello",
+        "sorry",
+        "goodbye"
+      ],
+      "pronunciation": "annyeonghaseyo"
     },
     {
       "id": "ko-185-052",
-      "word": "감사합니다 52",
+      "word": "감사합니다",
       "romanization": "gamsahamnida",
-      "english": "thank you (variant 52)",
+      "english": "thank you",
       "type": "vocabulary",
-      "difficulty": 6
+      "difficulty": 6,
+      "question": "What does \"감사합니다\" mean?",
+      "answer": "thank you",
+      "translation": "thank you",
+      "options": [
+        "thank you",
+        "hello",
+        "sorry",
+        "goodbye"
+      ],
+      "pronunciation": "gamsahamnida"
     },
     {
       "id": "ko-185-053",
-      "word": "죄송합니다 53",
+      "word": "죄송합니다",
       "romanization": "joesonghamnida",
-      "english": "sorry (variant 53)",
+      "english": "sorry",
       "type": "vocabulary",
-      "difficulty": 6
+      "difficulty": 6,
+      "question": "What does \"죄송합니다\" mean?",
+      "answer": "sorry",
+      "translation": "sorry",
+      "options": [
+        "goodbye",
+        "hello",
+        "sorry",
+        "thank you"
+      ],
+      "pronunciation": "joesonghamnida"
     },
     {
       "id": "ko-185-054",
-      "word": "안녕히 가세요 54",
+      "word": "안녕히 가세요",
       "romanization": "annyeonghi gaseyo",
-      "english": "goodbye (variant 54)",
+      "english": "goodbye",
       "type": "vocabulary",
-      "difficulty": 6
+      "difficulty": 6,
+      "question": "What does \"안녕히 가세요\" mean?",
+      "answer": "goodbye",
+      "translation": "goodbye",
+      "options": [
+        "thank you",
+        "hello",
+        "sorry",
+        "goodbye"
+      ],
+      "pronunciation": "annyeonghi gaseyo"
     },
     {
       "id": "ko-185-055",
-      "word": "공부하다 55",
+      "word": "공부하다",
       "romanization": "gongbuhada",
-      "english": "to study (variant 55)",
+      "english": "to study",
       "type": "vocabulary",
-      "difficulty": 6
+      "difficulty": 6,
+      "question": "What does \"공부하다\" mean?",
+      "answer": "to study",
+      "translation": "to study",
+      "options": [
+        "thank you",
+        "sorry",
+        "to study",
+        "hello"
+      ],
+      "pronunciation": "gongbuhada"
     },
     {
       "id": "ko-185-056",
-      "word": "안녕하세요 56",
+      "word": "안녕하세요",
       "romanization": "annyeonghaseyo",
-      "english": "hello (variant 56)",
+      "english": "hello",
       "type": "vocabulary",
-      "difficulty": 6
+      "difficulty": 6,
+      "question": "What does \"안녕하세요\" mean?",
+      "answer": "hello",
+      "translation": "hello",
+      "options": [
+        "hello",
+        "sorry",
+        "thank you",
+        "goodbye"
+      ],
+      "pronunciation": "annyeonghaseyo"
     },
     {
       "id": "ko-185-057",
-      "word": "감사합니다 57",
+      "word": "감사합니다",
       "romanization": "gamsahamnida",
-      "english": "thank you (variant 57)",
+      "english": "thank you",
       "type": "vocabulary",
-      "difficulty": 6
+      "difficulty": 6,
+      "question": "What does \"감사합니다\" mean?",
+      "answer": "thank you",
+      "translation": "thank you",
+      "options": [
+        "thank you",
+        "hello",
+        "sorry",
+        "goodbye"
+      ],
+      "pronunciation": "gamsahamnida"
     },
     {
       "id": "ko-185-058",
-      "word": "죄송합니다 58",
+      "word": "죄송합니다",
       "romanization": "joesonghamnida",
-      "english": "sorry (variant 58)",
+      "english": "sorry",
       "type": "vocabulary",
-      "difficulty": 6
+      "difficulty": 6,
+      "question": "What does \"죄송합니다\" mean?",
+      "answer": "sorry",
+      "translation": "sorry",
+      "options": [
+        "goodbye",
+        "thank you",
+        "hello",
+        "sorry"
+      ],
+      "pronunciation": "joesonghamnida"
     },
     {
       "id": "ko-185-059",
-      "word": "안녕히 가세요 59",
+      "word": "안녕히 가세요",
       "romanization": "annyeonghi gaseyo",
-      "english": "goodbye (variant 59)",
+      "english": "goodbye",
       "type": "vocabulary",
-      "difficulty": 6
+      "difficulty": 6,
+      "question": "What does \"안녕히 가세요\" mean?",
+      "answer": "goodbye",
+      "translation": "goodbye",
+      "options": [
+        "sorry",
+        "thank you",
+        "hello",
+        "goodbye"
+      ],
+      "pronunciation": "annyeonghi gaseyo"
     },
     {
       "id": "ko-185-060",
-      "word": "공부하다 60",
+      "word": "공부하다",
       "romanization": "gongbuhada",
-      "english": "to study (variant 60)",
+      "english": "to study",
       "type": "vocabulary",
-      "difficulty": 6
+      "difficulty": 6,
+      "question": "What does \"공부하다\" mean?",
+      "answer": "to study",
+      "translation": "to study",
+      "options": [
+        "hello",
+        "sorry",
+        "to study",
+        "thank you"
+      ],
+      "pronunciation": "gongbuhada"
     },
     {
       "id": "ko-185-061",
-      "word": "안녕하세요 61",
+      "word": "안녕하세요",
       "romanization": "annyeonghaseyo",
-      "english": "hello (variant 61)",
+      "english": "hello",
       "type": "vocabulary",
-      "difficulty": 6
+      "difficulty": 6,
+      "question": "What does \"안녕하세요\" mean?",
+      "answer": "hello",
+      "translation": "hello",
+      "options": [
+        "goodbye",
+        "sorry",
+        "thank you",
+        "hello"
+      ],
+      "pronunciation": "annyeonghaseyo"
     },
     {
       "id": "ko-185-062",
-      "word": "감사합니다 62",
+      "word": "감사합니다",
       "romanization": "gamsahamnida",
-      "english": "thank you (variant 62)",
+      "english": "thank you",
       "type": "vocabulary",
-      "difficulty": 6
+      "difficulty": 6,
+      "question": "What does \"감사합니다\" mean?",
+      "answer": "thank you",
+      "translation": "thank you",
+      "options": [
+        "goodbye",
+        "sorry",
+        "hello",
+        "thank you"
+      ],
+      "pronunciation": "gamsahamnida"
     },
     {
       "id": "ko-185-063",
-      "word": "죄송합니다 63",
+      "word": "죄송합니다",
       "romanization": "joesonghamnida",
-      "english": "sorry (variant 63)",
+      "english": "sorry",
       "type": "vocabulary",
-      "difficulty": 6
+      "difficulty": 6,
+      "question": "What does \"죄송합니다\" mean?",
+      "answer": "sorry",
+      "translation": "sorry",
+      "options": [
+        "hello",
+        "goodbye",
+        "thank you",
+        "sorry"
+      ],
+      "pronunciation": "joesonghamnida"
     },
     {
       "id": "ko-185-064",
-      "word": "안녕히 가세요 64",
+      "word": "안녕히 가세요",
       "romanization": "annyeonghi gaseyo",
-      "english": "goodbye (variant 64)",
+      "english": "goodbye",
       "type": "vocabulary",
-      "difficulty": 6
+      "difficulty": 6,
+      "question": "What does \"안녕히 가세요\" mean?",
+      "answer": "goodbye",
+      "translation": "goodbye",
+      "options": [
+        "goodbye",
+        "hello",
+        "sorry",
+        "thank you"
+      ],
+      "pronunciation": "annyeonghi gaseyo"
     },
     {
       "id": "ko-185-065",
-      "word": "공부하다 65",
+      "word": "공부하다",
       "romanization": "gongbuhada",
-      "english": "to study (variant 65)",
+      "english": "to study",
       "type": "vocabulary",
-      "difficulty": 6
+      "difficulty": 6,
+      "question": "What does \"공부하다\" mean?",
+      "answer": "to study",
+      "translation": "to study",
+      "options": [
+        "sorry",
+        "hello",
+        "to study",
+        "thank you"
+      ],
+      "pronunciation": "gongbuhada"
     },
     {
       "id": "ko-185-066",
-      "word": "안녕하세요 66",
+      "word": "안녕하세요",
       "romanization": "annyeonghaseyo",
-      "english": "hello (variant 66)",
+      "english": "hello",
       "type": "vocabulary",
-      "difficulty": 6
+      "difficulty": 6,
+      "question": "What does \"안녕하세요\" mean?",
+      "answer": "hello",
+      "translation": "hello",
+      "options": [
+        "hello",
+        "thank you",
+        "goodbye",
+        "sorry"
+      ],
+      "pronunciation": "annyeonghaseyo"
     },
     {
       "id": "ko-185-067",
-      "word": "감사합니다 67",
+      "word": "감사합니다",
       "romanization": "gamsahamnida",
-      "english": "thank you (variant 67)",
+      "english": "thank you",
       "type": "vocabulary",
-      "difficulty": 6
+      "difficulty": 6,
+      "question": "What does \"감사합니다\" mean?",
+      "answer": "thank you",
+      "translation": "thank you",
+      "options": [
+        "hello",
+        "sorry",
+        "goodbye",
+        "thank you"
+      ],
+      "pronunciation": "gamsahamnida"
     },
     {
       "id": "ko-185-068",
-      "word": "죄송합니다 68",
+      "word": "죄송합니다",
       "romanization": "joesonghamnida",
-      "english": "sorry (variant 68)",
+      "english": "sorry",
       "type": "vocabulary",
-      "difficulty": 6
+      "difficulty": 6,
+      "question": "What does \"죄송합니다\" mean?",
+      "answer": "sorry",
+      "translation": "sorry",
+      "options": [
+        "hello",
+        "sorry",
+        "thank you",
+        "goodbye"
+      ],
+      "pronunciation": "joesonghamnida"
     },
     {
       "id": "ko-185-069",
-      "word": "안녕히 가세요 69",
+      "word": "안녕히 가세요",
       "romanization": "annyeonghi gaseyo",
-      "english": "goodbye (variant 69)",
+      "english": "goodbye",
       "type": "vocabulary",
-      "difficulty": 6
+      "difficulty": 6,
+      "question": "What does \"안녕히 가세요\" mean?",
+      "answer": "goodbye",
+      "translation": "goodbye",
+      "options": [
+        "goodbye",
+        "hello",
+        "thank you",
+        "sorry"
+      ],
+      "pronunciation": "annyeonghi gaseyo"
     },
     {
       "id": "ko-185-070",
-      "word": "공부하다 70",
+      "word": "공부하다",
       "romanization": "gongbuhada",
-      "english": "to study (variant 70)",
+      "english": "to study",
       "type": "vocabulary",
-      "difficulty": 6
+      "difficulty": 6,
+      "question": "What does \"공부하다\" mean?",
+      "answer": "to study",
+      "translation": "to study",
+      "options": [
+        "sorry",
+        "hello",
+        "to study",
+        "thank you"
+      ],
+      "pronunciation": "gongbuhada"
     },
     {
       "id": "ko-185-071",
-      "word": "안녕하세요 71",
+      "word": "안녕하세요",
       "romanization": "annyeonghaseyo",
-      "english": "hello (variant 71)",
+      "english": "hello",
       "type": "vocabulary",
-      "difficulty": 6
+      "difficulty": 6,
+      "question": "What does \"안녕하세요\" mean?",
+      "answer": "hello",
+      "translation": "hello",
+      "options": [
+        "hello",
+        "goodbye",
+        "thank you",
+        "sorry"
+      ],
+      "pronunciation": "annyeonghaseyo"
     },
     {
       "id": "ko-185-072",
-      "word": "감사합니다 72",
+      "word": "감사합니다",
       "romanization": "gamsahamnida",
-      "english": "thank you (variant 72)",
+      "english": "thank you",
       "type": "vocabulary",
-      "difficulty": 6
+      "difficulty": 6,
+      "question": "What does \"감사합니다\" mean?",
+      "answer": "thank you",
+      "translation": "thank you",
+      "options": [
+        "hello",
+        "sorry",
+        "thank you",
+        "goodbye"
+      ],
+      "pronunciation": "gamsahamnida"
     },
     {
       "id": "ko-185-073",
-      "word": "죄송합니다 73",
+      "word": "죄송합니다",
       "romanization": "joesonghamnida",
-      "english": "sorry (variant 73)",
+      "english": "sorry",
       "type": "vocabulary",
-      "difficulty": 6
+      "difficulty": 6,
+      "question": "What does \"죄송합니다\" mean?",
+      "answer": "sorry",
+      "translation": "sorry",
+      "options": [
+        "goodbye",
+        "hello",
+        "thank you",
+        "sorry"
+      ],
+      "pronunciation": "joesonghamnida"
     },
     {
       "id": "ko-185-074",
-      "word": "안녕히 가세요 74",
+      "word": "안녕히 가세요",
       "romanization": "annyeonghi gaseyo",
-      "english": "goodbye (variant 74)",
+      "english": "goodbye",
       "type": "vocabulary",
-      "difficulty": 6
+      "difficulty": 6,
+      "question": "What does \"안녕히 가세요\" mean?",
+      "answer": "goodbye",
+      "translation": "goodbye",
+      "options": [
+        "sorry",
+        "thank you",
+        "hello",
+        "goodbye"
+      ],
+      "pronunciation": "annyeonghi gaseyo"
     },
     {
       "id": "ko-185-075",
-      "word": "공부하다 75",
+      "word": "공부하다",
       "romanization": "gongbuhada",
-      "english": "to study (variant 75)",
+      "english": "to study",
       "type": "vocabulary",
-      "difficulty": 6
+      "difficulty": 6,
+      "question": "What does \"공부하다\" mean?",
+      "answer": "to study",
+      "translation": "to study",
+      "options": [
+        "to study",
+        "hello",
+        "thank you",
+        "sorry"
+      ],
+      "pronunciation": "gongbuhada"
     },
     {
       "id": "ko-185-076",
-      "word": "안녕하세요 76",
+      "word": "안녕하세요",
       "romanization": "annyeonghaseyo",
-      "english": "hello (variant 76)",
+      "english": "hello",
       "type": "vocabulary",
-      "difficulty": 6
+      "difficulty": 6,
+      "question": "What does \"안녕하세요\" mean?",
+      "answer": "hello",
+      "translation": "hello",
+      "options": [
+        "sorry",
+        "thank you",
+        "goodbye",
+        "hello"
+      ],
+      "pronunciation": "annyeonghaseyo"
     },
     {
       "id": "ko-185-077",
-      "word": "감사합니다 77",
+      "word": "감사합니다",
       "romanization": "gamsahamnida",
-      "english": "thank you (variant 77)",
+      "english": "thank you",
       "type": "vocabulary",
-      "difficulty": 6
+      "difficulty": 6,
+      "question": "What does \"감사합니다\" mean?",
+      "answer": "thank you",
+      "translation": "thank you",
+      "options": [
+        "sorry",
+        "hello",
+        "thank you",
+        "goodbye"
+      ],
+      "pronunciation": "gamsahamnida"
     },
     {
       "id": "ko-185-078",
-      "word": "죄송합니다 78",
+      "word": "죄송합니다",
       "romanization": "joesonghamnida",
-      "english": "sorry (variant 78)",
+      "english": "sorry",
       "type": "vocabulary",
-      "difficulty": 6
+      "difficulty": 6,
+      "question": "What does \"죄송합니다\" mean?",
+      "answer": "sorry",
+      "translation": "sorry",
+      "options": [
+        "goodbye",
+        "hello",
+        "sorry",
+        "thank you"
+      ],
+      "pronunciation": "joesonghamnida"
     },
     {
       "id": "ko-185-079",
-      "word": "안녕히 가세요 79",
+      "word": "안녕히 가세요",
       "romanization": "annyeonghi gaseyo",
-      "english": "goodbye (variant 79)",
+      "english": "goodbye",
       "type": "vocabulary",
-      "difficulty": 6
+      "difficulty": 6,
+      "question": "What does \"안녕히 가세요\" mean?",
+      "answer": "goodbye",
+      "translation": "goodbye",
+      "options": [
+        "sorry",
+        "goodbye",
+        "hello",
+        "thank you"
+      ],
+      "pronunciation": "annyeonghi gaseyo"
     },
     {
       "id": "ko-185-080",
-      "word": "공부하다 80",
+      "word": "공부하다",
       "romanization": "gongbuhada",
-      "english": "to study (variant 80)",
+      "english": "to study",
       "type": "vocabulary",
-      "difficulty": 6
+      "difficulty": 6,
+      "question": "What does \"공부하다\" mean?",
+      "answer": "to study",
+      "translation": "to study",
+      "options": [
+        "hello",
+        "to study",
+        "sorry",
+        "thank you"
+      ],
+      "pronunciation": "gongbuhada"
     },
     {
       "id": "ko-185-081",
-      "word": "안녕하세요 81",
+      "word": "안녕하세요",
       "romanization": "annyeonghaseyo",
-      "english": "hello (variant 81)",
+      "english": "hello",
       "type": "vocabulary",
-      "difficulty": 6
+      "difficulty": 6,
+      "question": "What does \"안녕하세요\" mean?",
+      "answer": "hello",
+      "translation": "hello",
+      "options": [
+        "goodbye",
+        "sorry",
+        "thank you",
+        "hello"
+      ],
+      "pronunciation": "annyeonghaseyo"
     },
     {
       "id": "ko-185-082",
-      "word": "감사합니다 82",
+      "word": "감사합니다",
       "romanization": "gamsahamnida",
-      "english": "thank you (variant 82)",
+      "english": "thank you",
       "type": "vocabulary",
-      "difficulty": 6
+      "difficulty": 6,
+      "question": "What does \"감사합니다\" mean?",
+      "answer": "thank you",
+      "translation": "thank you",
+      "options": [
+        "hello",
+        "goodbye",
+        "thank you",
+        "sorry"
+      ],
+      "pronunciation": "gamsahamnida"
     },
     {
       "id": "ko-185-083",
-      "word": "죄송합니다 83",
+      "word": "죄송합니다",
       "romanization": "joesonghamnida",
-      "english": "sorry (variant 83)",
+      "english": "sorry",
       "type": "vocabulary",
-      "difficulty": 6
+      "difficulty": 6,
+      "question": "What does \"죄송합니다\" mean?",
+      "answer": "sorry",
+      "translation": "sorry",
+      "options": [
+        "thank you",
+        "goodbye",
+        "hello",
+        "sorry"
+      ],
+      "pronunciation": "joesonghamnida"
     },
     {
       "id": "ko-185-084",
-      "word": "안녕히 가세요 84",
+      "word": "안녕히 가세요",
       "romanization": "annyeonghi gaseyo",
-      "english": "goodbye (variant 84)",
+      "english": "goodbye",
       "type": "vocabulary",
-      "difficulty": 6
+      "difficulty": 6,
+      "question": "What does \"안녕히 가세요\" mean?",
+      "answer": "goodbye",
+      "translation": "goodbye",
+      "options": [
+        "thank you",
+        "goodbye",
+        "hello",
+        "sorry"
+      ],
+      "pronunciation": "annyeonghi gaseyo"
     },
     {
       "id": "ko-185-085",
-      "word": "공부하다 85",
+      "word": "공부하다",
       "romanization": "gongbuhada",
-      "english": "to study (variant 85)",
+      "english": "to study",
       "type": "vocabulary",
-      "difficulty": 6
+      "difficulty": 6,
+      "question": "What does \"공부하다\" mean?",
+      "answer": "to study",
+      "translation": "to study",
+      "options": [
+        "to study",
+        "hello",
+        "sorry",
+        "thank you"
+      ],
+      "pronunciation": "gongbuhada"
     },
     {
       "id": "ko-185-086",
-      "word": "안녕하세요 86",
+      "word": "안녕하세요",
       "romanization": "annyeonghaseyo",
-      "english": "hello (variant 86)",
+      "english": "hello",
       "type": "vocabulary",
-      "difficulty": 6
+      "difficulty": 6,
+      "question": "What does \"안녕하세요\" mean?",
+      "answer": "hello",
+      "translation": "hello",
+      "options": [
+        "sorry",
+        "thank you",
+        "goodbye",
+        "hello"
+      ],
+      "pronunciation": "annyeonghaseyo"
     },
     {
       "id": "ko-185-087",
-      "word": "감사합니다 87",
+      "word": "감사합니다",
       "romanization": "gamsahamnida",
-      "english": "thank you (variant 87)",
+      "english": "thank you",
       "type": "vocabulary",
-      "difficulty": 6
+      "difficulty": 6,
+      "question": "What does \"감사합니다\" mean?",
+      "answer": "thank you",
+      "translation": "thank you",
+      "options": [
+        "thank you",
+        "sorry",
+        "hello",
+        "goodbye"
+      ],
+      "pronunciation": "gamsahamnida"
     },
     {
       "id": "ko-185-088",
-      "word": "죄송합니다 88",
+      "word": "죄송합니다",
       "romanization": "joesonghamnida",
-      "english": "sorry (variant 88)",
+      "english": "sorry",
       "type": "vocabulary",
-      "difficulty": 6
+      "difficulty": 6,
+      "question": "What does \"죄송합니다\" mean?",
+      "answer": "sorry",
+      "translation": "sorry",
+      "options": [
+        "goodbye",
+        "thank you",
+        "hello",
+        "sorry"
+      ],
+      "pronunciation": "joesonghamnida"
     },
     {
       "id": "ko-185-089",
-      "word": "안녕히 가세요 89",
+      "word": "안녕히 가세요",
       "romanization": "annyeonghi gaseyo",
-      "english": "goodbye (variant 89)",
+      "english": "goodbye",
       "type": "vocabulary",
-      "difficulty": 6
+      "difficulty": 6,
+      "question": "What does \"안녕히 가세요\" mean?",
+      "answer": "goodbye",
+      "translation": "goodbye",
+      "options": [
+        "hello",
+        "sorry",
+        "goodbye",
+        "thank you"
+      ],
+      "pronunciation": "annyeonghi gaseyo"
     },
     {
       "id": "ko-185-090",
-      "word": "공부하다 90",
+      "word": "공부하다",
       "romanization": "gongbuhada",
-      "english": "to study (variant 90)",
+      "english": "to study",
       "type": "vocabulary",
-      "difficulty": 6
+      "difficulty": 6,
+      "question": "What does \"공부하다\" mean?",
+      "answer": "to study",
+      "translation": "to study",
+      "options": [
+        "to study",
+        "thank you",
+        "sorry",
+        "hello"
+      ],
+      "pronunciation": "gongbuhada"
     },
     {
       "id": "ko-185-091",
-      "word": "안녕하세요 91",
+      "word": "안녕하세요",
       "romanization": "annyeonghaseyo",
-      "english": "hello (variant 91)",
+      "english": "hello",
       "type": "vocabulary",
-      "difficulty": 6
+      "difficulty": 6,
+      "question": "What does \"안녕하세요\" mean?",
+      "answer": "hello",
+      "translation": "hello",
+      "options": [
+        "goodbye",
+        "sorry",
+        "thank you",
+        "hello"
+      ],
+      "pronunciation": "annyeonghaseyo"
     },
     {
       "id": "ko-185-092",
-      "word": "감사합니다 92",
+      "word": "감사합니다",
       "romanization": "gamsahamnida",
-      "english": "thank you (variant 92)",
+      "english": "thank you",
       "type": "vocabulary",
-      "difficulty": 6
+      "difficulty": 6,
+      "question": "What does \"감사합니다\" mean?",
+      "answer": "thank you",
+      "translation": "thank you",
+      "options": [
+        "thank you",
+        "hello",
+        "sorry",
+        "goodbye"
+      ],
+      "pronunciation": "gamsahamnida"
     },
     {
       "id": "ko-185-093",
-      "word": "죄송합니다 93",
+      "word": "죄송합니다",
       "romanization": "joesonghamnida",
-      "english": "sorry (variant 93)",
+      "english": "sorry",
       "type": "vocabulary",
-      "difficulty": 6
+      "difficulty": 6,
+      "question": "What does \"죄송합니다\" mean?",
+      "answer": "sorry",
+      "translation": "sorry",
+      "options": [
+        "thank you",
+        "hello",
+        "sorry",
+        "goodbye"
+      ],
+      "pronunciation": "joesonghamnida"
     },
     {
       "id": "ko-185-094",
-      "word": "안녕히 가세요 94",
+      "word": "안녕히 가세요",
       "romanization": "annyeonghi gaseyo",
-      "english": "goodbye (variant 94)",
+      "english": "goodbye",
       "type": "vocabulary",
-      "difficulty": 6
+      "difficulty": 6,
+      "question": "What does \"안녕히 가세요\" mean?",
+      "answer": "goodbye",
+      "translation": "goodbye",
+      "options": [
+        "sorry",
+        "thank you",
+        "hello",
+        "goodbye"
+      ],
+      "pronunciation": "annyeonghi gaseyo"
     },
     {
       "id": "ko-185-095",
-      "word": "공부하다 95",
+      "word": "공부하다",
       "romanization": "gongbuhada",
-      "english": "to study (variant 95)",
+      "english": "to study",
       "type": "vocabulary",
-      "difficulty": 6
+      "difficulty": 6,
+      "question": "What does \"공부하다\" mean?",
+      "answer": "to study",
+      "translation": "to study",
+      "options": [
+        "thank you",
+        "hello",
+        "sorry",
+        "to study"
+      ],
+      "pronunciation": "gongbuhada"
     },
     {
       "id": "ko-185-096",
-      "word": "안녕하세요 96",
+      "word": "안녕하세요",
       "romanization": "annyeonghaseyo",
-      "english": "hello (variant 96)",
+      "english": "hello",
       "type": "vocabulary",
-      "difficulty": 6
+      "difficulty": 6,
+      "question": "What does \"안녕하세요\" mean?",
+      "answer": "hello",
+      "translation": "hello",
+      "options": [
+        "hello",
+        "thank you",
+        "sorry",
+        "goodbye"
+      ],
+      "pronunciation": "annyeonghaseyo"
     },
     {
       "id": "ko-185-097",
-      "word": "감사합니다 97",
+      "word": "감사합니다",
       "romanization": "gamsahamnida",
-      "english": "thank you (variant 97)",
+      "english": "thank you",
       "type": "vocabulary",
-      "difficulty": 6
+      "difficulty": 6,
+      "question": "What does \"감사합니다\" mean?",
+      "answer": "thank you",
+      "translation": "thank you",
+      "options": [
+        "goodbye",
+        "thank you",
+        "hello",
+        "sorry"
+      ],
+      "pronunciation": "gamsahamnida"
     },
     {
       "id": "ko-185-098",
-      "word": "죄송합니다 98",
+      "word": "죄송합니다",
       "romanization": "joesonghamnida",
-      "english": "sorry (variant 98)",
+      "english": "sorry",
       "type": "vocabulary",
-      "difficulty": 6
+      "difficulty": 6,
+      "question": "What does \"죄송합니다\" mean?",
+      "answer": "sorry",
+      "translation": "sorry",
+      "options": [
+        "goodbye",
+        "sorry",
+        "hello",
+        "thank you"
+      ],
+      "pronunciation": "joesonghamnida"
     },
     {
       "id": "ko-185-099",
-      "word": "안녕히 가세요 99",
+      "word": "안녕히 가세요",
       "romanization": "annyeonghi gaseyo",
-      "english": "goodbye (variant 99)",
+      "english": "goodbye",
       "type": "vocabulary",
-      "difficulty": 6
+      "difficulty": 6,
+      "question": "What does \"안녕히 가세요\" mean?",
+      "answer": "goodbye",
+      "translation": "goodbye",
+      "options": [
+        "hello",
+        "sorry",
+        "thank you",
+        "goodbye"
+      ],
+      "pronunciation": "annyeonghi gaseyo"
     },
     {
       "id": "ko-185-100",
-      "word": "공부하다 100",
+      "word": "공부하다",
       "romanization": "gongbuhada",
-      "english": "to study (variant 100)",
+      "english": "to study",
       "type": "vocabulary",
-      "difficulty": 6
+      "difficulty": 6,
+      "question": "What does \"공부하다\" mean?",
+      "answer": "to study",
+      "translation": "to study",
+      "options": [
+        "sorry",
+        "thank you",
+        "hello",
+        "to study"
+      ],
+      "pronunciation": "gongbuhada"
     }
   ]
 }

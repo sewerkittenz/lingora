@@ -11,799 +11,1699 @@
       "pronunciation": "ola",
       "english": "hello",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"hola\" mean?",
+      "answer": "hello",
+      "translation": "hello",
+      "options": [
+        "hello",
+        "goodbye (variant 4)",
+        "thank you (variant 2)",
+        "excuse me (variant 3)"
+      ]
     },
     {
       "id": "es-124-002",
-      "word": "gracias 2",
+      "word": "gracias",
       "pronunciation": "gracias",
-      "english": "thank you (variant 2)",
+      "english": "thank you",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"gracias\" mean?",
+      "answer": "thank you",
+      "translation": "thank you",
+      "options": [
+        "goodbye (variant 4)",
+        "excuse me (variant 3)",
+        "hello",
+        "thank you"
+      ]
     },
     {
       "id": "es-124-003",
-      "word": "perdón 3",
+      "word": "perdón",
       "pronunciation": "perdon",
-      "english": "excuse me (variant 3)",
+      "english": "excuse me",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"perdón\" mean?",
+      "answer": "excuse me",
+      "translation": "excuse me",
+      "options": [
+        "excuse me",
+        "hello",
+        "goodbye (variant 4)",
+        "thank you"
+      ]
     },
     {
       "id": "es-124-004",
-      "word": "adiós 4",
+      "word": "adiós",
       "pronunciation": "adios",
-      "english": "goodbye (variant 4)",
+      "english": "goodbye",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"adiós\" mean?",
+      "answer": "goodbye",
+      "translation": "goodbye",
+      "options": [
+        "thank you",
+        "excuse me",
+        "hello",
+        "goodbye"
+      ]
     },
     {
       "id": "es-124-005",
-      "word": "estudiar 5",
+      "word": "estudiar",
       "pronunciation": "estudiar",
-      "english": "to study (variant 5)",
+      "english": "to study",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"estudiar\" mean?",
+      "answer": "to study",
+      "translation": "to study",
+      "options": [
+        "to study",
+        "hello",
+        "excuse me",
+        "thank you"
+      ]
     },
     {
       "id": "es-124-006",
-      "word": "hola 6",
+      "word": "hola",
       "pronunciation": "ola",
-      "english": "hello (variant 6)",
+      "english": "hello",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"hola\" mean?",
+      "answer": "hello",
+      "translation": "hello",
+      "options": [
+        "thank you",
+        "goodbye",
+        "hello",
+        "excuse me"
+      ]
     },
     {
       "id": "es-124-007",
-      "word": "gracias 7",
+      "word": "gracias",
       "pronunciation": "gracias",
-      "english": "thank you (variant 7)",
+      "english": "thank you",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"gracias\" mean?",
+      "answer": "thank you",
+      "translation": "thank you",
+      "options": [
+        "excuse me",
+        "hello",
+        "goodbye",
+        "thank you"
+      ]
     },
     {
       "id": "es-124-008",
-      "word": "perdón 8",
+      "word": "perdón",
       "pronunciation": "perdon",
-      "english": "excuse me (variant 8)",
+      "english": "excuse me",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"perdón\" mean?",
+      "answer": "excuse me",
+      "translation": "excuse me",
+      "options": [
+        "excuse me",
+        "hello",
+        "thank you",
+        "goodbye"
+      ]
     },
     {
       "id": "es-124-009",
-      "word": "adiós 9",
+      "word": "adiós",
       "pronunciation": "adios",
-      "english": "goodbye (variant 9)",
+      "english": "goodbye",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"adiós\" mean?",
+      "answer": "goodbye",
+      "translation": "goodbye",
+      "options": [
+        "goodbye",
+        "excuse me",
+        "hello",
+        "thank you"
+      ]
     },
     {
       "id": "es-124-010",
-      "word": "estudiar 10",
+      "word": "estudiar",
       "pronunciation": "estudiar",
-      "english": "to study (variant 10)",
+      "english": "to study",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"estudiar\" mean?",
+      "answer": "to study",
+      "translation": "to study",
+      "options": [
+        "hello",
+        "excuse me",
+        "to study",
+        "thank you"
+      ]
     },
     {
       "id": "es-124-011",
-      "word": "hola 11",
+      "word": "hola",
       "pronunciation": "ola",
-      "english": "hello (variant 11)",
+      "english": "hello",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"hola\" mean?",
+      "answer": "hello",
+      "translation": "hello",
+      "options": [
+        "goodbye",
+        "hello",
+        "thank you",
+        "excuse me"
+      ]
     },
     {
       "id": "es-124-012",
-      "word": "gracias 12",
+      "word": "gracias",
       "pronunciation": "gracias",
-      "english": "thank you (variant 12)",
+      "english": "thank you",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"gracias\" mean?",
+      "answer": "thank you",
+      "translation": "thank you",
+      "options": [
+        "excuse me",
+        "hello",
+        "goodbye",
+        "thank you"
+      ]
     },
     {
       "id": "es-124-013",
-      "word": "perdón 13",
+      "word": "perdón",
       "pronunciation": "perdon",
-      "english": "excuse me (variant 13)",
+      "english": "excuse me",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"perdón\" mean?",
+      "answer": "excuse me",
+      "translation": "excuse me",
+      "options": [
+        "thank you",
+        "goodbye",
+        "hello",
+        "excuse me"
+      ]
     },
     {
       "id": "es-124-014",
-      "word": "adiós 14",
+      "word": "adiós",
       "pronunciation": "adios",
-      "english": "goodbye (variant 14)",
+      "english": "goodbye",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"adiós\" mean?",
+      "answer": "goodbye",
+      "translation": "goodbye",
+      "options": [
+        "goodbye",
+        "excuse me",
+        "thank you",
+        "hello"
+      ]
     },
     {
       "id": "es-124-015",
-      "word": "estudiar 15",
+      "word": "estudiar",
       "pronunciation": "estudiar",
-      "english": "to study (variant 15)",
+      "english": "to study",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"estudiar\" mean?",
+      "answer": "to study",
+      "translation": "to study",
+      "options": [
+        "to study",
+        "hello",
+        "excuse me",
+        "thank you"
+      ]
     },
     {
       "id": "es-124-016",
-      "word": "hola 16",
+      "word": "hola",
       "pronunciation": "ola",
-      "english": "hello (variant 16)",
+      "english": "hello",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"hola\" mean?",
+      "answer": "hello",
+      "translation": "hello",
+      "options": [
+        "goodbye",
+        "excuse me",
+        "thank you",
+        "hello"
+      ]
     },
     {
       "id": "es-124-017",
-      "word": "gracias 17",
+      "word": "gracias",
       "pronunciation": "gracias",
-      "english": "thank you (variant 17)",
+      "english": "thank you",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"gracias\" mean?",
+      "answer": "thank you",
+      "translation": "thank you",
+      "options": [
+        "goodbye",
+        "excuse me",
+        "hello",
+        "thank you"
+      ]
     },
     {
       "id": "es-124-018",
-      "word": "perdón 18",
+      "word": "perdón",
       "pronunciation": "perdon",
-      "english": "excuse me (variant 18)",
+      "english": "excuse me",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"perdón\" mean?",
+      "answer": "excuse me",
+      "translation": "excuse me",
+      "options": [
+        "excuse me",
+        "hello",
+        "thank you",
+        "goodbye"
+      ]
     },
     {
       "id": "es-124-019",
-      "word": "adiós 19",
+      "word": "adiós",
       "pronunciation": "adios",
-      "english": "goodbye (variant 19)",
+      "english": "goodbye",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"adiós\" mean?",
+      "answer": "goodbye",
+      "translation": "goodbye",
+      "options": [
+        "goodbye",
+        "hello",
+        "thank you",
+        "excuse me"
+      ]
     },
     {
       "id": "es-124-020",
-      "word": "estudiar 20",
+      "word": "estudiar",
       "pronunciation": "estudiar",
-      "english": "to study (variant 20)",
+      "english": "to study",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"estudiar\" mean?",
+      "answer": "to study",
+      "translation": "to study",
+      "options": [
+        "excuse me",
+        "to study",
+        "thank you",
+        "hello"
+      ]
     },
     {
       "id": "es-124-021",
-      "word": "hola 21",
+      "word": "hola",
       "pronunciation": "ola",
-      "english": "hello (variant 21)",
+      "english": "hello",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"hola\" mean?",
+      "answer": "hello",
+      "translation": "hello",
+      "options": [
+        "goodbye",
+        "excuse me",
+        "thank you",
+        "hello"
+      ]
     },
     {
       "id": "es-124-022",
-      "word": "gracias 22",
+      "word": "gracias",
       "pronunciation": "gracias",
-      "english": "thank you (variant 22)",
+      "english": "thank you",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"gracias\" mean?",
+      "answer": "thank you",
+      "translation": "thank you",
+      "options": [
+        "thank you",
+        "hello",
+        "excuse me",
+        "goodbye"
+      ]
     },
     {
       "id": "es-124-023",
-      "word": "perdón 23",
+      "word": "perdón",
       "pronunciation": "perdon",
-      "english": "excuse me (variant 23)",
+      "english": "excuse me",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"perdón\" mean?",
+      "answer": "excuse me",
+      "translation": "excuse me",
+      "options": [
+        "excuse me",
+        "hello",
+        "thank you",
+        "goodbye"
+      ]
     },
     {
       "id": "es-124-024",
-      "word": "adiós 24",
+      "word": "adiós",
       "pronunciation": "adios",
-      "english": "goodbye (variant 24)",
+      "english": "goodbye",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"adiós\" mean?",
+      "answer": "goodbye",
+      "translation": "goodbye",
+      "options": [
+        "goodbye",
+        "hello",
+        "thank you",
+        "excuse me"
+      ]
     },
     {
       "id": "es-124-025",
-      "word": "estudiar 25",
+      "word": "estudiar",
       "pronunciation": "estudiar",
-      "english": "to study (variant 25)",
+      "english": "to study",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"estudiar\" mean?",
+      "answer": "to study",
+      "translation": "to study",
+      "options": [
+        "to study",
+        "hello",
+        "excuse me",
+        "thank you"
+      ]
     },
     {
       "id": "es-124-026",
-      "word": "hola 26",
+      "word": "hola",
       "pronunciation": "ola",
-      "english": "hello (variant 26)",
+      "english": "hello",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"hola\" mean?",
+      "answer": "hello",
+      "translation": "hello",
+      "options": [
+        "hello",
+        "goodbye",
+        "thank you",
+        "excuse me"
+      ]
     },
     {
       "id": "es-124-027",
-      "word": "gracias 27",
+      "word": "gracias",
       "pronunciation": "gracias",
-      "english": "thank you (variant 27)",
+      "english": "thank you",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"gracias\" mean?",
+      "answer": "thank you",
+      "translation": "thank you",
+      "options": [
+        "goodbye",
+        "excuse me",
+        "hello",
+        "thank you"
+      ]
     },
     {
       "id": "es-124-028",
-      "word": "perdón 28",
+      "word": "perdón",
       "pronunciation": "perdon",
-      "english": "excuse me (variant 28)",
+      "english": "excuse me",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"perdón\" mean?",
+      "answer": "excuse me",
+      "translation": "excuse me",
+      "options": [
+        "thank you",
+        "hello",
+        "excuse me",
+        "goodbye"
+      ]
     },
     {
       "id": "es-124-029",
-      "word": "adiós 29",
+      "word": "adiós",
       "pronunciation": "adios",
-      "english": "goodbye (variant 29)",
+      "english": "goodbye",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"adiós\" mean?",
+      "answer": "goodbye",
+      "translation": "goodbye",
+      "options": [
+        "hello",
+        "goodbye",
+        "excuse me",
+        "thank you"
+      ]
     },
     {
       "id": "es-124-030",
-      "word": "estudiar 30",
+      "word": "estudiar",
       "pronunciation": "estudiar",
-      "english": "to study (variant 30)",
+      "english": "to study",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"estudiar\" mean?",
+      "answer": "to study",
+      "translation": "to study",
+      "options": [
+        "to study",
+        "thank you",
+        "hello",
+        "excuse me"
+      ]
     },
     {
       "id": "es-124-031",
-      "word": "hola 31",
+      "word": "hola",
       "pronunciation": "ola",
-      "english": "hello (variant 31)",
+      "english": "hello",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"hola\" mean?",
+      "answer": "hello",
+      "translation": "hello",
+      "options": [
+        "goodbye",
+        "excuse me",
+        "hello",
+        "thank you"
+      ]
     },
     {
       "id": "es-124-032",
-      "word": "gracias 32",
+      "word": "gracias",
       "pronunciation": "gracias",
-      "english": "thank you (variant 32)",
+      "english": "thank you",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"gracias\" mean?",
+      "answer": "thank you",
+      "translation": "thank you",
+      "options": [
+        "thank you",
+        "goodbye",
+        "hello",
+        "excuse me"
+      ]
     },
     {
       "id": "es-124-033",
-      "word": "perdón 33",
+      "word": "perdón",
       "pronunciation": "perdon",
-      "english": "excuse me (variant 33)",
+      "english": "excuse me",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"perdón\" mean?",
+      "answer": "excuse me",
+      "translation": "excuse me",
+      "options": [
+        "goodbye",
+        "hello",
+        "excuse me",
+        "thank you"
+      ]
     },
     {
       "id": "es-124-034",
-      "word": "adiós 34",
+      "word": "adiós",
       "pronunciation": "adios",
-      "english": "goodbye (variant 34)",
+      "english": "goodbye",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"adiós\" mean?",
+      "answer": "goodbye",
+      "translation": "goodbye",
+      "options": [
+        "excuse me",
+        "goodbye",
+        "hello",
+        "thank you"
+      ]
     },
     {
       "id": "es-124-035",
-      "word": "estudiar 35",
+      "word": "estudiar",
       "pronunciation": "estudiar",
-      "english": "to study (variant 35)",
+      "english": "to study",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"estudiar\" mean?",
+      "answer": "to study",
+      "translation": "to study",
+      "options": [
+        "to study",
+        "hello",
+        "thank you",
+        "excuse me"
+      ]
     },
     {
       "id": "es-124-036",
-      "word": "hola 36",
+      "word": "hola",
       "pronunciation": "ola",
-      "english": "hello (variant 36)",
+      "english": "hello",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"hola\" mean?",
+      "answer": "hello",
+      "translation": "hello",
+      "options": [
+        "hello",
+        "thank you",
+        "excuse me",
+        "goodbye"
+      ]
     },
     {
       "id": "es-124-037",
-      "word": "gracias 37",
+      "word": "gracias",
       "pronunciation": "gracias",
-      "english": "thank you (variant 37)",
+      "english": "thank you",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"gracias\" mean?",
+      "answer": "thank you",
+      "translation": "thank you",
+      "options": [
+        "thank you",
+        "goodbye",
+        "hello",
+        "excuse me"
+      ]
     },
     {
       "id": "es-124-038",
-      "word": "perdón 38",
+      "word": "perdón",
       "pronunciation": "perdon",
-      "english": "excuse me (variant 38)",
+      "english": "excuse me",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"perdón\" mean?",
+      "answer": "excuse me",
+      "translation": "excuse me",
+      "options": [
+        "thank you",
+        "hello",
+        "goodbye",
+        "excuse me"
+      ]
     },
     {
       "id": "es-124-039",
-      "word": "adiós 39",
+      "word": "adiós",
       "pronunciation": "adios",
-      "english": "goodbye (variant 39)",
+      "english": "goodbye",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"adiós\" mean?",
+      "answer": "goodbye",
+      "translation": "goodbye",
+      "options": [
+        "goodbye",
+        "hello",
+        "thank you",
+        "excuse me"
+      ]
     },
     {
       "id": "es-124-040",
-      "word": "estudiar 40",
+      "word": "estudiar",
       "pronunciation": "estudiar",
-      "english": "to study (variant 40)",
+      "english": "to study",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"estudiar\" mean?",
+      "answer": "to study",
+      "translation": "to study",
+      "options": [
+        "thank you",
+        "excuse me",
+        "hello",
+        "to study"
+      ]
     },
     {
       "id": "es-124-041",
-      "word": "hola 41",
+      "word": "hola",
       "pronunciation": "ola",
-      "english": "hello (variant 41)",
+      "english": "hello",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"hola\" mean?",
+      "answer": "hello",
+      "translation": "hello",
+      "options": [
+        "goodbye",
+        "excuse me",
+        "thank you",
+        "hello"
+      ]
     },
     {
       "id": "es-124-042",
-      "word": "gracias 42",
+      "word": "gracias",
       "pronunciation": "gracias",
-      "english": "thank you (variant 42)",
+      "english": "thank you",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"gracias\" mean?",
+      "answer": "thank you",
+      "translation": "thank you",
+      "options": [
+        "thank you",
+        "hello",
+        "goodbye",
+        "excuse me"
+      ]
     },
     {
       "id": "es-124-043",
-      "word": "perdón 43",
+      "word": "perdón",
       "pronunciation": "perdon",
-      "english": "excuse me (variant 43)",
+      "english": "excuse me",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"perdón\" mean?",
+      "answer": "excuse me",
+      "translation": "excuse me",
+      "options": [
+        "excuse me",
+        "hello",
+        "thank you",
+        "goodbye"
+      ]
     },
     {
       "id": "es-124-044",
-      "word": "adiós 44",
+      "word": "adiós",
       "pronunciation": "adios",
-      "english": "goodbye (variant 44)",
+      "english": "goodbye",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"adiós\" mean?",
+      "answer": "goodbye",
+      "translation": "goodbye",
+      "options": [
+        "thank you",
+        "hello",
+        "excuse me",
+        "goodbye"
+      ]
     },
     {
       "id": "es-124-045",
-      "word": "estudiar 45",
+      "word": "estudiar",
       "pronunciation": "estudiar",
-      "english": "to study (variant 45)",
+      "english": "to study",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"estudiar\" mean?",
+      "answer": "to study",
+      "translation": "to study",
+      "options": [
+        "thank you",
+        "hello",
+        "to study",
+        "excuse me"
+      ]
     },
     {
       "id": "es-124-046",
-      "word": "hola 46",
+      "word": "hola",
       "pronunciation": "ola",
-      "english": "hello (variant 46)",
+      "english": "hello",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"hola\" mean?",
+      "answer": "hello",
+      "translation": "hello",
+      "options": [
+        "excuse me",
+        "goodbye",
+        "hello",
+        "thank you"
+      ]
     },
     {
       "id": "es-124-047",
-      "word": "gracias 47",
+      "word": "gracias",
       "pronunciation": "gracias",
-      "english": "thank you (variant 47)",
+      "english": "thank you",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"gracias\" mean?",
+      "answer": "thank you",
+      "translation": "thank you",
+      "options": [
+        "hello",
+        "thank you",
+        "excuse me",
+        "goodbye"
+      ]
     },
     {
       "id": "es-124-048",
-      "word": "perdón 48",
+      "word": "perdón",
       "pronunciation": "perdon",
-      "english": "excuse me (variant 48)",
+      "english": "excuse me",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"perdón\" mean?",
+      "answer": "excuse me",
+      "translation": "excuse me",
+      "options": [
+        "thank you",
+        "hello",
+        "excuse me",
+        "goodbye"
+      ]
     },
     {
       "id": "es-124-049",
-      "word": "adiós 49",
+      "word": "adiós",
       "pronunciation": "adios",
-      "english": "goodbye (variant 49)",
+      "english": "goodbye",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"adiós\" mean?",
+      "answer": "goodbye",
+      "translation": "goodbye",
+      "options": [
+        "goodbye",
+        "hello",
+        "thank you",
+        "excuse me"
+      ]
     },
     {
       "id": "es-124-050",
-      "word": "estudiar 50",
+      "word": "estudiar",
       "pronunciation": "estudiar",
-      "english": "to study (variant 50)",
+      "english": "to study",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"estudiar\" mean?",
+      "answer": "to study",
+      "translation": "to study",
+      "options": [
+        "excuse me",
+        "thank you",
+        "to study",
+        "hello"
+      ]
     },
     {
       "id": "es-124-051",
-      "word": "hola 51",
+      "word": "hola",
       "pronunciation": "ola",
-      "english": "hello (variant 51)",
+      "english": "hello",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"hola\" mean?",
+      "answer": "hello",
+      "translation": "hello",
+      "options": [
+        "thank you",
+        "excuse me",
+        "goodbye",
+        "hello"
+      ]
     },
     {
       "id": "es-124-052",
-      "word": "gracias 52",
+      "word": "gracias",
       "pronunciation": "gracias",
-      "english": "thank you (variant 52)",
+      "english": "thank you",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"gracias\" mean?",
+      "answer": "thank you",
+      "translation": "thank you",
+      "options": [
+        "thank you",
+        "hello",
+        "goodbye",
+        "excuse me"
+      ]
     },
     {
       "id": "es-124-053",
-      "word": "perdón 53",
+      "word": "perdón",
       "pronunciation": "perdon",
-      "english": "excuse me (variant 53)",
+      "english": "excuse me",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"perdón\" mean?",
+      "answer": "excuse me",
+      "translation": "excuse me",
+      "options": [
+        "excuse me",
+        "hello",
+        "goodbye",
+        "thank you"
+      ]
     },
     {
       "id": "es-124-054",
-      "word": "adiós 54",
+      "word": "adiós",
       "pronunciation": "adios",
-      "english": "goodbye (variant 54)",
+      "english": "goodbye",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"adiós\" mean?",
+      "answer": "goodbye",
+      "translation": "goodbye",
+      "options": [
+        "excuse me",
+        "thank you",
+        "hello",
+        "goodbye"
+      ]
     },
     {
       "id": "es-124-055",
-      "word": "estudiar 55",
+      "word": "estudiar",
       "pronunciation": "estudiar",
-      "english": "to study (variant 55)",
+      "english": "to study",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"estudiar\" mean?",
+      "answer": "to study",
+      "translation": "to study",
+      "options": [
+        "to study",
+        "hello",
+        "thank you",
+        "excuse me"
+      ]
     },
     {
       "id": "es-124-056",
-      "word": "hola 56",
+      "word": "hola",
       "pronunciation": "ola",
-      "english": "hello (variant 56)",
+      "english": "hello",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"hola\" mean?",
+      "answer": "hello",
+      "translation": "hello",
+      "options": [
+        "hello",
+        "thank you",
+        "excuse me",
+        "goodbye"
+      ]
     },
     {
       "id": "es-124-057",
-      "word": "gracias 57",
+      "word": "gracias",
       "pronunciation": "gracias",
-      "english": "thank you (variant 57)",
+      "english": "thank you",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"gracias\" mean?",
+      "answer": "thank you",
+      "translation": "thank you",
+      "options": [
+        "goodbye",
+        "excuse me",
+        "hello",
+        "thank you"
+      ]
     },
     {
       "id": "es-124-058",
-      "word": "perdón 58",
+      "word": "perdón",
       "pronunciation": "perdon",
-      "english": "excuse me (variant 58)",
+      "english": "excuse me",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"perdón\" mean?",
+      "answer": "excuse me",
+      "translation": "excuse me",
+      "options": [
+        "excuse me",
+        "goodbye",
+        "thank you",
+        "hello"
+      ]
     },
     {
       "id": "es-124-059",
-      "word": "adiós 59",
+      "word": "adiós",
       "pronunciation": "adios",
-      "english": "goodbye (variant 59)",
+      "english": "goodbye",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"adiós\" mean?",
+      "answer": "goodbye",
+      "translation": "goodbye",
+      "options": [
+        "excuse me",
+        "thank you",
+        "hello",
+        "goodbye"
+      ]
     },
     {
       "id": "es-124-060",
-      "word": "estudiar 60",
+      "word": "estudiar",
       "pronunciation": "estudiar",
-      "english": "to study (variant 60)",
+      "english": "to study",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"estudiar\" mean?",
+      "answer": "to study",
+      "translation": "to study",
+      "options": [
+        "to study",
+        "hello",
+        "thank you",
+        "excuse me"
+      ]
     },
     {
       "id": "es-124-061",
-      "word": "hola 61",
+      "word": "hola",
       "pronunciation": "ola",
-      "english": "hello (variant 61)",
+      "english": "hello",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"hola\" mean?",
+      "answer": "hello",
+      "translation": "hello",
+      "options": [
+        "goodbye",
+        "excuse me",
+        "thank you",
+        "hello"
+      ]
     },
     {
       "id": "es-124-062",
-      "word": "gracias 62",
+      "word": "gracias",
       "pronunciation": "gracias",
-      "english": "thank you (variant 62)",
+      "english": "thank you",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"gracias\" mean?",
+      "answer": "thank you",
+      "translation": "thank you",
+      "options": [
+        "thank you",
+        "hello",
+        "excuse me",
+        "goodbye"
+      ]
     },
     {
       "id": "es-124-063",
-      "word": "perdón 63",
+      "word": "perdón",
       "pronunciation": "perdon",
-      "english": "excuse me (variant 63)",
+      "english": "excuse me",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"perdón\" mean?",
+      "answer": "excuse me",
+      "translation": "excuse me",
+      "options": [
+        "excuse me",
+        "hello",
+        "thank you",
+        "goodbye"
+      ]
     },
     {
       "id": "es-124-064",
-      "word": "adiós 64",
+      "word": "adiós",
       "pronunciation": "adios",
-      "english": "goodbye (variant 64)",
+      "english": "goodbye",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"adiós\" mean?",
+      "answer": "goodbye",
+      "translation": "goodbye",
+      "options": [
+        "goodbye",
+        "hello",
+        "excuse me",
+        "thank you"
+      ]
     },
     {
       "id": "es-124-065",
-      "word": "estudiar 65",
+      "word": "estudiar",
       "pronunciation": "estudiar",
-      "english": "to study (variant 65)",
+      "english": "to study",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"estudiar\" mean?",
+      "answer": "to study",
+      "translation": "to study",
+      "options": [
+        "thank you",
+        "hello",
+        "to study",
+        "excuse me"
+      ]
     },
     {
       "id": "es-124-066",
-      "word": "hola 66",
+      "word": "hola",
       "pronunciation": "ola",
-      "english": "hello (variant 66)",
+      "english": "hello",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"hola\" mean?",
+      "answer": "hello",
+      "translation": "hello",
+      "options": [
+        "thank you",
+        "hello",
+        "excuse me",
+        "goodbye"
+      ]
     },
     {
       "id": "es-124-067",
-      "word": "gracias 67",
+      "word": "gracias",
       "pronunciation": "gracias",
-      "english": "thank you (variant 67)",
+      "english": "thank you",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"gracias\" mean?",
+      "answer": "thank you",
+      "translation": "thank you",
+      "options": [
+        "excuse me",
+        "goodbye",
+        "thank you",
+        "hello"
+      ]
     },
     {
       "id": "es-124-068",
-      "word": "perdón 68",
+      "word": "perdón",
       "pronunciation": "perdon",
-      "english": "excuse me (variant 68)",
+      "english": "excuse me",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"perdón\" mean?",
+      "answer": "excuse me",
+      "translation": "excuse me",
+      "options": [
+        "excuse me",
+        "goodbye",
+        "hello",
+        "thank you"
+      ]
     },
     {
       "id": "es-124-069",
-      "word": "adiós 69",
+      "word": "adiós",
       "pronunciation": "adios",
-      "english": "goodbye (variant 69)",
+      "english": "goodbye",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"adiós\" mean?",
+      "answer": "goodbye",
+      "translation": "goodbye",
+      "options": [
+        "goodbye",
+        "excuse me",
+        "hello",
+        "thank you"
+      ]
     },
     {
       "id": "es-124-070",
-      "word": "estudiar 70",
+      "word": "estudiar",
       "pronunciation": "estudiar",
-      "english": "to study (variant 70)",
+      "english": "to study",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"estudiar\" mean?",
+      "answer": "to study",
+      "translation": "to study",
+      "options": [
+        "excuse me",
+        "thank you",
+        "hello",
+        "to study"
+      ]
     },
     {
       "id": "es-124-071",
-      "word": "hola 71",
+      "word": "hola",
       "pronunciation": "ola",
-      "english": "hello (variant 71)",
+      "english": "hello",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"hola\" mean?",
+      "answer": "hello",
+      "translation": "hello",
+      "options": [
+        "hello",
+        "thank you",
+        "goodbye",
+        "excuse me"
+      ]
     },
     {
       "id": "es-124-072",
-      "word": "gracias 72",
+      "word": "gracias",
       "pronunciation": "gracias",
-      "english": "thank you (variant 72)",
+      "english": "thank you",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"gracias\" mean?",
+      "answer": "thank you",
+      "translation": "thank you",
+      "options": [
+        "thank you",
+        "hello",
+        "excuse me",
+        "goodbye"
+      ]
     },
     {
       "id": "es-124-073",
-      "word": "perdón 73",
+      "word": "perdón",
       "pronunciation": "perdon",
-      "english": "excuse me (variant 73)",
+      "english": "excuse me",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"perdón\" mean?",
+      "answer": "excuse me",
+      "translation": "excuse me",
+      "options": [
+        "goodbye",
+        "thank you",
+        "hello",
+        "excuse me"
+      ]
     },
     {
       "id": "es-124-074",
-      "word": "adiós 74",
+      "word": "adiós",
       "pronunciation": "adios",
-      "english": "goodbye (variant 74)",
+      "english": "goodbye",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"adiós\" mean?",
+      "answer": "goodbye",
+      "translation": "goodbye",
+      "options": [
+        "thank you",
+        "hello",
+        "excuse me",
+        "goodbye"
+      ]
     },
     {
       "id": "es-124-075",
-      "word": "estudiar 75",
+      "word": "estudiar",
       "pronunciation": "estudiar",
-      "english": "to study (variant 75)",
+      "english": "to study",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"estudiar\" mean?",
+      "answer": "to study",
+      "translation": "to study",
+      "options": [
+        "hello",
+        "excuse me",
+        "to study",
+        "thank you"
+      ]
     },
     {
       "id": "es-124-076",
-      "word": "hola 76",
+      "word": "hola",
       "pronunciation": "ola",
-      "english": "hello (variant 76)",
+      "english": "hello",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"hola\" mean?",
+      "answer": "hello",
+      "translation": "hello",
+      "options": [
+        "thank you",
+        "hello",
+        "excuse me",
+        "goodbye"
+      ]
     },
     {
       "id": "es-124-077",
-      "word": "gracias 77",
+      "word": "gracias",
       "pronunciation": "gracias",
-      "english": "thank you (variant 77)",
+      "english": "thank you",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"gracias\" mean?",
+      "answer": "thank you",
+      "translation": "thank you",
+      "options": [
+        "goodbye",
+        "excuse me",
+        "hello",
+        "thank you"
+      ]
     },
     {
       "id": "es-124-078",
-      "word": "perdón 78",
+      "word": "perdón",
       "pronunciation": "perdon",
-      "english": "excuse me (variant 78)",
+      "english": "excuse me",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"perdón\" mean?",
+      "answer": "excuse me",
+      "translation": "excuse me",
+      "options": [
+        "goodbye",
+        "excuse me",
+        "thank you",
+        "hello"
+      ]
     },
     {
       "id": "es-124-079",
-      "word": "adiós 79",
+      "word": "adiós",
       "pronunciation": "adios",
-      "english": "goodbye (variant 79)",
+      "english": "goodbye",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"adiós\" mean?",
+      "answer": "goodbye",
+      "translation": "goodbye",
+      "options": [
+        "goodbye",
+        "hello",
+        "thank you",
+        "excuse me"
+      ]
     },
     {
       "id": "es-124-080",
-      "word": "estudiar 80",
+      "word": "estudiar",
       "pronunciation": "estudiar",
-      "english": "to study (variant 80)",
+      "english": "to study",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"estudiar\" mean?",
+      "answer": "to study",
+      "translation": "to study",
+      "options": [
+        "to study",
+        "excuse me",
+        "hello",
+        "thank you"
+      ]
     },
     {
       "id": "es-124-081",
-      "word": "hola 81",
+      "word": "hola",
       "pronunciation": "ola",
-      "english": "hello (variant 81)",
+      "english": "hello",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"hola\" mean?",
+      "answer": "hello",
+      "translation": "hello",
+      "options": [
+        "excuse me",
+        "thank you",
+        "goodbye",
+        "hello"
+      ]
     },
     {
       "id": "es-124-082",
-      "word": "gracias 82",
+      "word": "gracias",
       "pronunciation": "gracias",
-      "english": "thank you (variant 82)",
+      "english": "thank you",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"gracias\" mean?",
+      "answer": "thank you",
+      "translation": "thank you",
+      "options": [
+        "thank you",
+        "hello",
+        "goodbye",
+        "excuse me"
+      ]
     },
     {
       "id": "es-124-083",
-      "word": "perdón 83",
+      "word": "perdón",
       "pronunciation": "perdon",
-      "english": "excuse me (variant 83)",
+      "english": "excuse me",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"perdón\" mean?",
+      "answer": "excuse me",
+      "translation": "excuse me",
+      "options": [
+        "excuse me",
+        "hello",
+        "thank you",
+        "goodbye"
+      ]
     },
     {
       "id": "es-124-084",
-      "word": "adiós 84",
+      "word": "adiós",
       "pronunciation": "adios",
-      "english": "goodbye (variant 84)",
+      "english": "goodbye",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"adiós\" mean?",
+      "answer": "goodbye",
+      "translation": "goodbye",
+      "options": [
+        "thank you",
+        "excuse me",
+        "hello",
+        "goodbye"
+      ]
     },
     {
       "id": "es-124-085",
-      "word": "estudiar 85",
+      "word": "estudiar",
       "pronunciation": "estudiar",
-      "english": "to study (variant 85)",
+      "english": "to study",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"estudiar\" mean?",
+      "answer": "to study",
+      "translation": "to study",
+      "options": [
+        "hello",
+        "excuse me",
+        "to study",
+        "thank you"
+      ]
     },
     {
       "id": "es-124-086",
-      "word": "hola 86",
+      "word": "hola",
       "pronunciation": "ola",
-      "english": "hello (variant 86)",
+      "english": "hello",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"hola\" mean?",
+      "answer": "hello",
+      "translation": "hello",
+      "options": [
+        "hello",
+        "thank you",
+        "goodbye",
+        "excuse me"
+      ]
     },
     {
       "id": "es-124-087",
-      "word": "gracias 87",
+      "word": "gracias",
       "pronunciation": "gracias",
-      "english": "thank you (variant 87)",
+      "english": "thank you",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"gracias\" mean?",
+      "answer": "thank you",
+      "translation": "thank you",
+      "options": [
+        "thank you",
+        "hello",
+        "goodbye",
+        "excuse me"
+      ]
     },
     {
       "id": "es-124-088",
-      "word": "perdón 88",
+      "word": "perdón",
       "pronunciation": "perdon",
-      "english": "excuse me (variant 88)",
+      "english": "excuse me",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"perdón\" mean?",
+      "answer": "excuse me",
+      "translation": "excuse me",
+      "options": [
+        "hello",
+        "excuse me",
+        "thank you",
+        "goodbye"
+      ]
     },
     {
       "id": "es-124-089",
-      "word": "adiós 89",
+      "word": "adiós",
       "pronunciation": "adios",
-      "english": "goodbye (variant 89)",
+      "english": "goodbye",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"adiós\" mean?",
+      "answer": "goodbye",
+      "translation": "goodbye",
+      "options": [
+        "excuse me",
+        "thank you",
+        "hello",
+        "goodbye"
+      ]
     },
     {
       "id": "es-124-090",
-      "word": "estudiar 90",
+      "word": "estudiar",
       "pronunciation": "estudiar",
-      "english": "to study (variant 90)",
+      "english": "to study",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"estudiar\" mean?",
+      "answer": "to study",
+      "translation": "to study",
+      "options": [
+        "excuse me",
+        "hello",
+        "thank you",
+        "to study"
+      ]
     },
     {
       "id": "es-124-091",
-      "word": "hola 91",
+      "word": "hola",
       "pronunciation": "ola",
-      "english": "hello (variant 91)",
+      "english": "hello",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"hola\" mean?",
+      "answer": "hello",
+      "translation": "hello",
+      "options": [
+        "excuse me",
+        "thank you",
+        "goodbye",
+        "hello"
+      ]
     },
     {
       "id": "es-124-092",
-      "word": "gracias 92",
+      "word": "gracias",
       "pronunciation": "gracias",
-      "english": "thank you (variant 92)",
+      "english": "thank you",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"gracias\" mean?",
+      "answer": "thank you",
+      "translation": "thank you",
+      "options": [
+        "thank you",
+        "hello",
+        "excuse me",
+        "goodbye"
+      ]
     },
     {
       "id": "es-124-093",
-      "word": "perdón 93",
+      "word": "perdón",
       "pronunciation": "perdon",
-      "english": "excuse me (variant 93)",
+      "english": "excuse me",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"perdón\" mean?",
+      "answer": "excuse me",
+      "translation": "excuse me",
+      "options": [
+        "excuse me",
+        "hello",
+        "thank you",
+        "goodbye"
+      ]
     },
     {
       "id": "es-124-094",
-      "word": "adiós 94",
+      "word": "adiós",
       "pronunciation": "adios",
-      "english": "goodbye (variant 94)",
+      "english": "goodbye",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"adiós\" mean?",
+      "answer": "goodbye",
+      "translation": "goodbye",
+      "options": [
+        "goodbye",
+        "hello",
+        "thank you",
+        "excuse me"
+      ]
     },
     {
       "id": "es-124-095",
-      "word": "estudiar 95",
+      "word": "estudiar",
       "pronunciation": "estudiar",
-      "english": "to study (variant 95)",
+      "english": "to study",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"estudiar\" mean?",
+      "answer": "to study",
+      "translation": "to study",
+      "options": [
+        "to study",
+        "hello",
+        "thank you",
+        "excuse me"
+      ]
     },
     {
       "id": "es-124-096",
-      "word": "hola 96",
+      "word": "hola",
       "pronunciation": "ola",
-      "english": "hello (variant 96)",
+      "english": "hello",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"hola\" mean?",
+      "answer": "hello",
+      "translation": "hello",
+      "options": [
+        "hello",
+        "goodbye",
+        "thank you",
+        "excuse me"
+      ]
     },
     {
       "id": "es-124-097",
-      "word": "gracias 97",
+      "word": "gracias",
       "pronunciation": "gracias",
-      "english": "thank you (variant 97)",
+      "english": "thank you",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"gracias\" mean?",
+      "answer": "thank you",
+      "translation": "thank you",
+      "options": [
+        "goodbye",
+        "hello",
+        "thank you",
+        "excuse me"
+      ]
     },
     {
       "id": "es-124-098",
-      "word": "perdón 98",
+      "word": "perdón",
       "pronunciation": "perdon",
-      "english": "excuse me (variant 98)",
+      "english": "excuse me",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"perdón\" mean?",
+      "answer": "excuse me",
+      "translation": "excuse me",
+      "options": [
+        "excuse me",
+        "hello",
+        "goodbye",
+        "thank you"
+      ]
     },
     {
       "id": "es-124-099",
-      "word": "adiós 99",
+      "word": "adiós",
       "pronunciation": "adios",
-      "english": "goodbye (variant 99)",
+      "english": "goodbye",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"adiós\" mean?",
+      "answer": "goodbye",
+      "translation": "goodbye",
+      "options": [
+        "hello",
+        "goodbye",
+        "thank you",
+        "excuse me"
+      ]
     },
     {
       "id": "es-124-100",
-      "word": "estudiar 100",
+      "word": "estudiar",
       "pronunciation": "estudiar",
-      "english": "to study (variant 100)",
+      "english": "to study",
       "type": "vocabulary",
-      "difficulty": 4
+      "difficulty": 4,
+      "question": "What does \"estudiar\" mean?",
+      "answer": "to study",
+      "translation": "to study",
+      "options": [
+        "thank you",
+        "excuse me",
+        "hello",
+        "to study"
+      ]
     }
   ]
 }

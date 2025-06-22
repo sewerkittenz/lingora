@@ -10,70 +10,160 @@
       "word": "hola",
       "english": "hello",
       "type": "vocabulary",
-      "audio": "/audio/es/hola.mp3"
+      "audio": "/audio/es/hola.mp3",
+      "question": "What does \"hola\" mean?",
+      "answer": "hello",
+      "translation": "hello",
+      "options": [
+        "goodbye",
+        "you're welcome",
+        "hello",
+        "thank you"
+      ]
     },
     {
       "id": 2,
       "word": "adiós",
       "english": "goodbye",
       "type": "vocabulary",
-      "audio": "/audio/es/adios.mp3"
+      "audio": "/audio/es/adios.mp3",
+      "question": "What does \"adiós\" mean?",
+      "answer": "goodbye",
+      "translation": "goodbye",
+      "options": [
+        "you're welcome",
+        "thank you",
+        "hello",
+        "goodbye"
+      ]
     },
     {
       "id": 3,
       "word": "gracias",
       "english": "thank you",
       "type": "vocabulary",
-      "audio": "/audio/es/gracias.mp3"
+      "audio": "/audio/es/gracias.mp3",
+      "question": "What does \"gracias\" mean?",
+      "answer": "thank you",
+      "translation": "thank you",
+      "options": [
+        "thank you",
+        "hello",
+        "goodbye",
+        "you're welcome"
+      ]
     },
     {
       "id": 4,
       "word": "de nada",
       "english": "you're welcome",
       "type": "vocabulary",
-      "audio": "/audio/es/denada.mp3"
+      "audio": "/audio/es/denada.mp3",
+      "question": "What does \"de nada\" mean?",
+      "answer": "you're welcome",
+      "translation": "you're welcome",
+      "options": [
+        "goodbye",
+        "you're welcome",
+        "thank you",
+        "hello"
+      ]
     },
     {
       "id": 5,
       "word": "por favor",
       "english": "please",
       "type": "vocabulary",
-      "audio": "/audio/es/porfavor.mp3"
+      "audio": "/audio/es/porfavor.mp3",
+      "question": "What does \"por favor\" mean?",
+      "answer": "please",
+      "translation": "please",
+      "options": [
+        "thank you",
+        "goodbye",
+        "please",
+        "hello"
+      ]
     },
     {
       "id": 6,
       "word": "lo siento",
       "english": "I'm sorry",
       "type": "vocabulary",
-      "audio": "/audio/es/losiento.mp3"
+      "audio": "/audio/es/losiento.mp3",
+      "question": "What does \"lo siento\" mean?",
+      "answer": "I'm sorry",
+      "translation": "I'm sorry",
+      "options": [
+        "goodbye",
+        "thank you",
+        "hello",
+        "I'm sorry"
+      ]
     },
     {
       "id": 7,
       "word": "buenos días",
       "english": "good morning",
       "type": "vocabulary",
-      "audio": "/audio/es/buenosdias.mp3"
+      "audio": "/audio/es/buenosdias.mp3",
+      "question": "What does \"buenos días\" mean?",
+      "answer": "good morning",
+      "translation": "good morning",
+      "options": [
+        "thank you",
+        "goodbye",
+        "hello",
+        "good morning"
+      ]
     },
     {
       "id": 8,
       "word": "buenas tardes",
       "english": "good afternoon",
       "type": "vocabulary",
-      "audio": "/audio/es/buenastardes.mp3"
+      "audio": "/audio/es/buenastardes.mp3",
+      "question": "What does \"buenas tardes\" mean?",
+      "answer": "good afternoon",
+      "translation": "good afternoon",
+      "options": [
+        "good afternoon",
+        "hello",
+        "goodbye",
+        "thank you"
+      ]
     },
     {
       "id": 9,
       "word": "buenas noches",
       "english": "good evening/night",
       "type": "vocabulary",
-      "audio": "/audio/es/buenasnoches.mp3"
+      "audio": "/audio/es/buenasnoches.mp3",
+      "question": "What does \"buenas noches\" mean?",
+      "answer": "good evening/night",
+      "translation": "good evening/night",
+      "options": [
+        "goodbye",
+        "hello",
+        "thank you",
+        "good evening/night"
+      ]
     },
     {
       "id": 80,
       "word": "¿cómo estás?",
       "english": "how are you?",
       "type": "vocabulary",
-      "audio": "/audio/es/comoestas.mp3"
+      "audio": "/audio/es/comoestas.mp3",
+      "question": "What does \"¿cómo estás?\" mean?",
+      "answer": "how are you?",
+      "translation": "how are you?",
+      "options": [
+        "goodbye",
+        "thank you",
+        "hello",
+        "how are you?"
+      ]
     }
   ]
 }
