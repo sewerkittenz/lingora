@@ -1,0 +1,225 @@
+{
+  "id": 110,
+  "title": "Russian Verbs 10",
+  "level": "advanced",
+  "type": "advanced",
+  "language": "ru",
+  "languageName": "Russian",
+  "vocabulary": [
+    {
+      "id": 1,
+      "word": "привет",
+      "romanization": "privet",
+      "meaning": "hello",
+      "examples": [
+        "привет важно."
+      ]
+    },
+    {
+      "id": 2,
+      "word": "спасибо",
+      "romanization": "spasibo",
+      "meaning": "thank you",
+      "examples": [
+        "спасибо важно."
+      ]
+    },
+    {
+      "id": 3,
+      "word": "привет",
+      "romanization": "privet",
+      "meaning": "hello",
+      "examples": [
+        "привет важно."
+      ]
+    },
+    {
+      "id": 4,
+      "word": "спасибо",
+      "romanization": "spasibo",
+      "meaning": "thank you",
+      "examples": [
+        "спасибо важно."
+      ]
+    },
+    {
+      "id": 5,
+      "word": "привет",
+      "romanization": "privet",
+      "meaning": "hello",
+      "examples": [
+        "привет важно."
+      ]
+    },
+    {
+      "id": 6,
+      "word": "спасибо",
+      "romanization": "spasibo",
+      "meaning": "thank you",
+      "examples": [
+        "спасибо важно."
+      ]
+    },
+    {
+      "id": 7,
+      "word": "привет",
+      "romanization": "privet",
+      "meaning": "hello",
+      "examples": [
+        "привет важно."
+      ]
+    },
+    {
+      "id": 8,
+      "word": "спасибо",
+      "romanization": "spasibo",
+      "meaning": "thank you",
+      "examples": [
+        "спасибо важно."
+      ]
+    },
+    {
+      "id": 9,
+      "word": "привет",
+      "romanization": "privet",
+      "meaning": "hello",
+      "examples": [
+        "привет важно."
+      ]
+    },
+    {
+      "id": 10,
+      "word": "спасибо",
+      "romanization": "spasibo",
+      "meaning": "thank you",
+      "examples": [
+        "спасибо важно."
+      ]
+    }
+  ],
+  "verbs": [
+    {
+      "id": 1,
+      "infinitive": "Russian verb 1",
+      "conjugations": {
+        "first": "First person 1",
+        "second": "Second person 1",
+        "third": "Third person 1"
+      }
+    },
+    {
+      "id": 2,
+      "infinitive": "Russian verb 2",
+      "conjugations": {
+        "first": "First person 2",
+        "second": "Second person 2",
+        "third": "Third person 2"
+      }
+    },
+    {
+      "id": 3,
+      "infinitive": "Russian verb 3",
+      "conjugations": {
+        "first": "First person 3",
+        "second": "Second person 3",
+        "third": "Third person 3"
+      }
+    },
+    {
+      "id": 4,
+      "infinitive": "Russian verb 4",
+      "conjugations": {
+        "first": "First person 4",
+        "second": "Second person 4",
+        "third": "Third person 4"
+      }
+    },
+    {
+      "id": 5,
+      "infinitive": "Russian verb 5",
+      "conjugations": {
+        "first": "First person 5",
+        "second": "Second person 5",
+        "third": "Third person 5"
+      }
+    },
+    {
+      "id": 6,
+      "infinitive": "Russian verb 6",
+      "conjugations": {
+        "first": "First person 6",
+        "second": "Second person 6",
+        "third": "Third person 6"
+      }
+    },
+    {
+      "id": 7,
+      "infinitive": "Russian verb 7",
+      "conjugations": {
+        "first": "First person 7",
+        "second": "Second person 7",
+        "third": "Third person 7"
+      }
+    },
+    {
+      "id": 8,
+      "infinitive": "Russian verb 8",
+      "conjugations": {
+        "first": "First person 8",
+        "second": "Second person 8",
+        "third": "Third person 8"
+      }
+    }
+  ],
+  "exercises": [
+    {
+      "type": "comprehension",
+      "questions": [
+        {
+          "id": 1,
+          "passage": "Advanced passage 1",
+          "question": "Comprehension question 1",
+          "answer": "Answer 1",
+          "options": [
+            "Option 1",
+            "Option 2",
+            "Option 3",
+            "Answer 1"
+          ]
+        },
+        {
+          "id": 2,
+          "passage": "Advanced passage 2",
+          "question": "Comprehension question 2",
+          "answer": "Answer 2",
+          "options": [
+            "Option 1",
+            "Option 2",
+            "Option 3",
+            "Answer 2"
+          ]
+        },
+        {
+          "id": 3,
+          "passage": "Advanced passage 3",
+          "question": "Comprehension question 3",
+          "answer": "Answer 3",
+          "options": [
+            "Option 1",
+            "Option 2",
+            "Option 3",
+            "Answer 3"
+          ]
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "created": "2025-06-22T08:47:17.269Z",
+    "difficulty": "advanced",
+    "estimatedTime": 15,
+    "prerequisites": [
+      109
+    ]
+  }
+}

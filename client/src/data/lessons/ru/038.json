@@ -1,0 +1,219 @@
+{
+  "id": 38,
+  "title": "Russian Cyrillic 38",
+  "level": "beginner",
+  "type": "writing",
+  "language": "ru",
+  "languageName": "Russian",
+  "vocabulary": [
+    {
+      "id": 1,
+      "word": "привет",
+      "romanization": "privet",
+      "meaning": "hello",
+      "examples": [
+        "привет важно."
+      ]
+    },
+    {
+      "id": 2,
+      "word": "спасибо",
+      "romanization": "spasibo",
+      "meaning": "thank you",
+      "examples": [
+        "спасибо важно."
+      ]
+    },
+    {
+      "id": 3,
+      "word": "привет",
+      "romanization": "privet",
+      "meaning": "hello",
+      "examples": [
+        "привет важно."
+      ]
+    },
+    {
+      "id": 4,
+      "word": "спасибо",
+      "romanization": "spasibo",
+      "meaning": "thank you",
+      "examples": [
+        "спасибо важно."
+      ]
+    },
+    {
+      "id": 5,
+      "word": "привет",
+      "romanization": "privet",
+      "meaning": "hello",
+      "examples": [
+        "привет важно."
+      ]
+    },
+    {
+      "id": 6,
+      "word": "спасибо",
+      "romanization": "spasibo",
+      "meaning": "thank you",
+      "examples": [
+        "спасибо важно."
+      ]
+    },
+    {
+      "id": 7,
+      "word": "привет",
+      "romanization": "privet",
+      "meaning": "hello",
+      "examples": [
+        "привет важно."
+      ]
+    },
+    {
+      "id": 8,
+      "word": "спасибо",
+      "romanization": "spasibo",
+      "meaning": "thank you",
+      "examples": [
+        "спасибо важно."
+      ]
+    },
+    {
+      "id": 9,
+      "word": "привет",
+      "romanization": "privet",
+      "meaning": "hello",
+      "examples": [
+        "привет важно."
+      ]
+    },
+    {
+      "id": 10,
+      "word": "спасибо",
+      "romanization": "spasibo",
+      "meaning": "thank you",
+      "examples": [
+        "спасибо важно."
+      ]
+    }
+  ],
+  "writing": [
+    {
+      "id": 1,
+      "cyrillic": "А",
+      "romanization": "A",
+      "sound": "a",
+      "examples": [
+        "А = A"
+      ]
+    },
+    {
+      "id": 2,
+      "cyrillic": "Б",
+      "romanization": "B",
+      "sound": "b",
+      "examples": [
+        "Б = B"
+      ]
+    },
+    {
+      "id": 3,
+      "cyrillic": "А",
+      "romanization": "A",
+      "sound": "a",
+      "examples": [
+        "А = A"
+      ]
+    },
+    {
+      "id": 4,
+      "cyrillic": "Б",
+      "romanization": "B",
+      "sound": "b",
+      "examples": [
+        "Б = B"
+      ]
+    },
+    {
+      "id": 5,
+      "cyrillic": "А",
+      "romanization": "A",
+      "sound": "a",
+      "examples": [
+        "А = A"
+      ]
+    },
+    {
+      "id": 6,
+      "cyrillic": "Б",
+      "romanization": "B",
+      "sound": "b",
+      "examples": [
+        "Б = B"
+      ]
+    },
+    {
+      "id": 7,
+      "cyrillic": "А",
+      "romanization": "A",
+      "sound": "a",
+      "examples": [
+        "А = A"
+      ]
+    },
+    {
+      "id": 8,
+      "cyrillic": "Б",
+      "romanization": "B",
+      "sound": "b",
+      "examples": [
+        "Б = B"
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "writing",
+      "questions": [
+        {
+          "id": 1,
+          "instruction": "Write the character/letter 1",
+          "answer": "Character 1",
+          "stroke_order": "Stroke order guide 1"
+        },
+        {
+          "id": 2,
+          "instruction": "Write the character/letter 2",
+          "answer": "Character 2",
+          "stroke_order": "Stroke order guide 2"
+        },
+        {
+          "id": 3,
+          "instruction": "Write the character/letter 3",
+          "answer": "Character 3",
+          "stroke_order": "Stroke order guide 3"
+        },
+        {
+          "id": 4,
+          "instruction": "Write the character/letter 4",
+          "answer": "Character 4",
+          "stroke_order": "Stroke order guide 4"
+        },
+        {
+          "id": 5,
+          "instruction": "Write the character/letter 5",
+          "answer": "Character 5",
+          "stroke_order": "Stroke order guide 5"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "created": "2025-06-22T08:47:17.112Z",
+    "difficulty": "beginner",
+    "estimatedTime": 15,
+    "prerequisites": [
+      37
+    ]
+  }
+}

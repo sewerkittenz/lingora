@@ -1,0 +1,189 @@
+{
+  "id": 120,
+  "title": "Korean Honorifics 20",
+  "level": "advanced",
+  "type": "advanced",
+  "language": "ko",
+  "languageName": "Korean",
+  "vocabulary": [
+    {
+      "id": 1,
+      "word": "안녕하세요",
+      "romanization": "annyeonghaseyo",
+      "meaning": "hello",
+      "examples": [
+        "안녕하세요는 중요합니다."
+      ]
+    },
+    {
+      "id": 2,
+      "word": "감사합니다",
+      "romanization": "gamsahamnida",
+      "meaning": "thank you",
+      "examples": [
+        "감사합니다는 중요합니다."
+      ]
+    },
+    {
+      "id": 3,
+      "word": "학교",
+      "romanization": "hakgyo",
+      "meaning": "school",
+      "examples": [
+        "학교는 중요합니다."
+      ]
+    },
+    {
+      "id": 4,
+      "word": "안녕하세요",
+      "romanization": "annyeonghaseyo",
+      "meaning": "hello",
+      "examples": [
+        "안녕하세요는 중요합니다."
+      ]
+    },
+    {
+      "id": 5,
+      "word": "감사합니다",
+      "romanization": "gamsahamnida",
+      "meaning": "thank you",
+      "examples": [
+        "감사합니다는 중요합니다."
+      ]
+    },
+    {
+      "id": 6,
+      "word": "학교",
+      "romanization": "hakgyo",
+      "meaning": "school",
+      "examples": [
+        "학교는 중요합니다."
+      ]
+    },
+    {
+      "id": 7,
+      "word": "안녕하세요",
+      "romanization": "annyeonghaseyo",
+      "meaning": "hello",
+      "examples": [
+        "안녕하세요는 중요합니다."
+      ]
+    },
+    {
+      "id": 8,
+      "word": "감사합니다",
+      "romanization": "gamsahamnida",
+      "meaning": "thank you",
+      "examples": [
+        "감사합니다는 중요합니다."
+      ]
+    },
+    {
+      "id": 9,
+      "word": "학교",
+      "romanization": "hakgyo",
+      "meaning": "school",
+      "examples": [
+        "학교는 중요합니다."
+      ]
+    },
+    {
+      "id": 10,
+      "word": "안녕하세요",
+      "romanization": "annyeonghaseyo",
+      "meaning": "hello",
+      "examples": [
+        "안녕하세요는 중요합니다."
+      ]
+    }
+  ],
+  "honorifics": [
+    {
+      "id": 1,
+      "formal": "Formal form 1",
+      "casual": "Casual form 1",
+      "context": "Usage context 1"
+    },
+    {
+      "id": 2,
+      "formal": "Formal form 2",
+      "casual": "Casual form 2",
+      "context": "Usage context 2"
+    },
+    {
+      "id": 3,
+      "formal": "Formal form 3",
+      "casual": "Casual form 3",
+      "context": "Usage context 3"
+    },
+    {
+      "id": 4,
+      "formal": "Formal form 4",
+      "casual": "Casual form 4",
+      "context": "Usage context 4"
+    },
+    {
+      "id": 5,
+      "formal": "Formal form 5",
+      "casual": "Casual form 5",
+      "context": "Usage context 5"
+    },
+    {
+      "id": 6,
+      "formal": "Formal form 6",
+      "casual": "Casual form 6",
+      "context": "Usage context 6"
+    }
+  ],
+  "exercises": [
+    {
+      "type": "comprehension",
+      "questions": [
+        {
+          "id": 1,
+          "passage": "Advanced passage 1",
+          "question": "Comprehension question 1",
+          "answer": "Answer 1",
+          "options": [
+            "Option 1",
+            "Option 2",
+            "Option 3",
+            "Answer 1"
+          ]
+        },
+        {
+          "id": 2,
+          "passage": "Advanced passage 2",
+          "question": "Comprehension question 2",
+          "answer": "Answer 2",
+          "options": [
+            "Option 1",
+            "Option 2",
+            "Option 3",
+            "Answer 2"
+          ]
+        },
+        {
+          "id": 3,
+          "passage": "Advanced passage 3",
+          "question": "Comprehension question 3",
+          "answer": "Answer 3",
+          "options": [
+            "Option 1",
+            "Option 2",
+            "Option 3",
+            "Answer 3"
+          ]
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "created": "2025-06-22T08:47:16.904Z",
+    "difficulty": "advanced",
+    "estimatedTime": 15,
+    "prerequisites": [
+      119
+    ]
+  }
+}

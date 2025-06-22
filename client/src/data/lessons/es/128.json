@@ -1,0 +1,164 @@
+{
+  "id": 128,
+  "title": "Spanish Conversation 28",
+  "level": "advanced",
+  "type": "conversation",
+  "language": "es",
+  "languageName": "Spanish",
+  "vocabulary": [
+    {
+      "id": 1,
+      "word": "hola",
+      "meaning": "hello",
+      "examples": [
+        "hola es importante."
+      ]
+    },
+    {
+      "id": 2,
+      "word": "gracias",
+      "meaning": "thank you",
+      "examples": [
+        "gracias es importante."
+      ]
+    },
+    {
+      "id": 3,
+      "word": "escuela",
+      "meaning": "school",
+      "examples": [
+        "escuela es importante."
+      ]
+    },
+    {
+      "id": 4,
+      "word": "amigo",
+      "meaning": "friend",
+      "examples": [
+        "amigo es importante."
+      ]
+    },
+    {
+      "id": 5,
+      "word": "comer",
+      "meaning": "to eat",
+      "examples": [
+        "comer es importante."
+      ]
+    },
+    {
+      "id": 6,
+      "word": "hola",
+      "meaning": "hello",
+      "examples": [
+        "hola es importante."
+      ]
+    },
+    {
+      "id": 7,
+      "word": "gracias",
+      "meaning": "thank you",
+      "examples": [
+        "gracias es importante."
+      ]
+    },
+    {
+      "id": 8,
+      "word": "escuela",
+      "meaning": "school",
+      "examples": [
+        "escuela es importante."
+      ]
+    },
+    {
+      "id": 9,
+      "word": "amigo",
+      "meaning": "friend",
+      "examples": [
+        "amigo es importante."
+      ]
+    },
+    {
+      "id": 10,
+      "word": "comer",
+      "meaning": "to eat",
+      "examples": [
+        "comer es importante."
+      ]
+    }
+  ],
+  "conversation": [
+    {
+      "id": 1,
+      "situation": "Conversation Situation 1",
+      "dialogue": "Spanish dialogue 1",
+      "translation": "Dialogue translation 1"
+    },
+    {
+      "id": 2,
+      "situation": "Conversation Situation 2",
+      "dialogue": "Spanish dialogue 2",
+      "translation": "Dialogue translation 2"
+    },
+    {
+      "id": 3,
+      "situation": "Conversation Situation 3",
+      "dialogue": "Spanish dialogue 3",
+      "translation": "Dialogue translation 3"
+    },
+    {
+      "id": 4,
+      "situation": "Conversation Situation 4",
+      "dialogue": "Spanish dialogue 4",
+      "translation": "Dialogue translation 4"
+    },
+    {
+      "id": 5,
+      "situation": "Conversation Situation 5",
+      "dialogue": "Spanish dialogue 5",
+      "translation": "Dialogue translation 5"
+    },
+    {
+      "id": 6,
+      "situation": "Conversation Situation 6",
+      "dialogue": "Spanish dialogue 6",
+      "translation": "Dialogue translation 6"
+    }
+  ],
+  "exercises": [
+    {
+      "type": "dialogue",
+      "questions": [
+        {
+          "id": 1,
+          "scenario": "Conversation scenario 1",
+          "dialogue": "Dialogue lines 1",
+          "missing_lines": "Missing dialogue 1",
+          "answer": "Correct response 1"
+        },
+        {
+          "id": 2,
+          "scenario": "Conversation scenario 2",
+          "dialogue": "Dialogue lines 2",
+          "missing_lines": "Missing dialogue 2",
+          "answer": "Correct response 2"
+        },
+        {
+          "id": 3,
+          "scenario": "Conversation scenario 3",
+          "dialogue": "Dialogue lines 3",
+          "missing_lines": "Missing dialogue 3",
+          "answer": "Correct response 3"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "created": "2025-06-22T08:47:16.552Z",
+    "difficulty": "advanced",
+    "estimatedTime": 15,
+    "prerequisites": [
+      127
+    ]
+  }
+}

@@ -5,6 +5,8 @@ import authRoutes from "./auth-routes";
 import bcrypt from "bcrypt";
 import { createPaypalOrder, capturePaypalOrder, loadPaypalDefault } from "./paypal";
 import { registerLessonRoutes } from "./routes-lessons";
+import { resetPassword, updatePassword, changeEmail, confirmEmailChange, getCurrentUserEmail } from "./email-routes";
+import { storage } from "./storage";
 
 export async function registerRoutes(app: Express): Promise<Server> {
   // Use the new Supabase auth routes

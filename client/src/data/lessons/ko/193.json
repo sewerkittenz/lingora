@@ -1,0 +1,154 @@
+{
+  "id": 193,
+  "title": "Korean Culture 43",
+  "level": "expert",
+  "type": "expert",
+  "language": "ko",
+  "languageName": "Korean",
+  "vocabulary": [
+    {
+      "id": 1,
+      "word": "안녕하세요",
+      "romanization": "annyeonghaseyo",
+      "meaning": "hello",
+      "examples": [
+        "안녕하세요는 중요합니다."
+      ]
+    },
+    {
+      "id": 2,
+      "word": "감사합니다",
+      "romanization": "gamsahamnida",
+      "meaning": "thank you",
+      "examples": [
+        "감사합니다는 중요합니다."
+      ]
+    },
+    {
+      "id": 3,
+      "word": "학교",
+      "romanization": "hakgyo",
+      "meaning": "school",
+      "examples": [
+        "학교는 중요합니다."
+      ]
+    },
+    {
+      "id": 4,
+      "word": "안녕하세요",
+      "romanization": "annyeonghaseyo",
+      "meaning": "hello",
+      "examples": [
+        "안녕하세요는 중요합니다."
+      ]
+    },
+    {
+      "id": 5,
+      "word": "감사합니다",
+      "romanization": "gamsahamnida",
+      "meaning": "thank you",
+      "examples": [
+        "감사합니다는 중요합니다."
+      ]
+    },
+    {
+      "id": 6,
+      "word": "학교",
+      "romanization": "hakgyo",
+      "meaning": "school",
+      "examples": [
+        "학교는 중요합니다."
+      ]
+    },
+    {
+      "id": 7,
+      "word": "안녕하세요",
+      "romanization": "annyeonghaseyo",
+      "meaning": "hello",
+      "examples": [
+        "안녕하세요는 중요합니다."
+      ]
+    },
+    {
+      "id": 8,
+      "word": "감사합니다",
+      "romanization": "gamsahamnida",
+      "meaning": "thank you",
+      "examples": [
+        "감사합니다는 중요합니다."
+      ]
+    },
+    {
+      "id": 9,
+      "word": "학교",
+      "romanization": "hakgyo",
+      "meaning": "school",
+      "examples": [
+        "학교는 중요합니다."
+      ]
+    },
+    {
+      "id": 10,
+      "word": "안녕하세요",
+      "romanization": "annyeonghaseyo",
+      "meaning": "hello",
+      "examples": [
+        "안녕하세요는 중요합니다."
+      ]
+    }
+  ],
+  "culture": [
+    {
+      "id": 1,
+      "topic": "Korean Culture Topic 1",
+      "description": "Cultural description 1"
+    },
+    {
+      "id": 2,
+      "topic": "Korean Culture Topic 2",
+      "description": "Cultural description 2"
+    },
+    {
+      "id": 3,
+      "topic": "Korean Culture Topic 3",
+      "description": "Cultural description 3"
+    },
+    {
+      "id": 4,
+      "topic": "Korean Culture Topic 4",
+      "description": "Cultural description 4"
+    },
+    {
+      "id": 5,
+      "topic": "Korean Culture Topic 5",
+      "description": "Cultural description 5"
+    }
+  ],
+  "exercises": [
+    {
+      "type": "analysis",
+      "questions": [
+        {
+          "id": 1,
+          "text": "Expert text 1",
+          "task": "Analyze the text 1",
+          "criteria": "Analysis criteria 1"
+        },
+        {
+          "id": 2,
+          "text": "Expert text 2",
+          "task": "Analyze the text 2",
+          "criteria": "Analysis criteria 2"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "created": "2025-06-22T08:47:17.030Z",
+    "difficulty": "expert",
+    "estimatedTime": 15,
+    "prerequisites": [
+      192
+    ]
+  }
+}

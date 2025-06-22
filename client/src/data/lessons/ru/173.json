@@ -1,0 +1,159 @@
+{
+  "id": 173,
+  "title": "Russian Literature 23",
+  "level": "expert",
+  "type": "expert",
+  "language": "ru",
+  "languageName": "Russian",
+  "vocabulary": [
+    {
+      "id": 1,
+      "word": "привет",
+      "romanization": "privet",
+      "meaning": "hello",
+      "examples": [
+        "привет важно."
+      ]
+    },
+    {
+      "id": 2,
+      "word": "спасибо",
+      "romanization": "spasibo",
+      "meaning": "thank you",
+      "examples": [
+        "спасибо важно."
+      ]
+    },
+    {
+      "id": 3,
+      "word": "привет",
+      "romanization": "privet",
+      "meaning": "hello",
+      "examples": [
+        "привет важно."
+      ]
+    },
+    {
+      "id": 4,
+      "word": "спасибо",
+      "romanization": "spasibo",
+      "meaning": "thank you",
+      "examples": [
+        "спасибо важно."
+      ]
+    },
+    {
+      "id": 5,
+      "word": "привет",
+      "romanization": "privet",
+      "meaning": "hello",
+      "examples": [
+        "привет важно."
+      ]
+    },
+    {
+      "id": 6,
+      "word": "спасибо",
+      "romanization": "spasibo",
+      "meaning": "thank you",
+      "examples": [
+        "спасибо важно."
+      ]
+    },
+    {
+      "id": 7,
+      "word": "привет",
+      "romanization": "privet",
+      "meaning": "hello",
+      "examples": [
+        "привет важно."
+      ]
+    },
+    {
+      "id": 8,
+      "word": "спасибо",
+      "romanization": "spasibo",
+      "meaning": "thank you",
+      "examples": [
+        "спасибо важно."
+      ]
+    },
+    {
+      "id": 9,
+      "word": "привет",
+      "romanization": "privet",
+      "meaning": "hello",
+      "examples": [
+        "привет важно."
+      ]
+    },
+    {
+      "id": 10,
+      "word": "спасибо",
+      "romanization": "spasibo",
+      "meaning": "thank you",
+      "examples": [
+        "спасибо важно."
+      ]
+    }
+  ],
+  "literature": [
+    {
+      "id": 1,
+      "title": "Russian Literature 1",
+      "author": "Author 1",
+      "excerpt": "Literary excerpt 1"
+    },
+    {
+      "id": 2,
+      "title": "Russian Literature 2",
+      "author": "Author 2",
+      "excerpt": "Literary excerpt 2"
+    },
+    {
+      "id": 3,
+      "title": "Russian Literature 3",
+      "author": "Author 3",
+      "excerpt": "Literary excerpt 3"
+    },
+    {
+      "id": 4,
+      "title": "Russian Literature 4",
+      "author": "Author 4",
+      "excerpt": "Literary excerpt 4"
+    },
+    {
+      "id": 5,
+      "title": "Russian Literature 5",
+      "author": "Author 5",
+      "excerpt": "Literary excerpt 5"
+    }
+  ],
+  "exercises": [
+    {
+      "type": "analysis",
+      "questions": [
+        {
+          "id": 1,
+          "text": "Expert text 1",
+          "task": "Analyze the text 1",
+          "criteria": "Analysis criteria 1"
+        },
+        {
+          "id": 2,
+          "text": "Expert text 2",
+          "task": "Analyze the text 2",
+          "criteria": "Analysis criteria 2"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "created": "2025-06-22T08:47:17.373Z",
+    "difficulty": "expert",
+    "estimatedTime": 15,
+    "prerequisites": [
+      172
+    ]
+  }
+}

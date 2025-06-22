@@ -1,0 +1,192 @@
+{
+  "id": 83,
+  "title": "Chinese Grammar 33",
+  "level": "intermediate",
+  "type": "grammar",
+  "language": "zh",
+  "languageName": "Chinese",
+  "vocabulary": [
+    {
+      "id": 1,
+      "word": "喝水",
+      "pinyin": "hē shuǐ",
+      "meaning": "to drink water",
+      "examples": [
+        "我喝水。",
+        "这是喝水。"
+      ]
+    },
+    {
+      "id": 2,
+      "word": "看书",
+      "pinyin": "kàn shū",
+      "meaning": "to read",
+      "examples": [
+        "我看书。",
+        "这是看书。"
+      ]
+    },
+    {
+      "id": 3,
+      "word": "工作",
+      "pinyin": "gōng zuò",
+      "meaning": "work",
+      "examples": [
+        "我工作。",
+        "这是工作。"
+      ]
+    },
+    {
+      "id": 4,
+      "word": "家人",
+      "pinyin": "jiā rén",
+      "meaning": "family",
+      "examples": [
+        "我家人。",
+        "这是家人。"
+      ]
+    },
+    {
+      "id": 5,
+      "word": "时间",
+      "pinyin": "shí jiān",
+      "meaning": "time",
+      "examples": [
+        "我时间。",
+        "这是时间。"
+      ]
+    },
+    {
+      "id": 6,
+      "word": "中国",
+      "pinyin": "zhōng guó",
+      "meaning": "China",
+      "examples": [
+        "我中国。",
+        "这是中国。"
+      ]
+    },
+    {
+      "id": 7,
+      "word": "今天",
+      "pinyin": "jīn tiān",
+      "meaning": "today",
+      "examples": [
+        "我今天。",
+        "这是今天。"
+      ]
+    },
+    {
+      "id": 8,
+      "word": "明天",
+      "pinyin": "míng tiān",
+      "meaning": "tomorrow",
+      "examples": [
+        "我明天。",
+        "这是明天。"
+      ]
+    },
+    {
+      "id": 9,
+      "word": "昨天",
+      "pinyin": "zuó tiān",
+      "meaning": "yesterday",
+      "examples": [
+        "我昨天。",
+        "这是昨天。"
+      ]
+    },
+    {
+      "id": 10,
+      "word": "汉语",
+      "pinyin": "hàn yǔ",
+      "meaning": "Chinese language",
+      "examples": [
+        "我汉语。",
+        "这是汉语。"
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "id": 1,
+      "pattern": "是",
+      "meaning": "to be",
+      "example": "我是学生。",
+      "usage": "Chinese grammar explanation for 是"
+    },
+    {
+      "id": 2,
+      "pattern": "的",
+      "meaning": "possessive particle",
+      "example": "我的书",
+      "usage": "Chinese grammar explanation for 的"
+    },
+    {
+      "id": 3,
+      "pattern": "在",
+      "meaning": "at/in (location)",
+      "example": "我在学校。",
+      "usage": "Chinese grammar explanation for 在"
+    },
+    {
+      "id": 4,
+      "pattern": "有",
+      "meaning": "to have",
+      "example": "我有一本书。",
+      "usage": "Chinese grammar explanation for 有"
+    },
+    {
+      "id": 5,
+      "pattern": "了",
+      "meaning": "completion marker",
+      "example": "我吃了饭。",
+      "usage": "Chinese grammar explanation for 了"
+    }
+  ],
+  "exercises": [
+    {
+      "type": "fill-blank",
+      "questions": [
+        {
+          "id": 1,
+          "sentence": "Complete with correct grammar: I ___ to school",
+          "answer": "Grammar form 1",
+          "blank": "___"
+        },
+        {
+          "id": 2,
+          "sentence": "Complete with correct grammar: I ___ to school",
+          "answer": "Grammar form 2",
+          "blank": "___"
+        },
+        {
+          "id": 3,
+          "sentence": "Complete with correct grammar: I ___ to school",
+          "answer": "Grammar form 3",
+          "blank": "___"
+        },
+        {
+          "id": 4,
+          "sentence": "Complete with correct grammar: I ___ to school",
+          "answer": "Grammar form 4",
+          "blank": "___"
+        },
+        {
+          "id": 5,
+          "sentence": "Complete with correct grammar: I ___ to school",
+          "answer": "Grammar form 5",
+          "blank": "___"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "created": "2025-06-22T08:47:15.758Z",
+    "difficulty": "intermediate",
+    "estimatedTime": 15,
+    "prerequisites": [
+      82
+    ]
+  }
+}

@@ -1,0 +1,174 @@
+{
+  "id": 183,
+  "title": "Chinese Literature 33",
+  "level": "expert",
+  "type": "expert",
+  "language": "zh",
+  "languageName": "Chinese",
+  "vocabulary": [
+    {
+      "id": 1,
+      "word": "喝水",
+      "pinyin": "hē shuǐ",
+      "meaning": "to drink water",
+      "examples": [
+        "我喝水。",
+        "这是喝水。"
+      ]
+    },
+    {
+      "id": 2,
+      "word": "看书",
+      "pinyin": "kàn shū",
+      "meaning": "to read",
+      "examples": [
+        "我看书。",
+        "这是看书。"
+      ]
+    },
+    {
+      "id": 3,
+      "word": "工作",
+      "pinyin": "gōng zuò",
+      "meaning": "work",
+      "examples": [
+        "我工作。",
+        "这是工作。"
+      ]
+    },
+    {
+      "id": 4,
+      "word": "家人",
+      "pinyin": "jiā rén",
+      "meaning": "family",
+      "examples": [
+        "我家人。",
+        "这是家人。"
+      ]
+    },
+    {
+      "id": 5,
+      "word": "时间",
+      "pinyin": "shí jiān",
+      "meaning": "time",
+      "examples": [
+        "我时间。",
+        "这是时间。"
+      ]
+    },
+    {
+      "id": 6,
+      "word": "中国",
+      "pinyin": "zhōng guó",
+      "meaning": "China",
+      "examples": [
+        "我中国。",
+        "这是中国。"
+      ]
+    },
+    {
+      "id": 7,
+      "word": "今天",
+      "pinyin": "jīn tiān",
+      "meaning": "today",
+      "examples": [
+        "我今天。",
+        "这是今天。"
+      ]
+    },
+    {
+      "id": 8,
+      "word": "明天",
+      "pinyin": "míng tiān",
+      "meaning": "tomorrow",
+      "examples": [
+        "我明天。",
+        "这是明天。"
+      ]
+    },
+    {
+      "id": 9,
+      "word": "昨天",
+      "pinyin": "zuó tiān",
+      "meaning": "yesterday",
+      "examples": [
+        "我昨天。",
+        "这是昨天。"
+      ]
+    },
+    {
+      "id": 10,
+      "word": "汉语",
+      "pinyin": "hàn yǔ",
+      "meaning": "Chinese language",
+      "examples": [
+        "我汉语。",
+        "这是汉语。"
+      ]
+    }
+  ],
+  "literature": [
+    {
+      "id": 1,
+      "title": "Chinese Literature 1",
+      "author": "Author 1",
+      "excerpt": "Literary excerpt 1",
+      "analysis": "Analysis of literary work 1"
+    },
+    {
+      "id": 2,
+      "title": "Chinese Literature 2",
+      "author": "Author 2",
+      "excerpt": "Literary excerpt 2",
+      "analysis": "Analysis of literary work 2"
+    },
+    {
+      "id": 3,
+      "title": "Chinese Literature 3",
+      "author": "Author 3",
+      "excerpt": "Literary excerpt 3",
+      "analysis": "Analysis of literary work 3"
+    },
+    {
+      "id": 4,
+      "title": "Chinese Literature 4",
+      "author": "Author 4",
+      "excerpt": "Literary excerpt 4",
+      "analysis": "Analysis of literary work 4"
+    },
+    {
+      "id": 5,
+      "title": "Chinese Literature 5",
+      "author": "Author 5",
+      "excerpt": "Literary excerpt 5",
+      "analysis": "Analysis of literary work 5"
+    }
+  ],
+  "exercises": [
+    {
+      "type": "analysis",
+      "questions": [
+        {
+          "id": 1,
+          "text": "Expert text 1",
+          "task": "Analyze the text 1",
+          "criteria": "Analysis criteria 1"
+        },
+        {
+          "id": 2,
+          "text": "Expert text 2",
+          "task": "Analyze the text 2",
+          "criteria": "Analysis criteria 2"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "created": "2025-06-22T08:47:15.958Z",
+    "difficulty": "expert",
+    "estimatedTime": 15,
+    "prerequisites": [
+      182
+    ]
+  }
+}

@@ -1,0 +1,202 @@
+{
+  "id": 80,
+  "title": "N4 Grammar 10",
+  "level": "jlpt-n4",
+  "type": "grammar",
+  "language": "ja",
+  "languageName": "Japanese",
+  "vocabulary": [
+    {
+      "id": 1,
+      "word": "経験",
+      "reading": "けいけん",
+      "romaji": "keiken",
+      "meaning": "experience",
+      "examples": [
+        "経験を使います。",
+        "経験はexperienceです。"
+      ]
+    },
+    {
+      "id": 2,
+      "word": "意味",
+      "reading": "いみ",
+      "romaji": "imi",
+      "meaning": "meaning",
+      "examples": [
+        "意味を使います。",
+        "意味はmeaningです。"
+      ]
+    },
+    {
+      "id": 3,
+      "word": "気分",
+      "reading": "きぶん",
+      "romaji": "kibun",
+      "meaning": "mood",
+      "examples": [
+        "気分を使います。",
+        "気分はmoodです。"
+      ]
+    },
+    {
+      "id": 4,
+      "word": "約束",
+      "reading": "やくそく",
+      "romaji": "yakusoku",
+      "meaning": "promise",
+      "examples": [
+        "約束を使います。",
+        "約束はpromiseです。"
+      ]
+    },
+    {
+      "id": 5,
+      "word": "会議",
+      "reading": "かいぎ",
+      "romaji": "kaigi",
+      "meaning": "meeting",
+      "examples": [
+        "会議を使います。",
+        "会議はmeetingです。"
+      ]
+    },
+    {
+      "id": 6,
+      "word": "準備",
+      "reading": "じゅんび",
+      "romaji": "junbi",
+      "meaning": "preparation",
+      "examples": [
+        "準備を使います。",
+        "準備はpreparationです。"
+      ]
+    },
+    {
+      "id": 7,
+      "word": "心配",
+      "reading": "しんぱい",
+      "romaji": "shinpai",
+      "meaning": "worry",
+      "examples": [
+        "心配を使います。",
+        "心配はworryです。"
+      ]
+    },
+    {
+      "id": 8,
+      "word": "計画",
+      "reading": "けいかく",
+      "romaji": "keikaku",
+      "meaning": "plan",
+      "examples": [
+        "計画を使います。",
+        "計画はplanです。"
+      ]
+    },
+    {
+      "id": 9,
+      "word": "説明",
+      "reading": "せつめい",
+      "romaji": "setsumei",
+      "meaning": "explanation",
+      "examples": [
+        "説明を使います。",
+        "説明はexplanationです。"
+      ]
+    },
+    {
+      "id": 10,
+      "word": "練習",
+      "reading": "れんしゅう",
+      "romaji": "renshuu",
+      "meaning": "practice",
+      "examples": [
+        "練習を使います。",
+        "練習はpracticeです。"
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "id": 1,
+      "pattern": "ている",
+      "meaning": "continuous action",
+      "example": "勉強しています。",
+      "usage": "Grammar pattern explanation for ている"
+    },
+    {
+      "id": 2,
+      "pattern": "たことがある",
+      "meaning": "experience",
+      "example": "日本に行ったことがあります。",
+      "usage": "Grammar pattern explanation for たことがある"
+    },
+    {
+      "id": 3,
+      "pattern": "ばかり",
+      "meaning": "only/just",
+      "example": "勉強ばかりしています。",
+      "usage": "Grammar pattern explanation for ばかり"
+    },
+    {
+      "id": 4,
+      "pattern": "ながら",
+      "meaning": "while doing",
+      "example": "音楽を聞きながら勉強します。",
+      "usage": "Grammar pattern explanation for ながら"
+    },
+    {
+      "id": 5,
+      "pattern": "そうです",
+      "meaning": "hearsay",
+      "example": "雨が降るそうです。",
+      "usage": "Grammar pattern explanation for そうです"
+    }
+  ],
+  "exercises": [
+    {
+      "type": "fill-blank",
+      "questions": [
+        {
+          "id": 1,
+          "sentence": "Complete with correct grammar: I ___ to school",
+          "answer": "Grammar form 1",
+          "blank": "___"
+        },
+        {
+          "id": 2,
+          "sentence": "Complete with correct grammar: I ___ to school",
+          "answer": "Grammar form 2",
+          "blank": "___"
+        },
+        {
+          "id": 3,
+          "sentence": "Complete with correct grammar: I ___ to school",
+          "answer": "Grammar form 3",
+          "blank": "___"
+        },
+        {
+          "id": 4,
+          "sentence": "Complete with correct grammar: I ___ to school",
+          "answer": "Grammar form 4",
+          "blank": "___"
+        },
+        {
+          "id": 5,
+          "sentence": "Complete with correct grammar: I ___ to school",
+          "answer": "Grammar form 5",
+          "blank": "___"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "created": "2025-06-22T08:47:15.376Z",
+    "difficulty": "intermediate",
+    "estimatedTime": 15,
+    "prerequisites": [
+      79
+    ]
+  }
+}

@@ -1,0 +1,205 @@
+{
+  "id": 33,
+  "title": "German Basics 33",
+  "level": "beginner",
+  "type": "vocabulary",
+  "language": "de",
+  "languageName": "German",
+  "vocabulary": [
+    {
+      "id": 1,
+      "word": "hallo",
+      "meaning": "hello",
+      "article": "",
+      "examples": [
+        "hallo ist wichtig."
+      ]
+    },
+    {
+      "id": 2,
+      "word": "danke",
+      "meaning": "thank you",
+      "article": "",
+      "examples": [
+        "danke ist wichtig."
+      ]
+    },
+    {
+      "id": 3,
+      "word": "hallo",
+      "meaning": "hello",
+      "article": "",
+      "examples": [
+        "hallo ist wichtig."
+      ]
+    },
+    {
+      "id": 4,
+      "word": "danke",
+      "meaning": "thank you",
+      "article": "",
+      "examples": [
+        "danke ist wichtig."
+      ]
+    },
+    {
+      "id": 5,
+      "word": "hallo",
+      "meaning": "hello",
+      "article": "",
+      "examples": [
+        "hallo ist wichtig."
+      ]
+    },
+    {
+      "id": 6,
+      "word": "danke",
+      "meaning": "thank you",
+      "article": "",
+      "examples": [
+        "danke ist wichtig."
+      ]
+    },
+    {
+      "id": 7,
+      "word": "hallo",
+      "meaning": "hello",
+      "article": "",
+      "examples": [
+        "hallo ist wichtig."
+      ]
+    },
+    {
+      "id": 8,
+      "word": "danke",
+      "meaning": "thank you",
+      "article": "",
+      "examples": [
+        "danke ist wichtig."
+      ]
+    },
+    {
+      "id": 9,
+      "word": "hallo",
+      "meaning": "hello",
+      "article": "",
+      "examples": [
+        "hallo ist wichtig."
+      ]
+    },
+    {
+      "id": 10,
+      "word": "danke",
+      "meaning": "thank you",
+      "article": "",
+      "examples": [
+        "danke ist wichtig."
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "flashcard",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Vocabulary word 1",
+          "answer": "Translation 1",
+          "options": []
+        },
+        {
+          "id": 2,
+          "question": "Vocabulary word 2",
+          "answer": "Translation 2",
+          "options": []
+        },
+        {
+          "id": 3,
+          "question": "Vocabulary word 3",
+          "answer": "Translation 3",
+          "options": []
+        },
+        {
+          "id": 4,
+          "question": "Vocabulary word 4",
+          "answer": "Translation 4",
+          "options": []
+        },
+        {
+          "id": 5,
+          "question": "Vocabulary word 5",
+          "answer": "Translation 5",
+          "options": []
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What does this word mean?",
+          "answer": "Correct translation 1",
+          "options": [
+            "Option 1",
+            "Option 2",
+            "Option 3",
+            "Correct translation 1"
+          ]
+        },
+        {
+          "id": 2,
+          "question": "What does this word mean?",
+          "answer": "Correct translation 2",
+          "options": [
+            "Option 1",
+            "Option 2",
+            "Option 3",
+            "Correct translation 2"
+          ]
+        },
+        {
+          "id": 3,
+          "question": "What does this word mean?",
+          "answer": "Correct translation 3",
+          "options": [
+            "Option 1",
+            "Option 2",
+            "Option 3",
+            "Correct translation 3"
+          ]
+        },
+        {
+          "id": 4,
+          "question": "What does this word mean?",
+          "answer": "Correct translation 4",
+          "options": [
+            "Option 1",
+            "Option 2",
+            "Option 3",
+            "Correct translation 4"
+          ]
+        },
+        {
+          "id": 5,
+          "question": "What does this word mean?",
+          "answer": "Correct translation 5",
+          "options": [
+            "Option 1",
+            "Option 2",
+            "Option 3",
+            "Correct translation 5"
+          ]
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "created": "2025-06-22T08:47:17.465Z",
+    "difficulty": "beginner",
+    "estimatedTime": 15,
+    "prerequisites": [
+      32
+    ]
+  }
+}

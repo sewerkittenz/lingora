@@ -1,0 +1,190 @@
+{
+  "id": 122,
+  "title": "N3 Advanced 17",
+  "level": "jlpt-n3",
+  "type": "mixed",
+  "language": "ja",
+  "languageName": "Japanese",
+  "vocabulary": [
+    {
+      "id": 1,
+      "word": "時間",
+      "reading": "じかん",
+      "romaji": "jikan",
+      "meaning": "time",
+      "examples": [
+        "時間を使います。",
+        "時間はtimeです。"
+      ]
+    },
+    {
+      "id": 2,
+      "word": "日本",
+      "reading": "にほん",
+      "romaji": "nihon",
+      "meaning": "Japan",
+      "examples": [
+        "日本を使います。",
+        "日本はJapanです。"
+      ]
+    },
+    {
+      "id": 3,
+      "word": "今日",
+      "reading": "きょう",
+      "romaji": "kyou",
+      "meaning": "today",
+      "examples": [
+        "今日を使います。",
+        "今日はtodayです。"
+      ]
+    },
+    {
+      "id": 4,
+      "word": "明日",
+      "reading": "あした",
+      "romaji": "ashita",
+      "meaning": "tomorrow",
+      "examples": [
+        "明日を使います。",
+        "明日はtomorrowです。"
+      ]
+    },
+    {
+      "id": 5,
+      "word": "昨日",
+      "reading": "きのう",
+      "romaji": "kinou",
+      "meaning": "yesterday",
+      "examples": [
+        "昨日を使います。",
+        "昨日はyesterdayです。"
+      ]
+    },
+    {
+      "id": 6,
+      "word": "私",
+      "reading": "わたし",
+      "romaji": "watashi",
+      "meaning": "I, me",
+      "examples": [
+        "私を使います。",
+        "私はI, meです。"
+      ]
+    },
+    {
+      "id": 7,
+      "word": "学校",
+      "reading": "がっこう",
+      "romaji": "gakkou",
+      "meaning": "school",
+      "examples": [
+        "学校を使います。",
+        "学校はschoolです。"
+      ]
+    },
+    {
+      "id": 8,
+      "word": "友達",
+      "reading": "ともだち",
+      "romaji": "tomodachi",
+      "meaning": "friend",
+      "examples": [
+        "友達を使います。",
+        "友達はfriendです。"
+      ]
+    },
+    {
+      "id": 9,
+      "word": "食べる",
+      "reading": "たべる",
+      "romaji": "taberu",
+      "meaning": "to eat",
+      "examples": [
+        "食べるを使います。",
+        "食べるはto eatです。"
+      ]
+    },
+    {
+      "id": 10,
+      "word": "水",
+      "reading": "みず",
+      "romaji": "mizu",
+      "meaning": "water",
+      "examples": [
+        "水を使います。",
+        "水はwaterです。"
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "id": 1,
+      "pattern": "です/である",
+      "meaning": "to be (polite/plain)",
+      "example": "私は学生です。",
+      "usage": "Grammar pattern explanation for です/である"
+    },
+    {
+      "id": 2,
+      "pattern": "を",
+      "meaning": "direct object marker",
+      "example": "本を読みます。",
+      "usage": "Grammar pattern explanation for を"
+    },
+    {
+      "id": 3,
+      "pattern": "に",
+      "meaning": "location/time marker",
+      "example": "学校に行きます。",
+      "usage": "Grammar pattern explanation for に"
+    },
+    {
+      "id": 4,
+      "pattern": "が",
+      "meaning": "subject marker",
+      "example": "私が行きます。",
+      "usage": "Grammar pattern explanation for が"
+    },
+    {
+      "id": 5,
+      "pattern": "は",
+      "meaning": "topic marker",
+      "example": "私はアメリカ人です。",
+      "usage": "Grammar pattern explanation for は"
+    }
+  ],
+  "exercises": [
+    {
+      "type": "flashcard",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Mixed question 1",
+          "answer": "Mixed answer 1",
+          "options": []
+        },
+        {
+          "id": 2,
+          "question": "Mixed question 2",
+          "answer": "Mixed answer 2",
+          "options": []
+        },
+        {
+          "id": 3,
+          "question": "Mixed question 3",
+          "answer": "Mixed answer 3",
+          "options": []
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "created": "2025-06-22T08:47:15.471Z",
+    "difficulty": "intermediate",
+    "estimatedTime": 15,
+    "prerequisites": [
+      121
+    ]
+  }
+}

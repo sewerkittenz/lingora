@@ -1,0 +1,248 @@
+{
+  "id": 7,
+  "title": "Hiragana & Katakana 7",
+  "level": "kana",
+  "type": "writing",
+  "language": "ja",
+  "languageName": "Japanese",
+  "vocabulary": [
+    {
+      "id": 1,
+      "hiragana": "あ",
+      "katakana": "ア",
+      "romaji": "a",
+      "meaning": "a sound",
+      "examples": [
+        "あ - a",
+        "ア - a"
+      ]
+    },
+    {
+      "id": 2,
+      "hiragana": "い",
+      "katakana": "イ",
+      "romaji": "i",
+      "meaning": "i sound",
+      "examples": [
+        "い - i",
+        "イ - i"
+      ]
+    },
+    {
+      "id": 3,
+      "hiragana": "う",
+      "katakana": "ウ",
+      "romaji": "u",
+      "meaning": "u sound",
+      "examples": [
+        "う - u",
+        "ウ - u"
+      ]
+    },
+    {
+      "id": 4,
+      "hiragana": "え",
+      "katakana": "エ",
+      "romaji": "e",
+      "meaning": "e sound",
+      "examples": [
+        "え - e",
+        "エ - e"
+      ]
+    },
+    {
+      "id": 5,
+      "hiragana": "お",
+      "katakana": "オ",
+      "romaji": "o",
+      "meaning": "o sound",
+      "examples": [
+        "お - o",
+        "オ - o"
+      ]
+    },
+    {
+      "id": 6,
+      "hiragana": "か",
+      "katakana": "カ",
+      "romaji": "ka",
+      "meaning": "ka sound",
+      "examples": [
+        "か - ka",
+        "カ - ka"
+      ]
+    },
+    {
+      "id": 7,
+      "hiragana": "き",
+      "katakana": "キ",
+      "romaji": "ki",
+      "meaning": "ki sound",
+      "examples": [
+        "き - ki",
+        "キ - ki"
+      ]
+    },
+    {
+      "id": 8,
+      "hiragana": "く",
+      "katakana": "ク",
+      "romaji": "ku",
+      "meaning": "ku sound",
+      "examples": [
+        "く - ku",
+        "ク - ku"
+      ]
+    },
+    {
+      "id": 9,
+      "hiragana": "け",
+      "katakana": "ケ",
+      "romaji": "ke",
+      "meaning": "ke sound",
+      "examples": [
+        "け - ke",
+        "ケ - ke"
+      ]
+    },
+    {
+      "id": 10,
+      "hiragana": "こ",
+      "katakana": "コ",
+      "romaji": "ko",
+      "meaning": "ko sound",
+      "examples": [
+        "こ - ko",
+        "コ - ko"
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "flashcard",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Hiragana character 1",
+          "answer": "Romaji 1",
+          "options": []
+        },
+        {
+          "id": 2,
+          "question": "Hiragana character 2",
+          "answer": "Romaji 2",
+          "options": []
+        },
+        {
+          "id": 3,
+          "question": "Hiragana character 3",
+          "answer": "Romaji 3",
+          "options": []
+        },
+        {
+          "id": 4,
+          "question": "Hiragana character 4",
+          "answer": "Romaji 4",
+          "options": []
+        },
+        {
+          "id": 5,
+          "question": "Hiragana character 5",
+          "answer": "Romaji 5",
+          "options": []
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What is the romaji for this kana?",
+          "answer": "Correct romaji 1",
+          "options": [
+            "Option 1",
+            "Option 2",
+            "Option 3",
+            "Correct romaji 1"
+          ]
+        },
+        {
+          "id": 2,
+          "question": "What is the romaji for this kana?",
+          "answer": "Correct romaji 2",
+          "options": [
+            "Option 1",
+            "Option 2",
+            "Option 3",
+            "Correct romaji 2"
+          ]
+        },
+        {
+          "id": 3,
+          "question": "What is the romaji for this kana?",
+          "answer": "Correct romaji 3",
+          "options": [
+            "Option 1",
+            "Option 2",
+            "Option 3",
+            "Correct romaji 3"
+          ]
+        },
+        {
+          "id": 4,
+          "question": "What is the romaji for this kana?",
+          "answer": "Correct romaji 4",
+          "options": [
+            "Option 1",
+            "Option 2",
+            "Option 3",
+            "Correct romaji 4"
+          ]
+        },
+        {
+          "id": 5,
+          "question": "What is the romaji for this kana?",
+          "answer": "Correct romaji 5",
+          "options": [
+            "Option 1",
+            "Option 2",
+            "Option 3",
+            "Correct romaji 5"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "writing",
+      "questions": [
+        {
+          "id": 1,
+          "instruction": "Write the kana for 1",
+          "answer": "Kana 1",
+          "stroke_order": "Stroke order 1"
+        },
+        {
+          "id": 2,
+          "instruction": "Write the kana for 2",
+          "answer": "Kana 2",
+          "stroke_order": "Stroke order 2"
+        },
+        {
+          "id": 3,
+          "instruction": "Write the kana for 3",
+          "answer": "Kana 3",
+          "stroke_order": "Stroke order 3"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "created": "2025-06-22T08:47:15.179Z",
+    "difficulty": "beginner",
+    "estimatedTime": 15,
+    "prerequisites": [
+      6
+    ]
+  }
+}

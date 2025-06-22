@@ -1,0 +1,221 @@
+{
+  "id": 138,
+  "title": "Chinese Characters 38",
+  "level": "advanced",
+  "type": "writing",
+  "language": "zh",
+  "languageName": "Chinese",
+  "vocabulary": [
+    {
+      "id": 1,
+      "word": "中国",
+      "pinyin": "zhōng guó",
+      "meaning": "China",
+      "examples": [
+        "我中国。",
+        "这是中国。"
+      ]
+    },
+    {
+      "id": 2,
+      "word": "今天",
+      "pinyin": "jīn tiān",
+      "meaning": "today",
+      "examples": [
+        "我今天。",
+        "这是今天。"
+      ]
+    },
+    {
+      "id": 3,
+      "word": "明天",
+      "pinyin": "míng tiān",
+      "meaning": "tomorrow",
+      "examples": [
+        "我明天。",
+        "这是明天。"
+      ]
+    },
+    {
+      "id": 4,
+      "word": "昨天",
+      "pinyin": "zuó tiān",
+      "meaning": "yesterday",
+      "examples": [
+        "我昨天。",
+        "这是昨天。"
+      ]
+    },
+    {
+      "id": 5,
+      "word": "汉语",
+      "pinyin": "hàn yǔ",
+      "meaning": "Chinese language",
+      "examples": [
+        "我汉语。",
+        "这是汉语。"
+      ]
+    },
+    {
+      "id": 6,
+      "word": "你好",
+      "pinyin": "nǐ hǎo",
+      "meaning": "hello",
+      "examples": [
+        "我你好。",
+        "这是你好。"
+      ]
+    },
+    {
+      "id": 7,
+      "word": "谢谢",
+      "pinyin": "xiè xiè",
+      "meaning": "thank you",
+      "examples": [
+        "我谢谢。",
+        "这是谢谢。"
+      ]
+    },
+    {
+      "id": 8,
+      "word": "学校",
+      "pinyin": "xué xiào",
+      "meaning": "school",
+      "examples": [
+        "我学校。",
+        "这是学校。"
+      ]
+    },
+    {
+      "id": 9,
+      "word": "朋友",
+      "pinyin": "péng yǒu",
+      "meaning": "friend",
+      "examples": [
+        "我朋友。",
+        "这是朋友。"
+      ]
+    },
+    {
+      "id": 10,
+      "word": "吃饭",
+      "pinyin": "chī fàn",
+      "meaning": "to eat",
+      "examples": [
+        "我吃饭。",
+        "这是吃饭。"
+      ]
+    }
+  ],
+  "writing": [
+    {
+      "id": 1,
+      "character": "人",
+      "meaning": "person",
+      "strokes": 2,
+      "radical": "人",
+      "strokeOrder": "Stroke order for 人"
+    },
+    {
+      "id": 2,
+      "character": "大",
+      "meaning": "big",
+      "strokes": 3,
+      "radical": "大",
+      "strokeOrder": "Stroke order for 大"
+    },
+    {
+      "id": 3,
+      "character": "小",
+      "meaning": "small",
+      "strokes": 3,
+      "radical": "小",
+      "strokeOrder": "Stroke order for 小"
+    },
+    {
+      "id": 4,
+      "character": "水",
+      "meaning": "water",
+      "strokes": 4,
+      "radical": "水",
+      "strokeOrder": "Stroke order for 水"
+    },
+    {
+      "id": 5,
+      "character": "火",
+      "meaning": "fire",
+      "strokes": 4,
+      "radical": "火",
+      "strokeOrder": "Stroke order for 火"
+    },
+    {
+      "id": 6,
+      "character": "木",
+      "meaning": "tree",
+      "strokes": 4,
+      "radical": "木",
+      "strokeOrder": "Stroke order for 木"
+    },
+    {
+      "id": 7,
+      "character": "金",
+      "meaning": "metal",
+      "strokes": 8,
+      "radical": "金",
+      "strokeOrder": "Stroke order for 金"
+    },
+    {
+      "id": 8,
+      "character": "土",
+      "meaning": "earth",
+      "strokes": 3,
+      "radical": "土",
+      "strokeOrder": "Stroke order for 土"
+    }
+  ],
+  "exercises": [
+    {
+      "type": "writing",
+      "questions": [
+        {
+          "id": 1,
+          "instruction": "Write the character/letter 1",
+          "answer": "Character 1",
+          "stroke_order": "Stroke order guide 1"
+        },
+        {
+          "id": 2,
+          "instruction": "Write the character/letter 2",
+          "answer": "Character 2",
+          "stroke_order": "Stroke order guide 2"
+        },
+        {
+          "id": 3,
+          "instruction": "Write the character/letter 3",
+          "answer": "Character 3",
+          "stroke_order": "Stroke order guide 3"
+        },
+        {
+          "id": 4,
+          "instruction": "Write the character/letter 4",
+          "answer": "Character 4",
+          "stroke_order": "Stroke order guide 4"
+        },
+        {
+          "id": 5,
+          "instruction": "Write the character/letter 5",
+          "answer": "Character 5",
+          "stroke_order": "Stroke order guide 5"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "created": "2025-06-22T08:47:15.891Z",
+    "difficulty": "advanced",
+    "estimatedTime": 15,
+    "prerequisites": [
+      137
+    ]
+  }
+}

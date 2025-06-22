@@ -8,6 +8,13 @@
       "when": 1750559217976,
       "tag": "0000_silent_hobgoblin",
       "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1750582502528,
+      "tag": "0001_clammy_hellion",
+      "breakpoints": true
     }
   ]
 }

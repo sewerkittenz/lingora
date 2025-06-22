@@ -1,0 +1,174 @@
+{
+  "id": 184,
+  "title": "Chinese Literature 34",
+  "level": "expert",
+  "type": "expert",
+  "language": "zh",
+  "languageName": "Chinese",
+  "vocabulary": [
+    {
+      "id": 1,
+      "word": "你好",
+      "pinyin": "nǐ hǎo",
+      "meaning": "hello",
+      "examples": [
+        "我你好。",
+        "这是你好。"
+      ]
+    },
+    {
+      "id": 2,
+      "word": "谢谢",
+      "pinyin": "xiè xiè",
+      "meaning": "thank you",
+      "examples": [
+        "我谢谢。",
+        "这是谢谢。"
+      ]
+    },
+    {
+      "id": 3,
+      "word": "学校",
+      "pinyin": "xué xiào",
+      "meaning": "school",
+      "examples": [
+        "我学校。",
+        "这是学校。"
+      ]
+    },
+    {
+      "id": 4,
+      "word": "朋友",
+      "pinyin": "péng yǒu",
+      "meaning": "friend",
+      "examples": [
+        "我朋友。",
+        "这是朋友。"
+      ]
+    },
+    {
+      "id": 5,
+      "word": "吃饭",
+      "pinyin": "chī fàn",
+      "meaning": "to eat",
+      "examples": [
+        "我吃饭。",
+        "这是吃饭。"
+      ]
+    },
+    {
+      "id": 6,
+      "word": "喝水",
+      "pinyin": "hē shuǐ",
+      "meaning": "to drink water",
+      "examples": [
+        "我喝水。",
+        "这是喝水。"
+      ]
+    },
+    {
+      "id": 7,
+      "word": "看书",
+      "pinyin": "kàn shū",
+      "meaning": "to read",
+      "examples": [
+        "我看书。",
+        "这是看书。"
+      ]
+    },
+    {
+      "id": 8,
+      "word": "工作",
+      "pinyin": "gōng zuò",
+      "meaning": "work",
+      "examples": [
+        "我工作。",
+        "这是工作。"
+      ]
+    },
+    {
+      "id": 9,
+      "word": "家人",
+      "pinyin": "jiā rén",
+      "meaning": "family",
+      "examples": [
+        "我家人。",
+        "这是家人。"
+      ]
+    },
+    {
+      "id": 10,
+      "word": "时间",
+      "pinyin": "shí jiān",
+      "meaning": "time",
+      "examples": [
+        "我时间。",
+        "这是时间。"
+      ]
+    }
+  ],
+  "literature": [
+    {
+      "id": 1,
+      "title": "Chinese Literature 1",
+      "author": "Author 1",
+      "excerpt": "Literary excerpt 1",
+      "analysis": "Analysis of literary work 1"
+    },
+    {
+      "id": 2,
+      "title": "Chinese Literature 2",
+      "author": "Author 2",
+      "excerpt": "Literary excerpt 2",
+      "analysis": "Analysis of literary work 2"
+    },
+    {
+      "id": 3,
+      "title": "Chinese Literature 3",
+      "author": "Author 3",
+      "excerpt": "Literary excerpt 3",
+      "analysis": "Analysis of literary work 3"
+    },
+    {
+      "id": 4,
+      "title": "Chinese Literature 4",
+      "author": "Author 4",
+      "excerpt": "Literary excerpt 4",
+      "analysis": "Analysis of literary work 4"
+    },
+    {
+      "id": 5,
+      "title": "Chinese Literature 5",
+      "author": "Author 5",
+      "excerpt": "Literary excerpt 5",
+      "analysis": "Analysis of literary work 5"
+    }
+  ],
+  "exercises": [
+    {
+      "type": "analysis",
+      "questions": [
+        {
+          "id": 1,
+          "text": "Expert text 1",
+          "task": "Analyze the text 1",
+          "criteria": "Analysis criteria 1"
+        },
+        {
+          "id": 2,
+          "text": "Expert text 2",
+          "task": "Analyze the text 2",
+          "criteria": "Analysis criteria 2"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "created": "2025-06-22T08:47:15.960Z",
+    "difficulty": "expert",
+    "estimatedTime": 15,
+    "prerequisites": [
+      183
+    ]
+  }
+}

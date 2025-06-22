@@ -1,0 +1,208 @@
+{
+  "id": 149,
+  "title": "N2 Professional 9",
+  "level": "jlpt-n2",
+  "type": "advanced",
+  "language": "ja",
+  "languageName": "Japanese",
+  "vocabulary": [
+    {
+      "id": 1,
+      "word": "本",
+      "reading": "ほん",
+      "romaji": "hon",
+      "meaning": "book",
+      "examples": [
+        "本を使います。",
+        "本はbookです。"
+      ]
+    },
+    {
+      "id": 2,
+      "word": "車",
+      "reading": "くるま",
+      "romaji": "kuruma",
+      "meaning": "car",
+      "examples": [
+        "車を使います。",
+        "車はcarです。"
+      ]
+    },
+    {
+      "id": 3,
+      "word": "家",
+      "reading": "いえ",
+      "romaji": "ie",
+      "meaning": "house",
+      "examples": [
+        "家を使います。",
+        "家はhouseです。"
+      ]
+    },
+    {
+      "id": 4,
+      "word": "犬",
+      "reading": "いぬ",
+      "romaji": "inu",
+      "meaning": "dog",
+      "examples": [
+        "犬を使います。",
+        "犬はdogです。"
+      ]
+    },
+    {
+      "id": 5,
+      "word": "猫",
+      "reading": "ねこ",
+      "romaji": "neko",
+      "meaning": "cat",
+      "examples": [
+        "猫を使います。",
+        "猫はcatです。"
+      ]
+    },
+    {
+      "id": 6,
+      "word": "時間",
+      "reading": "じかん",
+      "romaji": "jikan",
+      "meaning": "time",
+      "examples": [
+        "時間を使います。",
+        "時間はtimeです。"
+      ]
+    },
+    {
+      "id": 7,
+      "word": "日本",
+      "reading": "にほん",
+      "romaji": "nihon",
+      "meaning": "Japan",
+      "examples": [
+        "日本を使います。",
+        "日本はJapanです。"
+      ]
+    },
+    {
+      "id": 8,
+      "word": "今日",
+      "reading": "きょう",
+      "romaji": "kyou",
+      "meaning": "today",
+      "examples": [
+        "今日を使います。",
+        "今日はtodayです。"
+      ]
+    },
+    {
+      "id": 9,
+      "word": "明日",
+      "reading": "あした",
+      "romaji": "ashita",
+      "meaning": "tomorrow",
+      "examples": [
+        "明日を使います。",
+        "明日はtomorrowです。"
+      ]
+    },
+    {
+      "id": 10,
+      "word": "昨日",
+      "reading": "きのう",
+      "romaji": "kinou",
+      "meaning": "yesterday",
+      "examples": [
+        "昨日を使います。",
+        "昨日はyesterdayです。"
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "id": 1,
+      "pattern": "です/である",
+      "meaning": "to be (polite/plain)",
+      "example": "私は学生です。",
+      "usage": "Grammar pattern explanation for です/である"
+    },
+    {
+      "id": 2,
+      "pattern": "を",
+      "meaning": "direct object marker",
+      "example": "本を読みます。",
+      "usage": "Grammar pattern explanation for を"
+    },
+    {
+      "id": 3,
+      "pattern": "に",
+      "meaning": "location/time marker",
+      "example": "学校に行きます。",
+      "usage": "Grammar pattern explanation for に"
+    },
+    {
+      "id": 4,
+      "pattern": "が",
+      "meaning": "subject marker",
+      "example": "私が行きます。",
+      "usage": "Grammar pattern explanation for が"
+    },
+    {
+      "id": 5,
+      "pattern": "は",
+      "meaning": "topic marker",
+      "example": "私はアメリカ人です。",
+      "usage": "Grammar pattern explanation for は"
+    }
+  ],
+  "exercises": [
+    {
+      "type": "comprehension",
+      "questions": [
+        {
+          "id": 1,
+          "passage": "Advanced passage 1",
+          "question": "Comprehension question 1",
+          "answer": "Answer 1",
+          "options": [
+            "Option 1",
+            "Option 2",
+            "Option 3",
+            "Answer 1"
+          ]
+        },
+        {
+          "id": 2,
+          "passage": "Advanced passage 2",
+          "question": "Comprehension question 2",
+          "answer": "Answer 2",
+          "options": [
+            "Option 1",
+            "Option 2",
+            "Option 3",
+            "Answer 2"
+          ]
+        },
+        {
+          "id": 3,
+          "passage": "Advanced passage 3",
+          "question": "Comprehension question 3",
+          "answer": "Answer 3",
+          "options": [
+            "Option 1",
+            "Option 2",
+            "Option 3",
+            "Answer 3"
+          ]
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "created": "2025-06-22T08:47:15.522Z",
+    "difficulty": "advanced",
+    "estimatedTime": 15,
+    "prerequisites": [
+      148
+    ]
+  }
+}

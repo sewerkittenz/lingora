@@ -1,0 +1,177 @@
+{
+  "id": 68,
+  "title": "German Cases 18",
+  "level": "intermediate",
+  "type": "grammar",
+  "language": "de",
+  "languageName": "German",
+  "vocabulary": [
+    {
+      "id": 1,
+      "word": "hallo",
+      "meaning": "hello",
+      "article": "",
+      "examples": [
+        "hallo ist wichtig."
+      ]
+    },
+    {
+      "id": 2,
+      "word": "danke",
+      "meaning": "thank you",
+      "article": "",
+      "examples": [
+        "danke ist wichtig."
+      ]
+    },
+    {
+      "id": 3,
+      "word": "hallo",
+      "meaning": "hello",
+      "article": "",
+      "examples": [
+        "hallo ist wichtig."
+      ]
+    },
+    {
+      "id": 4,
+      "word": "danke",
+      "meaning": "thank you",
+      "article": "",
+      "examples": [
+        "danke ist wichtig."
+      ]
+    },
+    {
+      "id": 5,
+      "word": "hallo",
+      "meaning": "hello",
+      "article": "",
+      "examples": [
+        "hallo ist wichtig."
+      ]
+    },
+    {
+      "id": 6,
+      "word": "danke",
+      "meaning": "thank you",
+      "article": "",
+      "examples": [
+        "danke ist wichtig."
+      ]
+    },
+    {
+      "id": 7,
+      "word": "hallo",
+      "meaning": "hello",
+      "article": "",
+      "examples": [
+        "hallo ist wichtig."
+      ]
+    },
+    {
+      "id": 8,
+      "word": "danke",
+      "meaning": "thank you",
+      "article": "",
+      "examples": [
+        "danke ist wichtig."
+      ]
+    },
+    {
+      "id": 9,
+      "word": "hallo",
+      "meaning": "hello",
+      "article": "",
+      "examples": [
+        "hallo ist wichtig."
+      ]
+    },
+    {
+      "id": 10,
+      "word": "danke",
+      "meaning": "thank you",
+      "article": "",
+      "examples": [
+        "danke ist wichtig."
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "id": 1,
+      "pattern": "German pattern 1",
+      "meaning": "German meaning 1",
+      "example": "German example 1"
+    },
+    {
+      "id": 2,
+      "pattern": "German pattern 2",
+      "meaning": "German meaning 2",
+      "example": "German example 2"
+    },
+    {
+      "id": 3,
+      "pattern": "German pattern 3",
+      "meaning": "German meaning 3",
+      "example": "German example 3"
+    },
+    {
+      "id": 4,
+      "pattern": "German pattern 4",
+      "meaning": "German meaning 4",
+      "example": "German example 4"
+    },
+    {
+      "id": 5,
+      "pattern": "German pattern 5",
+      "meaning": "German meaning 5",
+      "example": "German example 5"
+    }
+  ],
+  "exercises": [
+    {
+      "type": "fill-blank",
+      "questions": [
+        {
+          "id": 1,
+          "sentence": "Complete with correct grammar: I ___ to school",
+          "answer": "Grammar form 1",
+          "blank": "___"
+        },
+        {
+          "id": 2,
+          "sentence": "Complete with correct grammar: I ___ to school",
+          "answer": "Grammar form 2",
+          "blank": "___"
+        },
+        {
+          "id": 3,
+          "sentence": "Complete with correct grammar: I ___ to school",
+          "answer": "Grammar form 3",
+          "blank": "___"
+        },
+        {
+          "id": 4,
+          "sentence": "Complete with correct grammar: I ___ to school",
+          "answer": "Grammar form 4",
+          "blank": "___"
+        },
+        {
+          "id": 5,
+          "sentence": "Complete with correct grammar: I ___ to school",
+          "answer": "Grammar form 5",
+          "blank": "___"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "created": "2025-06-22T08:47:17.561Z",
+    "difficulty": "intermediate",
+    "estimatedTime": 15,
+    "prerequisites": [
+      67
+    ]
+  }
+}

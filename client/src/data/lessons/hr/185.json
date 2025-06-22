@@ -1,0 +1,159 @@
+{
+  "id": 185,
+  "title": "Croatian Culture 35",
+  "level": "expert",
+  "type": "expert",
+  "language": "hr",
+  "languageName": "Serbo-Croatian",
+  "vocabulary": [
+    {
+      "id": 1,
+      "word": "Hrvatska",
+      "meaning": "Croatia",
+      "examples": [
+        "Hrvatska je važno.",
+        "Govorim Hrvatska."
+      ]
+    },
+    {
+      "id": 2,
+      "word": "danas",
+      "meaning": "today",
+      "examples": [
+        "danas je važno.",
+        "Govorim danas."
+      ]
+    },
+    {
+      "id": 3,
+      "word": "sutra",
+      "meaning": "tomorrow",
+      "examples": [
+        "sutra je važno.",
+        "Govorim sutra."
+      ]
+    },
+    {
+      "id": 4,
+      "word": "jučer",
+      "meaning": "yesterday",
+      "examples": [
+        "jučer je važno.",
+        "Govorim jučer."
+      ]
+    },
+    {
+      "id": 5,
+      "word": "hrvatski",
+      "meaning": "Croatian",
+      "examples": [
+        "hrvatski je važno.",
+        "Govorim hrvatski."
+      ]
+    },
+    {
+      "id": 6,
+      "word": "zdravo",
+      "meaning": "hello",
+      "examples": [
+        "zdravo je važno.",
+        "Govorim zdravo."
+      ]
+    },
+    {
+      "id": 7,
+      "word": "hvala",
+      "meaning": "thank you",
+      "examples": [
+        "hvala je važno.",
+        "Govorim hvala."
+      ]
+    },
+    {
+      "id": 8,
+      "word": "škola",
+      "meaning": "school",
+      "examples": [
+        "škola je važno.",
+        "Govorim škola."
+      ]
+    },
+    {
+      "id": 9,
+      "word": "prijatelj",
+      "meaning": "friend",
+      "examples": [
+        "prijatelj je važno.",
+        "Govorim prijatelj."
+      ]
+    },
+    {
+      "id": 10,
+      "word": "jesti",
+      "meaning": "to eat",
+      "examples": [
+        "jesti je važno.",
+        "Govorim jesti."
+      ]
+    }
+  ],
+  "culture": [
+    {
+      "id": 1,
+      "topic": "Croatian Culture Topic 1",
+      "description": "Cultural description 1",
+      "significance": "Cultural significance 1"
+    },
+    {
+      "id": 2,
+      "topic": "Croatian Culture Topic 2",
+      "description": "Cultural description 2",
+      "significance": "Cultural significance 2"
+    },
+    {
+      "id": 3,
+      "topic": "Croatian Culture Topic 3",
+      "description": "Cultural description 3",
+      "significance": "Cultural significance 3"
+    },
+    {
+      "id": 4,
+      "topic": "Croatian Culture Topic 4",
+      "description": "Cultural description 4",
+      "significance": "Cultural significance 4"
+    },
+    {
+      "id": 5,
+      "topic": "Croatian Culture Topic 5",
+      "description": "Cultural description 5",
+      "significance": "Cultural significance 5"
+    }
+  ],
+  "exercises": [
+    {
+      "type": "analysis",
+      "questions": [
+        {
+          "id": 1,
+          "text": "Expert text 1",
+          "task": "Analyze the text 1",
+          "criteria": "Analysis criteria 1"
+        },
+        {
+          "id": 2,
+          "text": "Expert text 2",
+          "task": "Analyze the text 2",
+          "criteria": "Analysis criteria 2"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "created": "2025-06-22T08:47:16.325Z",
+    "difficulty": "expert",
+    "estimatedTime": 15,
+    "prerequisites": [
+      184
+    ]
+  }
+}

@@ -1,0 +1,177 @@
+{
+  "id": 78,
+  "title": "Korean Grammar 28",
+  "level": "intermediate",
+  "type": "grammar",
+  "language": "ko",
+  "languageName": "Korean",
+  "vocabulary": [
+    {
+      "id": 1,
+      "word": "안녕하세요",
+      "romanization": "annyeonghaseyo",
+      "meaning": "hello",
+      "examples": [
+        "안녕하세요는 중요합니다."
+      ]
+    },
+    {
+      "id": 2,
+      "word": "감사합니다",
+      "romanization": "gamsahamnida",
+      "meaning": "thank you",
+      "examples": [
+        "감사합니다는 중요합니다."
+      ]
+    },
+    {
+      "id": 3,
+      "word": "학교",
+      "romanization": "hakgyo",
+      "meaning": "school",
+      "examples": [
+        "학교는 중요합니다."
+      ]
+    },
+    {
+      "id": 4,
+      "word": "안녕하세요",
+      "romanization": "annyeonghaseyo",
+      "meaning": "hello",
+      "examples": [
+        "안녕하세요는 중요합니다."
+      ]
+    },
+    {
+      "id": 5,
+      "word": "감사합니다",
+      "romanization": "gamsahamnida",
+      "meaning": "thank you",
+      "examples": [
+        "감사합니다는 중요합니다."
+      ]
+    },
+    {
+      "id": 6,
+      "word": "학교",
+      "romanization": "hakgyo",
+      "meaning": "school",
+      "examples": [
+        "학교는 중요합니다."
+      ]
+    },
+    {
+      "id": 7,
+      "word": "안녕하세요",
+      "romanization": "annyeonghaseyo",
+      "meaning": "hello",
+      "examples": [
+        "안녕하세요는 중요합니다."
+      ]
+    },
+    {
+      "id": 8,
+      "word": "감사합니다",
+      "romanization": "gamsahamnida",
+      "meaning": "thank you",
+      "examples": [
+        "감사합니다는 중요합니다."
+      ]
+    },
+    {
+      "id": 9,
+      "word": "학교",
+      "romanization": "hakgyo",
+      "meaning": "school",
+      "examples": [
+        "학교는 중요합니다."
+      ]
+    },
+    {
+      "id": 10,
+      "word": "안녕하세요",
+      "romanization": "annyeonghaseyo",
+      "meaning": "hello",
+      "examples": [
+        "안녕하세요는 중요합니다."
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "id": 1,
+      "pattern": "Korean pattern 1",
+      "meaning": "Korean meaning 1",
+      "example": "Korean example 1"
+    },
+    {
+      "id": 2,
+      "pattern": "Korean pattern 2",
+      "meaning": "Korean meaning 2",
+      "example": "Korean example 2"
+    },
+    {
+      "id": 3,
+      "pattern": "Korean pattern 3",
+      "meaning": "Korean meaning 3",
+      "example": "Korean example 3"
+    },
+    {
+      "id": 4,
+      "pattern": "Korean pattern 4",
+      "meaning": "Korean meaning 4",
+      "example": "Korean example 4"
+    },
+    {
+      "id": 5,
+      "pattern": "Korean pattern 5",
+      "meaning": "Korean meaning 5",
+      "example": "Korean example 5"
+    }
+  ],
+  "exercises": [
+    {
+      "type": "fill-blank",
+      "questions": [
+        {
+          "id": 1,
+          "sentence": "Complete with correct grammar: I ___ to school",
+          "answer": "Grammar form 1",
+          "blank": "___"
+        },
+        {
+          "id": 2,
+          "sentence": "Complete with correct grammar: I ___ to school",
+          "answer": "Grammar form 2",
+          "blank": "___"
+        },
+        {
+          "id": 3,
+          "sentence": "Complete with correct grammar: I ___ to school",
+          "answer": "Grammar form 3",
+          "blank": "___"
+        },
+        {
+          "id": 4,
+          "sentence": "Complete with correct grammar: I ___ to school",
+          "answer": "Grammar form 4",
+          "blank": "___"
+        },
+        {
+          "id": 5,
+          "sentence": "Complete with correct grammar: I ___ to school",
+          "answer": "Grammar form 5",
+          "blank": "___"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "created": "2025-06-22T08:47:16.836Z",
+    "difficulty": "intermediate",
+    "estimatedTime": 15,
+    "prerequisites": [
+      77
+    ]
+  }
+}

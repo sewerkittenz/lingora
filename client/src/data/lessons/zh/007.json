@@ -1,0 +1,215 @@
+{
+  "id": 7,
+  "title": "Chinese Basics 7",
+  "level": "beginner",
+  "type": "vocabulary",
+  "language": "zh",
+  "languageName": "Chinese",
+  "vocabulary": [
+    {
+      "id": 1,
+      "word": "你好",
+      "pinyin": "nǐ hǎo",
+      "meaning": "hello",
+      "examples": [
+        "我你好。",
+        "这是你好。"
+      ]
+    },
+    {
+      "id": 2,
+      "word": "谢谢",
+      "pinyin": "xiè xiè",
+      "meaning": "thank you",
+      "examples": [
+        "我谢谢。",
+        "这是谢谢。"
+      ]
+    },
+    {
+      "id": 3,
+      "word": "学校",
+      "pinyin": "xué xiào",
+      "meaning": "school",
+      "examples": [
+        "我学校。",
+        "这是学校。"
+      ]
+    },
+    {
+      "id": 4,
+      "word": "朋友",
+      "pinyin": "péng yǒu",
+      "meaning": "friend",
+      "examples": [
+        "我朋友。",
+        "这是朋友。"
+      ]
+    },
+    {
+      "id": 5,
+      "word": "吃饭",
+      "pinyin": "chī fàn",
+      "meaning": "to eat",
+      "examples": [
+        "我吃饭。",
+        "这是吃饭。"
+      ]
+    },
+    {
+      "id": 6,
+      "word": "喝水",
+      "pinyin": "hē shuǐ",
+      "meaning": "to drink water",
+      "examples": [
+        "我喝水。",
+        "这是喝水。"
+      ]
+    },
+    {
+      "id": 7,
+      "word": "看书",
+      "pinyin": "kàn shū",
+      "meaning": "to read",
+      "examples": [
+        "我看书。",
+        "这是看书。"
+      ]
+    },
+    {
+      "id": 8,
+      "word": "工作",
+      "pinyin": "gōng zuò",
+      "meaning": "work",
+      "examples": [
+        "我工作。",
+        "这是工作。"
+      ]
+    },
+    {
+      "id": 9,
+      "word": "家人",
+      "pinyin": "jiā rén",
+      "meaning": "family",
+      "examples": [
+        "我家人。",
+        "这是家人。"
+      ]
+    },
+    {
+      "id": 10,
+      "word": "时间",
+      "pinyin": "shí jiān",
+      "meaning": "time",
+      "examples": [
+        "我时间。",
+        "这是时间。"
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "flashcard",
+      "questions": [
+        {
+          "id": 1,
+          "question": "Vocabulary word 1",
+          "answer": "Translation 1",
+          "options": []
+        },
+        {
+          "id": 2,
+          "question": "Vocabulary word 2",
+          "answer": "Translation 2",
+          "options": []
+        },
+        {
+          "id": 3,
+          "question": "Vocabulary word 3",
+          "answer": "Translation 3",
+          "options": []
+        },
+        {
+          "id": 4,
+          "question": "Vocabulary word 4",
+          "answer": "Translation 4",
+          "options": []
+        },
+        {
+          "id": 5,
+          "question": "Vocabulary word 5",
+          "answer": "Translation 5",
+          "options": []
+        }
+      ]
+    },
+    {
+      "type": "multiple-choice",
+      "questions": [
+        {
+          "id": 1,
+          "question": "What does this word mean?",
+          "answer": "Correct translation 1",
+          "options": [
+            "Option 1",
+            "Option 2",
+            "Option 3",
+            "Correct translation 1"
+          ]
+        },
+        {
+          "id": 2,
+          "question": "What does this word mean?",
+          "answer": "Correct translation 2",
+          "options": [
+            "Option 1",
+            "Option 2",
+            "Option 3",
+            "Correct translation 2"
+          ]
+        },
+        {
+          "id": 3,
+          "question": "What does this word mean?",
+          "answer": "Correct translation 3",
+          "options": [
+            "Option 1",
+            "Option 2",
+            "Option 3",
+            "Correct translation 3"
+          ]
+        },
+        {
+          "id": 4,
+          "question": "What does this word mean?",
+          "answer": "Correct translation 4",
+          "options": [
+            "Option 1",
+            "Option 2",
+            "Option 3",
+            "Correct translation 4"
+          ]
+        },
+        {
+          "id": 5,
+          "question": "What does this word mean?",
+          "answer": "Correct translation 5",
+          "options": [
+            "Option 1",
+            "Option 2",
+            "Option 3",
+            "Correct translation 5"
+          ]
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "created": "2025-06-22T08:47:15.622Z",
+    "difficulty": "beginner",
+    "estimatedTime": 15,
+    "prerequisites": [
+      6
+    ]
+  }
+}

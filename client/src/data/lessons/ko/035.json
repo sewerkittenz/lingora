@@ -1,0 +1,219 @@
+{
+  "id": 35,
+  "title": "Korean Hangul 35",
+  "level": "beginner",
+  "type": "writing",
+  "language": "ko",
+  "languageName": "Korean",
+  "vocabulary": [
+    {
+      "id": 1,
+      "word": "안녕하세요",
+      "romanization": "annyeonghaseyo",
+      "meaning": "hello",
+      "examples": [
+        "안녕하세요는 중요합니다."
+      ]
+    },
+    {
+      "id": 2,
+      "word": "감사합니다",
+      "romanization": "gamsahamnida",
+      "meaning": "thank you",
+      "examples": [
+        "감사합니다는 중요합니다."
+      ]
+    },
+    {
+      "id": 3,
+      "word": "학교",
+      "romanization": "hakgyo",
+      "meaning": "school",
+      "examples": [
+        "학교는 중요합니다."
+      ]
+    },
+    {
+      "id": 4,
+      "word": "안녕하세요",
+      "romanization": "annyeonghaseyo",
+      "meaning": "hello",
+      "examples": [
+        "안녕하세요는 중요합니다."
+      ]
+    },
+    {
+      "id": 5,
+      "word": "감사합니다",
+      "romanization": "gamsahamnida",
+      "meaning": "thank you",
+      "examples": [
+        "감사합니다는 중요합니다."
+      ]
+    },
+    {
+      "id": 6,
+      "word": "학교",
+      "romanization": "hakgyo",
+      "meaning": "school",
+      "examples": [
+        "학교는 중요합니다."
+      ]
+    },
+    {
+      "id": 7,
+      "word": "안녕하세요",
+      "romanization": "annyeonghaseyo",
+      "meaning": "hello",
+      "examples": [
+        "안녕하세요는 중요합니다."
+      ]
+    },
+    {
+      "id": 8,
+      "word": "감사합니다",
+      "romanization": "gamsahamnida",
+      "meaning": "thank you",
+      "examples": [
+        "감사합니다는 중요합니다."
+      ]
+    },
+    {
+      "id": 9,
+      "word": "학교",
+      "romanization": "hakgyo",
+      "meaning": "school",
+      "examples": [
+        "학교는 중요합니다."
+      ]
+    },
+    {
+      "id": 10,
+      "word": "안녕하세요",
+      "romanization": "annyeonghaseyo",
+      "meaning": "hello",
+      "examples": [
+        "안녕하세요는 중요합니다."
+      ]
+    }
+  ],
+  "writing": [
+    {
+      "id": 1,
+      "hangul": "ㄱ",
+      "romanization": "g/k",
+      "meaning": "consonant g",
+      "examples": [
+        "ㄱ = g/k"
+      ]
+    },
+    {
+      "id": 2,
+      "hangul": "ㄴ",
+      "romanization": "n",
+      "meaning": "consonant n",
+      "examples": [
+        "ㄴ = n"
+      ]
+    },
+    {
+      "id": 3,
+      "hangul": "ㄱ",
+      "romanization": "g/k",
+      "meaning": "consonant g",
+      "examples": [
+        "ㄱ = g/k"
+      ]
+    },
+    {
+      "id": 4,
+      "hangul": "ㄴ",
+      "romanization": "n",
+      "meaning": "consonant n",
+      "examples": [
+        "ㄴ = n"
+      ]
+    },
+    {
+      "id": 5,
+      "hangul": "ㄱ",
+      "romanization": "g/k",
+      "meaning": "consonant g",
+      "examples": [
+        "ㄱ = g/k"
+      ]
+    },
+    {
+      "id": 6,
+      "hangul": "ㄴ",
+      "romanization": "n",
+      "meaning": "consonant n",
+      "examples": [
+        "ㄴ = n"
+      ]
+    },
+    {
+      "id": 7,
+      "hangul": "ㄱ",
+      "romanization": "g/k",
+      "meaning": "consonant g",
+      "examples": [
+        "ㄱ = g/k"
+      ]
+    },
+    {
+      "id": 8,
+      "hangul": "ㄴ",
+      "romanization": "n",
+      "meaning": "consonant n",
+      "examples": [
+        "ㄴ = n"
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "writing",
+      "questions": [
+        {
+          "id": 1,
+          "instruction": "Write the character/letter 1",
+          "answer": "Character 1",
+          "stroke_order": "Stroke order guide 1"
+        },
+        {
+          "id": 2,
+          "instruction": "Write the character/letter 2",
+          "answer": "Character 2",
+          "stroke_order": "Stroke order guide 2"
+        },
+        {
+          "id": 3,
+          "instruction": "Write the character/letter 3",
+          "answer": "Character 3",
+          "stroke_order": "Stroke order guide 3"
+        },
+        {
+          "id": 4,
+          "instruction": "Write the character/letter 4",
+          "answer": "Character 4",
+          "stroke_order": "Stroke order guide 4"
+        },
+        {
+          "id": 5,
+          "instruction": "Write the character/letter 5",
+          "answer": "Character 5",
+          "stroke_order": "Stroke order guide 5"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "created": "2025-06-22T08:47:16.761Z",
+    "difficulty": "beginner",
+    "estimatedTime": 15,
+    "prerequisites": [
+      34
+    ]
+  }
+}

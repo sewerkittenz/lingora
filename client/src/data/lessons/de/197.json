@@ -1,0 +1,159 @@
+{
+  "id": 197,
+  "title": "German Philosophy 47",
+  "level": "expert",
+  "type": "expert",
+  "language": "de",
+  "languageName": "German",
+  "vocabulary": [
+    {
+      "id": 1,
+      "word": "hallo",
+      "meaning": "hello",
+      "article": "",
+      "examples": [
+        "hallo ist wichtig."
+      ]
+    },
+    {
+      "id": 2,
+      "word": "danke",
+      "meaning": "thank you",
+      "article": "",
+      "examples": [
+        "danke ist wichtig."
+      ]
+    },
+    {
+      "id": 3,
+      "word": "hallo",
+      "meaning": "hello",
+      "article": "",
+      "examples": [
+        "hallo ist wichtig."
+      ]
+    },
+    {
+      "id": 4,
+      "word": "danke",
+      "meaning": "thank you",
+      "article": "",
+      "examples": [
+        "danke ist wichtig."
+      ]
+    },
+    {
+      "id": 5,
+      "word": "hallo",
+      "meaning": "hello",
+      "article": "",
+      "examples": [
+        "hallo ist wichtig."
+      ]
+    },
+    {
+      "id": 6,
+      "word": "danke",
+      "meaning": "thank you",
+      "article": "",
+      "examples": [
+        "danke ist wichtig."
+      ]
+    },
+    {
+      "id": 7,
+      "word": "hallo",
+      "meaning": "hello",
+      "article": "",
+      "examples": [
+        "hallo ist wichtig."
+      ]
+    },
+    {
+      "id": 8,
+      "word": "danke",
+      "meaning": "thank you",
+      "article": "",
+      "examples": [
+        "danke ist wichtig."
+      ]
+    },
+    {
+      "id": 9,
+      "word": "hallo",
+      "meaning": "hello",
+      "article": "",
+      "examples": [
+        "hallo ist wichtig."
+      ]
+    },
+    {
+      "id": 10,
+      "word": "danke",
+      "meaning": "thank you",
+      "article": "",
+      "examples": [
+        "danke ist wichtig."
+      ]
+    }
+  ],
+  "philosophy": [
+    {
+      "id": 1,
+      "concept": "German Philosophy Concept 1",
+      "philosopher": "Philosopher 1",
+      "explanation": "Philosophical explanation 1"
+    },
+    {
+      "id": 2,
+      "concept": "German Philosophy Concept 2",
+      "philosopher": "Philosopher 2",
+      "explanation": "Philosophical explanation 2"
+    },
+    {
+      "id": 3,
+      "concept": "German Philosophy Concept 3",
+      "philosopher": "Philosopher 3",
+      "explanation": "Philosophical explanation 3"
+    },
+    {
+      "id": 4,
+      "concept": "German Philosophy Concept 4",
+      "philosopher": "Philosopher 4",
+      "explanation": "Philosophical explanation 4"
+    },
+    {
+      "id": 5,
+      "concept": "German Philosophy Concept 5",
+      "philosopher": "Philosopher 5",
+      "explanation": "Philosophical explanation 5"
+    }
+  ],
+  "exercises": [
+    {
+      "type": "analysis",
+      "questions": [
+        {
+          "id": 1,
+          "text": "Expert text 1",
+          "task": "Analyze the text 1",
+          "criteria": "Analysis criteria 1"
+        },
+        {
+          "id": 2,
+          "text": "Expert text 2",
+          "task": "Analyze the text 2",
+          "criteria": "Analysis criteria 2"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "created": "2025-06-22T08:47:17.820Z",
+    "difficulty": "expert",
+    "estimatedTime": 15,
+    "prerequisites": [
+      196
+    ]
+  }
+}

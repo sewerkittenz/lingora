@@ -1,0 +1,182 @@
+{
+  "id": 95,
+  "title": "Croatian Grammar 45",
+  "level": "intermediate",
+  "type": "grammar",
+  "language": "hr",
+  "languageName": "Serbo-Croatian",
+  "vocabulary": [
+    {
+      "id": 1,
+      "word": "piti",
+      "meaning": "to drink",
+      "examples": [
+        "piti je važno.",
+        "Govorim piti."
+      ]
+    },
+    {
+      "id": 2,
+      "word": "čitati",
+      "meaning": "to read",
+      "examples": [
+        "čitati je važno.",
+        "Govorim čitati."
+      ]
+    },
+    {
+      "id": 3,
+      "word": "posao",
+      "meaning": "work",
+      "examples": [
+        "posao je važno.",
+        "Govorim posao."
+      ]
+    },
+    {
+      "id": 4,
+      "word": "obitelj",
+      "meaning": "family",
+      "examples": [
+        "obitelj je važno.",
+        "Govorim obitelj."
+      ]
+    },
+    {
+      "id": 5,
+      "word": "vrijeme",
+      "meaning": "time",
+      "examples": [
+        "vrijeme je važno.",
+        "Govorim vrijeme."
+      ]
+    },
+    {
+      "id": 6,
+      "word": "Hrvatska",
+      "meaning": "Croatia",
+      "examples": [
+        "Hrvatska je važno.",
+        "Govorim Hrvatska."
+      ]
+    },
+    {
+      "id": 7,
+      "word": "danas",
+      "meaning": "today",
+      "examples": [
+        "danas je važno.",
+        "Govorim danas."
+      ]
+    },
+    {
+      "id": 8,
+      "word": "sutra",
+      "meaning": "tomorrow",
+      "examples": [
+        "sutra je važno.",
+        "Govorim sutra."
+      ]
+    },
+    {
+      "id": 9,
+      "word": "jučer",
+      "meaning": "yesterday",
+      "examples": [
+        "jučer je važno.",
+        "Govorim jučer."
+      ]
+    },
+    {
+      "id": 10,
+      "word": "hrvatski",
+      "meaning": "Croatian",
+      "examples": [
+        "hrvatski je važno.",
+        "Govorim hrvatski."
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "id": 1,
+      "pattern": "jesam/biti",
+      "meaning": "to be",
+      "example": "Ja sam student.",
+      "usage": "Croatian grammar explanation for jesam/biti"
+    },
+    {
+      "id": 2,
+      "pattern": "imati",
+      "meaning": "to have",
+      "example": "Imam knjigu.",
+      "usage": "Croatian grammar explanation for imati"
+    },
+    {
+      "id": 3,
+      "pattern": "ići",
+      "meaning": "to go",
+      "example": "Idem u školu.",
+      "usage": "Croatian grammar explanation for ići"
+    },
+    {
+      "id": 4,
+      "pattern": "nominativ",
+      "meaning": "nominative case",
+      "example": "Student čita.",
+      "usage": "Croatian grammar explanation for nominativ"
+    },
+    {
+      "id": 5,
+      "pattern": "akuzativ",
+      "meaning": "accusative case",
+      "example": "Čitam knjigu.",
+      "usage": "Croatian grammar explanation for akuzativ"
+    }
+  ],
+  "exercises": [
+    {
+      "type": "fill-blank",
+      "questions": [
+        {
+          "id": 1,
+          "sentence": "Complete with correct grammar: I ___ to school",
+          "answer": "Grammar form 1",
+          "blank": "___"
+        },
+        {
+          "id": 2,
+          "sentence": "Complete with correct grammar: I ___ to school",
+          "answer": "Grammar form 2",
+          "blank": "___"
+        },
+        {
+          "id": 3,
+          "sentence": "Complete with correct grammar: I ___ to school",
+          "answer": "Grammar form 3",
+          "blank": "___"
+        },
+        {
+          "id": 4,
+          "sentence": "Complete with correct grammar: I ___ to school",
+          "answer": "Grammar form 4",
+          "blank": "___"
+        },
+        {
+          "id": 5,
+          "sentence": "Complete with correct grammar: I ___ to school",
+          "answer": "Grammar form 5",
+          "blank": "___"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "created": "2025-06-22T08:47:16.127Z",
+    "difficulty": "intermediate",
+    "estimatedTime": 15,
+    "prerequisites": [
+      94
+    ]
+  }
+}

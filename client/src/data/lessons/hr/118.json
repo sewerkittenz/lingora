@@ -1,0 +1,219 @@
+{
+  "id": 118,
+  "title": "Cyrillic Script 18",
+  "level": "advanced",
+  "type": "writing",
+  "language": "hr",
+  "languageName": "Serbo-Croatian",
+  "vocabulary": [
+    {
+      "id": 1,
+      "word": "piti",
+      "meaning": "to drink",
+      "examples": [
+        "piti je važno.",
+        "Govorim piti."
+      ]
+    },
+    {
+      "id": 2,
+      "word": "čitati",
+      "meaning": "to read",
+      "examples": [
+        "čitati je važno.",
+        "Govorim čitati."
+      ]
+    },
+    {
+      "id": 3,
+      "word": "posao",
+      "meaning": "work",
+      "examples": [
+        "posao je važno.",
+        "Govorim posao."
+      ]
+    },
+    {
+      "id": 4,
+      "word": "obitelj",
+      "meaning": "family",
+      "examples": [
+        "obitelj je važno.",
+        "Govorim obitelj."
+      ]
+    },
+    {
+      "id": 5,
+      "word": "vrijeme",
+      "meaning": "time",
+      "examples": [
+        "vrijeme je važno.",
+        "Govorim vrijeme."
+      ]
+    },
+    {
+      "id": 6,
+      "word": "Hrvatska",
+      "meaning": "Croatia",
+      "examples": [
+        "Hrvatska je važno.",
+        "Govorim Hrvatska."
+      ]
+    },
+    {
+      "id": 7,
+      "word": "danas",
+      "meaning": "today",
+      "examples": [
+        "danas je važno.",
+        "Govorim danas."
+      ]
+    },
+    {
+      "id": 8,
+      "word": "sutra",
+      "meaning": "tomorrow",
+      "examples": [
+        "sutra je važno.",
+        "Govorim sutra."
+      ]
+    },
+    {
+      "id": 9,
+      "word": "jučer",
+      "meaning": "yesterday",
+      "examples": [
+        "jučer je važno.",
+        "Govorim jučer."
+      ]
+    },
+    {
+      "id": 10,
+      "word": "hrvatski",
+      "meaning": "Croatian",
+      "examples": [
+        "hrvatski je važno.",
+        "Govorim hrvatski."
+      ]
+    }
+  ],
+  "writing": [
+    {
+      "id": 1,
+      "cyrillic": "А",
+      "latin": "A",
+      "sound": "a",
+      "examples": [
+        "А = A"
+      ]
+    },
+    {
+      "id": 2,
+      "cyrillic": "Б",
+      "latin": "B",
+      "sound": "b",
+      "examples": [
+        "Б = B"
+      ]
+    },
+    {
+      "id": 3,
+      "cyrillic": "В",
+      "latin": "V",
+      "sound": "v",
+      "examples": [
+        "В = V"
+      ]
+    },
+    {
+      "id": 4,
+      "cyrillic": "Г",
+      "latin": "G",
+      "sound": "g",
+      "examples": [
+        "Г = G"
+      ]
+    },
+    {
+      "id": 5,
+      "cyrillic": "Д",
+      "latin": "D",
+      "sound": "d",
+      "examples": [
+        "Д = D"
+      ]
+    },
+    {
+      "id": 6,
+      "cyrillic": "Е",
+      "latin": "E",
+      "sound": "e",
+      "examples": [
+        "Е = E"
+      ]
+    },
+    {
+      "id": 7,
+      "cyrillic": "Ж",
+      "latin": "Ž",
+      "sound": "ž",
+      "examples": [
+        "Ж = Ž"
+      ]
+    },
+    {
+      "id": 8,
+      "cyrillic": "З",
+      "latin": "Z",
+      "sound": "z",
+      "examples": [
+        "З = Z"
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "type": "writing",
+      "questions": [
+        {
+          "id": 1,
+          "instruction": "Write the character/letter 1",
+          "answer": "Character 1",
+          "stroke_order": "Stroke order guide 1"
+        },
+        {
+          "id": 2,
+          "instruction": "Write the character/letter 2",
+          "answer": "Character 2",
+          "stroke_order": "Stroke order guide 2"
+        },
+        {
+          "id": 3,
+          "instruction": "Write the character/letter 3",
+          "answer": "Character 3",
+          "stroke_order": "Stroke order guide 3"
+        },
+        {
+          "id": 4,
+          "instruction": "Write the character/letter 4",
+          "answer": "Character 4",
+          "stroke_order": "Stroke order guide 4"
+        },
+        {
+          "id": 5,
+          "instruction": "Write the character/letter 5",
+          "answer": "Character 5",
+          "stroke_order": "Stroke order guide 5"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "created": "2025-06-22T08:47:16.157Z",
+    "difficulty": "advanced",
+    "estimatedTime": 15,
+    "prerequisites": [
+      117
+    ]
+  }
+}

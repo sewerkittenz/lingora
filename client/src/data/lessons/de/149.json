@@ -1,0 +1,225 @@
+{
+  "id": 149,
+  "title": "German Compound Words 49",
+  "level": "advanced",
+  "type": "advanced",
+  "language": "de",
+  "languageName": "German",
+  "vocabulary": [
+    {
+      "id": 1,
+      "word": "hallo",
+      "meaning": "hello",
+      "article": "",
+      "examples": [
+        "hallo ist wichtig."
+      ]
+    },
+    {
+      "id": 2,
+      "word": "danke",
+      "meaning": "thank you",
+      "article": "",
+      "examples": [
+        "danke ist wichtig."
+      ]
+    },
+    {
+      "id": 3,
+      "word": "hallo",
+      "meaning": "hello",
+      "article": "",
+      "examples": [
+        "hallo ist wichtig."
+      ]
+    },
+    {
+      "id": 4,
+      "word": "danke",
+      "meaning": "thank you",
+      "article": "",
+      "examples": [
+        "danke ist wichtig."
+      ]
+    },
+    {
+      "id": 5,
+      "word": "hallo",
+      "meaning": "hello",
+      "article": "",
+      "examples": [
+        "hallo ist wichtig."
+      ]
+    },
+    {
+      "id": 6,
+      "word": "danke",
+      "meaning": "thank you",
+      "article": "",
+      "examples": [
+        "danke ist wichtig."
+      ]
+    },
+    {
+      "id": 7,
+      "word": "hallo",
+      "meaning": "hello",
+      "article": "",
+      "examples": [
+        "hallo ist wichtig."
+      ]
+    },
+    {
+      "id": 8,
+      "word": "danke",
+      "meaning": "thank you",
+      "article": "",
+      "examples": [
+        "danke ist wichtig."
+      ]
+    },
+    {
+      "id": 9,
+      "word": "hallo",
+      "meaning": "hello",
+      "article": "",
+      "examples": [
+        "hallo ist wichtig."
+      ]
+    },
+    {
+      "id": 10,
+      "word": "danke",
+      "meaning": "thank you",
+      "article": "",
+      "examples": [
+        "danke ist wichtig."
+      ]
+    }
+  ],
+  "compounds": [
+    {
+      "id": 1,
+      "compound": "Zusammengesetzteswort1",
+      "parts": [
+        "Teil1",
+        "Teil2"
+      ],
+      "meaning": "Compound meaning 1"
+    },
+    {
+      "id": 2,
+      "compound": "Zusammengesetzteswort2",
+      "parts": [
+        "Teil1",
+        "Teil2"
+      ],
+      "meaning": "Compound meaning 2"
+    },
+    {
+      "id": 3,
+      "compound": "Zusammengesetzteswort3",
+      "parts": [
+        "Teil1",
+        "Teil2"
+      ],
+      "meaning": "Compound meaning 3"
+    },
+    {
+      "id": 4,
+      "compound": "Zusammengesetzteswort4",
+      "parts": [
+        "Teil1",
+        "Teil2"
+      ],
+      "meaning": "Compound meaning 4"
+    },
+    {
+      "id": 5,
+      "compound": "Zusammengesetzteswort5",
+      "parts": [
+        "Teil1",
+        "Teil2"
+      ],
+      "meaning": "Compound meaning 5"
+    },
+    {
+      "id": 6,
+      "compound": "Zusammengesetzteswort6",
+      "parts": [
+        "Teil1",
+        "Teil2"
+      ],
+      "meaning": "Compound meaning 6"
+    },
+    {
+      "id": 7,
+      "compound": "Zusammengesetzteswort7",
+      "parts": [
+        "Teil1",
+        "Teil2"
+      ],
+      "meaning": "Compound meaning 7"
+    },
+    {
+      "id": 8,
+      "compound": "Zusammengesetzteswort8",
+      "parts": [
+        "Teil1",
+        "Teil2"
+      ],
+      "meaning": "Compound meaning 8"
+    }
+  ],
+  "exercises": [
+    {
+      "type": "comprehension",
+      "questions": [
+        {
+          "id": 1,
+          "passage": "Advanced passage 1",
+          "question": "Comprehension question 1",
+          "answer": "Answer 1",
+          "options": [
+            "Option 1",
+            "Option 2",
+            "Option 3",
+            "Answer 1"
+          ]
+        },
+        {
+          "id": 2,
+          "passage": "Advanced passage 2",
+          "question": "Comprehension question 2",
+          "answer": "Answer 2",
+          "options": [
+            "Option 1",
+            "Option 2",
+            "Option 3",
+            "Answer 2"
+          ]
+        },
+        {
+          "id": 3,
+          "passage": "Advanced passage 3",
+          "question": "Comprehension question 3",
+          "answer": "Answer 3",
+          "options": [
+            "Option 1",
+            "Option 2",
+            "Option 3",
+            "Answer 3"
+          ]
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "created": "2025-06-22T08:47:17.730Z",
+    "difficulty": "advanced",
+    "estimatedTime": 15,
+    "prerequisites": [
+      148
+    ]
+  }
+}

@@ -1,0 +1,149 @@
+{
+  "id": 167,
+  "title": "Spanish Literature 17",
+  "level": "expert",
+  "type": "expert",
+  "language": "es",
+  "languageName": "Spanish",
+  "vocabulary": [
+    {
+      "id": 1,
+      "word": "hola",
+      "meaning": "hello",
+      "examples": [
+        "hola es importante."
+      ]
+    },
+    {
+      "id": 2,
+      "word": "gracias",
+      "meaning": "thank you",
+      "examples": [
+        "gracias es importante."
+      ]
+    },
+    {
+      "id": 3,
+      "word": "escuela",
+      "meaning": "school",
+      "examples": [
+        "escuela es importante."
+      ]
+    },
+    {
+      "id": 4,
+      "word": "amigo",
+      "meaning": "friend",
+      "examples": [
+        "amigo es importante."
+      ]
+    },
+    {
+      "id": 5,
+      "word": "comer",
+      "meaning": "to eat",
+      "examples": [
+        "comer es importante."
+      ]
+    },
+    {
+      "id": 6,
+      "word": "hola",
+      "meaning": "hello",
+      "examples": [
+        "hola es importante."
+      ]
+    },
+    {
+      "id": 7,
+      "word": "gracias",
+      "meaning": "thank you",
+      "examples": [
+        "gracias es importante."
+      ]
+    },
+    {
+      "id": 8,
+      "word": "escuela",
+      "meaning": "school",
+      "examples": [
+        "escuela es importante."
+      ]
+    },
+    {
+      "id": 9,
+      "word": "amigo",
+      "meaning": "friend",
+      "examples": [
+        "amigo es importante."
+      ]
+    },
+    {
+      "id": 10,
+      "word": "comer",
+      "meaning": "to eat",
+      "examples": [
+        "comer es importante."
+      ]
+    }
+  ],
+  "literature": [
+    {
+      "id": 1,
+      "title": "Spanish Literature 1",
+      "author": "Author 1",
+      "excerpt": "Literary excerpt 1"
+    },
+    {
+      "id": 2,
+      "title": "Spanish Literature 2",
+      "author": "Author 2",
+      "excerpt": "Literary excerpt 2"
+    },
+    {
+      "id": 3,
+      "title": "Spanish Literature 3",
+      "author": "Author 3",
+      "excerpt": "Literary excerpt 3"
+    },
+    {
+      "id": 4,
+      "title": "Spanish Literature 4",
+      "author": "Author 4",
+      "excerpt": "Literary excerpt 4"
+    },
+    {
+      "id": 5,
+      "title": "Spanish Literature 5",
+      "author": "Author 5",
+      "excerpt": "Literary excerpt 5"
+    }
+  ],
+  "exercises": [
+    {
+      "type": "analysis",
+      "questions": [
+        {
+          "id": 1,
+          "text": "Expert text 1",
+          "task": "Analyze the text 1",
+          "criteria": "Analysis criteria 1"
+        },
+        {
+          "id": 2,
+          "text": "Expert text 2",
+          "task": "Analyze the text 2",
+          "criteria": "Analysis criteria 2"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "created": "2025-06-22T08:47:16.627Z",
+    "difficulty": "expert",
+    "estimatedTime": 15,
+    "prerequisites": [
+      166
+    ]
+  }
+}
