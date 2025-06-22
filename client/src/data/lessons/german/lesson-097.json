@@ -1,12 +1,12 @@
 {
-  "id": 097,
+  "id": 97,
   "title": "Lesson 097",
   "description": "Learn essential German greetings and introductions",
   "language": "de",
   "level": "beginner",
   "items": [
     {
-      "id": 097,
+      "id": 97,
       "word": "hallo",
       "english": "hello",
       "type": "vocabulary",
@@ -69,7 +69,7 @@
       "audio": "/audio/de/wiegehts.mp3"
     },
     {
-      "id": 0970,
+      "id": 970,
       "word": "gut",
       "english": "good",
       "type": "vocabulary",

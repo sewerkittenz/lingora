@@ -1,12 +1,12 @@
 {
-  "id": 096,
+  "id": 96,
   "title": "Lesson 096",
   "description": "Learn the first 5 hiragana characters",
   "language": "ja",
   "level": "kana",
   "items": [
     {
-      "id": 096,
+      "id": 96,
       "character": "あ",
       "romanji": "a",
       "meaning": "The sound 'ah' - like in 'father'",
@@ -74,7 +74,7 @@
       "type": "vocabulary"
     },
     {
-      "id": 0960,
+      "id": 960,
       "word": "あお",
       "romanji": "ao",
       "english": "blue",

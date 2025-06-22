@@ -1,12 +1,12 @@
 {
-  "id": 054,
+  "id": 54,
   "title": "Lesson 054",
   "description": "Learn essential Chinese greetings and introductions",
   "language": "zh",
   "level": "beginner",
   "items": [
     {
-      "id": 054,
+      "id": 54,
       "word": "你好",
       "pinyin": "nǐ hǎo",
       "english": "hello",
@@ -78,7 +78,7 @@
       "audio": "/audio/zh/ta-she.mp3"
     },
     {
-      "id": 0540,
+      "id": 540,
       "word": "好",
       "pinyin": "hǎo",
       "english": "good",

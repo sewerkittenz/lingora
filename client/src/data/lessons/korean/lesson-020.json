@@ -1,12 +1,12 @@
 {
-  "id": 020,
+  "id": 20,
   "title": "Lesson 020",
   "description": "Learn the fundamental Korean vowel sounds",
   "language": "ko",
   "level": "beginner",
   "items": [
     {
-      "id": 020,
+      "id": 20,
       "character": "ㅏ",
       "romanization": "a",
       "english": "The sound 'ah' - like in 'father'",
@@ -78,7 +78,7 @@
       "audio": "/audio/ko/ga.mp3"
     },
     {
-      "id": 0200,
+      "id": 200,
       "word": "와",
       "romanization": "wa",
       "english": "come",

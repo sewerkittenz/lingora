@@ -1,12 +1,12 @@
 {
-  "id": 032,
+  "id": 32,
   "title": "Lesson 032",
   "description": "Learn the first Russian Cyrillic letters and sounds",
   "language": "ru",
   "level": "beginner",
   "items": [
     {
-      "id": 032,
+      "id": 32,
       "character": "А",
       "romanization": "a",
       "english": "The sound 'ah' - like in 'father'",
@@ -78,7 +78,7 @@
       "audio": "/audio/ru/god.mp3"
     },
     {
-      "id": 0320,
+      "id": 320,
       "word": "город",
       "romanization": "gorod",
       "english": "city",

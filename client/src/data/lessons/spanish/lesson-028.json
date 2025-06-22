@@ -1,12 +1,12 @@
 {
-  "id": 034,
+  "id": 34,
   "title": "Lesson 034",
   "description": "Learn essential Spanish greetings and polite expressions",
   "language": "es",
   "level": "beginner",
   "items": [
     {
-      "id": 034,
+      "id": 34,
       "word": "hola",
       "english": "hello",
       "type": "vocabulary",
@@ -69,7 +69,7 @@
       "audio": "/audio/es/buenasnoches.mp3"
     },
     {
-      "id": 0340,
+      "id": 340,
       "word": "¿cómo estás?",
       "english": "how are you?",
       "type": "vocabulary",
