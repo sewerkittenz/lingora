@@ -55,6 +55,10 @@ router.post('/register', async (req, res) => {
       email,
       options: {
         shouldCreateUser: false,
+        emailRedirectTo: `${req.protocol}://${req.get('host')}/confirm-email`,
+        data: {
+          userId: user.id
+        }
       }
     });
 
