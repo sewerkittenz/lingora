@@ -121,8 +121,18 @@ This is a full-stack language learning application built with React on the front
 
 ## Changelog
 
-- June 22, 2025. Initial setup
+- January 22, 2025: Migration to Replit completed
+  - Removed French and Italian languages per user request
+  - Updated to 7 languages: Japanese, Chinese, Serbo-Croatian, Spanish, Korean, Russian, German
+  - Connected real Supabase data instead of mock data
+  - Added lesson system with JSON files (50 lessons per language created)
+  - Implemented sound effects for learning interactions
+  - Added lesson settings overlay with configurable exercise types
+  - Created API endpoints for real progress tracking
 
 ## User Preferences
 
 Preferred communication style: Simple, everyday language.
+UI Style: Modern, Duolingo-inspired design with app-like feel
+Data: Real Supabase integration, no mock data
+Lessons: 200 lessons per language (currently 50 created, need 150 more)
