@@ -68,7 +68,8 @@ export async function registerRoutes(app: Express): Promise<Server> {
         grammarPoints: 0,
         lessonsCompleted: 0,
         totalLessons: 350,
-        recentLessons: []
+        recentLessons: [],
+        languages: userLanguages
       };
 
       res.json(progress);

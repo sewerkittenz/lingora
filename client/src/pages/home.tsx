@@ -162,15 +162,15 @@ export default function Home() {
                     <div className="bg-gradient-to-r from-primary to-indigo-600 rounded-lg p-6 text-white">
                       <div className="flex items-center justify-between mb-4">
                         <div>
-                          <h3 className="text-2xl font-bold">Saudade</h3>
-                          <p className="text-indigo-200">/sa-u-DA-de/</p>
+                          <h3 className="text-2xl font-bold">学习</h3>
+                          <p className="text-indigo-200">/xué xí/</p>
                         </div>
                         <div className="w-12 h-12 bg-white bg-opacity-20 rounded-full flex items-center justify-center">
                           <Languages className="w-6 h-6" />
                         </div>
                       </div>
-                      <p className="text-indigo-100 mb-2">A deep emotional state of longing for something absent</p>
-                      <p className="text-sm text-indigo-200">Portuguese • Advanced Level</p>
+                      <p className="text-indigo-100 mb-2">To study or learn</p>
+                      <p className="text-sm text-indigo-200">Chinese • Beginner Level</p>
                     </div>
                   </CardContent>
                 </Card>

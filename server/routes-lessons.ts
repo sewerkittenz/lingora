@@ -53,10 +53,8 @@ export function registerLessonRoutes(app: Express) {
       
       try {
         const files = await fs.readdir(lessonsDir);
-        const lessonFiles = files.filter(f => 
-          (f.startsWith('lesson-') && f.endsWith('.json')) ||
-          (f.match(/^lesson-\d{3}\.json$/))
-        );
+        const lessonFiles = files.filter(f => f.startsWith('lesson-') && f.endsWith('.json'));
+        console.log(`Found ${lessonFiles.length} lesson files in ${lessonsDir}`);
         
         const lessons = [];
         for (const file of lessonFiles) {
@@ -64,36 +62,45 @@ export function registerLessonRoutes(app: Express) {
             const lessonData = await fs.readFile(path.join(lessonsDir, file), 'utf-8');
             const lesson = JSON.parse(lessonData);
             
-            // Extract lesson number from filename if not in lesson data
-            const lessonId = lesson.id || parseInt(file.match(/lesson-(\d+)\.json/)?.[1] || '0');
+            // Extract lesson number from filename 
+            const fileMatch = file.match(/lesson-(\d+)\.json/);
+            const lessonId = fileMatch ? parseInt(fileMatch[1]) : (lesson.id || 0);
             
-            // Set the correct level based on language and lesson ID
-            let lessonLevel = lesson.level || 'beginner';
-            if (languageCode === 'ja') {
-              // Japanese has JLPT levels
-              if (lessonId <= 10) lessonLevel = 'kana';
-              else if (lessonId <= 20) lessonLevel = 'jlpt-n5';
-              else if (lessonId <= 30) lessonLevel = 'jlpt-n4';
-              else if (lessonId <= 40) lessonLevel = 'jlpt-n3';
-              else if (lessonId <= 50) lessonLevel = 'jlpt-n2';
-              else lessonLevel = 'jlpt-n1';
-            } else {
-              // Other languages use standard levels
-              if (lessonId <= 12) lessonLevel = 'beginner';
-              else if (lessonId <= 25) lessonLevel = 'intermediate';
-              else if (lessonId <= 38) lessonLevel = 'advanced';
-              else lessonLevel = 'expert';
+            // console.log(`Processing ${file}: lessonId=${lessonId}, lesson.level=${lesson.level}`);
+            
+            // Use lesson level from JSON file or calculate from lesson ID
+            let lessonLevel = lesson.level;
+            if (!lessonLevel) {
+              if (languageCode === 'ja') {
+                // Japanese has JLPT levels
+                if (lessonId <= 10) lessonLevel = 'kana';
+                else if (lessonId <= 20) lessonLevel = 'jlpt-n5';
+                else if (lessonId <= 30) lessonLevel = 'jlpt-n4';
+                else if (lessonId <= 40) lessonLevel = 'jlpt-n3';
+                else if (lessonId <= 50) lessonLevel = 'jlpt-n2';
+                else lessonLevel = 'jlpt-n1';
+              } else {
+                // Other languages use standard levels
+                if (lessonId <= 12) lessonLevel = 'beginner';
+                else if (lessonId <= 25) lessonLevel = 'intermediate';
+                else if (lessonId <= 38) lessonLevel = 'advanced';
+                else lessonLevel = 'expert';
+              }
             }
             
             // Filter by level if specified
+            // console.log(`Level check: requested=${level}, calculated=${lessonLevel}, matches=${!level || lessonLevel === level}`);
+            
             if (!level || lessonLevel === level) {
-              lessons.push({
+              const lessonData = {
                 id: lessonId,
                 title: lesson.title || `Lesson ${lessonId + 1}`,
                 description: lesson.description || `Practice ${languageCode} fundamentals`,
                 level: lessonLevel,
                 itemCount: lesson.items?.length || 0
-              });
+              };
+              // console.log(`Adding lesson:`, lessonData);
+              lessons.push(lessonData);
             }
           } catch (parseError) {
             console.error(`Error parsing lesson file ${file}:`, parseError);
@@ -102,9 +109,11 @@ export function registerLessonRoutes(app: Express) {
         
         // Sort by lesson ID
         lessons.sort((a, b) => a.id - b.id);
+        
+        console.log(`Found ${lessons.length} lessons for ${languageCode} at level ${level || 'all'} from ${lessonFiles.length} files`);
         res.json(lessons);
       } catch (dirError) {
-        console.error("Lessons directory not found:", lessonsDir);
+        console.error("Lessons directory not found:", lessonsDir, dirError);
         return res.status(404).json({ error: "Language lessons not found" });
       }
     } catch (error) {

@@ -105,19 +105,19 @@ export default function Profile() {
 
                 <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
                   <div className="text-center">
-                    <div className="text-2xl font-bold text-foreground">{mockStats.totalXP}</div>
+                    <div className="text-2xl font-bold text-foreground">{user?.totalXp || 0}</div>
                     <div className="text-sm text-muted-foreground">Total XP</div>
                   </div>
                   <div className="text-center">
-                    <div className="text-2xl font-bold text-foreground">{mockStats.streak}</div>
+                    <div className="text-2xl font-bold text-foreground">{user?.currentStreak || 0}</div>
                     <div className="text-sm text-muted-foreground">Day Streak</div>
                   </div>
                   <div className="text-center">
-                    <div className="text-2xl font-bold text-foreground">{mockStats.languages}</div>
+                    <div className="text-2xl font-bold text-foreground">0</div>
                     <div className="text-sm text-muted-foreground">Languages</div>
                   </div>
                   <div className="text-center">
-                    <div className="text-2xl font-bold text-foreground">{mockStats.friends}</div>
+                    <div className="text-2xl font-bold text-foreground">0</div>
                     <div className="text-sm text-muted-foreground">Friends</div>
                   </div>
                 </div>

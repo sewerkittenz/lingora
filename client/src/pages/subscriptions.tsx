@@ -156,11 +156,9 @@ export default function Subscriptions() {
                       </Button>
                     ) : (
                       <div className="w-full">
-                        <PayPalButton
-                          amount={plan.price.replace('$', '')}
-                          currency="USD"
-                          intent="CAPTURE"
-                        />
+                        <Button className="w-full" disabled>
+                          PayPal Integration Coming Soon
+                        </Button>
                       </div>
                     )}
                   </CardContent>
