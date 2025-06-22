@@ -19,11 +19,11 @@ import { Request, Response } from "express";
 
 const { PAYPAL_CLIENT_ID, PAYPAL_CLIENT_SECRET } = process.env;
 
-if (!PAYPAL_CLIENT_ID) {
-  throw new Error("Missing PAYPAL_CLIENT_ID");
-}
-if (!PAYPAL_CLIENT_SECRET) {
-  throw new Error("Missing PAYPAL_CLIENT_SECRET");
+// PayPal is optional for development
+const isPayPalEnabled = PAYPAL_CLIENT_ID && PAYPAL_CLIENT_SECRET;
+
+if (!isPayPalEnabled) {
+  console.warn("PayPal credentials not found. PayPal functionality will be disabled.");
 }
 const client = new Client({
   clientCredentialsAuthCredentials: {
@@ -51,6 +51,10 @@ const oAuthAuthorizationController = new OAuthAuthorizationController(client);
 /* Token generation helpers */
 
 export async function getClientToken() {
+  if (!isPayPalEnabled || !oAuthAuthorizationController) {
+    throw new Error("PayPal is not configured");
+  }
+
   const auth = Buffer.from(
     `${PAYPAL_CLIENT_ID}:${PAYPAL_CLIENT_SECRET}`,
   ).toString("base64");
@@ -68,6 +72,10 @@ export async function getClientToken() {
 /*  Process transactions */
 
 export async function createPaypalOrder(req: Request, res: Response) {
+  if (!isPayPalEnabled || !ordersController) {
+    return res.status(503).json({ error: "PayPal is not configured" });
+  }
+
   try {
     const { amount, currency, intent } = req.body;
 
@@ -120,6 +128,10 @@ export async function createPaypalOrder(req: Request, res: Response) {
 }
 
 export async function capturePaypalOrder(req: Request, res: Response) {
+  if (!isPayPalEnabled || !ordersController) {
+    return res.status(503).json({ error: "PayPal is not configured" });
+  }
+
   try {
     const { orderID } = req.params;
     const collect = {
@@ -141,9 +153,18 @@ export async function capturePaypalOrder(req: Request, res: Response) {
 }
 
 export async function loadPaypalDefault(req: Request, res: Response) {
-  const clientToken = await getClientToken();
-  res.json({
-    clientToken,
-  });
+  if (!isPayPalEnabled) {
+    return res.status(503).json({ error: "PayPal is not configured" });
+  }
+
+  try {
+    const clientToken = await getClientToken();
+    res.json({
+      clientToken,
+    });
+  } catch (error) {
+    console.error("PayPal token error:", error);
+    res.status(500).json({ error: "Failed to get PayPal client token" });
+  }
 }
 // <END_EXACT_CODE>
