@@ -172,8 +172,7 @@ INSERT INTO shop_items (name, description, price, category, icon, rarity) VALUES
 ('German Cap', 'Traditional German hat', 1000, 'medium', '🎩', 'rare'),
 ('Flying Potion', 'Magical flying potion', 4000, 'expensive', '🧪', 'epic'),
 ('Chinese Dragon', 'Majestic Chinese dragon', 10000, 'expensive', '🐉', 'legendary'),
-('Golden Retriever', 'Literal golden retriever', 100000, 'expensive', '🐕', 'mythic')
-ON CONFLICT (name) DO NOTHING;
+('Golden Retriever', 'Literal golden retriever', 100000, 'expensive', '🐕', 'mythic');
 
 -- Insert achievements data
 INSERT INTO achievements (name, description, icon, requirement_type, requirement_value, xp_reward) VALUES
@@ -182,8 +181,7 @@ INSERT INTO achievements (name, description, icon, requirement_type, requirement
 ('Dedicated Learner', 'Study for 7 days in a row', '🔥', 'streak', 7, 100),
 ('Language Explorer', 'Start learning 3 different languages', '🌍', 'languages_started', 3, 150),
 ('XP Master', 'Earn 1000 total XP', '💎', 'total_xp', 1000, 200),
-('Streak Master', 'Maintain a 30-day streak', '🏆', 'streak', 30, 500)
-ON CONFLICT (name) DO NOTHING;
+('Streak Master', 'Maintain a 30-day streak', '🏆', 'streak', 30, 500);
 
 -- Create indexes for better performance
 CREATE INDEX IF NOT EXISTS idx_user_languages_user_id ON user_languages(user_id);
