@@ -1,0 +1,79 @@
+{
+  "language": "Spanish",
+  "code": "es",
+  "levels": {
+    "beginner": {
+      "name": "Beginner",
+      "lessons": [
+        {
+          "id": 201,
+          "title": "Basic Greetings",
+          "description": "Essential Spanish greetings and introductions",
+          "content": {
+            "vocabulary": [
+              {
+                "word": "hola",
+                "meaning": "hello",
+                "pronunciation": "OH-lah"
+              },
+              {
+                "word": "adiós",
+                "meaning": "goodbye",
+                "pronunciation": "ah-DYOHS"
+              },
+              {
+                "word": "gracias",
+                "meaning": "thank you",
+                "pronunciation": "GRAH-thyahs"
+              },
+              {
+                "word": "por favor",
+                "meaning": "please",
+                "pronunciation": "por fah-VOR"
+              },
+              {
+                "word": "disculpe",
+                "meaning": "excuse me",
+                "pronunciation": "dees-KOOL-peh"
+              }
+            ]
+          }
+        },
+        {
+          "id": 202,
+          "title": "Numbers 1-20",
+          "description": "Learn numbers from one to twenty",
+          "content": {
+            "vocabulary": [
+              {
+                "word": "uno",
+                "meaning": "one",
+                "pronunciation": "OO-noh"
+              },
+              {
+                "word": "dos",
+                "meaning": "two",
+                "pronunciation": "dohs"
+              },
+              {
+                "word": "tres",
+                "meaning": "three",
+                "pronunciation": "trehs"
+              },
+              {
+                "word": "cuatro",
+                "meaning": "four",
+                "pronunciation": "KWAH-troh"
+              },
+              {
+                "word": "cinco",
+                "meaning": "five",
+                "pronunciation": "THEEN-koh"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

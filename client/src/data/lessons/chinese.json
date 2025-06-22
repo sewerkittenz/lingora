@@ -1,0 +1,78 @@
+{
+  "language": "Chinese",
+  "code": "zh",
+  "levels": {
+    "beginner": {
+      "name": "Beginner",
+      "lessons": [
+        {
+          "id": 101,
+          "title": "Basic Tones",
+          "description": "Learn the four tones of Mandarin Chinese",
+          "content": {
+            "vocabulary": [
+              {
+                "character": "妈",
+                "pinyin": "mā",
+                "meaning": "mother",
+                "tone": 1
+              },
+              {
+                "character": "麻",
+                "pinyin": "má",
+                "meaning": "hemp/numb",
+                "tone": 2
+              },
+              {
+                "character": "马",
+                "pinyin": "mǎ",
+                "meaning": "horse",
+                "tone": 3
+              },
+              {
+                "character": "骂",
+                "pinyin": "mà",
+                "meaning": "to scold",
+                "tone": 4
+              }
+            ]
+          }
+        },
+        {
+          "id": 102,
+          "title": "Numbers 1-10",
+          "description": "Learn basic numbers in Chinese",
+          "content": {
+            "vocabulary": [
+              {
+                "character": "一",
+                "pinyin": "yī",
+                "meaning": "one"
+              },
+              {
+                "character": "二",
+                "pinyin": "èr",
+                "meaning": "two"
+              },
+              {
+                "character": "三",
+                "pinyin": "sān",
+                "meaning": "three"
+              },
+              {
+                "character": "四",
+                "pinyin": "sì",
+                "meaning": "four"
+              },
+              {
+                "character": "五",
+                "pinyin": "wǔ",
+                "meaning": "five"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

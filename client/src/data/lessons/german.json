@@ -1,0 +1,84 @@
+{
+  "language": "German",
+  "code": "de",
+  "levels": {
+    "beginner": {
+      "name": "Beginner",
+      "lessons": [
+        {
+          "id": 501,
+          "title": "Basic Greetings",
+          "description": "Essential German greetings and polite expressions",
+          "content": {
+            "vocabulary": [
+              {
+                "word": "Hallo",
+                "meaning": "hello",
+                "pronunciation": "HAH-lo"
+              },
+              {
+                "word": "Guten Morgen",
+                "meaning": "good morning",
+                "pronunciation": "GOO-ten MOR-gen"
+              },
+              {
+                "word": "Guten Tag",
+                "meaning": "good day",
+                "pronunciation": "GOO-ten tahk"
+              },
+              {
+                "word": "Auf Wiedersehen",
+                "meaning": "goodbye",
+                "pronunciation": "owf VEE-der-zayn"
+              },
+              {
+                "word": "Danke",
+                "meaning": "thank you",
+                "pronunciation": "DAHN-keh"
+              },
+              {
+                "word": "Bitte",
+                "meaning": "please/you're welcome",
+                "pronunciation": "BIT-teh"
+              }
+            ]
+          }
+        },
+        {
+          "id": 502,
+          "title": "Numbers 1-10",
+          "description": "Learn basic numbers in German",
+          "content": {
+            "vocabulary": [
+              {
+                "word": "eins",
+                "meaning": "one",
+                "pronunciation": "iyns"
+              },
+              {
+                "word": "zwei",
+                "meaning": "two",
+                "pronunciation": "tsviy"
+              },
+              {
+                "word": "drei",
+                "meaning": "three",
+                "pronunciation": "driy"
+              },
+              {
+                "word": "vier",
+                "meaning": "four",
+                "pronunciation": "feer"
+              },
+              {
+                "word": "fünf",
+                "meaning": "five",
+                "pronunciation": "fuunf"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

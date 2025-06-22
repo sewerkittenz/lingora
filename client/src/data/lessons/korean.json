@@ -1,0 +1,79 @@
+{
+  "language": "Korean",
+  "code": "ko",
+  "levels": {
+    "beginner": {
+      "name": "Beginner",
+      "lessons": [
+        {
+          "id": 301,
+          "title": "Hangul Basics",
+          "description": "Learn the Korean alphabet",
+          "content": {
+            "vocabulary": [
+              {
+                "character": "ㄱ",
+                "romanization": "g/k",
+                "meaning": "consonant 'g' or 'k' sound"
+              },
+              {
+                "character": "ㄴ",
+                "romanization": "n",
+                "meaning": "consonant 'n' sound"
+              },
+              {
+                "character": "ㄷ",
+                "romanization": "d/t",
+                "meaning": "consonant 'd' or 't' sound"
+              },
+              {
+                "character": "ㄹ",
+                "romanization": "r/l",
+                "meaning": "consonant 'r' or 'l' sound"
+              },
+              {
+                "character": "ㅁ",
+                "romanization": "m",
+                "meaning": "consonant 'm' sound"
+              }
+            ]
+          }
+        },
+        {
+          "id": 302,
+          "title": "Basic Vowels",
+          "description": "Learn Korean vowel characters",
+          "content": {
+            "vocabulary": [
+              {
+                "character": "ㅏ",
+                "romanization": "a",
+                "meaning": "vowel 'a' sound like in 'father'"
+              },
+              {
+                "character": "ㅓ",
+                "romanization": "eo",
+                "meaning": "vowel 'eo' sound like in 'love'"
+              },
+              {
+                "character": "ㅗ",
+                "romanization": "o",
+                "meaning": "vowel 'o' sound like in 'go'"
+              },
+              {
+                "character": "ㅜ",
+                "romanization": "u",
+                "meaning": "vowel 'u' sound like in 'moon'"
+              },
+              {
+                "character": "ㅡ",
+                "romanization": "eu",
+                "meaning": "vowel 'eu' sound (no English equivalent)"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

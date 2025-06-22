@@ -1,0 +1,84 @@
+{
+  "language": "Russian",
+  "code": "ru",
+  "levels": {
+    "beginner": {
+      "name": "Beginner",
+      "lessons": [
+        {
+          "id": 401,
+          "title": "Cyrillic Alphabet А-Е",
+          "description": "Learn the first letters of the Cyrillic alphabet",
+          "content": {
+            "vocabulary": [
+              {
+                "character": "А",
+                "romanization": "a",
+                "meaning": "vowel 'a' sound like in 'father'"
+              },
+              {
+                "character": "Б",
+                "romanization": "b",
+                "meaning": "consonant 'b' sound"
+              },
+              {
+                "character": "В",
+                "romanization": "v",
+                "meaning": "consonant 'v' sound"
+              },
+              {
+                "character": "Г",
+                "romanization": "g",
+                "meaning": "consonant 'g' sound"
+              },
+              {
+                "character": "Д",
+                "romanization": "d",
+                "meaning": "consonant 'd' sound"
+              },
+              {
+                "character": "Е",
+                "romanization": "ye",
+                "meaning": "vowel 'ye' sound"
+              }
+            ]
+          }
+        },
+        {
+          "id": 402,
+          "title": "Basic Greetings",
+          "description": "Essential Russian greetings",
+          "content": {
+            "vocabulary": [
+              {
+                "word": "Привет",
+                "romanization": "privet",
+                "meaning": "hello (informal)"
+              },
+              {
+                "word": "Здравствуйте",
+                "romanization": "zdravstvuyte",
+                "meaning": "hello (formal)"
+              },
+              {
+                "word": "До свидания",
+                "romanization": "do svidaniya",
+                "meaning": "goodbye"
+              },
+              {
+                "word": "Спасибо",
+                "romanization": "spasibo",
+                "meaning": "thank you"
+              },
+              {
+                "word": "Пожалуйста",
+                "romanization": "pozhaluysta",
+                "meaning": "please/you're welcome"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

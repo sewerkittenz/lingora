@@ -1,0 +1,92 @@
+{
+  "language": "Serbo-Croatian",
+  "code": "hr",
+  "levels": {
+    "beginner": {
+      "name": "Beginner",
+      "lessons": [
+        {
+          "id": 801,
+          "title": "Cyrillic vs Latin",
+          "description": "Introduction to both writing systems",
+          "content": {
+            "vocabulary": [
+              {
+                "word": "Здраво / Zdravo",
+                "meaning": "hello",
+                "cyrillic": "Здраво",
+                "latin": "Zdravo",
+                "pronunciation": "ZDRAH-vo"
+              },
+              {
+                "word": "Довиђења / Doviđenja",
+                "meaning": "goodbye",
+                "cyrillic": "Довиђења",
+                "latin": "Doviđenja",
+                "pronunciation": "do-VEE-jen-ya"
+              },
+              {
+                "word": "Хвала / Hvala",
+                "meaning": "thank you",
+                "cyrillic": "Хвала",
+                "latin": "Hvala",
+                "pronunciation": "HVAH-la"
+              },
+              {
+                "word": "Молим / Molim",
+                "meaning": "please",
+                "cyrillic": "Молим",
+                "latin": "Molim",
+                "pronunciation": "MO-leem"
+              }
+            ]
+          }
+        },
+        {
+          "id": 802,
+          "title": "Numbers 1-10",
+          "description": "Learn basic numbers in Serbo-Croatian",
+          "content": {
+            "vocabulary": [
+              {
+                "word": "један / jedan",
+                "meaning": "one",
+                "cyrillic": "један",
+                "latin": "jedan",
+                "pronunciation": "YEH-dan"
+              },
+              {
+                "word": "два / dva",
+                "meaning": "two",
+                "cyrillic": "два",
+                "latin": "dva",
+                "pronunciation": "dvah"
+              },
+              {
+                "word": "три / tri",
+                "meaning": "three",
+                "cyrillic": "три",
+                "latin": "tri",
+                "pronunciation": "tree"
+              },
+              {
+                "word": "четири / četiri",
+                "meaning": "four",
+                "cyrillic": "четири",
+                "latin": "četiri",
+                "pronunciation": "CHEH-ti-ri"
+              },
+              {
+                "word": "пет / pet",
+                "meaning": "five",
+                "cyrillic": "пет",
+                "latin": "pet",
+                "pronunciation": "pet"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

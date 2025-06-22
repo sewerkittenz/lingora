@@ -1,0 +1,130 @@
+{
+  "language": "Japanese",
+  "code": "ja",
+  "levels": {
+    "kana": {
+      "name": "Kana",
+      "lessons": [
+        {
+          "id": 1,
+          "title": "Hiragana あ-お",
+          "description": "Learn the first 5 hiragana characters",
+          "content": {
+            "vocabulary": [
+              {
+                "character": "あ",
+                "romanji": "a",
+                "meaning": "The sound 'ah' - like in 'father'",
+                "type": "hiragana"
+              },
+              {
+                "character": "い",
+                "romanji": "i",
+                "meaning": "The sound 'ee' - like in 'see'",
+                "type": "hiragana"
+              },
+              {
+                "character": "う",
+                "romanji": "u",
+                "meaning": "The sound 'oo' - like in 'moon'",
+                "type": "hiragana"
+              },
+              {
+                "character": "え",
+                "romanji": "e",
+                "meaning": "The sound 'eh' - like in 'bed'",
+                "type": "hiragana"
+              },
+              {
+                "character": "お",
+                "romanji": "o",
+                "meaning": "The sound 'oh' - like in 'go'",
+                "type": "hiragana"
+              }
+            ],
+            "questions": [
+              {
+                "type": "flashcard",
+                "character": "あ",
+                "romanji": "a",
+                "question": "What sound does this character make?",
+                "correctAnswer": "The sound 'ah' - like in 'father'"
+              },
+              {
+                "type": "multiple-choice",
+                "question": "Which character represents the 'i' sound?",
+                "options": ["あ", "い", "う", "え"],
+                "correctAnswer": 1
+              }
+            ]
+          }
+        },
+        {
+          "id": 2,
+          "title": "Hiragana か-こ",
+          "description": "K-sounds in hiragana",
+          "content": {
+            "vocabulary": [
+              {
+                "character": "か",
+                "romanji": "ka",
+                "meaning": "The sound 'ka'",
+                "type": "hiragana"
+              },
+              {
+                "character": "き",
+                "romanji": "ki",
+                "meaning": "The sound 'ki'",
+                "type": "hiragana"
+              },
+              {
+                "character": "く",
+                "romanji": "ku",
+                "meaning": "The sound 'ku'",
+                "type": "hiragana"
+              },
+              {
+                "character": "け",
+                "romanji": "ke",
+                "meaning": "The sound 'ke'",
+                "type": "hiragana"
+              },
+              {
+                "character": "こ",
+                "romanji": "ko",
+                "meaning": "The sound 'ko'",
+                "type": "hiragana"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "jlpt-n5": {
+      "name": "JLPT N5",
+      "lessons": [
+        {
+          "id": 21,
+          "title": "Basic Greetings",
+          "description": "Essential Japanese greetings",
+          "content": {
+            "vocabulary": [
+              {
+                "word": "おはよう",
+                "romanji": "ohayou",
+                "meaning": "Good morning (informal)",
+                "type": "greeting"
+              },
+              {
+                "word": "こんにちは",
+                "romanji": "konnichiwa",
+                "meaning": "Good afternoon/Hello",
+                "type": "greeting"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
