@@ -1,25 +1,16 @@
 import { useState, useEffect } from "react";
 import { useParams, useLocation } from "wouter";
+import { useQuery } from "@tanstack/react-query";
 import { Button } from "@/components/ui/button";
 import { Progress } from "@/components/ui/progress";
-import { X, Settings, Heart } from "lucide-react";
+import { X, Heart } from "lucide-react";
 import { Flashcard } from "@/components/learning/flashcard";
 import { MultipleChoice } from "@/components/learning/multiple-choice";
 import { DragDrop } from "@/components/learning/drag-drop";
 import { FillBlanks } from "@/components/learning/fill-blanks";
+import { LessonSettingsOverlay, type LessonSettings } from "@/components/learning/lesson-settings";
+import { useSoundEffects } from "@/components/learning/sound-effects";
 import { useAuth } from "@/hooks/use-auth";
-
-interface Question {
-  id: number;
-  type: 'flashcard' | 'multiple-choice' | 'drag-drop' | 'fill-blanks';
-  character?: string;
-  romanji?: string;
-  meaning?: string;
-  question: string;
-  options?: string[];
-  correctAnswer: string | number;
-  explanation?: string;
-}
 
 export default function Learn() {
   const { lessonId } = useParams();
@@ -29,171 +20,203 @@ export default function Learn() {
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [progress, setProgress] = useState(0);
   const [hearts, setHearts] = useState(user?.hearts || 5);
-  const [showSettings, setShowSettings] = useState(false);
+  const [itemsAnswered, setItemsAnswered] = useState(0);
+  const [settings, setSettings] = useState<LessonSettings>({
+    flashcards: true,
+    dragAndDrop: true,
+    fillInBlank: true,
+    typing: true,
+    multipleChoice: true,
+    matching: true,
+    itemsBeforeBreak: 25,
+  });
+  
+  const { playCorrect, playIncorrect, playSkip } = useSoundEffects();
 
-  // Mock lesson data - in real app this would come from API
-  const mockQuestions: Question[] = [
-    {
-      id: 1,
-      type: 'flashcard',
-      character: 'あ',
-      romanji: 'a',
-      question: 'What does this character mean?',
-      correctAnswer: 'The sound "ah" - like in "father"',
-      explanation: 'あ (a) is the first character in the hiragana syllabary.'
-    },
-    {
-      id: 2,
-      type: 'multiple-choice',
-      question: 'Which character represents the "ka" sound?',
-      options: ['あ', 'か', 'さ', 'た'],
-      correctAnswer: 1,
-      explanation: 'か (ka) represents the "ka" sound in Japanese.'
-    },
-    {
-      id: 3,
-      type: 'fill-blanks',
-      question: 'Complete the sentence: I __ to the store.',
-      correctAnswer: 'went',
-      explanation: 'Past tense of "go" is "went".'
-    },
-    {
-      id: 4,
-      type: 'drag-drop',
-      question: 'Arrange these words to form a sentence: [The] [cat] [is] [sleeping]',
-      correctAnswer: 'The cat is sleeping',
-      explanation: 'This forms a complete sentence in English.'
-    }
-  ];
+  // Load lesson data from API
+  const { data: lessonData } = useQuery({
+    queryKey: ["/api/lessons", lessonId],
+    enabled: !!lessonId,
+  });
 
-  const currentQuestion = mockQuestions[currentQuestionIndex];
-  const totalQuestions = mockQuestions.length;
+  const questions = lessonData?.items || [];
 
   useEffect(() => {
-    setProgress((currentQuestionIndex / totalQuestions) * 100);
-  }, [currentQuestionIndex, totalQuestions]);
+    if (questions.length > 0) {
+      setProgress((currentQuestionIndex / questions.length) * 100);
+    }
+  }, [currentQuestionIndex, questions.length]);
 
   const handleAnswer = (isCorrect: boolean) => {
-    if (!isCorrect) {
-      setHearts(prev => Math.max(0, prev - 1));
-      if (hearts <= 1) {
-        // Game over - redirect to lessons
-        setLocation('/lessons');
-        return;
+    setItemsAnswered(prev => prev + 1);
+    
+    if (isCorrect) {
+      playCorrect();
+      // Check if it's time for a break
+      if (itemsAnswered > 0 && itemsAnswered % settings.itemsBeforeBreak === 0) {
+        // Show break screen
+        setTimeout(() => {
+          // Continue after break
+          if (currentQuestionIndex < questions.length - 1) {
+            setCurrentQuestionIndex(currentQuestionIndex + 1);
+            setProgress(((currentQuestionIndex + 1) / questions.length) * 100);
+          } else {
+            // Lesson complete
+            setLocation('/lessons');
+          }
+        }, 2000);
+      } else {
+        // Move to next question
+        if (currentQuestionIndex < questions.length - 1) {
+          setCurrentQuestionIndex(currentQuestionIndex + 1);
+          setProgress(((currentQuestionIndex + 1) / questions.length) * 100);
+        } else {
+          // Lesson complete
+          setLocation('/lessons');
+        }
       }
-    }
-
-    if (currentQuestionIndex < totalQuestions - 1) {
-      setCurrentQuestionIndex(prev => prev + 1);
     } else {
-      // Lesson completed
-      setLocation('/lessons');
+      playIncorrect();
+      // Wrong answer - lose a heart
+      setHearts(Math.max(0, hearts - 1));
+      if (hearts <= 1) {
+        // No more hearts - go back to lessons
+        setLocation('/lessons');
+      }
     }
   };
 
   const handleSkip = () => {
-    if (currentQuestionIndex < totalQuestions - 1) {
-      setCurrentQuestionIndex(prev => prev + 1);
+    playSkip();
+    if (currentQuestionIndex < questions.length - 1) {
+      setCurrentQuestionIndex(currentQuestionIndex + 1);
+      setProgress(((currentQuestionIndex + 1) / questions.length) * 100);
     } else {
       setLocation('/lessons');
     }
   };
 
-  const handleExit = () => {
-    setLocation('/lessons');
-  };
+  const currentQuestion = questions[currentQuestionIndex];
 
-  const renderQuestion = () => {
-    switch (currentQuestion.type) {
-      case 'flashcard':
-        return <Flashcard question={currentQuestion} onAnswer={handleAnswer} />;
-      case 'multiple-choice':
-        return <MultipleChoice question={currentQuestion} onAnswer={handleAnswer} />;
-      case 'drag-drop':
-        return <DragDrop question={currentQuestion} onAnswer={handleAnswer} />;
-      case 'fill-blanks':
-        return <FillBlanks question={currentQuestion} onAnswer={handleAnswer} />;
-      default:
-        return null;
-    }
-  };
+  if (!lessonData || questions.length === 0) {
+    return (
+      <div className="min-h-screen bg-gradient-to-br from-primary/10 to-accent/10 flex items-center justify-center">
+        <div className="text-center">
+          <h2 className="text-xl font-semibold mb-4">Loading lesson...</h2>
+        </div>
+      </div>
+    );
+  }
+
+  if (!currentQuestion) {
+    return (
+      <div className="min-h-screen bg-gradient-to-br from-primary/10 to-accent/10 flex items-center justify-center">
+        <div className="text-center">
+          <h2 className="text-2xl font-bold mb-4">Lesson Complete!</h2>
+          <Button onClick={() => setLocation('/lessons')}>
+            Back to Lessons
+          </Button>
+        </div>
+      </div>
+    );
+  }
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-primary to-indigo-600 flex flex-col">
+    <div className="min-h-screen bg-gradient-to-br from-neutral-50 to-neutral-100">
       {/* Header */}
-      <header className="p-6 flex items-center justify-between text-white">
-        <div className="flex items-center space-x-4">
+      <div className="sticky top-0 z-40 bg-white/80 backdrop-blur-sm border-b">
+        <div className="flex items-center justify-between p-4 max-w-4xl mx-auto">
           <Button
             variant="ghost"
-            size="icon"
-            className="text-white hover:text-white/80 hover:bg-white/10"
-            onClick={handleExit}
+            size="sm"
+            onClick={() => setLocation('/lessons')}
+            className="text-neutral-600 hover:text-neutral-800"
           >
-            <X className="w-5 h-5" />
+            <X className="h-5 w-5" />
           </Button>
-          <div className="flex-1 max-w-md">
-            <Progress 
-              value={progress} 
-              className="h-3 bg-white/20 [&>div]:bg-white" 
-            />
+          
+          <div className="flex-1 mx-4">
+            <Progress value={progress} className="h-3" />
           </div>
-          <span className="text-sm font-medium">{currentQuestionIndex + 1}/{totalQuestions}</span>
-        </div>
-
-        <div className="flex items-center space-x-4">
-          <div className="flex items-center bg-white/20 px-3 py-1 rounded-full">
-            <Heart className="w-4 h-4 text-red-400 mr-2 fill-current" />
-            <span className="font-medium">{hearts}</span>
+          
+          <div className="flex items-center gap-2">
+            <div className="flex items-center gap-1 text-red-500">
+              <Heart className="h-5 w-5 fill-current" />
+              <span className="font-semibold">{hearts}</span>
+            </div>
           </div>
-          <Button
-            variant="ghost"
-            size="icon"
-            className="text-white hover:text-white/80 hover:bg-white/10"
-            onClick={() => setShowSettings(true)}
-          >
-            <Settings className="w-5 h-5" />
-          </Button>
         </div>
-      </header>
+      </div>
 
-      {/* Learning Content */}
-      <main className="flex-1 flex items-center justify-center p-6">
+      {/* Settings */}
+      <LessonSettingsOverlay 
+        settings={settings}
+        onSettingsChange={setSettings}
+      />
+
+      {/* Main Content */}
+      <div className="flex items-center justify-center min-h-[calc(100vh-80px)] p-6">
         <div className="w-full max-w-2xl">
-          {renderQuestion()}
+          <div className="text-center space-y-4">
+            {/* Render based on lesson item type */}
+            {currentQuestion.type === 'hiragana' || currentQuestion.type === 'katakana' || currentQuestion.type === 'kanji' ? (
+              <Flashcard
+                character={currentQuestion.character!}
+                romanji={currentQuestion.romanji || currentQuestion.romanization!}
+                meaning={currentQuestion.meaning || currentQuestion.english!}
+                onAnswer={handleAnswer}
+              />
+            ) : currentQuestion.type === 'vocabulary' ? (
+              <MultipleChoice
+                question={`What does "${currentQuestion.word || currentQuestion.character}" mean?`}
+                options={[
+                  currentQuestion.english || currentQuestion.meaning!,
+                  "Wrong answer 1",
+                  "Wrong answer 2", 
+                  "Wrong answer 3"
+                ]}
+                correctAnswer={0}
+                onAnswer={handleAnswer}
+              />
+            ) : (
+              <div className="p-8 bg-white rounded-lg shadow-sm border">
+                <h3 className="text-lg font-semibold mb-4">Study Item</h3>
+                <div className="space-y-2">
+                  {currentQuestion.character && (
+                    <div className="text-4xl font-bold text-primary">
+                      {currentQuestion.character}
+                    </div>
+                  )}
+                  {currentQuestion.word && (
+                    <div className="text-3xl font-bold text-primary">
+                      {currentQuestion.word}
+                    </div>
+                  )}
+                  {(currentQuestion.romanji || currentQuestion.romanization || currentQuestion.pinyin) && (
+                    <div className="text-lg text-muted-foreground">
+                      {currentQuestion.romanji || currentQuestion.romanization || currentQuestion.pinyin}
+                    </div>
+                  )}
+                  <div className="text-lg">
+                    {currentQuestion.english || currentQuestion.meaning}
+                  </div>
+                </div>
+                <div className="flex gap-2 mt-6">
+                  <Button variant="outline" onClick={() => handleAnswer(false)}>
+                    Hard
+                  </Button>
+                  <Button variant="outline" onClick={handleSkip}>
+                    Good
+                  </Button>
+                  <Button onClick={() => handleAnswer(true)}>
+                    Easy
+                  </Button>
+                </div>
+              </div>
+            )}
+          </div>
         </div>
-      </main>
-
-      {/* Controls */}
-      <footer className="p-6 flex items-center justify-between text-white">
-        <Button
-          variant="ghost"
-          className="text-white hover:text-white/80 hover:bg-white/20"
-          onClick={handleSkip}
-        >
-          Skip
-        </Button>
-
-        <div className="flex space-x-3">
-          <Button
-            className="bg-red-500 hover:bg-red-600 text-white"
-            onClick={() => handleAnswer(false)}
-          >
-            Hard
-          </Button>
-          <Button
-            className="bg-accent hover:bg-accent/90 text-white"
-            onClick={() => handleAnswer(true)}
-          >
-            Good
-          </Button>
-          <Button
-            className="bg-secondary hover:bg-secondary/90 text-white"
-            onClick={() => handleAnswer(true)}
-          >
-            Easy
-          </Button>
-        </div>
-      </footer>
+      </div>
     </div>
   );
 }

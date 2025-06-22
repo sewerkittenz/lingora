@@ -1,0 +1,84 @@
+{
+  "id": 005,
+  "title": "Lesson 005",
+  "description": "Learn the first 5 hiragana characters",
+  "language": "ja",
+  "level": "kana",
+  "items": [
+    {
+      "id": 005,
+      "character": "あ",
+      "romanji": "a",
+      "meaning": "The sound 'ah' - like in 'father'",
+      "type": "hiragana",
+      "audio": "/audio/ja/a.mp3"
+    },
+    {
+      "id": 2,
+      "character": "い",
+      "romanji": "i", 
+      "meaning": "The sound 'ee' - like in 'see'",
+      "type": "hiragana",
+      "audio": "/audio/ja/i.mp3"
+    },
+    {
+      "id": 3,
+      "character": "う",
+      "romanji": "u",
+      "meaning": "The sound 'oo' - like in 'moon'",
+      "type": "hiragana",
+      "audio": "/audio/ja/u.mp3"
+    },
+    {
+      "id": 4,
+      "character": "え",
+      "romanji": "e",
+      "meaning": "The sound 'eh' - like in 'pet'",
+      "type": "hiragana",
+      "audio": "/audio/ja/e.mp3"
+    },
+    {
+      "id": 5,
+      "character": "お",
+      "romanji": "o",
+      "meaning": "The sound 'oh' - like in 'more'",
+      "type": "hiragana",
+      "audio": "/audio/ja/o.mp3"
+    },
+    {
+      "id": 6,
+      "word": "あい",
+      "romanji": "ai",
+      "english": "love",
+      "type": "vocabulary"
+    },
+    {
+      "id": 7,
+      "word": "いえ",
+      "romanji": "ie",
+      "english": "house",
+      "type": "vocabulary"
+    },
+    {
+      "id": 8,
+      "word": "うえ",
+      "romanji": "ue",
+      "english": "above",
+      "type": "vocabulary"
+    },
+    {
+      "id": 9,
+      "word": "おい",
+      "romanji": "oi",
+      "english": "hey (calling someone)",
+      "type": "vocabulary"
+    },
+    {
+      "id": 0050,
+      "word": "あお",
+      "romanji": "ao",
+      "english": "blue",
+      "type": "vocabulary"
+    }
+  ]
+}

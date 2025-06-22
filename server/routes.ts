@@ -4,10 +4,14 @@ import { supabase } from "./supabase";
 import authRoutes from "./auth-routes";
 import bcrypt from "bcrypt";
 import { createPaypalOrder, capturePaypalOrder, loadPaypalDefault } from "./paypal";
+import { registerLessonRoutes } from "./routes-lessons";
 
 export async function registerRoutes(app: Express): Promise<Server> {
   // Use the new Supabase auth routes
   app.use("/api/auth", authRoutes);
+  
+  // Register lesson routes
+  registerLessonRoutes(app);
 
   // User routes
   app.get("/api/users/:id", async (req, res) => {
@@ -40,6 +44,74 @@ export async function registerRoutes(app: Express): Promise<Server> {
       });
     } catch (error) {
       console.error("Get user error:", error);
+      res.status(500).json({ error: "Internal server error" });
+    }
+  });
+
+  // User progress endpoints
+  app.get("/api/users/:id/progress", async (req, res) => {
+    try {
+      const userId = parseInt(req.params.id);
+      
+      const { data: progress, error } = await supabase
+        .from('user_language_progress')
+        .select('*')
+        .eq('user_id', userId);
+      
+      if (error) {
+        return res.status(500).json({ error: error.message });
+      }
+
+      // Calculate overall progress
+      const overallProgress = progress.length > 0 
+        ? progress.reduce((sum, p) => sum + p.progress_percentage, 0) / progress.length
+        : 0;
+
+      res.json({ overallProgress, languages: progress });
+    } catch (error) {
+      console.error("Get user progress error:", error);
+      res.status(500).json({ error: "Internal server error" });
+    }
+  });
+
+  app.get("/api/users/:id/words-learned", async (req, res) => {
+    try {
+      const userId = parseInt(req.params.id);
+      
+      const { data: progress, error } = await supabase
+        .from('user_language_progress')
+        .select('words_learned')
+        .eq('user_id', userId);
+      
+      if (error) {
+        return res.status(500).json({ error: error.message });
+      }
+
+      const totalWords = progress.reduce((sum, p) => sum + (p.words_learned || 0), 0);
+      res.json({ count: totalWords });
+    } catch (error) {
+      console.error("Get words learned error:", error);
+      res.status(500).json({ error: "Internal server error" });
+    }
+  });
+
+  app.get("/api/users/:id/grammar-points", async (req, res) => {
+    try {
+      const userId = parseInt(req.params.id);
+      
+      const { data: progress, error } = await supabase
+        .from('user_language_progress')
+        .select('grammar_points_learned')
+        .eq('user_id', userId);
+      
+      if (error) {
+        return res.status(500).json({ error: error.message });
+      }
+
+      const totalGrammar = progress.reduce((sum, p) => sum + (p.grammar_points_learned || 0), 0);
+      res.json({ count: totalGrammar });
+    } catch (error) {
+      console.error("Get grammar points error:", error);
       res.status(500).json({ error: "Internal server error" });
     }
   });

@@ -1,0 +1,79 @@
+{
+  "id": 119,
+  "title": "Lesson 119",
+  "description": "Learn essential Spanish greetings and polite expressions",
+  "language": "es",
+  "level": "beginner",
+  "items": [
+    {
+      "id": 119,
+      "word": "hola",
+      "english": "hello",
+      "type": "vocabulary",
+      "audio": "/audio/es/hola.mp3"
+    },
+    {
+      "id": 2,
+      "word": "adiós",
+      "english": "goodbye",
+      "type": "vocabulary",
+      "audio": "/audio/es/adios.mp3"
+    },
+    {
+      "id": 3,
+      "word": "gracias",
+      "english": "thank you",
+      "type": "vocabulary",
+      "audio": "/audio/es/gracias.mp3"
+    },
+    {
+      "id": 4,
+      "word": "de nada",
+      "english": "you're welcome",
+      "type": "vocabulary",
+      "audio": "/audio/es/denada.mp3"
+    },
+    {
+      "id": 5,
+      "word": "por favor",
+      "english": "please",
+      "type": "vocabulary",
+      "audio": "/audio/es/porfavor.mp3"
+    },
+    {
+      "id": 6,
+      "word": "lo siento",
+      "english": "I'm sorry",
+      "type": "vocabulary",
+      "audio": "/audio/es/losiento.mp3"
+    },
+    {
+      "id": 7,
+      "word": "buenos días",
+      "english": "good morning",
+      "type": "vocabulary",
+      "audio": "/audio/es/buenosdias.mp3"
+    },
+    {
+      "id": 8,
+      "word": "buenas tardes",
+      "english": "good afternoon",
+      "type": "vocabulary",
+      "audio": "/audio/es/buenastardes.mp3"
+    },
+    {
+      "id": 9,
+      "word": "buenas noches",
+      "english": "good evening/night",
+      "type": "vocabulary",
+      "audio": "/audio/es/buenasnoches.mp3"
+    },
+    {
+      "id": 1190,
+      "word": "¿cómo estás?",
+      "english": "how are you?",
+      "type": "vocabulary",
+      "audio": "/audio/es/comoestas.mp3"
+    }
+  ]
+}

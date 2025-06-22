@@ -31,6 +31,16 @@ export const LANGUAGES: LanguageInfo[] = [
     description: 'Learn Mandarin Chinese and traditional characters'
   },
   {
+    code: 'hr',
+    name: 'Serbo-Croatian',
+    nativeName: 'Српскохрватски',
+    flag: '🇭🇷',
+    gradient: 'from-blue-600 to-red-600',
+    levels: ['beginner', 'intermediate', 'advanced', 'expert'],
+    writingSystem: 'Cyrillic',
+    description: 'Learn the South Slavic languages'
+  },
+  {
     code: 'es',
     name: 'Spanish',
     nativeName: 'Español',
@@ -67,34 +77,6 @@ export const LANGUAGES: LanguageInfo[] = [
     gradient: 'from-black to-red-600',
     levels: ['beginner', 'intermediate', 'advanced', 'expert'],
     description: 'Learn precise German grammar and vocabulary'
-  },
-  {
-    code: 'fr',
-    name: 'French',
-    nativeName: 'Français',
-    flag: '🇫🇷',
-    gradient: 'from-blue-600 to-red-600',
-    levels: ['beginner', 'intermediate', 'advanced', 'expert'],
-    description: 'Speak the language of love and diplomacy'
-  },
-  {
-    code: 'it',
-    name: 'Italian',
-    nativeName: 'Italiano',
-    flag: '🇮🇹',
-    gradient: 'from-green-600 to-red-600',
-    levels: ['beginner', 'intermediate', 'advanced', 'expert'],
-    description: 'Experience Italian culture through language'
-  },
-  {
-    code: 'hr',
-    name: 'Serbo-Croatian',
-    nativeName: 'Српскохрватски',
-    flag: '🇭🇷',
-    gradient: 'from-blue-600 to-red-600',
-    levels: ['beginner', 'intermediate', 'advanced', 'expert'],
-    writingSystem: 'Cyrillic',
-    description: 'Learn the South Slavic languages'
   }
 ];
 

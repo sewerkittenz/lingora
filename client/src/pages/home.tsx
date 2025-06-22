@@ -23,6 +23,22 @@ export default function Home() {
     queryKey: ["/api/leaderboard"],
   });
 
+  // Query user progress data from Supabase
+  const { data: userProgress } = useQuery({
+    queryKey: ["/api/users", user?.id, "progress"],
+    enabled: !!user?.id,
+  });
+
+  const { data: wordsLearned } = useQuery({
+    queryKey: ["/api/users", user?.id, "words-learned"],
+    enabled: !!user?.id,
+  });
+
+  const { data: grammarPoints } = useQuery({
+    queryKey: ["/api/users", user?.id, "grammar-points"],
+    enabled: !!user?.id,
+  });
+
   const stats = [
     {
       title: "Day Streak",
@@ -34,7 +50,7 @@ export default function Home() {
     },
     {
       title: "Progress",
-      value: "78%",
+      value: userProgress ? `${Math.round(userProgress.overallProgress)}%` : "0%",
       icon: TrendingUp,
       color: "text-primary",
       bgColor: "bg-primary/20",
@@ -42,7 +58,7 @@ export default function Home() {
     },
     {
       title: "Words Learned",
-      value: "1,243",
+      value: wordsLearned?.count || 0,
       icon: BookOpen,
       color: "text-secondary",
       bgColor: "bg-secondary/20",
@@ -50,7 +66,7 @@ export default function Home() {
     },
     {
       title: "Grammar Points",
-      value: "186",
+      value: grammarPoints?.count || 0,
       icon: Languages,
       color: "text-accent",
       bgColor: "bg-accent/20",

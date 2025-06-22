@@ -1,0 +1,89 @@
+{
+  "id": 036,
+  "title": "Lesson 036",
+  "description": "Learn the first Russian Cyrillic letters and sounds",
+  "language": "ru",
+  "level": "beginner",
+  "items": [
+    {
+      "id": 036,
+      "character": "А",
+      "romanization": "a",
+      "english": "The sound 'ah' - like in 'father'",
+      "type": "cyrillic",
+      "audio": "/audio/ru/a.mp3"
+    },
+    {
+      "id": 2,
+      "character": "Б",
+      "romanization": "b",
+      "english": "The sound 'b' - like in 'book'",
+      "type": "cyrillic",
+      "audio": "/audio/ru/b.mp3"
+    },
+    {
+      "id": 3,
+      "character": "В",
+      "romanization": "v",
+      "english": "The sound 'v' - like in 'voice'",
+      "type": "cyrillic",
+      "audio": "/audio/ru/v.mp3"
+    },
+    {
+      "id": 4,
+      "character": "Г",
+      "romanization": "g",
+      "english": "The sound 'g' - like in 'go'",
+      "type": "cyrillic",
+      "audio": "/audio/ru/g.mp3"
+    },
+    {
+      "id": 5,
+      "character": "Д",
+      "romanization": "d",
+      "english": "The sound 'd' - like in 'dog'",
+      "type": "cyrillic",
+      "audio": "/audio/ru/d.mp3"
+    },
+    {
+      "id": 6,
+      "word": "да",
+      "romanization": "da",
+      "english": "yes",
+      "type": "vocabulary",
+      "audio": "/audio/ru/da.mp3"
+    },
+    {
+      "id": 7,
+      "word": "вода",
+      "romanization": "voda",
+      "english": "water",
+      "type": "vocabulary",
+      "audio": "/audio/ru/voda.mp3"
+    },
+    {
+      "id": 8,
+      "word": "дом",
+      "romanization": "dom",
+      "english": "house",
+      "type": "vocabulary",
+      "audio": "/audio/ru/dom.mp3"
+    },
+    {
+      "id": 9,
+      "word": "год",
+      "romanization": "god",
+      "english": "year",
+      "type": "vocabulary",
+      "audio": "/audio/ru/god.mp3"
+    },
+    {
+      "id": 0360,
+      "word": "город",
+      "romanization": "gorod",
+      "english": "city",
+      "type": "vocabulary",
+      "audio": "/audio/ru/gorod.mp3"
+    }
+  ]
+}

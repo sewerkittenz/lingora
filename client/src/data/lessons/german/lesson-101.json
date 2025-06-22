@@ -1,0 +1,79 @@
+{
+  "id": 101,
+  "title": "Lesson 101",
+  "description": "Learn essential German greetings and introductions",
+  "language": "de",
+  "level": "beginner",
+  "items": [
+    {
+      "id": 101,
+      "word": "hallo",
+      "english": "hello",
+      "type": "vocabulary",
+      "audio": "/audio/de/hallo.mp3"
+    },
+    {
+      "id": 2,
+      "word": "auf Wiedersehen",
+      "english": "goodbye",
+      "type": "vocabulary",
+      "audio": "/audio/de/aufwiedersehen.mp3"
+    },
+    {
+      "id": 3,
+      "word": "danke",
+      "english": "thank you",
+      "type": "vocabulary",
+      "audio": "/audio/de/danke.mp3"
+    },
+    {
+      "id": 4,
+      "word": "bitte",
+      "english": "please/you're welcome",
+      "type": "vocabulary",
+      "audio": "/audio/de/bitte.mp3"
+    },
+    {
+      "id": 5,
+      "word": "entschuldigung",
+      "english": "excuse me/sorry",
+      "type": "vocabulary",
+      "audio": "/audio/de/entschuldigung.mp3"
+    },
+    {
+      "id": 6,
+      "word": "guten Morgen",
+      "english": "good morning",
+      "type": "vocabulary",
+      "audio": "/audio/de/gutenmorgen.mp3"
+    },
+    {
+      "id": 7,
+      "word": "guten Tag",
+      "english": "good day",
+      "type": "vocabulary",
+      "audio": "/audio/de/gutentag.mp3"
+    },
+    {
+      "id": 8,
+      "word": "guten Abend",
+      "english": "good evening",
+      "type": "vocabulary",
+      "audio": "/audio/de/gutenabend.mp3"
+    },
+    {
+      "id": 9,
+      "word": "wie geht's?",
+      "english": "how are you?",
+      "type": "vocabulary",
+      "audio": "/audio/de/wiegehts.mp3"
+    },
+    {
+      "id": 1010,
+      "word": "gut",
+      "english": "good",
+      "type": "vocabulary",
+      "audio": "/audio/de/gut.mp3"
+    }
+  ]
+}

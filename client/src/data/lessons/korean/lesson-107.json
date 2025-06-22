@@ -1,0 +1,89 @@
+{
+  "id": 107,
+  "title": "Lesson 107",
+  "description": "Learn the fundamental Korean vowel sounds",
+  "language": "ko",
+  "level": "beginner",
+  "items": [
+    {
+      "id": 107,
+      "character": "ㅏ",
+      "romanization": "a",
+      "english": "The sound 'ah' - like in 'father'",
+      "type": "hangul",
+      "audio": "/audio/ko/a.mp3"
+    },
+    {
+      "id": 2,
+      "character": "ㅓ",
+      "romanization": "eo",
+      "english": "The sound 'uh' - like in 'cup'",
+      "type": "hangul",
+      "audio": "/audio/ko/eo.mp3"
+    },
+    {
+      "id": 3,
+      "character": "ㅗ",
+      "romanization": "o",
+      "english": "The sound 'oh' - like in 'more'",
+      "type": "hangul",
+      "audio": "/audio/ko/o.mp3"
+    },
+    {
+      "id": 4,
+      "character": "ㅜ",
+      "romanization": "u",
+      "english": "The sound 'oo' - like in 'moon'",
+      "type": "hangul",
+      "audio": "/audio/ko/u.mp3"
+    },
+    {
+      "id": 5,
+      "character": "ㅡ",
+      "romanization": "eu",
+      "english": "The sound 'uh' - a neutral vowel",
+      "type": "hangul",
+      "audio": "/audio/ko/eu.mp3"
+    },
+    {
+      "id": 6,
+      "character": "ㅣ",
+      "romanization": "i",
+      "english": "The sound 'ee' - like in 'see'",
+      "type": "hangul",
+      "audio": "/audio/ko/i.mp3"
+    },
+    {
+      "id": 7,
+      "word": "나",
+      "romanization": "na",
+      "english": "I/me",
+      "type": "vocabulary",
+      "audio": "/audio/ko/na.mp3"
+    },
+    {
+      "id": 8,
+      "word": "너",
+      "romanization": "neo",
+      "english": "you (informal)",
+      "type": "vocabulary",
+      "audio": "/audio/ko/neo.mp3"
+    },
+    {
+      "id": 9,
+      "word": "가",
+      "romanization": "ga",
+      "english": "go",
+      "type": "vocabulary",
+      "audio": "/audio/ko/ga.mp3"
+    },
+    {
+      "id": 1070,
+      "word": "와",
+      "romanization": "wa",
+      "english": "come",
+      "type": "vocabulary",
+      "audio": "/audio/ko/wa.mp3"
+    }
+  ]
+}
