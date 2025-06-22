@@ -47,14 +47,31 @@ export async function registerRoutes(app: Express): Promise<Server> {
   app.get("/api/users/:id/progress", async (req, res) => {
     try {
       const userId = parseInt(req.params.id);
-      const userLanguages = await storage.getUserLanguages(userId);
       
-      // Calculate overall progress
+      // Get user data
+      const user = await storage.getUser(userId);
+      if (!user) {
+        return res.status(404).json({ error: "User not found" });
+      }
+
+      // Get user languages and calculate actual progress
+      const userLanguages = await storage.getUserLanguages(userId);
       const overallProgress = userLanguages.length > 0 
-        ? userLanguages.reduce((sum, ul) => sum + ul.progressPercent, 0) / userLanguages.length
+        ? userLanguages.reduce((sum, ul) => sum + (ul.progressPercentage || 0), 0) / userLanguages.length
         : 0;
 
-      res.json({ overallProgress, languages: userLanguages });
+      const progress = {
+        overallProgress: Math.round(overallProgress),
+        totalXp: user.totalXp,
+        currentStreak: user.currentStreak,
+        wordsLearned: 0,
+        grammarPoints: 0,
+        lessonsCompleted: 0,
+        totalLessons: 350,
+        recentLessons: []
+      };
+
+      res.json(progress);
     } catch (error) {
       console.error("Get user progress error:", error);
       res.status(500).json({ error: "Internal server error" });

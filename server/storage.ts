@@ -151,7 +151,12 @@ export class MemStorage implements IStorage {
     ];
 
     languagesData.forEach(lang => {
-      const language: Language = { id: this.currentLanguageId++, ...lang };
+      const language: Language = { 
+        id: this.currentLanguageId++, 
+        ...lang,
+        writingSystem: lang.writingSystem || null,
+        totalWords: lang.totalWords || 20000
+      };
       this.languages.set(language.id, language);
     });
 
@@ -213,6 +218,8 @@ export class MemStorage implements IStorage {
     const user: User = {
       ...insertUser,
       id,
+      nickname: insertUser.nickname || null,
+      profilePicture: insertUser.profilePicture || null,
       totalXp: 0,
       currentStreak: 0,
       longestStreak: 0,
@@ -305,7 +312,12 @@ export class MemStorage implements IStorage {
 
   async createLesson(lesson: InsertLesson): Promise<Lesson> {
     const id = this.currentLessonId++;
-    const l: Lesson = { ...lesson, id };
+    const l: Lesson = { 
+      ...lesson, 
+      id,
+      description: lesson.description || '',
+      xpReward: lesson.xpReward || 25
+    };
     this.lessons.set(id, l);
     return l;
   }
@@ -361,7 +373,12 @@ export class MemStorage implements IStorage {
 
   async createShopItem(item: InsertShopItem): Promise<ShopItem> {
     const id = this.currentShopItemId++;
-    const shopItem: ShopItem = { ...item, id };
+    const shopItem: ShopItem = { 
+      ...item, 
+      id,
+      description: item.description || null,
+      rarity: item.rarity || 'common'
+    };
     this.shopItems.set(id, shopItem);
     return shopItem;
   }
@@ -497,7 +514,14 @@ export class MemStorage implements IStorage {
 
   async createDailyStat(stat: InsertDailyStat): Promise<DailyStat> {
     const id = this.currentDailyStatId++;
-    const ds: DailyStat = { ...stat, id };
+    const ds: DailyStat = { 
+      ...stat, 
+      id,
+      wordsLearned: stat.wordsLearned || 0,
+      xpEarned: stat.xpEarned || 0,
+      lessonsCompleted: stat.lessonsCompleted || 0,
+      studyTimeMinutes: stat.studyTimeMinutes || 0
+    };
     this.dailyStats.set(id, ds);
     return ds;
   }

@@ -179,40 +179,13 @@ export default function Home() {
                 <Card className="hover-lift">
                   <CardContent className="p-6">
                     <h2 className="text-xl font-bold text-foreground mb-4">Continue Learning</h2>
-                    <div className="space-y-4">
-                      <Link href="/learn">
-                        <div className="flex items-center p-4 bg-muted rounded-lg hover:bg-muted/80 transition-colors cursor-pointer">
-                          <div className="w-12 h-12 bg-primary text-primary-foreground rounded-lg flex items-center justify-center font-bold mr-4">
-                            日
-                          </div>
-                          <div className="flex-1">
-                            <h3 className="font-medium text-foreground">Japanese Basics - Lesson 15</h3>
-                            <p className="text-sm text-muted-foreground">Family members vocabulary</p>
-                            <Progress value={60} className="mt-2" />
-                          </div>
-                          <div className="text-right">
-                            <p className="text-sm font-medium text-foreground">60%</p>
-                            <p className="text-xs text-muted-foreground">Complete</p>
-                          </div>
-                        </div>
-                      </Link>
-
-                      <Link href="/learn">
-                        <div className="flex items-center p-4 bg-muted rounded-lg hover:bg-muted/80 transition-colors cursor-pointer">
-                          <div className="w-12 h-12 bg-secondary text-secondary-foreground rounded-lg flex items-center justify-center font-bold mr-4">
-                            Es
-                          </div>
-                          <div className="flex-1">
-                            <h3 className="font-medium text-foreground">Spanish Intermediate - Lesson 8</h3>
-                            <p className="text-sm text-muted-foreground">Past tense conjugations</p>
-                            <Progress value={25} className="mt-2" />
-                          </div>
-                          <div className="text-right">
-                            <p className="text-sm font-medium text-foreground">25%</p>
-                            <p className="text-xs text-muted-foreground">Complete</p>
-                          </div>
-                        </div>
-                      </Link>
+                    <div className="text-center py-8">
+                      <p className="text-muted-foreground mb-4">Start your learning journey today!</p>
+                      <Button asChild>
+                        <Link href="/lessons">
+                          Choose a Language
+                        </Link>
+                      </Button>
                     </div>
                   </CardContent>
                 </Card>
