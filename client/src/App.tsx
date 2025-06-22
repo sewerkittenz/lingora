@@ -16,6 +16,7 @@ import ConfirmEmail from "@/pages/auth/confirm-email";
 import Home from "@/pages/home";
 import Lessons from "@/pages/lessons";
 import LessonsList from "@/pages/lessons-list";
+import Lesson from "@/pages/lesson";
 import Learn from "@/pages/learn";
 import Profile from "@/pages/profile";
 import Subscriptions from "@/pages/subscriptions";

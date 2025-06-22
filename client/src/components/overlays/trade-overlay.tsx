@@ -16,6 +16,10 @@ export function TradeOverlay({ isOpen, onClose, friend }: TradeOverlayProps) {
   const [message, setMessage] = useState("");
   const [selectedItems, setSelectedItems] = useState<string[]>([]);
 
+  if (!friend) {
+    return null;
+  }
+
   const mockItems = [
     { id: "streak_freeze", name: "Streak Freeze", description: "Protect your streak for one day", icon: "❄️" },
     { id: "xp_boost", name: "XP Boost", description: "Double XP for next lesson", icon: "⚡" },
@@ -39,13 +43,16 @@ export function TradeOverlay({ isOpen, onClose, friend }: TradeOverlayProps) {
 
   return (
     <Dialog open={isOpen} onOpenChange={onClose}>
-      <DialogContent className="max-w-lg">
+      <DialogContent className="max-w-lg" aria-describedby="trade-description">
         <DialogHeader>
           <DialogTitle className="flex items-center gap-2">
             <Repeat className="w-5 h-5" />
             Trade with {friend?.nickname || friend?.username || "Friend"}
           </DialogTitle>
         </DialogHeader>
+        <div id="trade-description" className="sr-only">
+          Send trade offers to exchange items with your friend
+        </div>
         
         <div className="space-y-4">
           <div>

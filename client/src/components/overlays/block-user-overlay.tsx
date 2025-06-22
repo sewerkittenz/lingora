@@ -15,15 +15,22 @@ export function BlockUserOverlay({ isOpen, onClose, friend }: BlockUserOverlayPr
     onClose();
   };
 
+  if (!friend) {
+    return null;
+  }
+
   return (
     <Dialog open={isOpen} onOpenChange={onClose}>
-      <DialogContent className="max-w-md">
+      <DialogContent className="max-w-md" aria-describedby="block-user-description">
         <DialogHeader>
           <DialogTitle className="flex items-center gap-2 text-destructive">
             <Ban className="w-5 h-5" />
             Block User
           </DialogTitle>
         </DialogHeader>
+        <div id="block-user-description" className="sr-only">
+          Block this user from contacting you
+        </div>
         
         <div className="space-y-4">
           <div className="flex items-start gap-3">

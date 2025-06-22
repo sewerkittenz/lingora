@@ -15,15 +15,22 @@ export function RemoveFriendOverlay({ isOpen, onClose, friend }: RemoveFriendOve
     onClose();
   };
 
+  if (!friend) {
+    return null;
+  }
+
   return (
     <Dialog open={isOpen} onOpenChange={onClose}>
-      <DialogContent className="max-w-md">
+      <DialogContent className="max-w-md" aria-describedby="remove-friend-description">
         <DialogHeader>
           <DialogTitle className="flex items-center gap-2 text-orange-600">
             <UserMinus className="w-5 h-5" />
             Remove Friend
           </DialogTitle>
         </DialogHeader>
+        <div id="remove-friend-description" className="sr-only">
+          Remove this person from your friends list
+        </div>
         
         <div className="space-y-4">
           <div className="flex items-start gap-3">

@@ -56,17 +56,35 @@ export function CustomizeProfileOverlay({ isOpen, onClose }: CustomizeProfileOve
   };
 
   const profilePictureOptions = [
-    "🧑‍🎓", "👨‍💼", "👩‍💼", "🧑‍🏫", "👨‍🎨", "👩‍🎨", 
-    "🧑‍💻", "👨‍🔬", "👩‍🔬", "🧑‍🚀", "👨‍⚕️", "👩‍⚕️",
-    "🧑‍🍳", "👨‍🎤", "👩‍🎤", "🧑‍✈️", "👨‍🌾", "👩‍🌾"
+    "https://api.dicebear.com/7.x/avataaars/svg?seed=student1",
+    "https://api.dicebear.com/7.x/avataaars/svg?seed=student2", 
+    "https://api.dicebear.com/7.x/avataaars/svg?seed=student3",
+    "https://api.dicebear.com/7.x/avataaars/svg?seed=student4",
+    "https://api.dicebear.com/7.x/avataaars/svg?seed=student5",
+    "https://api.dicebear.com/7.x/avataaars/svg?seed=student6",
+    "https://api.dicebear.com/7.x/avataaars/svg?seed=student7",
+    "https://api.dicebear.com/7.x/avataaars/svg?seed=student8",
+    "https://api.dicebear.com/7.x/avataaars/svg?seed=student9",
+    "https://api.dicebear.com/7.x/avataaars/svg?seed=student10",
+    "https://api.dicebear.com/7.x/avataaars/svg?seed=student11",
+    "https://api.dicebear.com/7.x/avataaars/svg?seed=student12",
+    "https://api.dicebear.com/7.x/avataaars/svg?seed=student13",
+    "https://api.dicebear.com/7.x/avataaars/svg?seed=student14",
+    "https://api.dicebear.com/7.x/avataaars/svg?seed=student15",
+    "https://api.dicebear.com/7.x/avataaars/svg?seed=student16",
+    "https://api.dicebear.com/7.x/avataaars/svg?seed=student17",
+    "https://api.dicebear.com/7.x/avataaars/svg?seed=student18"
   ];
 
   return (
     <Dialog open={isOpen} onOpenChange={onClose}>
-      <DialogContent className="sm:max-w-md">
+      <DialogContent className="sm:max-w-md" aria-describedby="customize-profile-description">
         <DialogHeader>
           <DialogTitle>Customize Profile</DialogTitle>
         </DialogHeader>
+        <div id="customize-profile-description" className="sr-only">
+          Update your display name and profile picture
+        </div>
         
         <form onSubmit={handleSubmit} className="space-y-6">
           <div className="space-y-4">
@@ -87,16 +105,20 @@ export function CustomizeProfileOverlay({ isOpen, onClose }: CustomizeProfileOve
             <div>
               <Label>Profile Picture</Label>
               <div className="grid grid-cols-6 gap-2 mt-2">
-                {profilePictureOptions.map((pic) => (
+                {profilePictureOptions.map((pic, index) => (
                   <button
                     key={pic}
                     type="button"
                     onClick={() => setFormData({ ...formData, profilePicture: pic })}
-                    className={`w-10 h-10 text-xl rounded-full border-2 hover:bg-muted/50 transition-colors ${
+                    className={`w-10 h-10 rounded-full border-2 hover:bg-muted/50 transition-colors overflow-hidden ${
                       formData.profilePicture === pic ? 'border-primary bg-primary/10' : 'border-border'
                     }`}
                   >
-                    {pic}
+                    <img 
+                      src={pic} 
+                      alt={`Avatar ${index + 1}`}
+                      className="w-full h-full object-cover"
+                    />
                   </button>
                 ))}
               </div>

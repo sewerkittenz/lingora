@@ -1,0 +1,264 @@
+WARN: A component changed from uncontrolled to controlled.
+(anonymous) @ _app-6b0089c83b1309ba.js:38Understand this warning
+stallwart.build.js:1 stallwart: failed ping 1
+15Error while parsing the 'sandbox' attribute: 'allow-downloads-without-user-activation' is an invalid sandbox flag.Understand this error
+framework-a818883e88d690fb.js:1 Unrecognized feature: 'ambient-light-sensor'.
+_ @ framework-a818883e88d690fb.js:1Understand this warning
+framework-a818883e88d690fb.js:1 Unrecognized feature: 'battery'.
+_ @ framework-a818883e88d690fb.js:1Understand this warning
+framework-a818883e88d690fb.js:1 Unrecognized feature: 'execution-while-not-rendered'.
+_ @ framework-a818883e88d690fb.js:1Understand this warning
+framework-a818883e88d690fb.js:1 Unrecognized feature: 'execution-while-out-of-viewport'.
+_ @ framework-a818883e88d690fb.js:1Understand this warning
+framework-a818883e88d690fb.js:1 Unrecognized feature: 'layout-animations'.
+_ @ framework-a818883e88d690fb.js:1Understand this warning
+framework-a818883e88d690fb.js:1 Unrecognized feature: 'legacy-image-formats'.
+_ @ framework-a818883e88d690fb.js:1Understand this warning
+framework-a818883e88d690fb.js:1 Unrecognized feature: 'navigation-override'.
+_ @ framework-a818883e88d690fb.js:1Understand this warning
+framework-a818883e88d690fb.js:1 Unrecognized feature: 'oversized-images'.
+_ @ framework-a818883e88d690fb.js:1Understand this warning
+framework-a818883e88d690fb.js:1 Unrecognized feature: 'publickey-credentials'.
+_ @ framework-a818883e88d690fb.js:1Understand this warning
+framework-a818883e88d690fb.js:1 Unrecognized feature: 'speaker-selection'.
+_ @ framework-a818883e88d690fb.js:1Understand this warning
+framework-a818883e88d690fb.js:1 Unrecognized feature: 'unoptimized-images'.
+_ @ framework-a818883e88d690fb.js:1Understand this warning
+framework-a818883e88d690fb.js:1 Unrecognized feature: 'unsized-media'.
+_ @ framework-a818883e88d690fb.js:1Understand this warning
+framework-a818883e88d690fb.js:1 Unrecognized feature: 'pointer-lock'.
+_ @ framework-a818883e88d690fb.js:1Understand this warning
+framework-a818883e88d690fb.js:1 Allow attribute will take precedence over 'allowfullscreen'.
+_ @ framework-a818883e88d690fb.js:1Understand this warning
+framework-a818883e88d690fb.js:1 Allow attribute will take precedence over 'allowpaymentrequest'.
+_ @ framework-a818883e88d690fb.js:1Understand this warning
+stallwart.build.js:1 stallwart: failed ping 1
+events.launchdarkly.com/events/bulk/62b35a865152ab14c5942820:1 
+        
+        
+       Failed to load resource: net::ERR_SOCKET_NOT_CONNECTEDUnderstand this error
+11stallwart.build.js:1 stallwart: failed ping 1
+events.launchdarkly.com/events/bulk/62b35a865152ab14c5942820:1 
+        
+        
+       Failed to load resource: net::ERR_SOCKET_NOT_CONNECTEDUnderstand this error
+3stallwart.build.js:1 stallwart: failed ping 1
+dcf7a83d-e622-4c7b-954d-1a885244f9fd-00-1bu2ul0vurspc.janeway.replit.dev/__replco/workspace_iframe.html?initialPath=%2F&id=%3Arfj%3A:32 Unrecognized feature: 'ambient-light-sensor'.Understand this warning
+dcf7a83d-e622-4c7b-954d-1a885244f9fd-00-1bu2ul0vurspc.janeway.replit.dev/__replco/workspace_iframe.html?initialPath=%2F&id=%3Arfj%3A:32 Unrecognized feature: 'battery'.Understand this warning
+dcf7a83d-e622-4c7b-954d-1a885244f9fd-00-1bu2ul0vurspc.janeway.replit.dev/__replco/workspace_iframe.html?initialPath=%2F&id=%3Arfj%3A:32 Unrecognized feature: 'execution-while-not-rendered'.Understand this warning
+dcf7a83d-e622-4c7b-954d-1a885244f9fd-00-1bu2ul0vurspc.janeway.replit.dev/__replco/workspace_iframe.html?initialPath=%2F&id=%3Arfj%3A:32 Unrecognized feature: 'execution-while-out-of-viewport'.Understand this warning
+dcf7a83d-e622-4c7b-954d-1a885244f9fd-00-1bu2ul0vurspc.janeway.replit.dev/__replco/workspace_iframe.html?initialPath=%2F&id=%3Arfj%3A:32 Unrecognized feature: 'layout-animations'.Understand this warning
+dcf7a83d-e622-4c7b-954d-1a885244f9fd-00-1bu2ul0vurspc.janeway.replit.dev/__replco/workspace_iframe.html?initialPath=%2F&id=%3Arfj%3A:32 Unrecognized feature: 'legacy-image-formats'.Understand this warning
+dcf7a83d-e622-4c7b-954d-1a885244f9fd-00-1bu2ul0vurspc.janeway.replit.dev/__replco/workspace_iframe.html?initialPath=%2F&id=%3Arfj%3A:32 Unrecognized feature: 'navigation-override'.Understand this warning
+dcf7a83d-e622-4c7b-954d-1a885244f9fd-00-1bu2ul0vurspc.janeway.replit.dev/__replco/workspace_iframe.html?initialPath=%2F&id=%3Arfj%3A:32 Unrecognized feature: 'oversized-images'.Understand this warning
+dcf7a83d-e622-4c7b-954d-1a885244f9fd-00-1bu2ul0vurspc.janeway.replit.dev/__replco/workspace_iframe.html?initialPath=%2F&id=%3Arfj%3A:32 Unrecognized feature: 'publickey-credentials'.Understand this warning
+dcf7a83d-e622-4c7b-954d-1a885244f9fd-00-1bu2ul0vurspc.janeway.replit.dev/__replco/workspace_iframe.html?initialPath=%2F&id=%3Arfj%3A:32 Unrecognized feature: 'speaker-selection'.Understand this warning
+dcf7a83d-e622-4c7b-954d-1a885244f9fd-00-1bu2ul0vurspc.janeway.replit.dev/__replco/workspace_iframe.html?initialPath=%2F&id=%3Arfj%3A:32 Unrecognized feature: 'unoptimized-images'.Understand this warning
+dcf7a83d-e622-4c7b-954d-1a885244f9fd-00-1bu2ul0vurspc.janeway.replit.dev/__replco/workspace_iframe.html?initialPath=%2F&id=%3Arfj%3A:32 Unrecognized feature: 'unsized-media'.Understand this warning
+dcf7a83d-e622-4c7b-954d-1a885244f9fd-00-1bu2ul0vurspc.janeway.replit.dev/__replco/workspace_iframe.html?initialPath=%2F&id=%3Arfj%3A:32 Allow attribute will take precedence over 'allowfullscreen'.Understand this warning
+dcf7a83d-e622-4c7b-954d-1a885244f9fd-00-1bu2ul0vurspc.janeway.replit.dev/__replco/workspace_iframe.html?initialPath=%2F&id=%3Arfj%3A:32 Allow attribute will take precedence over 'allowpaymentrequest'.Understand this warning
+5stallwart.build.js:1 stallwart: failed ping 1
+743Third-party cookie will be blocked in future Chrome versions as part of Privacy Sandbox.Understand this warning
+stallwart.build.js:1 stallwart: failed ping 1
+trade-overlay.tsx:52 Uncaught TypeError: Cannot read properties of undefined (reading 'nickname')
+    at TradeOverlay (trade-overlay.tsx:52:14)
+    at renderWithHooks (chunk-WERSD76P.js:11548:26)
+    at mountIndeterminateComponent (chunk-WERSD76P.js:14926:21)
+    at beginWork (chunk-WERSD76P.js:15914:22)
+    at HTMLUnknownElement.callCallback2 (chunk-WERSD76P.js:3674:22)
+    at Object.invokeGuardedCallbackDev (chunk-WERSD76P.js:3699:24)
+    at invokeGuardedCallback (chunk-WERSD76P.js:3733:39)
+    at beginWork$1 (chunk-WERSD76P.js:19765:15)
+    at performUnitOfWork (chunk-WERSD76P.js:19198:20)
+    at workLoopSync (chunk-WERSD76P.js:19137:13)
+TradeOverlay @ VM257 trade-overlay.tsx:52
+renderWithHooks @ VM30 chunk-WERSD76P.js:11548
+mountIndeterminateComponent @ VM30 chunk-WERSD76P.js:14926
+beginWork @ VM30 chunk-WERSD76P.js:15914
+callCallback2 @ VM30 chunk-WERSD76P.js:3674
+invokeGuardedCallbackDev @ VM30 chunk-WERSD76P.js:3699
+invokeGuardedCallback @ VM30 chunk-WERSD76P.js:3733
+beginWork$1 @ VM30 chunk-WERSD76P.js:19765
+performUnitOfWork @ VM30 chunk-WERSD76P.js:19198
+workLoopSync @ VM30 chunk-WERSD76P.js:19137
+renderRootSync @ VM30 chunk-WERSD76P.js:19116
+performConcurrentWorkOnRoot @ VM30 chunk-WERSD76P.js:18678
+workLoop @ VM30 chunk-WERSD76P.js:197
+flushWork @ VM30 chunk-WERSD76P.js:176
+performWorkUntilDeadline @ VM30 chunk-WERSD76P.js:384
+Show 14 more frames
+Show lessUnderstand this error
+trade-overlay.tsx:52 Uncaught TypeError: Cannot read properties of undefined (reading 'nickname')
+    at TradeOverlay (trade-overlay.tsx:52:14)
+    at renderWithHooks (chunk-WERSD76P.js:11548:26)
+    at mountIndeterminateComponent (chunk-WERSD76P.js:14926:21)
+    at beginWork (chunk-WERSD76P.js:15914:22)
+    at HTMLUnknownElement.callCallback2 (chunk-WERSD76P.js:3674:22)
+    at Object.invokeGuardedCallbackDev (chunk-WERSD76P.js:3699:24)
+    at invokeGuardedCallback (chunk-WERSD76P.js:3733:39)
+    at beginWork$1 (chunk-WERSD76P.js:19765:15)
+    at performUnitOfWork (chunk-WERSD76P.js:19198:20)
+    at workLoopSync (chunk-WERSD76P.js:19137:13)
+TradeOverlay @ VM257 trade-overlay.tsx:52
+renderWithHooks @ VM30 chunk-WERSD76P.js:11548
+mountIndeterminateComponent @ VM30 chunk-WERSD76P.js:14926
+beginWork @ VM30 chunk-WERSD76P.js:15914
+callCallback2 @ VM30 chunk-WERSD76P.js:3674
+invokeGuardedCallbackDev @ VM30 chunk-WERSD76P.js:3699
+invokeGuardedCallback @ VM30 chunk-WERSD76P.js:3733
+beginWork$1 @ VM30 chunk-WERSD76P.js:19765
+performUnitOfWork @ VM30 chunk-WERSD76P.js:19198
+workLoopSync @ VM30 chunk-WERSD76P.js:19137
+renderRootSync @ VM30 chunk-WERSD76P.js:19116
+recoverFromConcurrentError @ VM30 chunk-WERSD76P.js:18736
+performConcurrentWorkOnRoot @ VM30 chunk-WERSD76P.js:18684
+workLoop @ VM30 chunk-WERSD76P.js:197
+flushWork @ VM30 chunk-WERSD76P.js:176
+performWorkUntilDeadline @ VM30 chunk-WERSD76P.js:384
+Show 15 more frames
+Show lessUnderstand this error
+eruda.js:2 The above error occurred in the <TradeOverlay> component:
+
+    at TradeOverlay (https://dcf7a83d-e622-4c7b-954d-1a885244f9fd-00-1bu2ul0vurspc.janeway.replit.dev/src/components/overlays/trade-overlay.tsx:25:32)
+    at div
+    at Home (https://dcf7a83d-e622-4c7b-954d-1a885244f9fd-00-1bu2ul0vurspc.janeway.replit.dev/src/pages/home.tsx:33:41)
+    at Route (https://dcf7a83d-e622-4c7b-954d-1a885244f9fd-00-1bu2ul0vurspc.janeway.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/wouter.js?v=1a6d0b59:323:16)
+    at Switch (https://dcf7a83d-e622-4c7b-954d-1a885244f9fd-00-1bu2ul0vurspc.janeway.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/wouter.js?v=1a6d0b59:379:17)
+    at Router
+    at Provider (https://dcf7a83d-e622-4c7b-954d-1a885244f9fd-00-1bu2ul0vurspc.janeway.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-PLT6GTVM.js?v=1a6d0b59:38:15)
+    at TooltipProvider (https://dcf7a83d-e622-4c7b-954d-1a885244f9fd-00-1bu2ul0vurspc.janeway.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/@radix-ui_react-tooltip.js?v=1a6d0b59:2218:5)
+    at AuthProvider (https://dcf7a83d-e622-4c7b-954d-1a885244f9fd-00-1bu2ul0vurspc.janeway.replit.dev/src/hooks/use-auth.tsx:20:32)
+    at QueryClientProvider (https://dcf7a83d-e622-4c7b-954d-1a885244f9fd-00-1bu2ul0vurspc.janeway.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/@tanstack_react-query.js?v=1a6d0b59:2805:3)
+    at App
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries.
+Mt.forEach.n.<computed> @ VM7 eruda.js:2
+logCapturedError @ VM30 chunk-WERSD76P.js:14032
+update.callback @ VM30 chunk-WERSD76P.js:14052
+callCallback @ VM30 chunk-WERSD76P.js:11248
+commitUpdateQueue @ VM30 chunk-WERSD76P.js:11265
+commitLayoutEffectOnFiber @ VM30 chunk-WERSD76P.js:17093
+commitLayoutMountEffects_complete @ VM30 chunk-WERSD76P.js:17980
+commitLayoutEffects_begin @ VM30 chunk-WERSD76P.js:17969
+commitLayoutEffects @ VM30 chunk-WERSD76P.js:17920
+commitRootImpl @ VM30 chunk-WERSD76P.js:19353
+commitRoot @ VM30 chunk-WERSD76P.js:19277
+finishConcurrentRender @ VM30 chunk-WERSD76P.js:18760
+performConcurrentWorkOnRoot @ VM30 chunk-WERSD76P.js:18718
+workLoop @ VM30 chunk-WERSD76P.js:197
+flushWork @ VM30 chunk-WERSD76P.js:176
+performWorkUntilDeadline @ VM30 chunk-WERSD76P.js:384
+Show 15 more frames
+Show lessUnderstand this error
+chunk-WERSD76P.js:19413 Uncaught TypeError: Cannot read properties of undefined (reading 'nickname')
+    at TradeOverlay (trade-overlay.tsx:52:14)
+    at renderWithHooks (chunk-WERSD76P.js:11548:26)
+    at mountIndeterminateComponent (chunk-WERSD76P.js:14926:21)
+    at beginWork (chunk-WERSD76P.js:15914:22)
+    at beginWork$1 (chunk-WERSD76P.js:19753:22)
+    at performUnitOfWork (chunk-WERSD76P.js:19198:20)
+    at workLoopSync (chunk-WERSD76P.js:19137:13)
+    at renderRootSync (chunk-WERSD76P.js:19116:15)
+    at recoverFromConcurrentError (chunk-WERSD76P.js:18736:28)
+    at performConcurrentWorkOnRoot (chunk-WERSD76P.js:18684:30)
+TradeOverlay @ VM257 trade-overlay.tsx:52
+renderWithHooks @ VM30 chunk-WERSD76P.js:11548
+mountIndeterminateComponent @ VM30 chunk-WERSD76P.js:14926
+beginWork @ VM30 chunk-WERSD76P.js:15914
+beginWork$1 @ VM30 chunk-WERSD76P.js:19753
+performUnitOfWork @ VM30 chunk-WERSD76P.js:19198
+workLoopSync @ VM30 chunk-WERSD76P.js:19137
+renderRootSync @ VM30 chunk-WERSD76P.js:19116
+recoverFromConcurrentError @ VM30 chunk-WERSD76P.js:18736
+performConcurrentWorkOnRoot @ VM30 chunk-WERSD76P.js:18684
+workLoop @ VM30 chunk-WERSD76P.js:197
+flushWork @ VM30 chunk-WERSD76P.js:176
+performWorkUntilDeadline @ VM30 chunk-WERSD76P.js:384
+Show 12 more frames
+Show lessUnderstand this error
+2stallwart.build.js:1 stallwart: failed ping 1
+workspace_iframe.html:32 Unrecognized feature: 'ambient-light-sensor'.Understand this warning
+workspace_iframe.html:32 Unrecognized feature: 'battery'.Understand this warning
+workspace_iframe.html:32 Unrecognized feature: 'execution-while-not-rendered'.Understand this warning
+workspace_iframe.html:32 Unrecognized feature: 'execution-while-out-of-viewport'.Understand this warning
+workspace_iframe.html:32 Unrecognized feature: 'layout-animations'.Understand this warning
+workspace_iframe.html:32 Unrecognized feature: 'legacy-image-formats'.Understand this warning
+workspace_iframe.html:32 Unrecognized feature: 'navigation-override'.Understand this warning
+workspace_iframe.html:32 Unrecognized feature: 'oversized-images'.Understand this warning
+workspace_iframe.html:32 Unrecognized feature: 'publickey-credentials'.Understand this warning
+workspace_iframe.html:32 Unrecognized feature: 'speaker-selection'.Understand this warning
+workspace_iframe.html:32 Unrecognized feature: 'unoptimized-images'.Understand this warning
+workspace_iframe.html:32 Unrecognized feature: 'unsized-media'.Understand this warning
+workspace_iframe.html:32 Allow attribute will take precedence over 'allowfullscreen'.Understand this warning
+workspace_iframe.html:32 Allow attribute will take precedence over 'allowpaymentrequest'.Understand this warning
+stallwart.build.js:1 stallwart: failed ping 1
+VM8 eruda.js:2 Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+Mt.forEach.n.<computed> @ VM8 eruda.js:2
+(anonymous) @ VM122 @radix-ui_react-dialog.js:1416
+commitHookEffectListMount @ VM37 chunk-WERSD76P.js:16915
+commitPassiveMountOnFiber @ VM37 chunk-WERSD76P.js:18156
+commitPassiveMountEffects_complete @ VM37 chunk-WERSD76P.js:18129
+commitPassiveMountEffects_begin @ VM37 chunk-WERSD76P.js:18119
+commitPassiveMountEffects @ VM37 chunk-WERSD76P.js:18109
+flushPassiveEffectsImpl @ VM37 chunk-WERSD76P.js:19490
+flushPassiveEffects @ VM37 chunk-WERSD76P.js:19447
+commitRootImpl @ VM37 chunk-WERSD76P.js:19416
+commitRoot @ VM37 chunk-WERSD76P.js:19277
+performSyncWorkOnRoot @ VM37 chunk-WERSD76P.js:18895
+flushSyncCallbacks @ VM37 chunk-WERSD76P.js:9119
+(anonymous) @ VM37 chunk-WERSD76P.js:18627
+Show 13 more frames
+Show lessUnderstand this warning
+stallwart.build.js:1 stallwart: failed ping 1
+Console.js:61 Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+Mt.forEach.n.<computed> @ Console.js:61
+(anonymous) @ @radix-ui_react-dialog.js?v=1a6d0b59:1416
+commitHookEffectListMount @ chunk-WERSD76P.js?v=1a6d0b59:16915
+commitPassiveMountOnFiber @ chunk-WERSD76P.js?v=1a6d0b59:18156
+commitPassiveMountEffects_complete @ chunk-WERSD76P.js?v=1a6d0b59:18129
+commitPassiveMountEffects_begin @ chunk-WERSD76P.js?v=1a6d0b59:18119
+commitPassiveMountEffects @ chunk-WERSD76P.js?v=1a6d0b59:18109
+flushPassiveEffectsImpl @ chunk-WERSD76P.js?v=1a6d0b59:19490
+flushPassiveEffects @ chunk-WERSD76P.js?v=1a6d0b59:19447
+commitRootImpl @ chunk-WERSD76P.js?v=1a6d0b59:19416
+commitRoot @ chunk-WERSD76P.js?v=1a6d0b59:19277
+performSyncWorkOnRoot @ chunk-WERSD76P.js?v=1a6d0b59:18895
+flushSyncCallbacks @ chunk-WERSD76P.js?v=1a6d0b59:9119
+(anonymous) @ chunk-WERSD76P.js?v=1a6d0b59:18627
+Show 13 more frames
+Show lessUnderstand this warning
+stallwart.build.js:1 stallwart: failed ping 1
+queryClient.ts:14 
+        
+        
+       PATCH https://dcf7a83d-e622-4c7b-954d-1a885244f9fd-00-1bu2ul0vurspc.janeway.replit.dev/api/users/1 404 (Not Found)
+window.fetch @ Network.js:219
+apiRequest @ queryClient.ts:14
+mutationFn @ customize-profile-overlay.tsx:28
+fn @ @tanstack_react-query.js?v=1a6d0b59:1189
+run @ @tanstack_react-query.js?v=1a6d0b59:494
+start @ @tanstack_react-query.js?v=1a6d0b59:536
+execute @ @tanstack_react-query.js?v=1a6d0b59:1225
+await in execute
+mutate @ @tanstack_react-query.js?v=1a6d0b59:2630
+(anonymous) @ @tanstack_react-query.js?v=1a6d0b59:3295
+handleSubmit @ customize-profile-overlay.tsx:52
+callCallback2 @ chunk-WERSD76P.js?v=1a6d0b59:3674
+invokeGuardedCallbackDev @ chunk-WERSD76P.js?v=1a6d0b59:3699
+invokeGuardedCallback @ chunk-WERSD76P.js?v=1a6d0b59:3733
+invokeGuardedCallbackAndCatchFirstError @ chunk-WERSD76P.js?v=1a6d0b59:3736
+executeDispatch @ chunk-WERSD76P.js?v=1a6d0b59:7014
+processDispatchQueueItemsInOrder @ chunk-WERSD76P.js?v=1a6d0b59:7034
+processDispatchQueue @ chunk-WERSD76P.js?v=1a6d0b59:7043
+dispatchEventsForPlugins @ chunk-WERSD76P.js?v=1a6d0b59:7051
+(anonymous) @ chunk-WERSD76P.js?v=1a6d0b59:7174
+batchedUpdates$1 @ chunk-WERSD76P.js?v=1a6d0b59:18913
+batchedUpdates @ chunk-WERSD76P.js?v=1a6d0b59:3579
+dispatchEventForPluginEventSystem @ chunk-WERSD76P.js?v=1a6d0b59:7173
+dispatchEventWithEnableCapturePhaseSelectiveHydrationWithoutDiscreteEventReplay @ chunk-WERSD76P.js?v=1a6d0b59:5478
+dispatchEvent @ chunk-WERSD76P.js?v=1a6d0b59:5472
+dispatchDiscreteEvent @ chunk-WERSD76P.js?v=1a6d0b59:5449
+Show 22 more frames
+Show lessUnderstand this error
+2Console.js:61 Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
