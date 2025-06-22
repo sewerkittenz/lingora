@@ -1,84 +1,809 @@
 {
-  "id":,
-  "title": "Lesson",
-  "description": "Learn the first hiragana characters",
+  "id": "ja-023",
+  "title": "KANA Lesson 23",
+  "description": "Learn kana level Japanese",
   "language": "ja",
   "level": "kana",
   "items": [
     {
-      "id":,
+      "id": "ja-023-001",
       "character": "あ",
       "romanji": "a",
-      "meaning": "The sound 'ah' - like in 'father'",
+      "meaning": "vowel sound \"ah\"",
       "type": "hiragana",
-      "audio": "/audio/ja/a.mp3"
+      "difficulty": 1
     },
     {
-      "id":,
-      "character": "い",
-      "romanji": "i", 
-      "meaning": "The sound 'ee' - like in 'see'",
+      "id": "ja-023-002",
+      "character": "か",
+      "romanji": "ka",
+      "meaning": "consonant + vowel \"ka\"",
       "type": "hiragana",
-      "audio": "/audio/ja/i.mp3"
+      "difficulty": 1
     },
     {
-      "id":,
-      "character": "う",
-      "romanji": "u",
-      "meaning": "The sound 'oo' - like in 'moon'",
+      "id": "ja-023-003",
+      "character": "さ",
+      "romanji": "sa",
+      "meaning": "consonant + vowel \"sa\"",
       "type": "hiragana",
-      "audio": "/audio/ja/u.mp3"
+      "difficulty": 1
     },
     {
-      "id":,
-      "character": "え",
-      "romanji": "e",
-      "meaning": "The sound 'eh' - like in 'pet'",
+      "id": "ja-023-004",
+      "character": "た",
+      "romanji": "ta",
+      "meaning": "consonant + vowel \"ta\"",
       "type": "hiragana",
-      "audio": "/audio/ja/e.mp3"
+      "difficulty": 1
     },
     {
-      "id":,
-      "character": "お",
-      "romanji": "o",
-      "meaning": "The sound 'oh' - like in 'more'",
+      "id": "ja-023-005",
+      "character": "な",
+      "romanji": "na",
+      "meaning": "consonant + vowel \"na\"",
       "type": "hiragana",
-      "audio": "/audio/ja/o.mp3"
+      "difficulty": 1
     },
     {
-      "id":,
-      "word": "あい",
-      "romanji": "ai",
-      "english": "love",
-      "type": "vocabulary"
+      "id": "ja-023-006",
+      "character": "あ",
+      "romanji": "a",
+      "meaning": "vowel sound \"ah\"",
+      "type": "hiragana",
+      "difficulty": 1
     },
     {
-      "id":,
-      "word": "いえ",
-      "romanji": "ie",
-      "english": "house",
-      "type": "vocabulary"
+      "id": "ja-023-007",
+      "character": "か",
+      "romanji": "ka",
+      "meaning": "consonant + vowel \"ka\"",
+      "type": "hiragana",
+      "difficulty": 1
     },
     {
-      "id":,
-      "word": "うえ",
-      "romanji": "ue",
-      "english": "above",
-      "type": "vocabulary"
+      "id": "ja-023-008",
+      "character": "さ",
+      "romanji": "sa",
+      "meaning": "consonant + vowel \"sa\"",
+      "type": "hiragana",
+      "difficulty": 1
     },
     {
-      "id":,
-      "word": "おい",
-      "romanji": "oi",
-      "english": "hey (calling someone)",
-      "type": "vocabulary"
+      "id": "ja-023-009",
+      "character": "た",
+      "romanji": "ta",
+      "meaning": "consonant + vowel \"ta\"",
+      "type": "hiragana",
+      "difficulty": 1
     },
     {
-      "id":,
-      "word": "あお",
-      "romanji": "ao",
-      "english": "blue",
-      "type": "vocabulary"
+      "id": "ja-023-010",
+      "character": "な",
+      "romanji": "na",
+      "meaning": "consonant + vowel \"na\"",
+      "type": "hiragana",
+      "difficulty": 1
+    },
+    {
+      "id": "ja-023-011",
+      "character": "あ",
+      "romanji": "a",
+      "meaning": "vowel sound \"ah\"",
+      "type": "hiragana",
+      "difficulty": 1
+    },
+    {
+      "id": "ja-023-012",
+      "character": "か",
+      "romanji": "ka",
+      "meaning": "consonant + vowel \"ka\"",
+      "type": "hiragana",
+      "difficulty": 1
+    },
+    {
+      "id": "ja-023-013",
+      "character": "さ",
+      "romanji": "sa",
+      "meaning": "consonant + vowel \"sa\"",
+      "type": "hiragana",
+      "difficulty": 1
+    },
+    {
+      "id": "ja-023-014",
+      "character": "た",
+      "romanji": "ta",
+      "meaning": "consonant + vowel \"ta\"",
+      "type": "hiragana",
+      "difficulty": 1
+    },
+    {
+      "id": "ja-023-015",
+      "character": "な",
+      "romanji": "na",
+      "meaning": "consonant + vowel \"na\"",
+      "type": "hiragana",
+      "difficulty": 1
+    },
+    {
+      "id": "ja-023-016",
+      "character": "あ",
+      "romanji": "a",
+      "meaning": "vowel sound \"ah\"",
+      "type": "hiragana",
+      "difficulty": 1
+    },
+    {
+      "id": "ja-023-017",
+      "character": "か",
+      "romanji": "ka",
+      "meaning": "consonant + vowel \"ka\"",
+      "type": "hiragana",
+      "difficulty": 1
+    },
+    {
+      "id": "ja-023-018",
+      "character": "さ",
+      "romanji": "sa",
+      "meaning": "consonant + vowel \"sa\"",
+      "type": "hiragana",
+      "difficulty": 1
+    },
+    {
+      "id": "ja-023-019",
+      "character": "た",
+      "romanji": "ta",
+      "meaning": "consonant + vowel \"ta\"",
+      "type": "hiragana",
+      "difficulty": 1
+    },
+    {
+      "id": "ja-023-020",
+      "character": "な",
+      "romanji": "na",
+      "meaning": "consonant + vowel \"na\"",
+      "type": "hiragana",
+      "difficulty": 1
+    },
+    {
+      "id": "ja-023-021",
+      "character": "あ",
+      "romanji": "a",
+      "meaning": "vowel sound \"ah\"",
+      "type": "hiragana",
+      "difficulty": 1
+    },
+    {
+      "id": "ja-023-022",
+      "character": "か",
+      "romanji": "ka",
+      "meaning": "consonant + vowel \"ka\"",
+      "type": "hiragana",
+      "difficulty": 1
+    },
+    {
+      "id": "ja-023-023",
+      "character": "さ",
+      "romanji": "sa",
+      "meaning": "consonant + vowel \"sa\"",
+      "type": "hiragana",
+      "difficulty": 1
+    },
+    {
+      "id": "ja-023-024",
+      "character": "た",
+      "romanji": "ta",
+      "meaning": "consonant + vowel \"ta\"",
+      "type": "hiragana",
+      "difficulty": 1
+    },
+    {
+      "id": "ja-023-025",
+      "character": "な",
+      "romanji": "na",
+      "meaning": "consonant + vowel \"na\"",
+      "type": "hiragana",
+      "difficulty": 1
+    },
+    {
+      "id": "ja-023-026",
+      "character": "あ",
+      "romanji": "a",
+      "meaning": "vowel sound \"ah\"",
+      "type": "hiragana",
+      "difficulty": 1
+    },
+    {
+      "id": "ja-023-027",
+      "character": "か",
+      "romanji": "ka",
+      "meaning": "consonant + vowel \"ka\"",
+      "type": "hiragana",
+      "difficulty": 1
+    },
+    {
+      "id": "ja-023-028",
+      "character": "さ",
+      "romanji": "sa",
+      "meaning": "consonant + vowel \"sa\"",
+      "type": "hiragana",
+      "difficulty": 1
+    },
+    {
+      "id": "ja-023-029",
+      "character": "た",
+      "romanji": "ta",
+      "meaning": "consonant + vowel \"ta\"",
+      "type": "hiragana",
+      "difficulty": 1
+    },
+    {
+      "id": "ja-023-030",
+      "character": "な",
+      "romanji": "na",
+      "meaning": "consonant + vowel \"na\"",
+      "type": "hiragana",
+      "difficulty": 1
+    },
+    {
+      "id": "ja-023-031",
+      "character": "あ",
+      "romanji": "a",
+      "meaning": "vowel sound \"ah\"",
+      "type": "hiragana",
+      "difficulty": 1
+    },
+    {
+      "id": "ja-023-032",
+      "character": "か",
+      "romanji": "ka",
+      "meaning": "consonant + vowel \"ka\"",
+      "type": "hiragana",
+      "difficulty": 1
+    },
+    {
+      "id": "ja-023-033",
+      "character": "さ",
+      "romanji": "sa",
+      "meaning": "consonant + vowel \"sa\"",
+      "type": "hiragana",
+      "difficulty": 1
+    },
+    {
+      "id": "ja-023-034",
+      "character": "た",
+      "romanji": "ta",
+      "meaning": "consonant + vowel \"ta\"",
+      "type": "hiragana",
+      "difficulty": 1
+    },
+    {
+      "id": "ja-023-035",
+      "character": "な",
+      "romanji": "na",
+      "meaning": "consonant + vowel \"na\"",
+      "type": "hiragana",
+      "difficulty": 1
+    },
+    {
+      "id": "ja-023-036",
+      "character": "あ",
+      "romanji": "a",
+      "meaning": "vowel sound \"ah\"",
+      "type": "hiragana",
+      "difficulty": 1
+    },
+    {
+      "id": "ja-023-037",
+      "character": "か",
+      "romanji": "ka",
+      "meaning": "consonant + vowel \"ka\"",
+      "type": "hiragana",
+      "difficulty": 1
+    },
+    {
+      "id": "ja-023-038",
+      "character": "さ",
+      "romanji": "sa",
+      "meaning": "consonant + vowel \"sa\"",
+      "type": "hiragana",
+      "difficulty": 1
+    },
+    {
+      "id": "ja-023-039",
+      "character": "た",
+      "romanji": "ta",
+      "meaning": "consonant + vowel \"ta\"",
+      "type": "hiragana",
+      "difficulty": 1
+    },
+    {
+      "id": "ja-023-040",
+      "character": "な",
+      "romanji": "na",
+      "meaning": "consonant + vowel \"na\"",
+      "type": "hiragana",
+      "difficulty": 1
+    },
+    {
+      "id": "ja-023-041",
+      "character": "あ",
+      "romanji": "a",
+      "meaning": "vowel sound \"ah\"",
+      "type": "hiragana",
+      "difficulty": 1
+    },
+    {
+      "id": "ja-023-042",
+      "character": "か",
+      "romanji": "ka",
+      "meaning": "consonant + vowel \"ka\"",
+      "type": "hiragana",
+      "difficulty": 1
+    },
+    {
+      "id": "ja-023-043",
+      "character": "さ",
+      "romanji": "sa",
+      "meaning": "consonant + vowel \"sa\"",
+      "type": "hiragana",
+      "difficulty": 1
+    },
+    {
+      "id": "ja-023-044",
+      "character": "た",
+      "romanji": "ta",
+      "meaning": "consonant + vowel \"ta\"",
+      "type": "hiragana",
+      "difficulty": 1
+    },
+    {
+      "id": "ja-023-045",
+      "character": "な",
+      "romanji": "na",
+      "meaning": "consonant + vowel \"na\"",
+      "type": "hiragana",
+      "difficulty": 1
+    },
+    {
+      "id": "ja-023-046",
+      "character": "あ",
+      "romanji": "a",
+      "meaning": "vowel sound \"ah\"",
+      "type": "hiragana",
+      "difficulty": 1
+    },
+    {
+      "id": "ja-023-047",
+      "character": "か",
+      "romanji": "ka",
+      "meaning": "consonant + vowel \"ka\"",
+      "type": "hiragana",
+      "difficulty": 1
+    },
+    {
+      "id": "ja-023-048",
+      "character": "さ",
+      "romanji": "sa",
+      "meaning": "consonant + vowel \"sa\"",
+      "type": "hiragana",
+      "difficulty": 1
+    },
+    {
+      "id": "ja-023-049",
+      "character": "た",
+      "romanji": "ta",
+      "meaning": "consonant + vowel \"ta\"",
+      "type": "hiragana",
+      "difficulty": 1
+    },
+    {
+      "id": "ja-023-050",
+      "character": "な",
+      "romanji": "na",
+      "meaning": "consonant + vowel \"na\"",
+      "type": "hiragana",
+      "difficulty": 1
+    },
+    {
+      "id": "ja-023-051",
+      "character": "あ",
+      "romanji": "a",
+      "meaning": "vowel sound \"ah\"",
+      "type": "hiragana",
+      "difficulty": 1
+    },
+    {
+      "id": "ja-023-052",
+      "character": "か",
+      "romanji": "ka",
+      "meaning": "consonant + vowel \"ka\"",
+      "type": "hiragana",
+      "difficulty": 1
+    },
+    {
+      "id": "ja-023-053",
+      "character": "さ",
+      "romanji": "sa",
+      "meaning": "consonant + vowel \"sa\"",
+      "type": "hiragana",
+      "difficulty": 1
+    },
+    {
+      "id": "ja-023-054",
+      "character": "た",
+      "romanji": "ta",
+      "meaning": "consonant + vowel \"ta\"",
+      "type": "hiragana",
+      "difficulty": 1
+    },
+    {
+      "id": "ja-023-055",
+      "character": "な",
+      "romanji": "na",
+      "meaning": "consonant + vowel \"na\"",
+      "type": "hiragana",
+      "difficulty": 1
+    },
+    {
+      "id": "ja-023-056",
+      "character": "あ",
+      "romanji": "a",
+      "meaning": "vowel sound \"ah\"",
+      "type": "hiragana",
+      "difficulty": 1
+    },
+    {
+      "id": "ja-023-057",
+      "character": "か",
+      "romanji": "ka",
+      "meaning": "consonant + vowel \"ka\"",
+      "type": "hiragana",
+      "difficulty": 1
+    },
+    {
+      "id": "ja-023-058",
+      "character": "さ",
+      "romanji": "sa",
+      "meaning": "consonant + vowel \"sa\"",
+      "type": "hiragana",
+      "difficulty": 1
+    },
+    {
+      "id": "ja-023-059",
+      "character": "た",
+      "romanji": "ta",
+      "meaning": "consonant + vowel \"ta\"",
+      "type": "hiragana",
+      "difficulty": 1
+    },
+    {
+      "id": "ja-023-060",
+      "character": "な",
+      "romanji": "na",
+      "meaning": "consonant + vowel \"na\"",
+      "type": "hiragana",
+      "difficulty": 1
+    },
+    {
+      "id": "ja-023-061",
+      "character": "あ",
+      "romanji": "a",
+      "meaning": "vowel sound \"ah\"",
+      "type": "hiragana",
+      "difficulty": 1
+    },
+    {
+      "id": "ja-023-062",
+      "character": "か",
+      "romanji": "ka",
+      "meaning": "consonant + vowel \"ka\"",
+      "type": "hiragana",
+      "difficulty": 1
+    },
+    {
+      "id": "ja-023-063",
+      "character": "さ",
+      "romanji": "sa",
+      "meaning": "consonant + vowel \"sa\"",
+      "type": "hiragana",
+      "difficulty": 1
+    },
+    {
+      "id": "ja-023-064",
+      "character": "た",
+      "romanji": "ta",
+      "meaning": "consonant + vowel \"ta\"",
+      "type": "hiragana",
+      "difficulty": 1
+    },
+    {
+      "id": "ja-023-065",
+      "character": "な",
+      "romanji": "na",
+      "meaning": "consonant + vowel \"na\"",
+      "type": "hiragana",
+      "difficulty": 1
+    },
+    {
+      "id": "ja-023-066",
+      "character": "あ",
+      "romanji": "a",
+      "meaning": "vowel sound \"ah\"",
+      "type": "hiragana",
+      "difficulty": 1
+    },
+    {
+      "id": "ja-023-067",
+      "character": "か",
+      "romanji": "ka",
+      "meaning": "consonant + vowel \"ka\"",
+      "type": "hiragana",
+      "difficulty": 1
+    },
+    {
+      "id": "ja-023-068",
+      "character": "さ",
+      "romanji": "sa",
+      "meaning": "consonant + vowel \"sa\"",
+      "type": "hiragana",
+      "difficulty": 1
+    },
+    {
+      "id": "ja-023-069",
+      "character": "た",
+      "romanji": "ta",
+      "meaning": "consonant + vowel \"ta\"",
+      "type": "hiragana",
+      "difficulty": 1
+    },
+    {
+      "id": "ja-023-070",
+      "character": "な",
+      "romanji": "na",
+      "meaning": "consonant + vowel \"na\"",
+      "type": "hiragana",
+      "difficulty": 1
+    },
+    {
+      "id": "ja-023-071",
+      "character": "あ",
+      "romanji": "a",
+      "meaning": "vowel sound \"ah\"",
+      "type": "hiragana",
+      "difficulty": 1
+    },
+    {
+      "id": "ja-023-072",
+      "character": "か",
+      "romanji": "ka",
+      "meaning": "consonant + vowel \"ka\"",
+      "type": "hiragana",
+      "difficulty": 1
+    },
+    {
+      "id": "ja-023-073",
+      "character": "さ",
+      "romanji": "sa",
+      "meaning": "consonant + vowel \"sa\"",
+      "type": "hiragana",
+      "difficulty": 1
+    },
+    {
+      "id": "ja-023-074",
+      "character": "た",
+      "romanji": "ta",
+      "meaning": "consonant + vowel \"ta\"",
+      "type": "hiragana",
+      "difficulty": 1
+    },
+    {
+      "id": "ja-023-075",
+      "character": "な",
+      "romanji": "na",
+      "meaning": "consonant + vowel \"na\"",
+      "type": "hiragana",
+      "difficulty": 1
+    },
+    {
+      "id": "ja-023-076",
+      "character": "あ",
+      "romanji": "a",
+      "meaning": "vowel sound \"ah\"",
+      "type": "hiragana",
+      "difficulty": 1
+    },
+    {
+      "id": "ja-023-077",
+      "character": "か",
+      "romanji": "ka",
+      "meaning": "consonant + vowel \"ka\"",
+      "type": "hiragana",
+      "difficulty": 1
+    },
+    {
+      "id": "ja-023-078",
+      "character": "さ",
+      "romanji": "sa",
+      "meaning": "consonant + vowel \"sa\"",
+      "type": "hiragana",
+      "difficulty": 1
+    },
+    {
+      "id": "ja-023-079",
+      "character": "た",
+      "romanji": "ta",
+      "meaning": "consonant + vowel \"ta\"",
+      "type": "hiragana",
+      "difficulty": 1
+    },
+    {
+      "id": "ja-023-080",
+      "character": "な",
+      "romanji": "na",
+      "meaning": "consonant + vowel \"na\"",
+      "type": "hiragana",
+      "difficulty": 1
+    },
+    {
+      "id": "ja-023-081",
+      "character": "あ",
+      "romanji": "a",
+      "meaning": "vowel sound \"ah\"",
+      "type": "hiragana",
+      "difficulty": 1
+    },
+    {
+      "id": "ja-023-082",
+      "character": "か",
+      "romanji": "ka",
+      "meaning": "consonant + vowel \"ka\"",
+      "type": "hiragana",
+      "difficulty": 1
+    },
+    {
+      "id": "ja-023-083",
+      "character": "さ",
+      "romanji": "sa",
+      "meaning": "consonant + vowel \"sa\"",
+      "type": "hiragana",
+      "difficulty": 1
+    },
+    {
+      "id": "ja-023-084",
+      "character": "た",
+      "romanji": "ta",
+      "meaning": "consonant + vowel \"ta\"",
+      "type": "hiragana",
+      "difficulty": 1
+    },
+    {
+      "id": "ja-023-085",
+      "character": "な",
+      "romanji": "na",
+      "meaning": "consonant + vowel \"na\"",
+      "type": "hiragana",
+      "difficulty": 1
+    },
+    {
+      "id": "ja-023-086",
+      "character": "あ",
+      "romanji": "a",
+      "meaning": "vowel sound \"ah\"",
+      "type": "hiragana",
+      "difficulty": 1
+    },
+    {
+      "id": "ja-023-087",
+      "character": "か",
+      "romanji": "ka",
+      "meaning": "consonant + vowel \"ka\"",
+      "type": "hiragana",
+      "difficulty": 1
+    },
+    {
+      "id": "ja-023-088",
+      "character": "さ",
+      "romanji": "sa",
+      "meaning": "consonant + vowel \"sa\"",
+      "type": "hiragana",
+      "difficulty": 1
+    },
+    {
+      "id": "ja-023-089",
+      "character": "た",
+      "romanji": "ta",
+      "meaning": "consonant + vowel \"ta\"",
+      "type": "hiragana",
+      "difficulty": 1
+    },
+    {
+      "id": "ja-023-090",
+      "character": "な",
+      "romanji": "na",
+      "meaning": "consonant + vowel \"na\"",
+      "type": "hiragana",
+      "difficulty": 1
+    },
+    {
+      "id": "ja-023-091",
+      "character": "あ",
+      "romanji": "a",
+      "meaning": "vowel sound \"ah\"",
+      "type": "hiragana",
+      "difficulty": 1
+    },
+    {
+      "id": "ja-023-092",
+      "character": "か",
+      "romanji": "ka",
+      "meaning": "consonant + vowel \"ka\"",
+      "type": "hiragana",
+      "difficulty": 1
+    },
+    {
+      "id": "ja-023-093",
+      "character": "さ",
+      "romanji": "sa",
+      "meaning": "consonant + vowel \"sa\"",
+      "type": "hiragana",
+      "difficulty": 1
+    },
+    {
+      "id": "ja-023-094",
+      "character": "た",
+      "romanji": "ta",
+      "meaning": "consonant + vowel \"ta\"",
+      "type": "hiragana",
+      "difficulty": 1
+    },
+    {
+      "id": "ja-023-095",
+      "character": "な",
+      "romanji": "na",
+      "meaning": "consonant + vowel \"na\"",
+      "type": "hiragana",
+      "difficulty": 1
+    },
+    {
+      "id": "ja-023-096",
+      "character": "あ",
+      "romanji": "a",
+      "meaning": "vowel sound \"ah\"",
+      "type": "hiragana",
+      "difficulty": 1
+    },
+    {
+      "id": "ja-023-097",
+      "character": "か",
+      "romanji": "ka",
+      "meaning": "consonant + vowel \"ka\"",
+      "type": "hiragana",
+      "difficulty": 1
+    },
+    {
+      "id": "ja-023-098",
+      "character": "さ",
+      "romanji": "sa",
+      "meaning": "consonant + vowel \"sa\"",
+      "type": "hiragana",
+      "difficulty": 1
+    },
+    {
+      "id": "ja-023-099",
+      "character": "た",
+      "romanji": "ta",
+      "meaning": "consonant + vowel \"ta\"",
+      "type": "hiragana",
+      "difficulty": 1
+    },
+    {
+      "id": "ja-023-100",
+      "character": "な",
+      "romanji": "na",
+      "meaning": "consonant + vowel \"na\"",
+      "type": "hiragana",
+      "difficulty": 1
     }
   ]
 }

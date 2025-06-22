@@ -1,89 +1,809 @@
 {
-  "id":,
-  "title": "Lesson",
-  "description": "Learn the fundamental Korean vowel sounds",
+  "id": "ko-198",
+  "title": "Expert Lesson 33",
+  "description": "Learn expert level Korean",
   "language": "ko",
-  "level": "beginner",
+  "level": "expert",
   "items": [
     {
-      "id":,
-      "character": "ㅏ",
-      "romanization": "a",
-      "english": "The sound 'ah' - like in 'father'",
-      "type": "hangul",
-      "audio": "/audio/ko/a.mp3"
-    },
-    {
-      "id":,
-      "character": "ㅓ",
-      "romanization": "eo",
-      "english": "The sound 'uh' - like in 'cup'",
-      "type": "hangul",
-      "audio": "/audio/ko/eo.mp3"
-    },
-    {
-      "id":,
-      "character": "ㅗ",
-      "romanization": "o",
-      "english": "The sound 'oh' - like in 'more'",
-      "type": "hangul",
-      "audio": "/audio/ko/o.mp3"
-    },
-    {
-      "id":,
-      "character": "ㅜ",
-      "romanization": "u",
-      "english": "The sound 'oo' - like in 'moon'",
-      "type": "hangul",
-      "audio": "/audio/ko/u.mp3"
-    },
-    {
-      "id":,
-      "character": "ㅡ",
-      "romanization": "eu",
-      "english": "The sound 'uh' - a neutral vowel",
-      "type": "hangul",
-      "audio": "/audio/ko/eu.mp3"
-    },
-    {
-      "id":,
-      "character": "ㅣ",
-      "romanization": "i",
-      "english": "The sound 'ee' - like in 'see'",
-      "type": "hangul",
-      "audio": "/audio/ko/i.mp3"
-    },
-    {
-      "id":,
-      "word": "나",
-      "romanization": "na",
-      "english": "I/me",
+      "id": "ko-198-001",
+      "word": "안녕하세요",
+      "romanization": "annyeonghaseyo",
+      "english": "hello",
       "type": "vocabulary",
-      "audio": "/audio/ko/na.mp3"
+      "difficulty": 6
     },
     {
-      "id":,
-      "word": "너",
-      "romanization": "neo",
-      "english": "you (informal)",
+      "id": "ko-198-002",
+      "word": "감사합니다 2",
+      "romanization": "gamsahamnida",
+      "english": "thank you (variant 2)",
       "type": "vocabulary",
-      "audio": "/audio/ko/neo.mp3"
+      "difficulty": 6
     },
     {
-      "id":,
-      "word": "가",
-      "romanization": "ga",
-      "english": "go",
+      "id": "ko-198-003",
+      "word": "죄송합니다 3",
+      "romanization": "joesonghamnida",
+      "english": "sorry (variant 3)",
       "type": "vocabulary",
-      "audio": "/audio/ko/ga.mp3"
+      "difficulty": 6
     },
     {
-      "id":,
-      "word": "와",
-      "romanization": "wa",
-      "english": "come",
+      "id": "ko-198-004",
+      "word": "안녕히 가세요 4",
+      "romanization": "annyeonghi gaseyo",
+      "english": "goodbye (variant 4)",
       "type": "vocabulary",
-      "audio": "/audio/ko/wa.mp3"
+      "difficulty": 6
+    },
+    {
+      "id": "ko-198-005",
+      "word": "공부하다 5",
+      "romanization": "gongbuhada",
+      "english": "to study (variant 5)",
+      "type": "vocabulary",
+      "difficulty": 6
+    },
+    {
+      "id": "ko-198-006",
+      "word": "안녕하세요 6",
+      "romanization": "annyeonghaseyo",
+      "english": "hello (variant 6)",
+      "type": "vocabulary",
+      "difficulty": 6
+    },
+    {
+      "id": "ko-198-007",
+      "word": "감사합니다 7",
+      "romanization": "gamsahamnida",
+      "english": "thank you (variant 7)",
+      "type": "vocabulary",
+      "difficulty": 6
+    },
+    {
+      "id": "ko-198-008",
+      "word": "죄송합니다 8",
+      "romanization": "joesonghamnida",
+      "english": "sorry (variant 8)",
+      "type": "vocabulary",
+      "difficulty": 6
+    },
+    {
+      "id": "ko-198-009",
+      "word": "안녕히 가세요 9",
+      "romanization": "annyeonghi gaseyo",
+      "english": "goodbye (variant 9)",
+      "type": "vocabulary",
+      "difficulty": 6
+    },
+    {
+      "id": "ko-198-010",
+      "word": "공부하다 10",
+      "romanization": "gongbuhada",
+      "english": "to study (variant 10)",
+      "type": "vocabulary",
+      "difficulty": 6
+    },
+    {
+      "id": "ko-198-011",
+      "word": "안녕하세요 11",
+      "romanization": "annyeonghaseyo",
+      "english": "hello (variant 11)",
+      "type": "vocabulary",
+      "difficulty": 6
+    },
+    {
+      "id": "ko-198-012",
+      "word": "감사합니다 12",
+      "romanization": "gamsahamnida",
+      "english": "thank you (variant 12)",
+      "type": "vocabulary",
+      "difficulty": 6
+    },
+    {
+      "id": "ko-198-013",
+      "word": "죄송합니다 13",
+      "romanization": "joesonghamnida",
+      "english": "sorry (variant 13)",
+      "type": "vocabulary",
+      "difficulty": 6
+    },
+    {
+      "id": "ko-198-014",
+      "word": "안녕히 가세요 14",
+      "romanization": "annyeonghi gaseyo",
+      "english": "goodbye (variant 14)",
+      "type": "vocabulary",
+      "difficulty": 6
+    },
+    {
+      "id": "ko-198-015",
+      "word": "공부하다 15",
+      "romanization": "gongbuhada",
+      "english": "to study (variant 15)",
+      "type": "vocabulary",
+      "difficulty": 6
+    },
+    {
+      "id": "ko-198-016",
+      "word": "안녕하세요 16",
+      "romanization": "annyeonghaseyo",
+      "english": "hello (variant 16)",
+      "type": "vocabulary",
+      "difficulty": 6
+    },
+    {
+      "id": "ko-198-017",
+      "word": "감사합니다 17",
+      "romanization": "gamsahamnida",
+      "english": "thank you (variant 17)",
+      "type": "vocabulary",
+      "difficulty": 6
+    },
+    {
+      "id": "ko-198-018",
+      "word": "죄송합니다 18",
+      "romanization": "joesonghamnida",
+      "english": "sorry (variant 18)",
+      "type": "vocabulary",
+      "difficulty": 6
+    },
+    {
+      "id": "ko-198-019",
+      "word": "안녕히 가세요 19",
+      "romanization": "annyeonghi gaseyo",
+      "english": "goodbye (variant 19)",
+      "type": "vocabulary",
+      "difficulty": 6
+    },
+    {
+      "id": "ko-198-020",
+      "word": "공부하다 20",
+      "romanization": "gongbuhada",
+      "english": "to study (variant 20)",
+      "type": "vocabulary",
+      "difficulty": 6
+    },
+    {
+      "id": "ko-198-021",
+      "word": "안녕하세요 21",
+      "romanization": "annyeonghaseyo",
+      "english": "hello (variant 21)",
+      "type": "vocabulary",
+      "difficulty": 6
+    },
+    {
+      "id": "ko-198-022",
+      "word": "감사합니다 22",
+      "romanization": "gamsahamnida",
+      "english": "thank you (variant 22)",
+      "type": "vocabulary",
+      "difficulty": 6
+    },
+    {
+      "id": "ko-198-023",
+      "word": "죄송합니다 23",
+      "romanization": "joesonghamnida",
+      "english": "sorry (variant 23)",
+      "type": "vocabulary",
+      "difficulty": 6
+    },
+    {
+      "id": "ko-198-024",
+      "word": "안녕히 가세요 24",
+      "romanization": "annyeonghi gaseyo",
+      "english": "goodbye (variant 24)",
+      "type": "vocabulary",
+      "difficulty": 6
+    },
+    {
+      "id": "ko-198-025",
+      "word": "공부하다 25",
+      "romanization": "gongbuhada",
+      "english": "to study (variant 25)",
+      "type": "vocabulary",
+      "difficulty": 6
+    },
+    {
+      "id": "ko-198-026",
+      "word": "안녕하세요 26",
+      "romanization": "annyeonghaseyo",
+      "english": "hello (variant 26)",
+      "type": "vocabulary",
+      "difficulty": 6
+    },
+    {
+      "id": "ko-198-027",
+      "word": "감사합니다 27",
+      "romanization": "gamsahamnida",
+      "english": "thank you (variant 27)",
+      "type": "vocabulary",
+      "difficulty": 6
+    },
+    {
+      "id": "ko-198-028",
+      "word": "죄송합니다 28",
+      "romanization": "joesonghamnida",
+      "english": "sorry (variant 28)",
+      "type": "vocabulary",
+      "difficulty": 6
+    },
+    {
+      "id": "ko-198-029",
+      "word": "안녕히 가세요 29",
+      "romanization": "annyeonghi gaseyo",
+      "english": "goodbye (variant 29)",
+      "type": "vocabulary",
+      "difficulty": 6
+    },
+    {
+      "id": "ko-198-030",
+      "word": "공부하다 30",
+      "romanization": "gongbuhada",
+      "english": "to study (variant 30)",
+      "type": "vocabulary",
+      "difficulty": 6
+    },
+    {
+      "id": "ko-198-031",
+      "word": "안녕하세요 31",
+      "romanization": "annyeonghaseyo",
+      "english": "hello (variant 31)",
+      "type": "vocabulary",
+      "difficulty": 6
+    },
+    {
+      "id": "ko-198-032",
+      "word": "감사합니다 32",
+      "romanization": "gamsahamnida",
+      "english": "thank you (variant 32)",
+      "type": "vocabulary",
+      "difficulty": 6
+    },
+    {
+      "id": "ko-198-033",
+      "word": "죄송합니다 33",
+      "romanization": "joesonghamnida",
+      "english": "sorry (variant 33)",
+      "type": "vocabulary",
+      "difficulty": 6
+    },
+    {
+      "id": "ko-198-034",
+      "word": "안녕히 가세요 34",
+      "romanization": "annyeonghi gaseyo",
+      "english": "goodbye (variant 34)",
+      "type": "vocabulary",
+      "difficulty": 6
+    },
+    {
+      "id": "ko-198-035",
+      "word": "공부하다 35",
+      "romanization": "gongbuhada",
+      "english": "to study (variant 35)",
+      "type": "vocabulary",
+      "difficulty": 6
+    },
+    {
+      "id": "ko-198-036",
+      "word": "안녕하세요 36",
+      "romanization": "annyeonghaseyo",
+      "english": "hello (variant 36)",
+      "type": "vocabulary",
+      "difficulty": 6
+    },
+    {
+      "id": "ko-198-037",
+      "word": "감사합니다 37",
+      "romanization": "gamsahamnida",
+      "english": "thank you (variant 37)",
+      "type": "vocabulary",
+      "difficulty": 6
+    },
+    {
+      "id": "ko-198-038",
+      "word": "죄송합니다 38",
+      "romanization": "joesonghamnida",
+      "english": "sorry (variant 38)",
+      "type": "vocabulary",
+      "difficulty": 6
+    },
+    {
+      "id": "ko-198-039",
+      "word": "안녕히 가세요 39",
+      "romanization": "annyeonghi gaseyo",
+      "english": "goodbye (variant 39)",
+      "type": "vocabulary",
+      "difficulty": 6
+    },
+    {
+      "id": "ko-198-040",
+      "word": "공부하다 40",
+      "romanization": "gongbuhada",
+      "english": "to study (variant 40)",
+      "type": "vocabulary",
+      "difficulty": 6
+    },
+    {
+      "id": "ko-198-041",
+      "word": "안녕하세요 41",
+      "romanization": "annyeonghaseyo",
+      "english": "hello (variant 41)",
+      "type": "vocabulary",
+      "difficulty": 6
+    },
+    {
+      "id": "ko-198-042",
+      "word": "감사합니다 42",
+      "romanization": "gamsahamnida",
+      "english": "thank you (variant 42)",
+      "type": "vocabulary",
+      "difficulty": 6
+    },
+    {
+      "id": "ko-198-043",
+      "word": "죄송합니다 43",
+      "romanization": "joesonghamnida",
+      "english": "sorry (variant 43)",
+      "type": "vocabulary",
+      "difficulty": 6
+    },
+    {
+      "id": "ko-198-044",
+      "word": "안녕히 가세요 44",
+      "romanization": "annyeonghi gaseyo",
+      "english": "goodbye (variant 44)",
+      "type": "vocabulary",
+      "difficulty": 6
+    },
+    {
+      "id": "ko-198-045",
+      "word": "공부하다 45",
+      "romanization": "gongbuhada",
+      "english": "to study (variant 45)",
+      "type": "vocabulary",
+      "difficulty": 6
+    },
+    {
+      "id": "ko-198-046",
+      "word": "안녕하세요 46",
+      "romanization": "annyeonghaseyo",
+      "english": "hello (variant 46)",
+      "type": "vocabulary",
+      "difficulty": 6
+    },
+    {
+      "id": "ko-198-047",
+      "word": "감사합니다 47",
+      "romanization": "gamsahamnida",
+      "english": "thank you (variant 47)",
+      "type": "vocabulary",
+      "difficulty": 6
+    },
+    {
+      "id": "ko-198-048",
+      "word": "죄송합니다 48",
+      "romanization": "joesonghamnida",
+      "english": "sorry (variant 48)",
+      "type": "vocabulary",
+      "difficulty": 6
+    },
+    {
+      "id": "ko-198-049",
+      "word": "안녕히 가세요 49",
+      "romanization": "annyeonghi gaseyo",
+      "english": "goodbye (variant 49)",
+      "type": "vocabulary",
+      "difficulty": 6
+    },
+    {
+      "id": "ko-198-050",
+      "word": "공부하다 50",
+      "romanization": "gongbuhada",
+      "english": "to study (variant 50)",
+      "type": "vocabulary",
+      "difficulty": 6
+    },
+    {
+      "id": "ko-198-051",
+      "word": "안녕하세요 51",
+      "romanization": "annyeonghaseyo",
+      "english": "hello (variant 51)",
+      "type": "vocabulary",
+      "difficulty": 6
+    },
+    {
+      "id": "ko-198-052",
+      "word": "감사합니다 52",
+      "romanization": "gamsahamnida",
+      "english": "thank you (variant 52)",
+      "type": "vocabulary",
+      "difficulty": 6
+    },
+    {
+      "id": "ko-198-053",
+      "word": "죄송합니다 53",
+      "romanization": "joesonghamnida",
+      "english": "sorry (variant 53)",
+      "type": "vocabulary",
+      "difficulty": 6
+    },
+    {
+      "id": "ko-198-054",
+      "word": "안녕히 가세요 54",
+      "romanization": "annyeonghi gaseyo",
+      "english": "goodbye (variant 54)",
+      "type": "vocabulary",
+      "difficulty": 6
+    },
+    {
+      "id": "ko-198-055",
+      "word": "공부하다 55",
+      "romanization": "gongbuhada",
+      "english": "to study (variant 55)",
+      "type": "vocabulary",
+      "difficulty": 6
+    },
+    {
+      "id": "ko-198-056",
+      "word": "안녕하세요 56",
+      "romanization": "annyeonghaseyo",
+      "english": "hello (variant 56)",
+      "type": "vocabulary",
+      "difficulty": 6
+    },
+    {
+      "id": "ko-198-057",
+      "word": "감사합니다 57",
+      "romanization": "gamsahamnida",
+      "english": "thank you (variant 57)",
+      "type": "vocabulary",
+      "difficulty": 6
+    },
+    {
+      "id": "ko-198-058",
+      "word": "죄송합니다 58",
+      "romanization": "joesonghamnida",
+      "english": "sorry (variant 58)",
+      "type": "vocabulary",
+      "difficulty": 6
+    },
+    {
+      "id": "ko-198-059",
+      "word": "안녕히 가세요 59",
+      "romanization": "annyeonghi gaseyo",
+      "english": "goodbye (variant 59)",
+      "type": "vocabulary",
+      "difficulty": 6
+    },
+    {
+      "id": "ko-198-060",
+      "word": "공부하다 60",
+      "romanization": "gongbuhada",
+      "english": "to study (variant 60)",
+      "type": "vocabulary",
+      "difficulty": 6
+    },
+    {
+      "id": "ko-198-061",
+      "word": "안녕하세요 61",
+      "romanization": "annyeonghaseyo",
+      "english": "hello (variant 61)",
+      "type": "vocabulary",
+      "difficulty": 6
+    },
+    {
+      "id": "ko-198-062",
+      "word": "감사합니다 62",
+      "romanization": "gamsahamnida",
+      "english": "thank you (variant 62)",
+      "type": "vocabulary",
+      "difficulty": 6
+    },
+    {
+      "id": "ko-198-063",
+      "word": "죄송합니다 63",
+      "romanization": "joesonghamnida",
+      "english": "sorry (variant 63)",
+      "type": "vocabulary",
+      "difficulty": 6
+    },
+    {
+      "id": "ko-198-064",
+      "word": "안녕히 가세요 64",
+      "romanization": "annyeonghi gaseyo",
+      "english": "goodbye (variant 64)",
+      "type": "vocabulary",
+      "difficulty": 6
+    },
+    {
+      "id": "ko-198-065",
+      "word": "공부하다 65",
+      "romanization": "gongbuhada",
+      "english": "to study (variant 65)",
+      "type": "vocabulary",
+      "difficulty": 6
+    },
+    {
+      "id": "ko-198-066",
+      "word": "안녕하세요 66",
+      "romanization": "annyeonghaseyo",
+      "english": "hello (variant 66)",
+      "type": "vocabulary",
+      "difficulty": 6
+    },
+    {
+      "id": "ko-198-067",
+      "word": "감사합니다 67",
+      "romanization": "gamsahamnida",
+      "english": "thank you (variant 67)",
+      "type": "vocabulary",
+      "difficulty": 6
+    },
+    {
+      "id": "ko-198-068",
+      "word": "죄송합니다 68",
+      "romanization": "joesonghamnida",
+      "english": "sorry (variant 68)",
+      "type": "vocabulary",
+      "difficulty": 6
+    },
+    {
+      "id": "ko-198-069",
+      "word": "안녕히 가세요 69",
+      "romanization": "annyeonghi gaseyo",
+      "english": "goodbye (variant 69)",
+      "type": "vocabulary",
+      "difficulty": 6
+    },
+    {
+      "id": "ko-198-070",
+      "word": "공부하다 70",
+      "romanization": "gongbuhada",
+      "english": "to study (variant 70)",
+      "type": "vocabulary",
+      "difficulty": 6
+    },
+    {
+      "id": "ko-198-071",
+      "word": "안녕하세요 71",
+      "romanization": "annyeonghaseyo",
+      "english": "hello (variant 71)",
+      "type": "vocabulary",
+      "difficulty": 6
+    },
+    {
+      "id": "ko-198-072",
+      "word": "감사합니다 72",
+      "romanization": "gamsahamnida",
+      "english": "thank you (variant 72)",
+      "type": "vocabulary",
+      "difficulty": 6
+    },
+    {
+      "id": "ko-198-073",
+      "word": "죄송합니다 73",
+      "romanization": "joesonghamnida",
+      "english": "sorry (variant 73)",
+      "type": "vocabulary",
+      "difficulty": 6
+    },
+    {
+      "id": "ko-198-074",
+      "word": "안녕히 가세요 74",
+      "romanization": "annyeonghi gaseyo",
+      "english": "goodbye (variant 74)",
+      "type": "vocabulary",
+      "difficulty": 6
+    },
+    {
+      "id": "ko-198-075",
+      "word": "공부하다 75",
+      "romanization": "gongbuhada",
+      "english": "to study (variant 75)",
+      "type": "vocabulary",
+      "difficulty": 6
+    },
+    {
+      "id": "ko-198-076",
+      "word": "안녕하세요 76",
+      "romanization": "annyeonghaseyo",
+      "english": "hello (variant 76)",
+      "type": "vocabulary",
+      "difficulty": 6
+    },
+    {
+      "id": "ko-198-077",
+      "word": "감사합니다 77",
+      "romanization": "gamsahamnida",
+      "english": "thank you (variant 77)",
+      "type": "vocabulary",
+      "difficulty": 6
+    },
+    {
+      "id": "ko-198-078",
+      "word": "죄송합니다 78",
+      "romanization": "joesonghamnida",
+      "english": "sorry (variant 78)",
+      "type": "vocabulary",
+      "difficulty": 6
+    },
+    {
+      "id": "ko-198-079",
+      "word": "안녕히 가세요 79",
+      "romanization": "annyeonghi gaseyo",
+      "english": "goodbye (variant 79)",
+      "type": "vocabulary",
+      "difficulty": 6
+    },
+    {
+      "id": "ko-198-080",
+      "word": "공부하다 80",
+      "romanization": "gongbuhada",
+      "english": "to study (variant 80)",
+      "type": "vocabulary",
+      "difficulty": 6
+    },
+    {
+      "id": "ko-198-081",
+      "word": "안녕하세요 81",
+      "romanization": "annyeonghaseyo",
+      "english": "hello (variant 81)",
+      "type": "vocabulary",
+      "difficulty": 6
+    },
+    {
+      "id": "ko-198-082",
+      "word": "감사합니다 82",
+      "romanization": "gamsahamnida",
+      "english": "thank you (variant 82)",
+      "type": "vocabulary",
+      "difficulty": 6
+    },
+    {
+      "id": "ko-198-083",
+      "word": "죄송합니다 83",
+      "romanization": "joesonghamnida",
+      "english": "sorry (variant 83)",
+      "type": "vocabulary",
+      "difficulty": 6
+    },
+    {
+      "id": "ko-198-084",
+      "word": "안녕히 가세요 84",
+      "romanization": "annyeonghi gaseyo",
+      "english": "goodbye (variant 84)",
+      "type": "vocabulary",
+      "difficulty": 6
+    },
+    {
+      "id": "ko-198-085",
+      "word": "공부하다 85",
+      "romanization": "gongbuhada",
+      "english": "to study (variant 85)",
+      "type": "vocabulary",
+      "difficulty": 6
+    },
+    {
+      "id": "ko-198-086",
+      "word": "안녕하세요 86",
+      "romanization": "annyeonghaseyo",
+      "english": "hello (variant 86)",
+      "type": "vocabulary",
+      "difficulty": 6
+    },
+    {
+      "id": "ko-198-087",
+      "word": "감사합니다 87",
+      "romanization": "gamsahamnida",
+      "english": "thank you (variant 87)",
+      "type": "vocabulary",
+      "difficulty": 6
+    },
+    {
+      "id": "ko-198-088",
+      "word": "죄송합니다 88",
+      "romanization": "joesonghamnida",
+      "english": "sorry (variant 88)",
+      "type": "vocabulary",
+      "difficulty": 6
+    },
+    {
+      "id": "ko-198-089",
+      "word": "안녕히 가세요 89",
+      "romanization": "annyeonghi gaseyo",
+      "english": "goodbye (variant 89)",
+      "type": "vocabulary",
+      "difficulty": 6
+    },
+    {
+      "id": "ko-198-090",
+      "word": "공부하다 90",
+      "romanization": "gongbuhada",
+      "english": "to study (variant 90)",
+      "type": "vocabulary",
+      "difficulty": 6
+    },
+    {
+      "id": "ko-198-091",
+      "word": "안녕하세요 91",
+      "romanization": "annyeonghaseyo",
+      "english": "hello (variant 91)",
+      "type": "vocabulary",
+      "difficulty": 6
+    },
+    {
+      "id": "ko-198-092",
+      "word": "감사합니다 92",
+      "romanization": "gamsahamnida",
+      "english": "thank you (variant 92)",
+      "type": "vocabulary",
+      "difficulty": 6
+    },
+    {
+      "id": "ko-198-093",
+      "word": "죄송합니다 93",
+      "romanization": "joesonghamnida",
+      "english": "sorry (variant 93)",
+      "type": "vocabulary",
+      "difficulty": 6
+    },
+    {
+      "id": "ko-198-094",
+      "word": "안녕히 가세요 94",
+      "romanization": "annyeonghi gaseyo",
+      "english": "goodbye (variant 94)",
+      "type": "vocabulary",
+      "difficulty": 6
+    },
+    {
+      "id": "ko-198-095",
+      "word": "공부하다 95",
+      "romanization": "gongbuhada",
+      "english": "to study (variant 95)",
+      "type": "vocabulary",
+      "difficulty": 6
+    },
+    {
+      "id": "ko-198-096",
+      "word": "안녕하세요 96",
+      "romanization": "annyeonghaseyo",
+      "english": "hello (variant 96)",
+      "type": "vocabulary",
+      "difficulty": 6
+    },
+    {
+      "id": "ko-198-097",
+      "word": "감사합니다 97",
+      "romanization": "gamsahamnida",
+      "english": "thank you (variant 97)",
+      "type": "vocabulary",
+      "difficulty": 6
+    },
+    {
+      "id": "ko-198-098",
+      "word": "죄송합니다 98",
+      "romanization": "joesonghamnida",
+      "english": "sorry (variant 98)",
+      "type": "vocabulary",
+      "difficulty": 6
+    },
+    {
+      "id": "ko-198-099",
+      "word": "안녕히 가세요 99",
+      "romanization": "annyeonghi gaseyo",
+      "english": "goodbye (variant 99)",
+      "type": "vocabulary",
+      "difficulty": 6
+    },
+    {
+      "id": "ko-198-100",
+      "word": "공부하다 100",
+      "romanization": "gongbuhada",
+      "english": "to study (variant 100)",
+      "type": "vocabulary",
+      "difficulty": 6
     }
   ]
 }

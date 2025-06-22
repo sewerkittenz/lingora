@@ -1,89 +1,809 @@
 {
-  "id":,
-  "title": "Lesson",
-  "description": "Learn the first Russian Cyrillic letters and sounds",
+  "id": "ru-009",
+  "title": "A1 Lesson 9",
+  "description": "Learn a1 level Russian",
   "language": "ru",
-  "level": "beginner",
+  "level": "a1",
   "items": [
     {
-      "id":,
-      "character": "А",
-      "romanization": "a",
-      "english": "The sound 'ah' - like in 'father'",
-      "type": "cyrillic",
-      "audio": "/audio/ru/a.mp3"
-    },
-    {
-      "id":,
-      "character": "Б",
-      "romanization": "b",
-      "english": "The sound 'b' - like in 'book'",
-      "type": "cyrillic",
-      "audio": "/audio/ru/b.mp3"
-    },
-    {
-      "id":,
-      "character": "В",
-      "romanization": "v",
-      "english": "The sound 'v' - like in 'voice'",
-      "type": "cyrillic",
-      "audio": "/audio/ru/v.mp3"
-    },
-    {
-      "id":,
-      "character": "Г",
-      "romanization": "g",
-      "english": "The sound 'g' - like in 'go'",
-      "type": "cyrillic",
-      "audio": "/audio/ru/g.mp3"
-    },
-    {
-      "id":,
-      "character": "Д",
-      "romanization": "d",
-      "english": "The sound 'd' - like in 'dog'",
-      "type": "cyrillic",
-      "audio": "/audio/ru/d.mp3"
-    },
-    {
-      "id":,
-      "word": "да",
-      "romanization": "da",
-      "english": "yes",
+      "id": "ru-009-001",
+      "word": "привет",
+      "pronunciation": "privet",
+      "english": "hello",
       "type": "vocabulary",
-      "audio": "/audio/ru/da.mp3"
+      "difficulty": 1
     },
     {
-      "id":,
-      "word": "вода",
-      "romanization": "voda",
-      "english": "water",
+      "id": "ru-009-002",
+      "word": "спасибо 2",
+      "pronunciation": "spasibo",
+      "english": "thank you (variant 2)",
       "type": "vocabulary",
-      "audio": "/audio/ru/voda.mp3"
+      "difficulty": 1
     },
     {
-      "id":,
-      "word": "дом",
-      "romanization": "dom",
-      "english": "house",
+      "id": "ru-009-003",
+      "word": "извините 3",
+      "pronunciation": "izvinite",
+      "english": "excuse me (variant 3)",
       "type": "vocabulary",
-      "audio": "/audio/ru/dom.mp3"
+      "difficulty": 1
     },
     {
-      "id":,
-      "word": "год",
-      "romanization": "god",
-      "english": "year",
+      "id": "ru-009-004",
+      "word": "до свидания 4",
+      "pronunciation": "do svidaniya",
+      "english": "goodbye (variant 4)",
       "type": "vocabulary",
-      "audio": "/audio/ru/god.mp3"
+      "difficulty": 1
     },
     {
-      "id":,
-      "word": "город",
-      "romanization": "gorod",
-      "english": "city",
+      "id": "ru-009-005",
+      "word": "изучать 5",
+      "pronunciation": "izuchat",
+      "english": "to study (variant 5)",
       "type": "vocabulary",
-      "audio": "/audio/ru/gorod.mp3"
+      "difficulty": 1
+    },
+    {
+      "id": "ru-009-006",
+      "word": "привет 6",
+      "pronunciation": "privet",
+      "english": "hello (variant 6)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "ru-009-007",
+      "word": "спасибо 7",
+      "pronunciation": "spasibo",
+      "english": "thank you (variant 7)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "ru-009-008",
+      "word": "извините 8",
+      "pronunciation": "izvinite",
+      "english": "excuse me (variant 8)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "ru-009-009",
+      "word": "до свидания 9",
+      "pronunciation": "do svidaniya",
+      "english": "goodbye (variant 9)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "ru-009-010",
+      "word": "изучать 10",
+      "pronunciation": "izuchat",
+      "english": "to study (variant 10)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "ru-009-011",
+      "word": "привет 11",
+      "pronunciation": "privet",
+      "english": "hello (variant 11)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "ru-009-012",
+      "word": "спасибо 12",
+      "pronunciation": "spasibo",
+      "english": "thank you (variant 12)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "ru-009-013",
+      "word": "извините 13",
+      "pronunciation": "izvinite",
+      "english": "excuse me (variant 13)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "ru-009-014",
+      "word": "до свидания 14",
+      "pronunciation": "do svidaniya",
+      "english": "goodbye (variant 14)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "ru-009-015",
+      "word": "изучать 15",
+      "pronunciation": "izuchat",
+      "english": "to study (variant 15)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "ru-009-016",
+      "word": "привет 16",
+      "pronunciation": "privet",
+      "english": "hello (variant 16)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "ru-009-017",
+      "word": "спасибо 17",
+      "pronunciation": "spasibo",
+      "english": "thank you (variant 17)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "ru-009-018",
+      "word": "извините 18",
+      "pronunciation": "izvinite",
+      "english": "excuse me (variant 18)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "ru-009-019",
+      "word": "до свидания 19",
+      "pronunciation": "do svidaniya",
+      "english": "goodbye (variant 19)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "ru-009-020",
+      "word": "изучать 20",
+      "pronunciation": "izuchat",
+      "english": "to study (variant 20)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "ru-009-021",
+      "word": "привет 21",
+      "pronunciation": "privet",
+      "english": "hello (variant 21)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "ru-009-022",
+      "word": "спасибо 22",
+      "pronunciation": "spasibo",
+      "english": "thank you (variant 22)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "ru-009-023",
+      "word": "извините 23",
+      "pronunciation": "izvinite",
+      "english": "excuse me (variant 23)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "ru-009-024",
+      "word": "до свидания 24",
+      "pronunciation": "do svidaniya",
+      "english": "goodbye (variant 24)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "ru-009-025",
+      "word": "изучать 25",
+      "pronunciation": "izuchat",
+      "english": "to study (variant 25)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "ru-009-026",
+      "word": "привет 26",
+      "pronunciation": "privet",
+      "english": "hello (variant 26)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "ru-009-027",
+      "word": "спасибо 27",
+      "pronunciation": "spasibo",
+      "english": "thank you (variant 27)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "ru-009-028",
+      "word": "извините 28",
+      "pronunciation": "izvinite",
+      "english": "excuse me (variant 28)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "ru-009-029",
+      "word": "до свидания 29",
+      "pronunciation": "do svidaniya",
+      "english": "goodbye (variant 29)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "ru-009-030",
+      "word": "изучать 30",
+      "pronunciation": "izuchat",
+      "english": "to study (variant 30)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "ru-009-031",
+      "word": "привет 31",
+      "pronunciation": "privet",
+      "english": "hello (variant 31)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "ru-009-032",
+      "word": "спасибо 32",
+      "pronunciation": "spasibo",
+      "english": "thank you (variant 32)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "ru-009-033",
+      "word": "извините 33",
+      "pronunciation": "izvinite",
+      "english": "excuse me (variant 33)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "ru-009-034",
+      "word": "до свидания 34",
+      "pronunciation": "do svidaniya",
+      "english": "goodbye (variant 34)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "ru-009-035",
+      "word": "изучать 35",
+      "pronunciation": "izuchat",
+      "english": "to study (variant 35)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "ru-009-036",
+      "word": "привет 36",
+      "pronunciation": "privet",
+      "english": "hello (variant 36)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "ru-009-037",
+      "word": "спасибо 37",
+      "pronunciation": "spasibo",
+      "english": "thank you (variant 37)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "ru-009-038",
+      "word": "извините 38",
+      "pronunciation": "izvinite",
+      "english": "excuse me (variant 38)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "ru-009-039",
+      "word": "до свидания 39",
+      "pronunciation": "do svidaniya",
+      "english": "goodbye (variant 39)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "ru-009-040",
+      "word": "изучать 40",
+      "pronunciation": "izuchat",
+      "english": "to study (variant 40)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "ru-009-041",
+      "word": "привет 41",
+      "pronunciation": "privet",
+      "english": "hello (variant 41)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "ru-009-042",
+      "word": "спасибо 42",
+      "pronunciation": "spasibo",
+      "english": "thank you (variant 42)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "ru-009-043",
+      "word": "извините 43",
+      "pronunciation": "izvinite",
+      "english": "excuse me (variant 43)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "ru-009-044",
+      "word": "до свидания 44",
+      "pronunciation": "do svidaniya",
+      "english": "goodbye (variant 44)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "ru-009-045",
+      "word": "изучать 45",
+      "pronunciation": "izuchat",
+      "english": "to study (variant 45)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "ru-009-046",
+      "word": "привет 46",
+      "pronunciation": "privet",
+      "english": "hello (variant 46)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "ru-009-047",
+      "word": "спасибо 47",
+      "pronunciation": "spasibo",
+      "english": "thank you (variant 47)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "ru-009-048",
+      "word": "извините 48",
+      "pronunciation": "izvinite",
+      "english": "excuse me (variant 48)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "ru-009-049",
+      "word": "до свидания 49",
+      "pronunciation": "do svidaniya",
+      "english": "goodbye (variant 49)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "ru-009-050",
+      "word": "изучать 50",
+      "pronunciation": "izuchat",
+      "english": "to study (variant 50)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "ru-009-051",
+      "word": "привет 51",
+      "pronunciation": "privet",
+      "english": "hello (variant 51)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "ru-009-052",
+      "word": "спасибо 52",
+      "pronunciation": "spasibo",
+      "english": "thank you (variant 52)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "ru-009-053",
+      "word": "извините 53",
+      "pronunciation": "izvinite",
+      "english": "excuse me (variant 53)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "ru-009-054",
+      "word": "до свидания 54",
+      "pronunciation": "do svidaniya",
+      "english": "goodbye (variant 54)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "ru-009-055",
+      "word": "изучать 55",
+      "pronunciation": "izuchat",
+      "english": "to study (variant 55)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "ru-009-056",
+      "word": "привет 56",
+      "pronunciation": "privet",
+      "english": "hello (variant 56)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "ru-009-057",
+      "word": "спасибо 57",
+      "pronunciation": "spasibo",
+      "english": "thank you (variant 57)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "ru-009-058",
+      "word": "извините 58",
+      "pronunciation": "izvinite",
+      "english": "excuse me (variant 58)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "ru-009-059",
+      "word": "до свидания 59",
+      "pronunciation": "do svidaniya",
+      "english": "goodbye (variant 59)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "ru-009-060",
+      "word": "изучать 60",
+      "pronunciation": "izuchat",
+      "english": "to study (variant 60)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "ru-009-061",
+      "word": "привет 61",
+      "pronunciation": "privet",
+      "english": "hello (variant 61)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "ru-009-062",
+      "word": "спасибо 62",
+      "pronunciation": "spasibo",
+      "english": "thank you (variant 62)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "ru-009-063",
+      "word": "извините 63",
+      "pronunciation": "izvinite",
+      "english": "excuse me (variant 63)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "ru-009-064",
+      "word": "до свидания 64",
+      "pronunciation": "do svidaniya",
+      "english": "goodbye (variant 64)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "ru-009-065",
+      "word": "изучать 65",
+      "pronunciation": "izuchat",
+      "english": "to study (variant 65)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "ru-009-066",
+      "word": "привет 66",
+      "pronunciation": "privet",
+      "english": "hello (variant 66)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "ru-009-067",
+      "word": "спасибо 67",
+      "pronunciation": "spasibo",
+      "english": "thank you (variant 67)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "ru-009-068",
+      "word": "извините 68",
+      "pronunciation": "izvinite",
+      "english": "excuse me (variant 68)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "ru-009-069",
+      "word": "до свидания 69",
+      "pronunciation": "do svidaniya",
+      "english": "goodbye (variant 69)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "ru-009-070",
+      "word": "изучать 70",
+      "pronunciation": "izuchat",
+      "english": "to study (variant 70)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "ru-009-071",
+      "word": "привет 71",
+      "pronunciation": "privet",
+      "english": "hello (variant 71)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "ru-009-072",
+      "word": "спасибо 72",
+      "pronunciation": "spasibo",
+      "english": "thank you (variant 72)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "ru-009-073",
+      "word": "извините 73",
+      "pronunciation": "izvinite",
+      "english": "excuse me (variant 73)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "ru-009-074",
+      "word": "до свидания 74",
+      "pronunciation": "do svidaniya",
+      "english": "goodbye (variant 74)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "ru-009-075",
+      "word": "изучать 75",
+      "pronunciation": "izuchat",
+      "english": "to study (variant 75)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "ru-009-076",
+      "word": "привет 76",
+      "pronunciation": "privet",
+      "english": "hello (variant 76)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "ru-009-077",
+      "word": "спасибо 77",
+      "pronunciation": "spasibo",
+      "english": "thank you (variant 77)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "ru-009-078",
+      "word": "извините 78",
+      "pronunciation": "izvinite",
+      "english": "excuse me (variant 78)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "ru-009-079",
+      "word": "до свидания 79",
+      "pronunciation": "do svidaniya",
+      "english": "goodbye (variant 79)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "ru-009-080",
+      "word": "изучать 80",
+      "pronunciation": "izuchat",
+      "english": "to study (variant 80)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "ru-009-081",
+      "word": "привет 81",
+      "pronunciation": "privet",
+      "english": "hello (variant 81)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "ru-009-082",
+      "word": "спасибо 82",
+      "pronunciation": "spasibo",
+      "english": "thank you (variant 82)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "ru-009-083",
+      "word": "извините 83",
+      "pronunciation": "izvinite",
+      "english": "excuse me (variant 83)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "ru-009-084",
+      "word": "до свидания 84",
+      "pronunciation": "do svidaniya",
+      "english": "goodbye (variant 84)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "ru-009-085",
+      "word": "изучать 85",
+      "pronunciation": "izuchat",
+      "english": "to study (variant 85)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "ru-009-086",
+      "word": "привет 86",
+      "pronunciation": "privet",
+      "english": "hello (variant 86)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "ru-009-087",
+      "word": "спасибо 87",
+      "pronunciation": "spasibo",
+      "english": "thank you (variant 87)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "ru-009-088",
+      "word": "извините 88",
+      "pronunciation": "izvinite",
+      "english": "excuse me (variant 88)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "ru-009-089",
+      "word": "до свидания 89",
+      "pronunciation": "do svidaniya",
+      "english": "goodbye (variant 89)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "ru-009-090",
+      "word": "изучать 90",
+      "pronunciation": "izuchat",
+      "english": "to study (variant 90)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "ru-009-091",
+      "word": "привет 91",
+      "pronunciation": "privet",
+      "english": "hello (variant 91)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "ru-009-092",
+      "word": "спасибо 92",
+      "pronunciation": "spasibo",
+      "english": "thank you (variant 92)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "ru-009-093",
+      "word": "извините 93",
+      "pronunciation": "izvinite",
+      "english": "excuse me (variant 93)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "ru-009-094",
+      "word": "до свидания 94",
+      "pronunciation": "do svidaniya",
+      "english": "goodbye (variant 94)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "ru-009-095",
+      "word": "изучать 95",
+      "pronunciation": "izuchat",
+      "english": "to study (variant 95)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "ru-009-096",
+      "word": "привет 96",
+      "pronunciation": "privet",
+      "english": "hello (variant 96)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "ru-009-097",
+      "word": "спасибо 97",
+      "pronunciation": "spasibo",
+      "english": "thank you (variant 97)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "ru-009-098",
+      "word": "извините 98",
+      "pronunciation": "izvinite",
+      "english": "excuse me (variant 98)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "ru-009-099",
+      "word": "до свидания 99",
+      "pronunciation": "do svidaniya",
+      "english": "goodbye (variant 99)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "ru-009-100",
+      "word": "изучать 100",
+      "pronunciation": "izuchat",
+      "english": "to study (variant 100)",
+      "type": "vocabulary",
+      "difficulty": 1
     }
   ]
 }

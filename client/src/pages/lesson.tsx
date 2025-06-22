@@ -26,7 +26,7 @@ type QuizMode = 'flashcard' | 'fill-blank' | 'multiple-choice' | 'type-answer' |
 
 interface QuizItem {
   id: string;
-  type: 'vocab' | 'grammar' | 'writing' | 'kanji' | 'pronunciation';
+  type: 'vocab' | 'grammar' | 'writing' | 'kanji' | 'pronunciation' | 'hiragana' | 'vocabulary';
   question: string;
   answer: string;
   options?: string[];
@@ -34,6 +34,13 @@ interface QuizItem {
   pronunciation?: string;
   example?: string;
   difficulty?: number;
+  word?: string;
+  character?: string;
+  english?: string;
+  meaning?: string;
+  romanji?: string;
+  romanization?: string;
+  pinyin?: string;
 }
 
 interface MatchingItem {
@@ -71,7 +78,18 @@ export default function Lesson() {
 
   const [quizItems, setQuizItems] = useState<QuizItem[]>([]);
   const [originalItems, setOriginalItems] = useState<QuizItem[]>([]);
+  const [currentBatchItems, setCurrentBatchItems] = useState<QuizItem[]>([]);
   const [isLoading, setIsLoading] = useState(true);
+  const [sessionProgress, setSessionProgress] = useState({
+    wordsLearned: 0,
+    correctCount: 0,
+    incorrectCount: 0,
+    skippedCount: 0,
+    currentBatch: 1,
+    totalBatches: 4 // 100 items / 25 = 4 batches
+  });
+  const [incorrectItems, setIncorrectItems] = useState<QuizItem[]>([]);
+  const [showBatchSummary, setShowBatchSummary] = useState(false);
 
   // Matching mode state
   const [matchingItems, setMatchingItems] = useState<MatchingItem[]>([]);
@@ -267,16 +285,33 @@ export default function Lesson() {
           
           const expandedItems = expandToHundredItems(items as QuizItem[], languageCode, lessonNumber);
           setOriginalItems(expandedItems);
-          setQuizItems(expandedItems);
           
-          // Initialize matching items for matching mode
-          const validItems = items.filter(item => item && item.answer);
-          const matching = validItems.slice(0, 6).map((item, index) => ({
-            id: `match-${index}`,
-            english: item.translation || item.answer || "Unknown",
-            foreign: item.question?.includes('"') ? item.question.split('"')[1] : item.answer || "Unknown",
-            matched: false
-          }));
+          // Set first batch of 25 items
+          const firstBatch = expandedItems.slice(0, 25);
+          setQuizItems(firstBatch);
+          setCurrentBatchItems(firstBatch);
+          
+          // Initialize coherent matching items for matching mode from current batch
+          const validItems = firstBatch.filter(item => item && item.answer);
+          const matching = validItems.slice(0, 6).map((item, index) => {
+            // Extract foreign language word from different possible sources
+            let foreignWord = "Unknown";
+            let englishWord = item.translation || item.answer || "Unknown";
+            
+            // Try to extract the foreign word from the question
+            if (item.question?.includes('"')) {
+              foreignWord = item.question.split('"')[1] || item.answer;
+            } else {
+              foreignWord = item.answer;
+            }
+            
+            return {
+              id: `match-${index}`,
+              english: englishWord,
+              foreign: foreignWord,
+              matched: false
+            };
+          });
           setMatchingItems(matching);
           
         } catch (contentError) {
@@ -320,6 +355,7 @@ export default function Lesson() {
 
   const skipQuestion = () => {
     setSkippedItems(prev => prev + 1);
+    setSessionProgress(prev => ({ ...prev, skippedCount: prev.skippedCount + 1 }));
     nextQuestion();
   };
 
@@ -347,10 +383,14 @@ export default function Lesson() {
       setScore(prev => prev + 10);
       setStreak(prev => prev + 1);
       setCorrectAnswers(prev => prev + 1);
+      setSessionProgress(prev => ({ ...prev, correctCount: prev.correctCount + 1, wordsLearned: prev.wordsLearned + 1 }));
     } else {
       setHearts(prev => Math.max(0, prev - 1));
       setStreak(0);
       setIncorrectAnswers(prev => prev + 1);
+      setSessionProgress(prev => ({ ...prev, incorrectCount: prev.incorrectCount + 1 }));
+      // Add to incorrect items for review
+      setIncorrectItems(prev => [...prev, currentItem]);
     }
   };
 
@@ -365,7 +405,51 @@ export default function Lesson() {
       setShowFeedback(false);
       setFlashcardAnswered(false);
     } else {
+      // Completed current batch of 25 items
+      setShowBatchSummary(true);
+    }
+  };
+
+  const continueToNextBatch = () => {
+    const nextBatch = sessionProgress.currentBatch + 1;
+    if (nextBatch <= sessionProgress.totalBatches) {
+      const startIndex = (nextBatch - 1) * 25;
+      const endIndex = Math.min(startIndex + 25, originalItems.length);
+      const nextBatchItems = originalItems.slice(startIndex, endIndex);
+      
+      setQuizItems(nextBatchItems);
+      setCurrentBatchItems(nextBatchItems);
+      setCurrentQuestion(0);
+      setSessionProgress(prev => ({ ...prev, currentBatch: nextBatch }));
+      setShowBatchSummary(false);
+      setUserAnswer("");
+      setIsAnswered(false);
+      setShowFeedback(false);
+    } else {
       setShowSummary(true);
+      setShowBatchSummary(false);
+    }
+  };
+
+  const restartCurrentBatch = () => {
+    setCurrentQuestion(0);
+    setShowBatchSummary(false);
+    setUserAnswer("");
+    setIsAnswered(false);
+    setShowFeedback(false);
+    setCorrectAnswers(0);
+    setIncorrectAnswers(0);
+    setSkippedItems(0);
+  };
+
+  const reviewIncorrectItems = () => {
+    if (incorrectItems.length > 0) {
+      setQuizItems(incorrectItems);
+      setCurrentQuestion(0);
+      setShowBatchSummary(false);
+      setUserAnswer("");
+      setIsAnswered(false);
+      setShowFeedback(false);
     }
   };
 
@@ -737,17 +821,17 @@ export default function Lesson() {
         </div>
       )}
 
-      {/* Summary Modal */}
-      {showSummary && (
+      {/* Batch Summary Modal */}
+      {showBatchSummary && (
         <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-50">
           <Card className="w-full max-w-md mx-4">
             <CardContent className="p-6 text-center">
-              <h3 className="text-2xl font-bold mb-6">Lesson Complete!</h3>
+              <h3 className="text-2xl font-bold mb-6">Batch {sessionProgress.currentBatch} Complete!</h3>
               
               <div className="space-y-4 mb-6">
                 <div className="flex justify-between">
-                  <span>Questions Completed:</span>
-                  <span className="font-semibold">{completedItems}/100</span>
+                  <span>Words Learned:</span>
+                  <span className="font-semibold">{sessionProgress.wordsLearned}</span>
                 </div>
                 <div className="flex justify-between">
                   <span>Correct Answers:</span>
@@ -760,6 +844,53 @@ export default function Lesson() {
                 <div className="flex justify-between">
                   <span>Skipped:</span>
                   <span className="font-semibold text-yellow-600">{skippedItems}</span>
+                </div>
+                <div className="text-sm text-muted-foreground mt-4">
+                  Batch {sessionProgress.currentBatch} of {sessionProgress.totalBatches}
+                </div>
+              </div>
+              
+              <div className="flex flex-col gap-3">
+                <Button onClick={continueToNextBatch} className="w-full">
+                  Continue to Next Batch
+                </Button>
+                <Button variant="outline" onClick={restartCurrentBatch} className="w-full">
+                  Restart Current Batch
+                </Button>
+                {incorrectItems.length > 0 && (
+                  <Button variant="outline" onClick={reviewIncorrectItems} className="w-full">
+                    Review Incorrect Items ({incorrectItems.length})
+                  </Button>
+                )}
+              </div>
+            </CardContent>
+          </Card>
+        </div>
+      )}
+
+      {/* Final Summary Modal */}
+      {showSummary && (
+        <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-50">
+          <Card className="w-full max-w-md mx-4">
+            <CardContent className="p-6 text-center">
+              <h3 className="text-2xl font-bold mb-6">Lesson Complete!</h3>
+              
+              <div className="space-y-4 mb-6">
+                <div className="flex justify-between">
+                  <span>Total Words Learned:</span>
+                  <span className="font-semibold">{sessionProgress.wordsLearned}</span>
+                </div>
+                <div className="flex justify-between">
+                  <span>Total Correct:</span>
+                  <span className="font-semibold text-green-600">{sessionProgress.correctCount}</span>
+                </div>
+                <div className="flex justify-between">
+                  <span>Total Incorrect:</span>
+                  <span className="font-semibold text-red-600">{sessionProgress.incorrectCount}</span>
+                </div>
+                <div className="flex justify-between">
+                  <span>Total Skipped:</span>
+                  <span className="font-semibold text-yellow-600">{sessionProgress.skippedCount}</span>
                 </div>
                 <div className="flex justify-between text-lg font-bold">
                   <span>Final Score:</span>
@@ -784,6 +915,14 @@ export default function Lesson() {
                     setIncorrectAnswers(0);
                     setSkippedItems(0);
                     setCompletedItems(0);
+                    setSessionProgress({
+                      wordsLearned: 0,
+                      correctCount: 0,
+                      incorrectCount: 0,
+                      skippedCount: 0,
+                      currentBatch: 1,
+                      totalBatches: 4
+                    });
                   }}
                   className="flex-1"
                 >

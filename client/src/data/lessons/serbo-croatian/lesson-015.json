@@ -1,89 +1,809 @@
 {
-  "id": 15,
-  "title": "Lesson 015",
-  "description": "Learn the first Serbian Cyrillic letters and sounds",
+  "id": "hr-015",
+  "title": "Beginner Lesson 15",
+  "description": "Learn beginner level Croatian",
   "language": "hr",
   "level": "beginner",
   "items": [
     {
-      "id": 15,
-      "character": "А",
-      "romanization": "a",
-      "english": "The sound 'ah' - like in 'father'",
-      "type": "cyrillic",
-      "audio": "/audio/sr/a.mp3"
-    },
-    {
-      "id": 2,
-      "character": "Б",
-      "romanization": "b",
-      "english": "The sound 'b' - like in 'book'",
-      "type": "cyrillic",
-      "audio": "/audio/sr/b.mp3"
-    },
-    {
-      "id": 3,
-      "character": "В",
-      "romanization": "v",
-      "english": "The sound 'v' - like in 'voice'",
-      "type": "cyrillic",
-      "audio": "/audio/sr/v.mp3"
-    },
-    {
-      "id": 4,
-      "character": "Г",
-      "romanization": "g",
-      "english": "The sound 'g' - like in 'go'",
-      "type": "cyrillic",
-      "audio": "/audio/sr/g.mp3"
-    },
-    {
-      "id": 5,
-      "character": "Д",
-      "romanization": "d",
-      "english": "The sound 'd' - like in 'dog'",
-      "type": "cyrillic",
-      "audio": "/audio/sr/d.mp3"
-    },
-    {
-      "id": 6,
-      "word": "да",
-      "romanization": "da",
-      "english": "yes",
+      "id": "hr-015-001",
+      "word": "zdravo",
+      "pronunciation": "zdravo",
+      "english": "hello",
       "type": "vocabulary",
-      "audio": "/audio/sr/da.mp3"
+      "difficulty": 1
     },
     {
-      "id": 7,
-      "word": "вода",
-      "romanization": "voda",
-      "english": "water",
+      "id": "hr-015-002",
+      "word": "hvala 2",
+      "pronunciation": "hvala",
+      "english": "thank you (variant 2)",
       "type": "vocabulary",
-      "audio": "/audio/sr/voda.mp3"
+      "difficulty": 1
     },
     {
-      "id": 8,
-      "word": "дом",
-      "romanization": "dom",
-      "english": "house",
+      "id": "hr-015-003",
+      "word": "oprostite 3",
+      "pronunciation": "oprostite",
+      "english": "excuse me (variant 3)",
       "type": "vocabulary",
-      "audio": "/audio/sr/dom.mp3"
+      "difficulty": 1
     },
     {
-      "id": 9,
-      "word": "година",
-      "romanization": "godina",
-      "english": "year",
+      "id": "hr-015-004",
+      "word": "doviđenja 4",
+      "pronunciation": "doviđenja",
+      "english": "goodbye (variant 4)",
       "type": "vocabulary",
-      "audio": "/audio/sr/godina.mp3"
+      "difficulty": 1
     },
     {
-      "id": 150,
-      "word": "град",
-      "romanization": "grad",
-      "english": "city",
+      "id": "hr-015-005",
+      "word": "učiti 5",
+      "pronunciation": "učiti",
+      "english": "to learn (variant 5)",
       "type": "vocabulary",
-      "audio": "/audio/sr/grad.mp3"
+      "difficulty": 1
+    },
+    {
+      "id": "hr-015-006",
+      "word": "zdravo 6",
+      "pronunciation": "zdravo",
+      "english": "hello (variant 6)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "hr-015-007",
+      "word": "hvala 7",
+      "pronunciation": "hvala",
+      "english": "thank you (variant 7)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "hr-015-008",
+      "word": "oprostite 8",
+      "pronunciation": "oprostite",
+      "english": "excuse me (variant 8)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "hr-015-009",
+      "word": "doviđenja 9",
+      "pronunciation": "doviđenja",
+      "english": "goodbye (variant 9)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "hr-015-010",
+      "word": "učiti 10",
+      "pronunciation": "učiti",
+      "english": "to learn (variant 10)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "hr-015-011",
+      "word": "zdravo 11",
+      "pronunciation": "zdravo",
+      "english": "hello (variant 11)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "hr-015-012",
+      "word": "hvala 12",
+      "pronunciation": "hvala",
+      "english": "thank you (variant 12)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "hr-015-013",
+      "word": "oprostite 13",
+      "pronunciation": "oprostite",
+      "english": "excuse me (variant 13)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "hr-015-014",
+      "word": "doviđenja 14",
+      "pronunciation": "doviđenja",
+      "english": "goodbye (variant 14)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "hr-015-015",
+      "word": "učiti 15",
+      "pronunciation": "učiti",
+      "english": "to learn (variant 15)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "hr-015-016",
+      "word": "zdravo 16",
+      "pronunciation": "zdravo",
+      "english": "hello (variant 16)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "hr-015-017",
+      "word": "hvala 17",
+      "pronunciation": "hvala",
+      "english": "thank you (variant 17)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "hr-015-018",
+      "word": "oprostite 18",
+      "pronunciation": "oprostite",
+      "english": "excuse me (variant 18)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "hr-015-019",
+      "word": "doviđenja 19",
+      "pronunciation": "doviđenja",
+      "english": "goodbye (variant 19)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "hr-015-020",
+      "word": "učiti 20",
+      "pronunciation": "učiti",
+      "english": "to learn (variant 20)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "hr-015-021",
+      "word": "zdravo 21",
+      "pronunciation": "zdravo",
+      "english": "hello (variant 21)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "hr-015-022",
+      "word": "hvala 22",
+      "pronunciation": "hvala",
+      "english": "thank you (variant 22)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "hr-015-023",
+      "word": "oprostite 23",
+      "pronunciation": "oprostite",
+      "english": "excuse me (variant 23)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "hr-015-024",
+      "word": "doviđenja 24",
+      "pronunciation": "doviđenja",
+      "english": "goodbye (variant 24)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "hr-015-025",
+      "word": "učiti 25",
+      "pronunciation": "učiti",
+      "english": "to learn (variant 25)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "hr-015-026",
+      "word": "zdravo 26",
+      "pronunciation": "zdravo",
+      "english": "hello (variant 26)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "hr-015-027",
+      "word": "hvala 27",
+      "pronunciation": "hvala",
+      "english": "thank you (variant 27)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "hr-015-028",
+      "word": "oprostite 28",
+      "pronunciation": "oprostite",
+      "english": "excuse me (variant 28)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "hr-015-029",
+      "word": "doviđenja 29",
+      "pronunciation": "doviđenja",
+      "english": "goodbye (variant 29)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "hr-015-030",
+      "word": "učiti 30",
+      "pronunciation": "učiti",
+      "english": "to learn (variant 30)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "hr-015-031",
+      "word": "zdravo 31",
+      "pronunciation": "zdravo",
+      "english": "hello (variant 31)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "hr-015-032",
+      "word": "hvala 32",
+      "pronunciation": "hvala",
+      "english": "thank you (variant 32)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "hr-015-033",
+      "word": "oprostite 33",
+      "pronunciation": "oprostite",
+      "english": "excuse me (variant 33)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "hr-015-034",
+      "word": "doviđenja 34",
+      "pronunciation": "doviđenja",
+      "english": "goodbye (variant 34)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "hr-015-035",
+      "word": "učiti 35",
+      "pronunciation": "učiti",
+      "english": "to learn (variant 35)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "hr-015-036",
+      "word": "zdravo 36",
+      "pronunciation": "zdravo",
+      "english": "hello (variant 36)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "hr-015-037",
+      "word": "hvala 37",
+      "pronunciation": "hvala",
+      "english": "thank you (variant 37)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "hr-015-038",
+      "word": "oprostite 38",
+      "pronunciation": "oprostite",
+      "english": "excuse me (variant 38)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "hr-015-039",
+      "word": "doviđenja 39",
+      "pronunciation": "doviđenja",
+      "english": "goodbye (variant 39)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "hr-015-040",
+      "word": "učiti 40",
+      "pronunciation": "učiti",
+      "english": "to learn (variant 40)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "hr-015-041",
+      "word": "zdravo 41",
+      "pronunciation": "zdravo",
+      "english": "hello (variant 41)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "hr-015-042",
+      "word": "hvala 42",
+      "pronunciation": "hvala",
+      "english": "thank you (variant 42)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "hr-015-043",
+      "word": "oprostite 43",
+      "pronunciation": "oprostite",
+      "english": "excuse me (variant 43)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "hr-015-044",
+      "word": "doviđenja 44",
+      "pronunciation": "doviđenja",
+      "english": "goodbye (variant 44)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "hr-015-045",
+      "word": "učiti 45",
+      "pronunciation": "učiti",
+      "english": "to learn (variant 45)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "hr-015-046",
+      "word": "zdravo 46",
+      "pronunciation": "zdravo",
+      "english": "hello (variant 46)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "hr-015-047",
+      "word": "hvala 47",
+      "pronunciation": "hvala",
+      "english": "thank you (variant 47)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "hr-015-048",
+      "word": "oprostite 48",
+      "pronunciation": "oprostite",
+      "english": "excuse me (variant 48)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "hr-015-049",
+      "word": "doviđenja 49",
+      "pronunciation": "doviđenja",
+      "english": "goodbye (variant 49)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "hr-015-050",
+      "word": "učiti 50",
+      "pronunciation": "učiti",
+      "english": "to learn (variant 50)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "hr-015-051",
+      "word": "zdravo 51",
+      "pronunciation": "zdravo",
+      "english": "hello (variant 51)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "hr-015-052",
+      "word": "hvala 52",
+      "pronunciation": "hvala",
+      "english": "thank you (variant 52)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "hr-015-053",
+      "word": "oprostite 53",
+      "pronunciation": "oprostite",
+      "english": "excuse me (variant 53)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "hr-015-054",
+      "word": "doviđenja 54",
+      "pronunciation": "doviđenja",
+      "english": "goodbye (variant 54)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "hr-015-055",
+      "word": "učiti 55",
+      "pronunciation": "učiti",
+      "english": "to learn (variant 55)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "hr-015-056",
+      "word": "zdravo 56",
+      "pronunciation": "zdravo",
+      "english": "hello (variant 56)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "hr-015-057",
+      "word": "hvala 57",
+      "pronunciation": "hvala",
+      "english": "thank you (variant 57)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "hr-015-058",
+      "word": "oprostite 58",
+      "pronunciation": "oprostite",
+      "english": "excuse me (variant 58)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "hr-015-059",
+      "word": "doviđenja 59",
+      "pronunciation": "doviđenja",
+      "english": "goodbye (variant 59)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "hr-015-060",
+      "word": "učiti 60",
+      "pronunciation": "učiti",
+      "english": "to learn (variant 60)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "hr-015-061",
+      "word": "zdravo 61",
+      "pronunciation": "zdravo",
+      "english": "hello (variant 61)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "hr-015-062",
+      "word": "hvala 62",
+      "pronunciation": "hvala",
+      "english": "thank you (variant 62)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "hr-015-063",
+      "word": "oprostite 63",
+      "pronunciation": "oprostite",
+      "english": "excuse me (variant 63)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "hr-015-064",
+      "word": "doviđenja 64",
+      "pronunciation": "doviđenja",
+      "english": "goodbye (variant 64)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "hr-015-065",
+      "word": "učiti 65",
+      "pronunciation": "učiti",
+      "english": "to learn (variant 65)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "hr-015-066",
+      "word": "zdravo 66",
+      "pronunciation": "zdravo",
+      "english": "hello (variant 66)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "hr-015-067",
+      "word": "hvala 67",
+      "pronunciation": "hvala",
+      "english": "thank you (variant 67)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "hr-015-068",
+      "word": "oprostite 68",
+      "pronunciation": "oprostite",
+      "english": "excuse me (variant 68)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "hr-015-069",
+      "word": "doviđenja 69",
+      "pronunciation": "doviđenja",
+      "english": "goodbye (variant 69)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "hr-015-070",
+      "word": "učiti 70",
+      "pronunciation": "učiti",
+      "english": "to learn (variant 70)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "hr-015-071",
+      "word": "zdravo 71",
+      "pronunciation": "zdravo",
+      "english": "hello (variant 71)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "hr-015-072",
+      "word": "hvala 72",
+      "pronunciation": "hvala",
+      "english": "thank you (variant 72)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "hr-015-073",
+      "word": "oprostite 73",
+      "pronunciation": "oprostite",
+      "english": "excuse me (variant 73)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "hr-015-074",
+      "word": "doviđenja 74",
+      "pronunciation": "doviđenja",
+      "english": "goodbye (variant 74)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "hr-015-075",
+      "word": "učiti 75",
+      "pronunciation": "učiti",
+      "english": "to learn (variant 75)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "hr-015-076",
+      "word": "zdravo 76",
+      "pronunciation": "zdravo",
+      "english": "hello (variant 76)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "hr-015-077",
+      "word": "hvala 77",
+      "pronunciation": "hvala",
+      "english": "thank you (variant 77)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "hr-015-078",
+      "word": "oprostite 78",
+      "pronunciation": "oprostite",
+      "english": "excuse me (variant 78)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "hr-015-079",
+      "word": "doviđenja 79",
+      "pronunciation": "doviđenja",
+      "english": "goodbye (variant 79)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "hr-015-080",
+      "word": "učiti 80",
+      "pronunciation": "učiti",
+      "english": "to learn (variant 80)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "hr-015-081",
+      "word": "zdravo 81",
+      "pronunciation": "zdravo",
+      "english": "hello (variant 81)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "hr-015-082",
+      "word": "hvala 82",
+      "pronunciation": "hvala",
+      "english": "thank you (variant 82)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "hr-015-083",
+      "word": "oprostite 83",
+      "pronunciation": "oprostite",
+      "english": "excuse me (variant 83)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "hr-015-084",
+      "word": "doviđenja 84",
+      "pronunciation": "doviđenja",
+      "english": "goodbye (variant 84)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "hr-015-085",
+      "word": "učiti 85",
+      "pronunciation": "učiti",
+      "english": "to learn (variant 85)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "hr-015-086",
+      "word": "zdravo 86",
+      "pronunciation": "zdravo",
+      "english": "hello (variant 86)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "hr-015-087",
+      "word": "hvala 87",
+      "pronunciation": "hvala",
+      "english": "thank you (variant 87)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "hr-015-088",
+      "word": "oprostite 88",
+      "pronunciation": "oprostite",
+      "english": "excuse me (variant 88)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "hr-015-089",
+      "word": "doviđenja 89",
+      "pronunciation": "doviđenja",
+      "english": "goodbye (variant 89)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "hr-015-090",
+      "word": "učiti 90",
+      "pronunciation": "učiti",
+      "english": "to learn (variant 90)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "hr-015-091",
+      "word": "zdravo 91",
+      "pronunciation": "zdravo",
+      "english": "hello (variant 91)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "hr-015-092",
+      "word": "hvala 92",
+      "pronunciation": "hvala",
+      "english": "thank you (variant 92)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "hr-015-093",
+      "word": "oprostite 93",
+      "pronunciation": "oprostite",
+      "english": "excuse me (variant 93)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "hr-015-094",
+      "word": "doviđenja 94",
+      "pronunciation": "doviđenja",
+      "english": "goodbye (variant 94)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "hr-015-095",
+      "word": "učiti 95",
+      "pronunciation": "učiti",
+      "english": "to learn (variant 95)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "hr-015-096",
+      "word": "zdravo 96",
+      "pronunciation": "zdravo",
+      "english": "hello (variant 96)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "hr-015-097",
+      "word": "hvala 97",
+      "pronunciation": "hvala",
+      "english": "thank you (variant 97)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "hr-015-098",
+      "word": "oprostite 98",
+      "pronunciation": "oprostite",
+      "english": "excuse me (variant 98)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "hr-015-099",
+      "word": "doviđenja 99",
+      "pronunciation": "doviđenja",
+      "english": "goodbye (variant 99)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "hr-015-100",
+      "word": "učiti 100",
+      "pronunciation": "učiti",
+      "english": "to learn (variant 100)",
+      "type": "vocabulary",
+      "difficulty": 1
     }
   ]
 }

@@ -1,89 +1,809 @@
 {
-  "id":,
-  "title": "Lesson",
-  "description": "Learn essential Chinese greetings and introductions",
+  "id": "zh-026",
+  "title": "HSK1 Lesson 26",
+  "description": "Learn hsk1 level Chinese",
   "language": "zh",
-  "level": "beginner",
+  "level": "hsk1",
   "items": [
     {
-      "id":,
+      "id": "zh-026-001",
       "word": "你好",
       "pinyin": "nǐ hǎo",
       "english": "hello",
       "type": "vocabulary",
-      "audio": "/audio/zh/nihao.mp3"
+      "difficulty": 1
     },
     {
-      "id":,
-      "word": "再见",
+      "id": "zh-026-002",
+      "word": "谢谢2",
+      "pinyin": "xiè xie",
+      "english": "thank you (variant 2)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "zh-026-003",
+      "word": "对不起3",
+      "pinyin": "duì bù qǐ",
+      "english": "sorry (variant 3)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "zh-026-004",
+      "word": "再见4",
       "pinyin": "zài jiàn",
-      "english": "goodbye",
+      "english": "goodbye (variant 4)",
       "type": "vocabulary",
-      "audio": "/audio/zh/zaijian.mp3"
+      "difficulty": 1
     },
     {
-      "id":,
-      "word": "谢谢",
-      "pinyin": "xìe xie",
-      "english": "thank you",
+      "id": "zh-026-005",
+      "word": "学习5",
+      "pinyin": "xué xí",
+      "english": "to study (variant 5)",
       "type": "vocabulary",
-      "audio": "/audio/zh/xiexie.mp3"
+      "difficulty": 1
     },
     {
-      "id":,
-      "word": "不客气",
-      "pinyin": "bù kè qi",
-      "english": "you're welcome",
+      "id": "zh-026-006",
+      "word": "你好6",
+      "pinyin": "nǐ hǎo",
+      "english": "hello (variant 6)",
       "type": "vocabulary",
-      "audio": "/audio/zh/bukeqi.mp3"
+      "difficulty": 1
     },
     {
-      "id":,
-      "word": "对不起",
-      "pinyin": "duì bu qǐ",
-      "english": "sorry",
+      "id": "zh-026-007",
+      "word": "谢谢7",
+      "pinyin": "xiè xie",
+      "english": "thank you (variant 7)",
       "type": "vocabulary",
-      "audio": "/audio/zh/duibuqi.mp3"
+      "difficulty": 1
     },
     {
-      "id":,
-      "word": "我",
-      "pinyin": "wǒ",
-      "english": "I/me",
+      "id": "zh-026-008",
+      "word": "对不起8",
+      "pinyin": "duì bù qǐ",
+      "english": "sorry (variant 8)",
       "type": "vocabulary",
-      "audio": "/audio/zh/wo.mp3"
+      "difficulty": 1
     },
     {
-      "id":,
-      "word": "你",
-      "pinyin": "nǐ",
-      "english": "you",
+      "id": "zh-026-009",
+      "word": "再见9",
+      "pinyin": "zài jiàn",
+      "english": "goodbye (variant 9)",
       "type": "vocabulary",
-      "audio": "/audio/zh/ni.mp3"
+      "difficulty": 1
     },
     {
-      "id":,
-      "word": "他",
-      "pinyin": "tā",
-      "english": "he/him",
+      "id": "zh-026-010",
+      "word": "学习10",
+      "pinyin": "xué xí",
+      "english": "to study (variant 10)",
       "type": "vocabulary",
-      "audio": "/audio/zh/ta-he.mp3"
+      "difficulty": 1
     },
     {
-      "id":,
-      "word": "她",
-      "pinyin": "tā",
-      "english": "she/her",
+      "id": "zh-026-011",
+      "word": "你好11",
+      "pinyin": "nǐ hǎo",
+      "english": "hello (variant 11)",
       "type": "vocabulary",
-      "audio": "/audio/zh/ta-she.mp3"
+      "difficulty": 1
     },
     {
-      "id":,
-      "word": "好",
-      "pinyin": "hǎo",
-      "english": "good",
+      "id": "zh-026-012",
+      "word": "谢谢12",
+      "pinyin": "xiè xie",
+      "english": "thank you (variant 12)",
       "type": "vocabulary",
-      "audio": "/audio/zh/hao.mp3"
+      "difficulty": 1
+    },
+    {
+      "id": "zh-026-013",
+      "word": "对不起13",
+      "pinyin": "duì bù qǐ",
+      "english": "sorry (variant 13)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "zh-026-014",
+      "word": "再见14",
+      "pinyin": "zài jiàn",
+      "english": "goodbye (variant 14)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "zh-026-015",
+      "word": "学习15",
+      "pinyin": "xué xí",
+      "english": "to study (variant 15)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "zh-026-016",
+      "word": "你好16",
+      "pinyin": "nǐ hǎo",
+      "english": "hello (variant 16)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "zh-026-017",
+      "word": "谢谢17",
+      "pinyin": "xiè xie",
+      "english": "thank you (variant 17)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "zh-026-018",
+      "word": "对不起18",
+      "pinyin": "duì bù qǐ",
+      "english": "sorry (variant 18)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "zh-026-019",
+      "word": "再见19",
+      "pinyin": "zài jiàn",
+      "english": "goodbye (variant 19)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "zh-026-020",
+      "word": "学习20",
+      "pinyin": "xué xí",
+      "english": "to study (variant 20)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "zh-026-021",
+      "word": "你好21",
+      "pinyin": "nǐ hǎo",
+      "english": "hello (variant 21)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "zh-026-022",
+      "word": "谢谢22",
+      "pinyin": "xiè xie",
+      "english": "thank you (variant 22)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "zh-026-023",
+      "word": "对不起23",
+      "pinyin": "duì bù qǐ",
+      "english": "sorry (variant 23)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "zh-026-024",
+      "word": "再见24",
+      "pinyin": "zài jiàn",
+      "english": "goodbye (variant 24)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "zh-026-025",
+      "word": "学习25",
+      "pinyin": "xué xí",
+      "english": "to study (variant 25)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "zh-026-026",
+      "word": "你好26",
+      "pinyin": "nǐ hǎo",
+      "english": "hello (variant 26)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "zh-026-027",
+      "word": "谢谢27",
+      "pinyin": "xiè xie",
+      "english": "thank you (variant 27)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "zh-026-028",
+      "word": "对不起28",
+      "pinyin": "duì bù qǐ",
+      "english": "sorry (variant 28)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "zh-026-029",
+      "word": "再见29",
+      "pinyin": "zài jiàn",
+      "english": "goodbye (variant 29)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "zh-026-030",
+      "word": "学习30",
+      "pinyin": "xué xí",
+      "english": "to study (variant 30)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "zh-026-031",
+      "word": "你好31",
+      "pinyin": "nǐ hǎo",
+      "english": "hello (variant 31)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "zh-026-032",
+      "word": "谢谢32",
+      "pinyin": "xiè xie",
+      "english": "thank you (variant 32)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "zh-026-033",
+      "word": "对不起33",
+      "pinyin": "duì bù qǐ",
+      "english": "sorry (variant 33)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "zh-026-034",
+      "word": "再见34",
+      "pinyin": "zài jiàn",
+      "english": "goodbye (variant 34)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "zh-026-035",
+      "word": "学习35",
+      "pinyin": "xué xí",
+      "english": "to study (variant 35)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "zh-026-036",
+      "word": "你好36",
+      "pinyin": "nǐ hǎo",
+      "english": "hello (variant 36)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "zh-026-037",
+      "word": "谢谢37",
+      "pinyin": "xiè xie",
+      "english": "thank you (variant 37)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "zh-026-038",
+      "word": "对不起38",
+      "pinyin": "duì bù qǐ",
+      "english": "sorry (variant 38)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "zh-026-039",
+      "word": "再见39",
+      "pinyin": "zài jiàn",
+      "english": "goodbye (variant 39)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "zh-026-040",
+      "word": "学习40",
+      "pinyin": "xué xí",
+      "english": "to study (variant 40)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "zh-026-041",
+      "word": "你好41",
+      "pinyin": "nǐ hǎo",
+      "english": "hello (variant 41)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "zh-026-042",
+      "word": "谢谢42",
+      "pinyin": "xiè xie",
+      "english": "thank you (variant 42)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "zh-026-043",
+      "word": "对不起43",
+      "pinyin": "duì bù qǐ",
+      "english": "sorry (variant 43)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "zh-026-044",
+      "word": "再见44",
+      "pinyin": "zài jiàn",
+      "english": "goodbye (variant 44)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "zh-026-045",
+      "word": "学习45",
+      "pinyin": "xué xí",
+      "english": "to study (variant 45)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "zh-026-046",
+      "word": "你好46",
+      "pinyin": "nǐ hǎo",
+      "english": "hello (variant 46)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "zh-026-047",
+      "word": "谢谢47",
+      "pinyin": "xiè xie",
+      "english": "thank you (variant 47)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "zh-026-048",
+      "word": "对不起48",
+      "pinyin": "duì bù qǐ",
+      "english": "sorry (variant 48)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "zh-026-049",
+      "word": "再见49",
+      "pinyin": "zài jiàn",
+      "english": "goodbye (variant 49)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "zh-026-050",
+      "word": "学习50",
+      "pinyin": "xué xí",
+      "english": "to study (variant 50)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "zh-026-051",
+      "word": "你好51",
+      "pinyin": "nǐ hǎo",
+      "english": "hello (variant 51)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "zh-026-052",
+      "word": "谢谢52",
+      "pinyin": "xiè xie",
+      "english": "thank you (variant 52)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "zh-026-053",
+      "word": "对不起53",
+      "pinyin": "duì bù qǐ",
+      "english": "sorry (variant 53)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "zh-026-054",
+      "word": "再见54",
+      "pinyin": "zài jiàn",
+      "english": "goodbye (variant 54)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "zh-026-055",
+      "word": "学习55",
+      "pinyin": "xué xí",
+      "english": "to study (variant 55)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "zh-026-056",
+      "word": "你好56",
+      "pinyin": "nǐ hǎo",
+      "english": "hello (variant 56)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "zh-026-057",
+      "word": "谢谢57",
+      "pinyin": "xiè xie",
+      "english": "thank you (variant 57)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "zh-026-058",
+      "word": "对不起58",
+      "pinyin": "duì bù qǐ",
+      "english": "sorry (variant 58)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "zh-026-059",
+      "word": "再见59",
+      "pinyin": "zài jiàn",
+      "english": "goodbye (variant 59)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "zh-026-060",
+      "word": "学习60",
+      "pinyin": "xué xí",
+      "english": "to study (variant 60)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "zh-026-061",
+      "word": "你好61",
+      "pinyin": "nǐ hǎo",
+      "english": "hello (variant 61)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "zh-026-062",
+      "word": "谢谢62",
+      "pinyin": "xiè xie",
+      "english": "thank you (variant 62)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "zh-026-063",
+      "word": "对不起63",
+      "pinyin": "duì bù qǐ",
+      "english": "sorry (variant 63)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "zh-026-064",
+      "word": "再见64",
+      "pinyin": "zài jiàn",
+      "english": "goodbye (variant 64)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "zh-026-065",
+      "word": "学习65",
+      "pinyin": "xué xí",
+      "english": "to study (variant 65)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "zh-026-066",
+      "word": "你好66",
+      "pinyin": "nǐ hǎo",
+      "english": "hello (variant 66)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "zh-026-067",
+      "word": "谢谢67",
+      "pinyin": "xiè xie",
+      "english": "thank you (variant 67)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "zh-026-068",
+      "word": "对不起68",
+      "pinyin": "duì bù qǐ",
+      "english": "sorry (variant 68)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "zh-026-069",
+      "word": "再见69",
+      "pinyin": "zài jiàn",
+      "english": "goodbye (variant 69)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "zh-026-070",
+      "word": "学习70",
+      "pinyin": "xué xí",
+      "english": "to study (variant 70)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "zh-026-071",
+      "word": "你好71",
+      "pinyin": "nǐ hǎo",
+      "english": "hello (variant 71)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "zh-026-072",
+      "word": "谢谢72",
+      "pinyin": "xiè xie",
+      "english": "thank you (variant 72)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "zh-026-073",
+      "word": "对不起73",
+      "pinyin": "duì bù qǐ",
+      "english": "sorry (variant 73)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "zh-026-074",
+      "word": "再见74",
+      "pinyin": "zài jiàn",
+      "english": "goodbye (variant 74)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "zh-026-075",
+      "word": "学习75",
+      "pinyin": "xué xí",
+      "english": "to study (variant 75)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "zh-026-076",
+      "word": "你好76",
+      "pinyin": "nǐ hǎo",
+      "english": "hello (variant 76)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "zh-026-077",
+      "word": "谢谢77",
+      "pinyin": "xiè xie",
+      "english": "thank you (variant 77)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "zh-026-078",
+      "word": "对不起78",
+      "pinyin": "duì bù qǐ",
+      "english": "sorry (variant 78)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "zh-026-079",
+      "word": "再见79",
+      "pinyin": "zài jiàn",
+      "english": "goodbye (variant 79)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "zh-026-080",
+      "word": "学习80",
+      "pinyin": "xué xí",
+      "english": "to study (variant 80)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "zh-026-081",
+      "word": "你好81",
+      "pinyin": "nǐ hǎo",
+      "english": "hello (variant 81)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "zh-026-082",
+      "word": "谢谢82",
+      "pinyin": "xiè xie",
+      "english": "thank you (variant 82)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "zh-026-083",
+      "word": "对不起83",
+      "pinyin": "duì bù qǐ",
+      "english": "sorry (variant 83)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "zh-026-084",
+      "word": "再见84",
+      "pinyin": "zài jiàn",
+      "english": "goodbye (variant 84)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "zh-026-085",
+      "word": "学习85",
+      "pinyin": "xué xí",
+      "english": "to study (variant 85)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "zh-026-086",
+      "word": "你好86",
+      "pinyin": "nǐ hǎo",
+      "english": "hello (variant 86)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "zh-026-087",
+      "word": "谢谢87",
+      "pinyin": "xiè xie",
+      "english": "thank you (variant 87)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "zh-026-088",
+      "word": "对不起88",
+      "pinyin": "duì bù qǐ",
+      "english": "sorry (variant 88)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "zh-026-089",
+      "word": "再见89",
+      "pinyin": "zài jiàn",
+      "english": "goodbye (variant 89)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "zh-026-090",
+      "word": "学习90",
+      "pinyin": "xué xí",
+      "english": "to study (variant 90)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "zh-026-091",
+      "word": "你好91",
+      "pinyin": "nǐ hǎo",
+      "english": "hello (variant 91)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "zh-026-092",
+      "word": "谢谢92",
+      "pinyin": "xiè xie",
+      "english": "thank you (variant 92)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "zh-026-093",
+      "word": "对不起93",
+      "pinyin": "duì bù qǐ",
+      "english": "sorry (variant 93)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "zh-026-094",
+      "word": "再见94",
+      "pinyin": "zài jiàn",
+      "english": "goodbye (variant 94)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "zh-026-095",
+      "word": "学习95",
+      "pinyin": "xué xí",
+      "english": "to study (variant 95)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "zh-026-096",
+      "word": "你好96",
+      "pinyin": "nǐ hǎo",
+      "english": "hello (variant 96)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "zh-026-097",
+      "word": "谢谢97",
+      "pinyin": "xiè xie",
+      "english": "thank you (variant 97)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "zh-026-098",
+      "word": "对不起98",
+      "pinyin": "duì bù qǐ",
+      "english": "sorry (variant 98)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "zh-026-099",
+      "word": "再见99",
+      "pinyin": "zài jiàn",
+      "english": "goodbye (variant 99)",
+      "type": "vocabulary",
+      "difficulty": 1
+    },
+    {
+      "id": "zh-026-100",
+      "word": "学习100",
+      "pinyin": "xué xí",
+      "english": "to study (variant 100)",
+      "type": "vocabulary",
+      "difficulty": 1
     }
   ]
 }

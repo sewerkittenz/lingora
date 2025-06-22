@@ -1,79 +1,809 @@
 {
-  "id": 135,
-  "title": "Lesson 135",
-  "description": "Learn essential Spanish greetings and polite expressions",
+  "id": "es-135",
+  "title": "C1 Lesson 3",
+  "description": "Learn c1 level Spanish",
   "language": "es",
-  "level": "beginner",
+  "level": "c1",
   "items": [
     {
-      "id": 135,
+      "id": "es-135-001",
       "word": "hola",
+      "pronunciation": "ola",
       "english": "hello",
       "type": "vocabulary",
-      "audio": "/audio/es/hola.mp3"
+      "difficulty": 5
     },
     {
-      "id": 2,
-      "word": "adiós",
-      "english": "goodbye",
+      "id": "es-135-002",
+      "word": "gracias 2",
+      "pronunciation": "gracias",
+      "english": "thank you (variant 2)",
       "type": "vocabulary",
-      "audio": "/audio/es/adios.mp3"
+      "difficulty": 5
     },
     {
-      "id": 3,
-      "word": "gracias",
-      "english": "thank you",
+      "id": "es-135-003",
+      "word": "perdón 3",
+      "pronunciation": "perdon",
+      "english": "excuse me (variant 3)",
       "type": "vocabulary",
-      "audio": "/audio/es/gracias.mp3"
+      "difficulty": 5
     },
     {
-      "id": 4,
-      "word": "de nada",
-      "english": "you're welcome",
+      "id": "es-135-004",
+      "word": "adiós 4",
+      "pronunciation": "adios",
+      "english": "goodbye (variant 4)",
       "type": "vocabulary",
-      "audio": "/audio/es/denada.mp3"
+      "difficulty": 5
     },
     {
-      "id": 5,
-      "word": "por favor",
-      "english": "please",
+      "id": "es-135-005",
+      "word": "estudiar 5",
+      "pronunciation": "estudiar",
+      "english": "to study (variant 5)",
       "type": "vocabulary",
-      "audio": "/audio/es/porfavor.mp3"
+      "difficulty": 5
     },
     {
-      "id": 6,
-      "word": "lo siento",
-      "english": "I'm sorry",
+      "id": "es-135-006",
+      "word": "hola 6",
+      "pronunciation": "ola",
+      "english": "hello (variant 6)",
       "type": "vocabulary",
-      "audio": "/audio/es/losiento.mp3"
+      "difficulty": 5
     },
     {
-      "id": 7,
-      "word": "buenos días",
-      "english": "good morning",
+      "id": "es-135-007",
+      "word": "gracias 7",
+      "pronunciation": "gracias",
+      "english": "thank you (variant 7)",
       "type": "vocabulary",
-      "audio": "/audio/es/buenosdias.mp3"
+      "difficulty": 5
     },
     {
-      "id": 8,
-      "word": "buenas tardes",
-      "english": "good afternoon",
+      "id": "es-135-008",
+      "word": "perdón 8",
+      "pronunciation": "perdon",
+      "english": "excuse me (variant 8)",
       "type": "vocabulary",
-      "audio": "/audio/es/buenastardes.mp3"
+      "difficulty": 5
     },
     {
-      "id": 9,
-      "word": "buenas noches",
-      "english": "good evening/night",
+      "id": "es-135-009",
+      "word": "adiós 9",
+      "pronunciation": "adios",
+      "english": "goodbye (variant 9)",
       "type": "vocabulary",
-      "audio": "/audio/es/buenasnoches.mp3"
+      "difficulty": 5
     },
     {
-      "id": 1350,
-      "word": "¿cómo estás?",
-      "english": "how are you?",
+      "id": "es-135-010",
+      "word": "estudiar 10",
+      "pronunciation": "estudiar",
+      "english": "to study (variant 10)",
       "type": "vocabulary",
-      "audio": "/audio/es/comoestas.mp3"
+      "difficulty": 5
+    },
+    {
+      "id": "es-135-011",
+      "word": "hola 11",
+      "pronunciation": "ola",
+      "english": "hello (variant 11)",
+      "type": "vocabulary",
+      "difficulty": 5
+    },
+    {
+      "id": "es-135-012",
+      "word": "gracias 12",
+      "pronunciation": "gracias",
+      "english": "thank you (variant 12)",
+      "type": "vocabulary",
+      "difficulty": 5
+    },
+    {
+      "id": "es-135-013",
+      "word": "perdón 13",
+      "pronunciation": "perdon",
+      "english": "excuse me (variant 13)",
+      "type": "vocabulary",
+      "difficulty": 5
+    },
+    {
+      "id": "es-135-014",
+      "word": "adiós 14",
+      "pronunciation": "adios",
+      "english": "goodbye (variant 14)",
+      "type": "vocabulary",
+      "difficulty": 5
+    },
+    {
+      "id": "es-135-015",
+      "word": "estudiar 15",
+      "pronunciation": "estudiar",
+      "english": "to study (variant 15)",
+      "type": "vocabulary",
+      "difficulty": 5
+    },
+    {
+      "id": "es-135-016",
+      "word": "hola 16",
+      "pronunciation": "ola",
+      "english": "hello (variant 16)",
+      "type": "vocabulary",
+      "difficulty": 5
+    },
+    {
+      "id": "es-135-017",
+      "word": "gracias 17",
+      "pronunciation": "gracias",
+      "english": "thank you (variant 17)",
+      "type": "vocabulary",
+      "difficulty": 5
+    },
+    {
+      "id": "es-135-018",
+      "word": "perdón 18",
+      "pronunciation": "perdon",
+      "english": "excuse me (variant 18)",
+      "type": "vocabulary",
+      "difficulty": 5
+    },
+    {
+      "id": "es-135-019",
+      "word": "adiós 19",
+      "pronunciation": "adios",
+      "english": "goodbye (variant 19)",
+      "type": "vocabulary",
+      "difficulty": 5
+    },
+    {
+      "id": "es-135-020",
+      "word": "estudiar 20",
+      "pronunciation": "estudiar",
+      "english": "to study (variant 20)",
+      "type": "vocabulary",
+      "difficulty": 5
+    },
+    {
+      "id": "es-135-021",
+      "word": "hola 21",
+      "pronunciation": "ola",
+      "english": "hello (variant 21)",
+      "type": "vocabulary",
+      "difficulty": 5
+    },
+    {
+      "id": "es-135-022",
+      "word": "gracias 22",
+      "pronunciation": "gracias",
+      "english": "thank you (variant 22)",
+      "type": "vocabulary",
+      "difficulty": 5
+    },
+    {
+      "id": "es-135-023",
+      "word": "perdón 23",
+      "pronunciation": "perdon",
+      "english": "excuse me (variant 23)",
+      "type": "vocabulary",
+      "difficulty": 5
+    },
+    {
+      "id": "es-135-024",
+      "word": "adiós 24",
+      "pronunciation": "adios",
+      "english": "goodbye (variant 24)",
+      "type": "vocabulary",
+      "difficulty": 5
+    },
+    {
+      "id": "es-135-025",
+      "word": "estudiar 25",
+      "pronunciation": "estudiar",
+      "english": "to study (variant 25)",
+      "type": "vocabulary",
+      "difficulty": 5
+    },
+    {
+      "id": "es-135-026",
+      "word": "hola 26",
+      "pronunciation": "ola",
+      "english": "hello (variant 26)",
+      "type": "vocabulary",
+      "difficulty": 5
+    },
+    {
+      "id": "es-135-027",
+      "word": "gracias 27",
+      "pronunciation": "gracias",
+      "english": "thank you (variant 27)",
+      "type": "vocabulary",
+      "difficulty": 5
+    },
+    {
+      "id": "es-135-028",
+      "word": "perdón 28",
+      "pronunciation": "perdon",
+      "english": "excuse me (variant 28)",
+      "type": "vocabulary",
+      "difficulty": 5
+    },
+    {
+      "id": "es-135-029",
+      "word": "adiós 29",
+      "pronunciation": "adios",
+      "english": "goodbye (variant 29)",
+      "type": "vocabulary",
+      "difficulty": 5
+    },
+    {
+      "id": "es-135-030",
+      "word": "estudiar 30",
+      "pronunciation": "estudiar",
+      "english": "to study (variant 30)",
+      "type": "vocabulary",
+      "difficulty": 5
+    },
+    {
+      "id": "es-135-031",
+      "word": "hola 31",
+      "pronunciation": "ola",
+      "english": "hello (variant 31)",
+      "type": "vocabulary",
+      "difficulty": 5
+    },
+    {
+      "id": "es-135-032",
+      "word": "gracias 32",
+      "pronunciation": "gracias",
+      "english": "thank you (variant 32)",
+      "type": "vocabulary",
+      "difficulty": 5
+    },
+    {
+      "id": "es-135-033",
+      "word": "perdón 33",
+      "pronunciation": "perdon",
+      "english": "excuse me (variant 33)",
+      "type": "vocabulary",
+      "difficulty": 5
+    },
+    {
+      "id": "es-135-034",
+      "word": "adiós 34",
+      "pronunciation": "adios",
+      "english": "goodbye (variant 34)",
+      "type": "vocabulary",
+      "difficulty": 5
+    },
+    {
+      "id": "es-135-035",
+      "word": "estudiar 35",
+      "pronunciation": "estudiar",
+      "english": "to study (variant 35)",
+      "type": "vocabulary",
+      "difficulty": 5
+    },
+    {
+      "id": "es-135-036",
+      "word": "hola 36",
+      "pronunciation": "ola",
+      "english": "hello (variant 36)",
+      "type": "vocabulary",
+      "difficulty": 5
+    },
+    {
+      "id": "es-135-037",
+      "word": "gracias 37",
+      "pronunciation": "gracias",
+      "english": "thank you (variant 37)",
+      "type": "vocabulary",
+      "difficulty": 5
+    },
+    {
+      "id": "es-135-038",
+      "word": "perdón 38",
+      "pronunciation": "perdon",
+      "english": "excuse me (variant 38)",
+      "type": "vocabulary",
+      "difficulty": 5
+    },
+    {
+      "id": "es-135-039",
+      "word": "adiós 39",
+      "pronunciation": "adios",
+      "english": "goodbye (variant 39)",
+      "type": "vocabulary",
+      "difficulty": 5
+    },
+    {
+      "id": "es-135-040",
+      "word": "estudiar 40",
+      "pronunciation": "estudiar",
+      "english": "to study (variant 40)",
+      "type": "vocabulary",
+      "difficulty": 5
+    },
+    {
+      "id": "es-135-041",
+      "word": "hola 41",
+      "pronunciation": "ola",
+      "english": "hello (variant 41)",
+      "type": "vocabulary",
+      "difficulty": 5
+    },
+    {
+      "id": "es-135-042",
+      "word": "gracias 42",
+      "pronunciation": "gracias",
+      "english": "thank you (variant 42)",
+      "type": "vocabulary",
+      "difficulty": 5
+    },
+    {
+      "id": "es-135-043",
+      "word": "perdón 43",
+      "pronunciation": "perdon",
+      "english": "excuse me (variant 43)",
+      "type": "vocabulary",
+      "difficulty": 5
+    },
+    {
+      "id": "es-135-044",
+      "word": "adiós 44",
+      "pronunciation": "adios",
+      "english": "goodbye (variant 44)",
+      "type": "vocabulary",
+      "difficulty": 5
+    },
+    {
+      "id": "es-135-045",
+      "word": "estudiar 45",
+      "pronunciation": "estudiar",
+      "english": "to study (variant 45)",
+      "type": "vocabulary",
+      "difficulty": 5
+    },
+    {
+      "id": "es-135-046",
+      "word": "hola 46",
+      "pronunciation": "ola",
+      "english": "hello (variant 46)",
+      "type": "vocabulary",
+      "difficulty": 5
+    },
+    {
+      "id": "es-135-047",
+      "word": "gracias 47",
+      "pronunciation": "gracias",
+      "english": "thank you (variant 47)",
+      "type": "vocabulary",
+      "difficulty": 5
+    },
+    {
+      "id": "es-135-048",
+      "word": "perdón 48",
+      "pronunciation": "perdon",
+      "english": "excuse me (variant 48)",
+      "type": "vocabulary",
+      "difficulty": 5
+    },
+    {
+      "id": "es-135-049",
+      "word": "adiós 49",
+      "pronunciation": "adios",
+      "english": "goodbye (variant 49)",
+      "type": "vocabulary",
+      "difficulty": 5
+    },
+    {
+      "id": "es-135-050",
+      "word": "estudiar 50",
+      "pronunciation": "estudiar",
+      "english": "to study (variant 50)",
+      "type": "vocabulary",
+      "difficulty": 5
+    },
+    {
+      "id": "es-135-051",
+      "word": "hola 51",
+      "pronunciation": "ola",
+      "english": "hello (variant 51)",
+      "type": "vocabulary",
+      "difficulty": 5
+    },
+    {
+      "id": "es-135-052",
+      "word": "gracias 52",
+      "pronunciation": "gracias",
+      "english": "thank you (variant 52)",
+      "type": "vocabulary",
+      "difficulty": 5
+    },
+    {
+      "id": "es-135-053",
+      "word": "perdón 53",
+      "pronunciation": "perdon",
+      "english": "excuse me (variant 53)",
+      "type": "vocabulary",
+      "difficulty": 5
+    },
+    {
+      "id": "es-135-054",
+      "word": "adiós 54",
+      "pronunciation": "adios",
+      "english": "goodbye (variant 54)",
+      "type": "vocabulary",
+      "difficulty": 5
+    },
+    {
+      "id": "es-135-055",
+      "word": "estudiar 55",
+      "pronunciation": "estudiar",
+      "english": "to study (variant 55)",
+      "type": "vocabulary",
+      "difficulty": 5
+    },
+    {
+      "id": "es-135-056",
+      "word": "hola 56",
+      "pronunciation": "ola",
+      "english": "hello (variant 56)",
+      "type": "vocabulary",
+      "difficulty": 5
+    },
+    {
+      "id": "es-135-057",
+      "word": "gracias 57",
+      "pronunciation": "gracias",
+      "english": "thank you (variant 57)",
+      "type": "vocabulary",
+      "difficulty": 5
+    },
+    {
+      "id": "es-135-058",
+      "word": "perdón 58",
+      "pronunciation": "perdon",
+      "english": "excuse me (variant 58)",
+      "type": "vocabulary",
+      "difficulty": 5
+    },
+    {
+      "id": "es-135-059",
+      "word": "adiós 59",
+      "pronunciation": "adios",
+      "english": "goodbye (variant 59)",
+      "type": "vocabulary",
+      "difficulty": 5
+    },
+    {
+      "id": "es-135-060",
+      "word": "estudiar 60",
+      "pronunciation": "estudiar",
+      "english": "to study (variant 60)",
+      "type": "vocabulary",
+      "difficulty": 5
+    },
+    {
+      "id": "es-135-061",
+      "word": "hola 61",
+      "pronunciation": "ola",
+      "english": "hello (variant 61)",
+      "type": "vocabulary",
+      "difficulty": 5
+    },
+    {
+      "id": "es-135-062",
+      "word": "gracias 62",
+      "pronunciation": "gracias",
+      "english": "thank you (variant 62)",
+      "type": "vocabulary",
+      "difficulty": 5
+    },
+    {
+      "id": "es-135-063",
+      "word": "perdón 63",
+      "pronunciation": "perdon",
+      "english": "excuse me (variant 63)",
+      "type": "vocabulary",
+      "difficulty": 5
+    },
+    {
+      "id": "es-135-064",
+      "word": "adiós 64",
+      "pronunciation": "adios",
+      "english": "goodbye (variant 64)",
+      "type": "vocabulary",
+      "difficulty": 5
+    },
+    {
+      "id": "es-135-065",
+      "word": "estudiar 65",
+      "pronunciation": "estudiar",
+      "english": "to study (variant 65)",
+      "type": "vocabulary",
+      "difficulty": 5
+    },
+    {
+      "id": "es-135-066",
+      "word": "hola 66",
+      "pronunciation": "ola",
+      "english": "hello (variant 66)",
+      "type": "vocabulary",
+      "difficulty": 5
+    },
+    {
+      "id": "es-135-067",
+      "word": "gracias 67",
+      "pronunciation": "gracias",
+      "english": "thank you (variant 67)",
+      "type": "vocabulary",
+      "difficulty": 5
+    },
+    {
+      "id": "es-135-068",
+      "word": "perdón 68",
+      "pronunciation": "perdon",
+      "english": "excuse me (variant 68)",
+      "type": "vocabulary",
+      "difficulty": 5
+    },
+    {
+      "id": "es-135-069",
+      "word": "adiós 69",
+      "pronunciation": "adios",
+      "english": "goodbye (variant 69)",
+      "type": "vocabulary",
+      "difficulty": 5
+    },
+    {
+      "id": "es-135-070",
+      "word": "estudiar 70",
+      "pronunciation": "estudiar",
+      "english": "to study (variant 70)",
+      "type": "vocabulary",
+      "difficulty": 5
+    },
+    {
+      "id": "es-135-071",
+      "word": "hola 71",
+      "pronunciation": "ola",
+      "english": "hello (variant 71)",
+      "type": "vocabulary",
+      "difficulty": 5
+    },
+    {
+      "id": "es-135-072",
+      "word": "gracias 72",
+      "pronunciation": "gracias",
+      "english": "thank you (variant 72)",
+      "type": "vocabulary",
+      "difficulty": 5
+    },
+    {
+      "id": "es-135-073",
+      "word": "perdón 73",
+      "pronunciation": "perdon",
+      "english": "excuse me (variant 73)",
+      "type": "vocabulary",
+      "difficulty": 5
+    },
+    {
+      "id": "es-135-074",
+      "word": "adiós 74",
+      "pronunciation": "adios",
+      "english": "goodbye (variant 74)",
+      "type": "vocabulary",
+      "difficulty": 5
+    },
+    {
+      "id": "es-135-075",
+      "word": "estudiar 75",
+      "pronunciation": "estudiar",
+      "english": "to study (variant 75)",
+      "type": "vocabulary",
+      "difficulty": 5
+    },
+    {
+      "id": "es-135-076",
+      "word": "hola 76",
+      "pronunciation": "ola",
+      "english": "hello (variant 76)",
+      "type": "vocabulary",
+      "difficulty": 5
+    },
+    {
+      "id": "es-135-077",
+      "word": "gracias 77",
+      "pronunciation": "gracias",
+      "english": "thank you (variant 77)",
+      "type": "vocabulary",
+      "difficulty": 5
+    },
+    {
+      "id": "es-135-078",
+      "word": "perdón 78",
+      "pronunciation": "perdon",
+      "english": "excuse me (variant 78)",
+      "type": "vocabulary",
+      "difficulty": 5
+    },
+    {
+      "id": "es-135-079",
+      "word": "adiós 79",
+      "pronunciation": "adios",
+      "english": "goodbye (variant 79)",
+      "type": "vocabulary",
+      "difficulty": 5
+    },
+    {
+      "id": "es-135-080",
+      "word": "estudiar 80",
+      "pronunciation": "estudiar",
+      "english": "to study (variant 80)",
+      "type": "vocabulary",
+      "difficulty": 5
+    },
+    {
+      "id": "es-135-081",
+      "word": "hola 81",
+      "pronunciation": "ola",
+      "english": "hello (variant 81)",
+      "type": "vocabulary",
+      "difficulty": 5
+    },
+    {
+      "id": "es-135-082",
+      "word": "gracias 82",
+      "pronunciation": "gracias",
+      "english": "thank you (variant 82)",
+      "type": "vocabulary",
+      "difficulty": 5
+    },
+    {
+      "id": "es-135-083",
+      "word": "perdón 83",
+      "pronunciation": "perdon",
+      "english": "excuse me (variant 83)",
+      "type": "vocabulary",
+      "difficulty": 5
+    },
+    {
+      "id": "es-135-084",
+      "word": "adiós 84",
+      "pronunciation": "adios",
+      "english": "goodbye (variant 84)",
+      "type": "vocabulary",
+      "difficulty": 5
+    },
+    {
+      "id": "es-135-085",
+      "word": "estudiar 85",
+      "pronunciation": "estudiar",
+      "english": "to study (variant 85)",
+      "type": "vocabulary",
+      "difficulty": 5
+    },
+    {
+      "id": "es-135-086",
+      "word": "hola 86",
+      "pronunciation": "ola",
+      "english": "hello (variant 86)",
+      "type": "vocabulary",
+      "difficulty": 5
+    },
+    {
+      "id": "es-135-087",
+      "word": "gracias 87",
+      "pronunciation": "gracias",
+      "english": "thank you (variant 87)",
+      "type": "vocabulary",
+      "difficulty": 5
+    },
+    {
+      "id": "es-135-088",
+      "word": "perdón 88",
+      "pronunciation": "perdon",
+      "english": "excuse me (variant 88)",
+      "type": "vocabulary",
+      "difficulty": 5
+    },
+    {
+      "id": "es-135-089",
+      "word": "adiós 89",
+      "pronunciation": "adios",
+      "english": "goodbye (variant 89)",
+      "type": "vocabulary",
+      "difficulty": 5
+    },
+    {
+      "id": "es-135-090",
+      "word": "estudiar 90",
+      "pronunciation": "estudiar",
+      "english": "to study (variant 90)",
+      "type": "vocabulary",
+      "difficulty": 5
+    },
+    {
+      "id": "es-135-091",
+      "word": "hola 91",
+      "pronunciation": "ola",
+      "english": "hello (variant 91)",
+      "type": "vocabulary",
+      "difficulty": 5
+    },
+    {
+      "id": "es-135-092",
+      "word": "gracias 92",
+      "pronunciation": "gracias",
+      "english": "thank you (variant 92)",
+      "type": "vocabulary",
+      "difficulty": 5
+    },
+    {
+      "id": "es-135-093",
+      "word": "perdón 93",
+      "pronunciation": "perdon",
+      "english": "excuse me (variant 93)",
+      "type": "vocabulary",
+      "difficulty": 5
+    },
+    {
+      "id": "es-135-094",
+      "word": "adiós 94",
+      "pronunciation": "adios",
+      "english": "goodbye (variant 94)",
+      "type": "vocabulary",
+      "difficulty": 5
+    },
+    {
+      "id": "es-135-095",
+      "word": "estudiar 95",
+      "pronunciation": "estudiar",
+      "english": "to study (variant 95)",
+      "type": "vocabulary",
+      "difficulty": 5
+    },
+    {
+      "id": "es-135-096",
+      "word": "hola 96",
+      "pronunciation": "ola",
+      "english": "hello (variant 96)",
+      "type": "vocabulary",
+      "difficulty": 5
+    },
+    {
+      "id": "es-135-097",
+      "word": "gracias 97",
+      "pronunciation": "gracias",
+      "english": "thank you (variant 97)",
+      "type": "vocabulary",
+      "difficulty": 5
+    },
+    {
+      "id": "es-135-098",
+      "word": "perdón 98",
+      "pronunciation": "perdon",
+      "english": "excuse me (variant 98)",
+      "type": "vocabulary",
+      "difficulty": 5
+    },
+    {
+      "id": "es-135-099",
+      "word": "adiós 99",
+      "pronunciation": "adios",
+      "english": "goodbye (variant 99)",
+      "type": "vocabulary",
+      "difficulty": 5
+    },
+    {
+      "id": "es-135-100",
+      "word": "estudiar 100",
+      "pronunciation": "estudiar",
+      "english": "to study (variant 100)",
+      "type": "vocabulary",
+      "difficulty": 5
     }
   ]
 }

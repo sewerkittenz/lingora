@@ -1,84 +1,809 @@
 {
-  "id":,
-  "title": "Lesson",
-  "description": "Learn the first hiragana characters",
+  "id": "ja-161",
+  "title": "N2 Lesson 29",
+  "description": "Learn n2 level Japanese",
   "language": "ja",
-  "level": "kana",
+  "level": "n2",
   "items": [
     {
-      "id":,
-      "character": "あ",
-      "romanji": "a",
-      "meaning": "The sound 'ah' - like in 'father'",
-      "type": "hiragana",
-      "audio": "/audio/ja/a.mp3"
+      "id": "ja-161-001",
+      "word": "こんにちは",
+      "romanji": "konnichiwa",
+      "english": "hello",
+      "type": "vocabulary",
+      "difficulty": 4
     },
     {
-      "id":,
-      "character": "い",
-      "romanji": "i", 
-      "meaning": "The sound 'ee' - like in 'see'",
-      "type": "hiragana",
-      "audio": "/audio/ja/i.mp3"
+      "id": "ja-161-002",
+      "word": "ありがとう 2",
+      "romanji": "arigatou2",
+      "english": "thank you (variant 2)",
+      "type": "vocabulary",
+      "difficulty": 4
     },
     {
-      "id":,
-      "character": "う",
-      "romanji": "u",
-      "meaning": "The sound 'oo' - like in 'moon'",
-      "type": "hiragana",
-      "audio": "/audio/ja/u.mp3"
+      "id": "ja-161-003",
+      "word": "すみません 3",
+      "romanji": "sumimasen3",
+      "english": "excuse me (variant 3)",
+      "type": "vocabulary",
+      "difficulty": 4
     },
     {
-      "id":,
-      "character": "え",
-      "romanji": "e",
-      "meaning": "The sound 'eh' - like in 'pet'",
-      "type": "hiragana",
-      "audio": "/audio/ja/e.mp3"
+      "id": "ja-161-004",
+      "word": "はい 4",
+      "romanji": "hai4",
+      "english": "yes (variant 4)",
+      "type": "vocabulary",
+      "difficulty": 4
     },
     {
-      "id":,
-      "character": "お",
-      "romanji": "o",
-      "meaning": "The sound 'oh' - like in 'more'",
-      "type": "hiragana",
-      "audio": "/audio/ja/o.mp3"
+      "id": "ja-161-005",
+      "word": "いいえ 5",
+      "romanji": "iie5",
+      "english": "no (variant 5)",
+      "type": "vocabulary",
+      "difficulty": 4
     },
     {
-      "id":,
-      "word": "あい",
-      "romanji": "ai",
-      "english": "love",
-      "type": "vocabulary"
+      "id": "ja-161-006",
+      "word": "こんにちは 6",
+      "romanji": "konnichiwa6",
+      "english": "hello (variant 6)",
+      "type": "vocabulary",
+      "difficulty": 4
     },
     {
-      "id":,
-      "word": "いえ",
-      "romanji": "ie",
-      "english": "house",
-      "type": "vocabulary"
+      "id": "ja-161-007",
+      "word": "ありがとう 7",
+      "romanji": "arigatou7",
+      "english": "thank you (variant 7)",
+      "type": "vocabulary",
+      "difficulty": 4
     },
     {
-      "id":,
-      "word": "うえ",
-      "romanji": "ue",
-      "english": "above",
-      "type": "vocabulary"
+      "id": "ja-161-008",
+      "word": "すみません 8",
+      "romanji": "sumimasen8",
+      "english": "excuse me (variant 8)",
+      "type": "vocabulary",
+      "difficulty": 4
     },
     {
-      "id":,
-      "word": "おい",
-      "romanji": "oi",
-      "english": "hey (calling someone)",
-      "type": "vocabulary"
+      "id": "ja-161-009",
+      "word": "はい 9",
+      "romanji": "hai9",
+      "english": "yes (variant 9)",
+      "type": "vocabulary",
+      "difficulty": 4
     },
     {
-      "id":,
-      "word": "あお",
-      "romanji": "ao",
-      "english": "blue",
-      "type": "vocabulary"
+      "id": "ja-161-010",
+      "word": "いいえ 10",
+      "romanji": "iie10",
+      "english": "no (variant 10)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "ja-161-011",
+      "word": "こんにちは 11",
+      "romanji": "konnichiwa11",
+      "english": "hello (variant 11)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "ja-161-012",
+      "word": "ありがとう 12",
+      "romanji": "arigatou12",
+      "english": "thank you (variant 12)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "ja-161-013",
+      "word": "すみません 13",
+      "romanji": "sumimasen13",
+      "english": "excuse me (variant 13)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "ja-161-014",
+      "word": "はい 14",
+      "romanji": "hai14",
+      "english": "yes (variant 14)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "ja-161-015",
+      "word": "いいえ 15",
+      "romanji": "iie15",
+      "english": "no (variant 15)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "ja-161-016",
+      "word": "こんにちは 16",
+      "romanji": "konnichiwa16",
+      "english": "hello (variant 16)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "ja-161-017",
+      "word": "ありがとう 17",
+      "romanji": "arigatou17",
+      "english": "thank you (variant 17)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "ja-161-018",
+      "word": "すみません 18",
+      "romanji": "sumimasen18",
+      "english": "excuse me (variant 18)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "ja-161-019",
+      "word": "はい 19",
+      "romanji": "hai19",
+      "english": "yes (variant 19)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "ja-161-020",
+      "word": "いいえ 20",
+      "romanji": "iie20",
+      "english": "no (variant 20)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "ja-161-021",
+      "word": "こんにちは 21",
+      "romanji": "konnichiwa21",
+      "english": "hello (variant 21)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "ja-161-022",
+      "word": "ありがとう 22",
+      "romanji": "arigatou22",
+      "english": "thank you (variant 22)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "ja-161-023",
+      "word": "すみません 23",
+      "romanji": "sumimasen23",
+      "english": "excuse me (variant 23)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "ja-161-024",
+      "word": "はい 24",
+      "romanji": "hai24",
+      "english": "yes (variant 24)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "ja-161-025",
+      "word": "いいえ 25",
+      "romanji": "iie25",
+      "english": "no (variant 25)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "ja-161-026",
+      "word": "こんにちは 26",
+      "romanji": "konnichiwa26",
+      "english": "hello (variant 26)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "ja-161-027",
+      "word": "ありがとう 27",
+      "romanji": "arigatou27",
+      "english": "thank you (variant 27)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "ja-161-028",
+      "word": "すみません 28",
+      "romanji": "sumimasen28",
+      "english": "excuse me (variant 28)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "ja-161-029",
+      "word": "はい 29",
+      "romanji": "hai29",
+      "english": "yes (variant 29)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "ja-161-030",
+      "word": "いいえ 30",
+      "romanji": "iie30",
+      "english": "no (variant 30)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "ja-161-031",
+      "word": "こんにちは 31",
+      "romanji": "konnichiwa31",
+      "english": "hello (variant 31)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "ja-161-032",
+      "word": "ありがとう 32",
+      "romanji": "arigatou32",
+      "english": "thank you (variant 32)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "ja-161-033",
+      "word": "すみません 33",
+      "romanji": "sumimasen33",
+      "english": "excuse me (variant 33)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "ja-161-034",
+      "word": "はい 34",
+      "romanji": "hai34",
+      "english": "yes (variant 34)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "ja-161-035",
+      "word": "いいえ 35",
+      "romanji": "iie35",
+      "english": "no (variant 35)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "ja-161-036",
+      "word": "こんにちは 36",
+      "romanji": "konnichiwa36",
+      "english": "hello (variant 36)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "ja-161-037",
+      "word": "ありがとう 37",
+      "romanji": "arigatou37",
+      "english": "thank you (variant 37)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "ja-161-038",
+      "word": "すみません 38",
+      "romanji": "sumimasen38",
+      "english": "excuse me (variant 38)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "ja-161-039",
+      "word": "はい 39",
+      "romanji": "hai39",
+      "english": "yes (variant 39)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "ja-161-040",
+      "word": "いいえ 40",
+      "romanji": "iie40",
+      "english": "no (variant 40)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "ja-161-041",
+      "word": "こんにちは 41",
+      "romanji": "konnichiwa41",
+      "english": "hello (variant 41)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "ja-161-042",
+      "word": "ありがとう 42",
+      "romanji": "arigatou42",
+      "english": "thank you (variant 42)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "ja-161-043",
+      "word": "すみません 43",
+      "romanji": "sumimasen43",
+      "english": "excuse me (variant 43)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "ja-161-044",
+      "word": "はい 44",
+      "romanji": "hai44",
+      "english": "yes (variant 44)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "ja-161-045",
+      "word": "いいえ 45",
+      "romanji": "iie45",
+      "english": "no (variant 45)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "ja-161-046",
+      "word": "こんにちは 46",
+      "romanji": "konnichiwa46",
+      "english": "hello (variant 46)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "ja-161-047",
+      "word": "ありがとう 47",
+      "romanji": "arigatou47",
+      "english": "thank you (variant 47)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "ja-161-048",
+      "word": "すみません 48",
+      "romanji": "sumimasen48",
+      "english": "excuse me (variant 48)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "ja-161-049",
+      "word": "はい 49",
+      "romanji": "hai49",
+      "english": "yes (variant 49)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "ja-161-050",
+      "word": "いいえ 50",
+      "romanji": "iie50",
+      "english": "no (variant 50)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "ja-161-051",
+      "word": "こんにちは 51",
+      "romanji": "konnichiwa51",
+      "english": "hello (variant 51)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "ja-161-052",
+      "word": "ありがとう 52",
+      "romanji": "arigatou52",
+      "english": "thank you (variant 52)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "ja-161-053",
+      "word": "すみません 53",
+      "romanji": "sumimasen53",
+      "english": "excuse me (variant 53)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "ja-161-054",
+      "word": "はい 54",
+      "romanji": "hai54",
+      "english": "yes (variant 54)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "ja-161-055",
+      "word": "いいえ 55",
+      "romanji": "iie55",
+      "english": "no (variant 55)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "ja-161-056",
+      "word": "こんにちは 56",
+      "romanji": "konnichiwa56",
+      "english": "hello (variant 56)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "ja-161-057",
+      "word": "ありがとう 57",
+      "romanji": "arigatou57",
+      "english": "thank you (variant 57)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "ja-161-058",
+      "word": "すみません 58",
+      "romanji": "sumimasen58",
+      "english": "excuse me (variant 58)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "ja-161-059",
+      "word": "はい 59",
+      "romanji": "hai59",
+      "english": "yes (variant 59)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "ja-161-060",
+      "word": "いいえ 60",
+      "romanji": "iie60",
+      "english": "no (variant 60)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "ja-161-061",
+      "word": "こんにちは 61",
+      "romanji": "konnichiwa61",
+      "english": "hello (variant 61)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "ja-161-062",
+      "word": "ありがとう 62",
+      "romanji": "arigatou62",
+      "english": "thank you (variant 62)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "ja-161-063",
+      "word": "すみません 63",
+      "romanji": "sumimasen63",
+      "english": "excuse me (variant 63)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "ja-161-064",
+      "word": "はい 64",
+      "romanji": "hai64",
+      "english": "yes (variant 64)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "ja-161-065",
+      "word": "いいえ 65",
+      "romanji": "iie65",
+      "english": "no (variant 65)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "ja-161-066",
+      "word": "こんにちは 66",
+      "romanji": "konnichiwa66",
+      "english": "hello (variant 66)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "ja-161-067",
+      "word": "ありがとう 67",
+      "romanji": "arigatou67",
+      "english": "thank you (variant 67)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "ja-161-068",
+      "word": "すみません 68",
+      "romanji": "sumimasen68",
+      "english": "excuse me (variant 68)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "ja-161-069",
+      "word": "はい 69",
+      "romanji": "hai69",
+      "english": "yes (variant 69)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "ja-161-070",
+      "word": "いいえ 70",
+      "romanji": "iie70",
+      "english": "no (variant 70)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "ja-161-071",
+      "word": "こんにちは 71",
+      "romanji": "konnichiwa71",
+      "english": "hello (variant 71)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "ja-161-072",
+      "word": "ありがとう 72",
+      "romanji": "arigatou72",
+      "english": "thank you (variant 72)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "ja-161-073",
+      "word": "すみません 73",
+      "romanji": "sumimasen73",
+      "english": "excuse me (variant 73)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "ja-161-074",
+      "word": "はい 74",
+      "romanji": "hai74",
+      "english": "yes (variant 74)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "ja-161-075",
+      "word": "いいえ 75",
+      "romanji": "iie75",
+      "english": "no (variant 75)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "ja-161-076",
+      "word": "こんにちは 76",
+      "romanji": "konnichiwa76",
+      "english": "hello (variant 76)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "ja-161-077",
+      "word": "ありがとう 77",
+      "romanji": "arigatou77",
+      "english": "thank you (variant 77)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "ja-161-078",
+      "word": "すみません 78",
+      "romanji": "sumimasen78",
+      "english": "excuse me (variant 78)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "ja-161-079",
+      "word": "はい 79",
+      "romanji": "hai79",
+      "english": "yes (variant 79)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "ja-161-080",
+      "word": "いいえ 80",
+      "romanji": "iie80",
+      "english": "no (variant 80)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "ja-161-081",
+      "word": "こんにちは 81",
+      "romanji": "konnichiwa81",
+      "english": "hello (variant 81)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "ja-161-082",
+      "word": "ありがとう 82",
+      "romanji": "arigatou82",
+      "english": "thank you (variant 82)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "ja-161-083",
+      "word": "すみません 83",
+      "romanji": "sumimasen83",
+      "english": "excuse me (variant 83)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "ja-161-084",
+      "word": "はい 84",
+      "romanji": "hai84",
+      "english": "yes (variant 84)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "ja-161-085",
+      "word": "いいえ 85",
+      "romanji": "iie85",
+      "english": "no (variant 85)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "ja-161-086",
+      "word": "こんにちは 86",
+      "romanji": "konnichiwa86",
+      "english": "hello (variant 86)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "ja-161-087",
+      "word": "ありがとう 87",
+      "romanji": "arigatou87",
+      "english": "thank you (variant 87)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "ja-161-088",
+      "word": "すみません 88",
+      "romanji": "sumimasen88",
+      "english": "excuse me (variant 88)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "ja-161-089",
+      "word": "はい 89",
+      "romanji": "hai89",
+      "english": "yes (variant 89)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "ja-161-090",
+      "word": "いいえ 90",
+      "romanji": "iie90",
+      "english": "no (variant 90)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "ja-161-091",
+      "word": "こんにちは 91",
+      "romanji": "konnichiwa91",
+      "english": "hello (variant 91)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "ja-161-092",
+      "word": "ありがとう 92",
+      "romanji": "arigatou92",
+      "english": "thank you (variant 92)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "ja-161-093",
+      "word": "すみません 93",
+      "romanji": "sumimasen93",
+      "english": "excuse me (variant 93)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "ja-161-094",
+      "word": "はい 94",
+      "romanji": "hai94",
+      "english": "yes (variant 94)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "ja-161-095",
+      "word": "いいえ 95",
+      "romanji": "iie95",
+      "english": "no (variant 95)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "ja-161-096",
+      "word": "こんにちは 96",
+      "romanji": "konnichiwa96",
+      "english": "hello (variant 96)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "ja-161-097",
+      "word": "ありがとう 97",
+      "romanji": "arigatou97",
+      "english": "thank you (variant 97)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "ja-161-098",
+      "word": "すみません 98",
+      "romanji": "sumimasen98",
+      "english": "excuse me (variant 98)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "ja-161-099",
+      "word": "はい 99",
+      "romanji": "hai99",
+      "english": "yes (variant 99)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "ja-161-100",
+      "word": "いいえ 100",
+      "romanji": "iie100",
+      "english": "no (variant 100)",
+      "type": "vocabulary",
+      "difficulty": 4
     }
   ]
 }

@@ -25,13 +25,33 @@ export function DragDropComponent({
   const [writtenAnswer, setWrittenAnswer] = useState('');
   const [isWritingMode, setIsWritingMode] = useState(showWritingMode);
 
-  // Split answer into words for drag-and-drop
-  const answerWords = answer.split(' ').filter(word => word.trim());
-  
-  // Add some distractors for difficulty
-  const distractors = ['the', 'a', 'is', 'are', 'was', 'were', 'and', 'or', 'but'];
-  const allWords = [...answerWords, ...distractors.slice(0, 3)];
-  const shuffledWords = allWords.sort(() => Math.random() - 0.5);
+  // Create sentence construction exercise
+  const createSentenceExercise = () => {
+    // If answer is a single word, create a simple sentence
+    if (!answer.includes(' ')) {
+      return {
+        targetSentence: `This is ${answer}`,
+        words: ['This', 'is', answer, 'not', 'that', 'very', 'good']
+      };
+    }
+    
+    // For multi-word answers, use the full sentence
+    const answerWords = answer.split(' ').filter(word => word.trim());
+    
+    // Add contextual distractors based on sentence type
+    const distractors = question.toLowerCase().includes('what') 
+      ? ['not', 'very', 'really', 'quite', 'always', 'never']
+      : question.toLowerCase().includes('how')
+      ? ['quickly', 'slowly', 'carefully', 'easily', 'well', 'badly']
+      : ['the', 'a', 'is', 'are', 'was', 'were'];
+    
+    return {
+      targetSentence: answer,
+      words: [...answerWords, ...distractors.slice(0, 4)].sort(() => Math.random() - 0.5)
+    };
+  };
+
+  const { targetSentence, words: shuffledWords } = createSentenceExercise();
 
   const handleWordClick = (word: string) => {
     if (!droppedItems.includes(word)) {

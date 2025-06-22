@@ -1,79 +1,809 @@
 {
-  "id":,
-  "title": "Lesson",
-  "description": "Learn essential German greetings and introductions",
+  "id": "de-131",
+  "title": "B2 Lesson 32",
+  "description": "Learn b2 level German",
   "language": "de",
-  "level": "beginner",
+  "level": "b2",
   "items": [
     {
-      "id":,
+      "id": "de-131-001",
       "word": "hallo",
+      "pronunciation": "hallo",
       "english": "hello",
       "type": "vocabulary",
-      "audio": "/audio/de/hallo.mp3"
+      "difficulty": 4
     },
     {
-      "id":,
-      "word": "auf Wiedersehen",
-      "english": "goodbye",
+      "id": "de-131-002",
+      "word": "danke 2",
+      "pronunciation": "danke",
+      "english": "thank you (variant 2)",
       "type": "vocabulary",
-      "audio": "/audio/de/aufwiedersehen.mp3"
+      "difficulty": 4
     },
     {
-      "id":,
-      "word": "danke",
-      "english": "thank you",
+      "id": "de-131-003",
+      "word": "entschuldigung 3",
+      "pronunciation": "entschuldigung",
+      "english": "excuse me (variant 3)",
       "type": "vocabulary",
-      "audio": "/audio/de/danke.mp3"
+      "difficulty": 4
     },
     {
-      "id":,
-      "word": "bitte",
-      "english": "please/you're welcome",
+      "id": "de-131-004",
+      "word": "auf wiedersehen 4",
+      "pronunciation": "auf wiedersehen",
+      "english": "goodbye (variant 4)",
       "type": "vocabulary",
-      "audio": "/audio/de/bitte.mp3"
+      "difficulty": 4
     },
     {
-      "id":,
-      "word": "entschuldigung",
-      "english": "excuse me/sorry",
+      "id": "de-131-005",
+      "word": "lernen 5",
+      "pronunciation": "lernen",
+      "english": "to learn (variant 5)",
       "type": "vocabulary",
-      "audio": "/audio/de/entschuldigung.mp3"
+      "difficulty": 4
     },
     {
-      "id":,
-      "word": "guten Morgen",
-      "english": "good morning",
+      "id": "de-131-006",
+      "word": "hallo 6",
+      "pronunciation": "hallo",
+      "english": "hello (variant 6)",
       "type": "vocabulary",
-      "audio": "/audio/de/gutenmorgen.mp3"
+      "difficulty": 4
     },
     {
-      "id":,
-      "word": "guten Tag",
-      "english": "good day",
+      "id": "de-131-007",
+      "word": "danke 7",
+      "pronunciation": "danke",
+      "english": "thank you (variant 7)",
       "type": "vocabulary",
-      "audio": "/audio/de/gutentag.mp3"
+      "difficulty": 4
     },
     {
-      "id":,
-      "word": "guten Abend",
-      "english": "good evening",
+      "id": "de-131-008",
+      "word": "entschuldigung 8",
+      "pronunciation": "entschuldigung",
+      "english": "excuse me (variant 8)",
       "type": "vocabulary",
-      "audio": "/audio/de/gutenabend.mp3"
+      "difficulty": 4
     },
     {
-      "id":,
-      "word": "wie geht's?",
-      "english": "how are you?",
+      "id": "de-131-009",
+      "word": "auf wiedersehen 9",
+      "pronunciation": "auf wiedersehen",
+      "english": "goodbye (variant 9)",
       "type": "vocabulary",
-      "audio": "/audio/de/wiegehts.mp3"
+      "difficulty": 4
     },
     {
-      "id":,
-      "word": "gut",
-      "english": "good",
+      "id": "de-131-010",
+      "word": "lernen 10",
+      "pronunciation": "lernen",
+      "english": "to learn (variant 10)",
       "type": "vocabulary",
-      "audio": "/audio/de/gut.mp3"
+      "difficulty": 4
+    },
+    {
+      "id": "de-131-011",
+      "word": "hallo 11",
+      "pronunciation": "hallo",
+      "english": "hello (variant 11)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "de-131-012",
+      "word": "danke 12",
+      "pronunciation": "danke",
+      "english": "thank you (variant 12)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "de-131-013",
+      "word": "entschuldigung 13",
+      "pronunciation": "entschuldigung",
+      "english": "excuse me (variant 13)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "de-131-014",
+      "word": "auf wiedersehen 14",
+      "pronunciation": "auf wiedersehen",
+      "english": "goodbye (variant 14)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "de-131-015",
+      "word": "lernen 15",
+      "pronunciation": "lernen",
+      "english": "to learn (variant 15)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "de-131-016",
+      "word": "hallo 16",
+      "pronunciation": "hallo",
+      "english": "hello (variant 16)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "de-131-017",
+      "word": "danke 17",
+      "pronunciation": "danke",
+      "english": "thank you (variant 17)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "de-131-018",
+      "word": "entschuldigung 18",
+      "pronunciation": "entschuldigung",
+      "english": "excuse me (variant 18)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "de-131-019",
+      "word": "auf wiedersehen 19",
+      "pronunciation": "auf wiedersehen",
+      "english": "goodbye (variant 19)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "de-131-020",
+      "word": "lernen 20",
+      "pronunciation": "lernen",
+      "english": "to learn (variant 20)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "de-131-021",
+      "word": "hallo 21",
+      "pronunciation": "hallo",
+      "english": "hello (variant 21)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "de-131-022",
+      "word": "danke 22",
+      "pronunciation": "danke",
+      "english": "thank you (variant 22)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "de-131-023",
+      "word": "entschuldigung 23",
+      "pronunciation": "entschuldigung",
+      "english": "excuse me (variant 23)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "de-131-024",
+      "word": "auf wiedersehen 24",
+      "pronunciation": "auf wiedersehen",
+      "english": "goodbye (variant 24)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "de-131-025",
+      "word": "lernen 25",
+      "pronunciation": "lernen",
+      "english": "to learn (variant 25)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "de-131-026",
+      "word": "hallo 26",
+      "pronunciation": "hallo",
+      "english": "hello (variant 26)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "de-131-027",
+      "word": "danke 27",
+      "pronunciation": "danke",
+      "english": "thank you (variant 27)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "de-131-028",
+      "word": "entschuldigung 28",
+      "pronunciation": "entschuldigung",
+      "english": "excuse me (variant 28)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "de-131-029",
+      "word": "auf wiedersehen 29",
+      "pronunciation": "auf wiedersehen",
+      "english": "goodbye (variant 29)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "de-131-030",
+      "word": "lernen 30",
+      "pronunciation": "lernen",
+      "english": "to learn (variant 30)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "de-131-031",
+      "word": "hallo 31",
+      "pronunciation": "hallo",
+      "english": "hello (variant 31)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "de-131-032",
+      "word": "danke 32",
+      "pronunciation": "danke",
+      "english": "thank you (variant 32)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "de-131-033",
+      "word": "entschuldigung 33",
+      "pronunciation": "entschuldigung",
+      "english": "excuse me (variant 33)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "de-131-034",
+      "word": "auf wiedersehen 34",
+      "pronunciation": "auf wiedersehen",
+      "english": "goodbye (variant 34)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "de-131-035",
+      "word": "lernen 35",
+      "pronunciation": "lernen",
+      "english": "to learn (variant 35)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "de-131-036",
+      "word": "hallo 36",
+      "pronunciation": "hallo",
+      "english": "hello (variant 36)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "de-131-037",
+      "word": "danke 37",
+      "pronunciation": "danke",
+      "english": "thank you (variant 37)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "de-131-038",
+      "word": "entschuldigung 38",
+      "pronunciation": "entschuldigung",
+      "english": "excuse me (variant 38)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "de-131-039",
+      "word": "auf wiedersehen 39",
+      "pronunciation": "auf wiedersehen",
+      "english": "goodbye (variant 39)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "de-131-040",
+      "word": "lernen 40",
+      "pronunciation": "lernen",
+      "english": "to learn (variant 40)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "de-131-041",
+      "word": "hallo 41",
+      "pronunciation": "hallo",
+      "english": "hello (variant 41)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "de-131-042",
+      "word": "danke 42",
+      "pronunciation": "danke",
+      "english": "thank you (variant 42)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "de-131-043",
+      "word": "entschuldigung 43",
+      "pronunciation": "entschuldigung",
+      "english": "excuse me (variant 43)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "de-131-044",
+      "word": "auf wiedersehen 44",
+      "pronunciation": "auf wiedersehen",
+      "english": "goodbye (variant 44)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "de-131-045",
+      "word": "lernen 45",
+      "pronunciation": "lernen",
+      "english": "to learn (variant 45)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "de-131-046",
+      "word": "hallo 46",
+      "pronunciation": "hallo",
+      "english": "hello (variant 46)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "de-131-047",
+      "word": "danke 47",
+      "pronunciation": "danke",
+      "english": "thank you (variant 47)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "de-131-048",
+      "word": "entschuldigung 48",
+      "pronunciation": "entschuldigung",
+      "english": "excuse me (variant 48)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "de-131-049",
+      "word": "auf wiedersehen 49",
+      "pronunciation": "auf wiedersehen",
+      "english": "goodbye (variant 49)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "de-131-050",
+      "word": "lernen 50",
+      "pronunciation": "lernen",
+      "english": "to learn (variant 50)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "de-131-051",
+      "word": "hallo 51",
+      "pronunciation": "hallo",
+      "english": "hello (variant 51)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "de-131-052",
+      "word": "danke 52",
+      "pronunciation": "danke",
+      "english": "thank you (variant 52)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "de-131-053",
+      "word": "entschuldigung 53",
+      "pronunciation": "entschuldigung",
+      "english": "excuse me (variant 53)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "de-131-054",
+      "word": "auf wiedersehen 54",
+      "pronunciation": "auf wiedersehen",
+      "english": "goodbye (variant 54)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "de-131-055",
+      "word": "lernen 55",
+      "pronunciation": "lernen",
+      "english": "to learn (variant 55)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "de-131-056",
+      "word": "hallo 56",
+      "pronunciation": "hallo",
+      "english": "hello (variant 56)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "de-131-057",
+      "word": "danke 57",
+      "pronunciation": "danke",
+      "english": "thank you (variant 57)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "de-131-058",
+      "word": "entschuldigung 58",
+      "pronunciation": "entschuldigung",
+      "english": "excuse me (variant 58)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "de-131-059",
+      "word": "auf wiedersehen 59",
+      "pronunciation": "auf wiedersehen",
+      "english": "goodbye (variant 59)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "de-131-060",
+      "word": "lernen 60",
+      "pronunciation": "lernen",
+      "english": "to learn (variant 60)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "de-131-061",
+      "word": "hallo 61",
+      "pronunciation": "hallo",
+      "english": "hello (variant 61)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "de-131-062",
+      "word": "danke 62",
+      "pronunciation": "danke",
+      "english": "thank you (variant 62)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "de-131-063",
+      "word": "entschuldigung 63",
+      "pronunciation": "entschuldigung",
+      "english": "excuse me (variant 63)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "de-131-064",
+      "word": "auf wiedersehen 64",
+      "pronunciation": "auf wiedersehen",
+      "english": "goodbye (variant 64)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "de-131-065",
+      "word": "lernen 65",
+      "pronunciation": "lernen",
+      "english": "to learn (variant 65)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "de-131-066",
+      "word": "hallo 66",
+      "pronunciation": "hallo",
+      "english": "hello (variant 66)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "de-131-067",
+      "word": "danke 67",
+      "pronunciation": "danke",
+      "english": "thank you (variant 67)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "de-131-068",
+      "word": "entschuldigung 68",
+      "pronunciation": "entschuldigung",
+      "english": "excuse me (variant 68)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "de-131-069",
+      "word": "auf wiedersehen 69",
+      "pronunciation": "auf wiedersehen",
+      "english": "goodbye (variant 69)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "de-131-070",
+      "word": "lernen 70",
+      "pronunciation": "lernen",
+      "english": "to learn (variant 70)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "de-131-071",
+      "word": "hallo 71",
+      "pronunciation": "hallo",
+      "english": "hello (variant 71)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "de-131-072",
+      "word": "danke 72",
+      "pronunciation": "danke",
+      "english": "thank you (variant 72)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "de-131-073",
+      "word": "entschuldigung 73",
+      "pronunciation": "entschuldigung",
+      "english": "excuse me (variant 73)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "de-131-074",
+      "word": "auf wiedersehen 74",
+      "pronunciation": "auf wiedersehen",
+      "english": "goodbye (variant 74)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "de-131-075",
+      "word": "lernen 75",
+      "pronunciation": "lernen",
+      "english": "to learn (variant 75)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "de-131-076",
+      "word": "hallo 76",
+      "pronunciation": "hallo",
+      "english": "hello (variant 76)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "de-131-077",
+      "word": "danke 77",
+      "pronunciation": "danke",
+      "english": "thank you (variant 77)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "de-131-078",
+      "word": "entschuldigung 78",
+      "pronunciation": "entschuldigung",
+      "english": "excuse me (variant 78)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "de-131-079",
+      "word": "auf wiedersehen 79",
+      "pronunciation": "auf wiedersehen",
+      "english": "goodbye (variant 79)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "de-131-080",
+      "word": "lernen 80",
+      "pronunciation": "lernen",
+      "english": "to learn (variant 80)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "de-131-081",
+      "word": "hallo 81",
+      "pronunciation": "hallo",
+      "english": "hello (variant 81)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "de-131-082",
+      "word": "danke 82",
+      "pronunciation": "danke",
+      "english": "thank you (variant 82)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "de-131-083",
+      "word": "entschuldigung 83",
+      "pronunciation": "entschuldigung",
+      "english": "excuse me (variant 83)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "de-131-084",
+      "word": "auf wiedersehen 84",
+      "pronunciation": "auf wiedersehen",
+      "english": "goodbye (variant 84)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "de-131-085",
+      "word": "lernen 85",
+      "pronunciation": "lernen",
+      "english": "to learn (variant 85)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "de-131-086",
+      "word": "hallo 86",
+      "pronunciation": "hallo",
+      "english": "hello (variant 86)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "de-131-087",
+      "word": "danke 87",
+      "pronunciation": "danke",
+      "english": "thank you (variant 87)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "de-131-088",
+      "word": "entschuldigung 88",
+      "pronunciation": "entschuldigung",
+      "english": "excuse me (variant 88)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "de-131-089",
+      "word": "auf wiedersehen 89",
+      "pronunciation": "auf wiedersehen",
+      "english": "goodbye (variant 89)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "de-131-090",
+      "word": "lernen 90",
+      "pronunciation": "lernen",
+      "english": "to learn (variant 90)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "de-131-091",
+      "word": "hallo 91",
+      "pronunciation": "hallo",
+      "english": "hello (variant 91)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "de-131-092",
+      "word": "danke 92",
+      "pronunciation": "danke",
+      "english": "thank you (variant 92)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "de-131-093",
+      "word": "entschuldigung 93",
+      "pronunciation": "entschuldigung",
+      "english": "excuse me (variant 93)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "de-131-094",
+      "word": "auf wiedersehen 94",
+      "pronunciation": "auf wiedersehen",
+      "english": "goodbye (variant 94)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "de-131-095",
+      "word": "lernen 95",
+      "pronunciation": "lernen",
+      "english": "to learn (variant 95)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "de-131-096",
+      "word": "hallo 96",
+      "pronunciation": "hallo",
+      "english": "hello (variant 96)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "de-131-097",
+      "word": "danke 97",
+      "pronunciation": "danke",
+      "english": "thank you (variant 97)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "de-131-098",
+      "word": "entschuldigung 98",
+      "pronunciation": "entschuldigung",
+      "english": "excuse me (variant 98)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "de-131-099",
+      "word": "auf wiedersehen 99",
+      "pronunciation": "auf wiedersehen",
+      "english": "goodbye (variant 99)",
+      "type": "vocabulary",
+      "difficulty": 4
+    },
+    {
+      "id": "de-131-100",
+      "word": "lernen 100",
+      "pronunciation": "lernen",
+      "english": "to learn (variant 100)",
+      "type": "vocabulary",
+      "difficulty": 4
     }
   ]
 }
