@@ -166,7 +166,7 @@ export default function LessonsList() {
                                   Locked
                                 </Button>
                               ) : (
-                                <Link href={`/lesson/${lesson.id}`} className="block">
+                                <Link href={`/lesson/${languageCode}-${lesson.id}`} className="block">
                                   <Button className="w-full bg-gradient-to-r from-primary to-secondary hover:from-primary/90 hover:to-secondary/90">
                                     <Play className="h-4 w-4 mr-2" />
                                     {lesson.isCompleted ? 'Review' : 'Start'} Lesson

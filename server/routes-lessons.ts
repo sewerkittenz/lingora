@@ -13,9 +13,23 @@ export function registerLessonRoutes(app: Express) {
         return res.status(400).json({ error: "Invalid lesson ID format" });
       }
 
-      // Map lesson ID to file path
+      // Map language codes to folder names
+      const languageMap: Record<string, string> = {
+        'zh': 'chinese',
+        'ja': 'japanese', 
+        'es': 'spanish',
+        'ko': 'korean',
+        'ru': 'russian',
+        'de': 'german',
+        'hr': 'serbo-croatian'
+      };
+
+      // Use direct folder name if it matches, otherwise map language code
+      const folderName = languageMap[language] || language;
+      
+      // Map lesson ID to file path - try different formats
       const lessonFile = `lesson-${lessonNumber.padStart(3, '0')}.json`;
-      const lessonPath = path.join(process.cwd(), 'client/src/data/lessons', language, lessonFile);
+      const lessonPath = path.join(process.cwd(), 'client/src/data/lessons', folderName, lessonFile);
       
       try {
         const lessonData = await fs.readFile(lessonPath, 'utf-8');

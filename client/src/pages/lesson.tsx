@@ -67,15 +67,17 @@ export default function Lesson() {
     const loadLesson = async () => {
       try {
         setIsLoading(true);
-        const lessonNum = parseInt(lessonId || "1");
-        const mapping = getLessonMapping(lessonNum);
+        
+        // Parse lesson ID format: languageCode-lessonNumber (e.g., "ja-1" or "zh-5")
+        const [languageCode, lessonNumberStr] = (lessonId || "ja-1").split('-');
+        const lessonNumber = parseInt(lessonNumberStr || "1");
         
         try {
-          const items = await loadLessonContent(mapping.languageCode, mapping.lessonNumber);
+          const items = await loadLessonContent(languageCode, lessonNumber);
           setQuizItems(items as QuizItem[]);
         } catch (contentError) {
-          console.warn("Using fallback content for lesson", lessonNum);
-          setQuizItems(generateFallbackQuiz(mapping.languageCode, mapping.lessonNumber));
+          console.warn("Using fallback content for lesson", lessonId);
+          setQuizItems(generateFallbackQuiz(languageCode, lessonNumber));
         }
       } catch (error) {
         console.error("Error loading lesson:", error);

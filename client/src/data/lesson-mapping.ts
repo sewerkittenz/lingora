@@ -59,8 +59,8 @@ export const getLessonMapping = (lessonId: number): LessonMapping => {
       type: 'mixed'
     };
   } else if (lessonId >= 601 && lessonId <= 800) {
-    // Russian lessons (301-400)
-    const lessonNumber = lessonId - 300;
+    // Russian lessons (601-800)
+    const lessonNumber = lessonId - 600;
     let level = 'beginner';
     
     if (lessonNumber <= 25) level = 'beginner';
@@ -74,9 +74,9 @@ export const getLessonMapping = (lessonId: number): LessonMapping => {
       level,
       type: 'mixed'
     };
-  } else if (lessonId <= 500) {
-    // German lessons (401-500)
-    const lessonNumber = lessonId - 400;
+  } else if (lessonId >= 801 && lessonId <= 1000) {
+    // German lessons (801-1000)
+    const lessonNumber = lessonId - 800;
     let level = 'beginner';
     
     if (lessonNumber <= 25) level = 'beginner';
@@ -90,9 +90,9 @@ export const getLessonMapping = (lessonId: number): LessonMapping => {
       level,
       type: 'mixed'
     };
-  } else if (lessonId <= 600) {
-    // Spanish lessons (501-600)
-    const lessonNumber = lessonId - 500;
+  } else if (lessonId >= 1001 && lessonId <= 1200) {
+    // Spanish lessons (1001-1200)
+    const lessonNumber = lessonId - 1000;
     let level = 'beginner';
     
     if (lessonNumber <= 25) level = 'beginner';
@@ -107,8 +107,8 @@ export const getLessonMapping = (lessonId: number): LessonMapping => {
       type: 'mixed'
     };
   } else {
-    // Serbo-Croatian lessons (601-700)
-    const lessonNumber = lessonId - 600;
+    // Serbo-Croatian lessons (1201-1400)
+    const lessonNumber = lessonId - 1200;
     let level = 'beginner';
     
     if (lessonNumber <= 25) level = 'beginner';
